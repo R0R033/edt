@@ -1,1 +1,5 @@
-
+env:
+  GROUPE: "MI501A"
+  RES_TYPE: "103"
+  DEBUT: "2026-09-01"
+  FIN: "2027-07-31"
