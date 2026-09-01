@@ -12,9 +12,10 @@ env:
 
 on:
   schedule:
-    - cron: "0 4 * * *" # tous les jours vers 06h00 heure de Paris
+    - cron: "0 4 * * *" # ~06h00 Paris, avant le resume matinal de 7h50
+    - cron: "0 16 * * *" # ~18h00 Paris, rattrapage si CELCAT etait muet le matin
   workflow_dispatch: # bouton "Run workflow" pour declencher a la main
-  push: # relance aussi quand tu modifies la config ou le script
+  push: # relance quand tu modifies la config ou le script
     paths:
       - ".github/workflows/edt.yml"
       - "celcat_edt.py"
@@ -38,16 +39,29 @@ jobs:
 
       - run: python -m pip install --quiet requests
 
+      # Le script sort en code 2 quand CELCAT n'a pas repondu malgre ses
+      # relances : panne passagere, on garde le fichier precedent sans echouer.
       - name: Generer edt.ics
+        id: gen
         run: |
+          set +e
           python celcat_edt.py \
             --groupe "$GROUPE" \
             --type "$RES_TYPE" \
             --debut "$DEBUT" \
             --fin "$FIN" \
             --sortie edt.ics
+          code=$?
+          set -e
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          if [ "$code" -eq 2 ]; then
+            echo "::warning::CELCAT injoignable - edt.ics precedent conserve, nouvelle tentative au prochain passage."
+            exit 0
+          fi
+          exit $code
 
       - name: Verifier que le fichier n'est pas vide
+        if: steps.gen.outputs.code == '0'
         run: |
           n=$(grep -c '^BEGIN:VEVENT' edt.ics || true)
           echo "$n evenements dans edt.ics"
@@ -57,6 +71,7 @@ jobs:
           fi
 
       - name: Publier seulement si les cours ont change
+        if: steps.gen.outputs.code == '0'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
