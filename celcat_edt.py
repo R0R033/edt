@@ -32,8 +32,9 @@ import argparse
 import html
 import re
 import sys
+import time
 import unicodedata
-from datetime import datetime, date
+from datetime import datetime, date, timedelta
 
 try:
     import requests
@@ -117,21 +118,56 @@ def chercher(sess, terme, types=None):
     return trouve
 
 
-def evenements(sess, res_type, fid, debut, fin):
-    r = sess.post(
-        f"{BASE}/Home/GetCalendarData",
-        data={
-            "start": debut,
-            "end": fin,
-            "resType": str(res_type),
-            "calView": "month",
-            "federationIds[]": fid,
-            "colourScheme": "3",
-        },
-        timeout=60,
-    )
-    r.raise_for_status()
-    return r.json()
+class SourceInjoignable(Exception):
+    """CELCAT n'a pas repondu : panne passagere, pas une erreur de configuration."""
+
+
+def _tranche(sess, res_type, fid, debut, fin, essais=4):
+    """Une requete, reessayee avec attente croissante en cas de timeout."""
+    derniere = None
+    for n in range(essais):
+        try:
+            r = sess.post(
+                f"{BASE}/Home/GetCalendarData",
+                data={
+                    "start": debut,
+                    "end": fin,
+                    "resType": str(res_type),
+                    "calView": "month",
+                    "federationIds[]": fid,
+                    "colourScheme": "3",
+                },
+                timeout=120,
+            )
+            r.raise_for_status()
+            return r.json()
+        except Exception as exc:
+            derniere = exc
+            if n < essais - 1:
+                attente = 10 * 2 ** n  # 10 s, 20 s, 40 s
+                print(f"    {debut} -> {fin} : {type(exc).__name__}, "
+                      f"nouvel essai dans {attente} s", file=sys.stderr)
+                time.sleep(attente)
+    raise SourceInjoignable(f"{debut} -> {fin} : {derniere}")
+
+
+def evenements(sess, res_type, fid, debut, fin, jours=45):
+    """Recupere l'annee par tranches : une grosse requete fait tomber CELCAT."""
+    d0 = date.fromisoformat(debut)
+    d1 = date.fromisoformat(fin)
+    tout, vus = [], set()
+    d = d0
+    while d <= d1:
+        f = min(d + timedelta(days=jours - 1), d1)
+        for e in _tranche(sess, res_type, fid, d.isoformat(), f.isoformat()):
+            cle = (e.get("id"), e.get("start"))
+            if cle in vus:
+                continue
+            vus.add(cle)
+            tout.append(e)
+        print(f"  {d} -> {f} : {len(tout)} evenements cumules", file=sys.stderr)
+        d = f + timedelta(days=1)
+    return tout
 
 
 # --- fabrication du .ics -----------------------------------------------------
@@ -270,10 +306,14 @@ def main():
         p.error("donne --chercher pour explorer, ou --groupe pour générer le .ics")
 
     types = [a.type] if a.type else RES_TYPES
-    events = []
+    events, injoignable = [], None
     for rt in types:
         try:
             events = evenements(sess, rt, a.groupe, a.debut, a.fin)
+        except SourceInjoignable as exc:
+            injoignable = exc
+            print(f"  resType {rt} : {exc}", file=sys.stderr)
+            continue
         except Exception as exc:
             print(f"  resType {rt} : {exc}", file=sys.stderr)
             continue
@@ -282,6 +322,11 @@ def main():
             break
 
     if not events:
+        if injoignable:
+            # Code 2 : CELCAT n'a pas repondu. Le workflow le traite comme un
+            # incident passager et garde le fichier precedent, sans echouer.
+            print(f"CELCAT injoignable : {injoignable}", file=sys.stderr)
+            sys.exit(2)
         sys.exit(
             "Aucun évènement. Vérifie l'identifiant du groupe (--chercher) "
             "et la plage de dates."
