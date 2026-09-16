@@ -49,37 +49,6 @@ DESCRIPTION:Rattrapage : chapitre 0\, vocabulaire et notations\n\nPASSE 1
  reur va au carnet.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Python : les fondamentaux (cours + implementation)
-DTSTART;TZID=Europe/Paris:20260831T095000
-DTEND;TZID=Europe/Paris:20260831T113000
-DTSTAMP:20260809T120000Z
-UID:2b0a9d11b9816e05f9e6171be71ed514@fuf-romain
-SEQUENCE:6
-DESCRIPTION:THEME DE LA SEMAINE : Python : les fondamentaux\n\nA REVISER\n
- Types (int\, float\, bool\, str\, list\, tuple\, dict\, set) et mutabilite
- . Affectation et references : b = a ne copie pas une liste. Portee des var
- iables. Fonctions\, arguments par defaut\, arguments nommes. Structures de
-  controle. Slicing et indexation negative. Comprehensions de listes. Itera
- bles et iterateurs. Lecture et ecriture de fichiers.\n\nQUESTIONS TYPE EXA
- MINATEUR\n- Difference entre une liste et un tuple ? Quand utiliser l'un p
- lutot que l'autre ?\n- Que vaut a apres b = a puis b.append(1)\, si a est 
- une liste ? Et si a est un entier ?\n- Ecrivez une fonction qui inverse un
- e liste sans utiliser reverse().\n- Pourquoi ne faut-il jamais mettre une 
- liste mutable en argument par defaut ?\n\nC'EST LA SEMAINE OU LE PSEUDO-CO
- DE NE SUFFIT PAS : ecris du vrai Python\, execute-le\, verifie.\n\nMODE CO
- URS + IMPLEMENTATION (lundi)\n1. Relis le cours et tes notes de L1-L2 sur 
- le theme.\n2. Reecris les algorithmes cles EN PSEUDO-CODE\, sans regarder.
- \n3. Implemente-en un ou deux pour de vrai et fais-les tourner.\n4. Note a
- u carnet tout ce que tu n'as pas su reecrire seul.\n\nTON CHOIX : raisonne
- r en PSEUDO-CODE pour eviter les fautes de syntaxe. C'est le bon reflexe p
- our les algorithmes.\nMAIS le socle commun MP/PC/PT/PSI est explicitement 
- en PYTHON : sur les fondamentaux du langage\, l'examinateur peut demander 
- du vrai code. Regle simple : ALGORITHMES en pseudo-code\, FONDAMENTAUX PYT
- HON en Python.\n\nSocle exige : programme d'informatique commun MP/PC/PT/P
- SI (prepas.org). Ressources : Informatique pour tous (Eyrolles) + tes cour
- s de L1-L2.
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Travail L3
 DTSTART;TZID=Europe/Paris:20260831T141000
 DTEND;TZID=Europe/Paris:20260831T154000
@@ -267,36 +236,6 @@ DESCRIPTION:Preparer les TD a venir\, avancer le Projet Data\, refaire les
  rep concours.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Python : les fondamentaux (exercices)
-DTSTART;TZID=Europe/Paris:20260902T171000
-DTEND;TZID=Europe/Paris:20260902T182000
-DTSTAMP:20260809T120000Z
-UID:b990cdc361c5047f4706884b09194163@fuf-romain
-SEQUENCE:13
-DESCRIPTION:THEME DE LA SEMAINE : Python : les fondamentaux\n\nA REVISER\n
- Types (int\, float\, bool\, str\, list\, tuple\, dict\, set) et mutabilite
- . Affectation et references : b = a ne copie pas une liste. Portee des var
- iables. Fonctions\, arguments par defaut\, arguments nommes. Structures de
-  controle. Slicing et indexation negative. Comprehensions de listes. Itera
- bles et iterateurs. Lecture et ecriture de fichiers.\n\nQUESTIONS TYPE EXA
- MINATEUR\n- Difference entre une liste et un tuple ? Quand utiliser l'un p
- lutot que l'autre ?\n- Que vaut a apres b = a puis b.append(1)\, si a est 
- une liste ? Et si a est un entier ?\n- Ecrivez une fonction qui inverse un
- e liste sans utiliser reverse().\n- Pourquoi ne faut-il jamais mettre une 
- liste mutable en argument par defaut ?\n\nC'EST LA SEMAINE OU LE PSEUDO-CO
- DE NE SUFFIT PAS : ecris du vrai Python\, execute-le\, verifie.\n\nMODE EX
- ERCICES (mercredi)\nTraite des exercices sur le theme de la semaine. Cherc
- he 15 a 20 minutes MINIMUM avant de regarder la correction.\nPour chaque e
- xercice : annonce la complexite AVANT de coder\, puis verifie.\n\nTON CHOI
- X : raisonner en PSEUDO-CODE pour eviter les fautes de syntaxe. C'est le b
- on reflexe pour les algorithmes.\nMAIS le socle commun MP/PC/PT/PSI est ex
- plicitement en PYTHON : sur les fondamentaux du langage\, l'examinateur pe
- ut demander du vrai code. Regle simple : ALGORITHMES en pseudo-code\, FOND
- AMENTAUX PYTHON en Python.\n\nSocle exige : programme d'informatique commu
- n MP/PC/PT/PSI (prepas.org). Ressources : Informatique pour tous (Eyrolles
- ) + tes cours de L1-L2.
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:REPOS PROTEGE - ne rien planifier
 DTSTART;TZID=Europe/Paris:20260902T183000
 DTEND;TZID=Europe/Paris:20260902T200000
@@ -342,38 +281,6 @@ DESCRIPTION:Rattrapage : chapitre 0\, vocabulaire et notations\n\nPASSE 3
   cours. La ou tu bloques\, c'est ton trou a combler.\n\nReflexes du jour :
   un resultat demontre A VOIX HAUTE\, debout\, chronometre. Revision espace
  e J+1 / J+7 / J+30. Toute erreur va au carnet.
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Info mineure - Python : les fondamentaux (oral blanc)
-DTSTART;TZID=Europe/Paris:20260903T095000
-DTEND;TZID=Europe/Paris:20260903T105000
-DTSTAMP:20260809T120000Z
-UID:e2d40db67ce327ca0b14ddfa16779812@fuf-romain
-SEQUENCE:13
-DESCRIPTION:THEME DE LA SEMAINE : Python : les fondamentaux\n\nA REVISER\n
- Types (int\, float\, bool\, str\, list\, tuple\, dict\, set) et mutabilite
- . Affectation et references : b = a ne copie pas une liste. Portee des var
- iables. Fonctions\, arguments par defaut\, arguments nommes. Structures de
-  controle. Slicing et indexation negative. Comprehensions de listes. Itera
- bles et iterateurs. Lecture et ecriture de fichiers.\n\nQUESTIONS TYPE EXA
- MINATEUR\n- Difference entre une liste et un tuple ? Quand utiliser l'un p
- lutot que l'autre ?\n- Que vaut a apres b = a puis b.append(1)\, si a est 
- une liste ? Et si a est un entier ?\n- Ecrivez une fonction qui inverse un
- e liste sans utiliser reverse().\n- Pourquoi ne faut-il jamais mettre une 
- liste mutable en argument par defaut ?\n\nC'EST LA SEMAINE OU LE PSEUDO-CO
- DE NE SUFFIT PAS : ecris du vrai Python\, execute-le\, verifie.\n\nMODE OR
- AL BLANC (jeudi) - la seance la plus importante de la semaine\nTraite les 
- questions ci-dessus DEBOUT\, A VOIX HAUTE\, en ecrivant au tableau ou sur 
- une grande feuille\, comme le jour J.\nRegles du jour J : 50 minutes\, AUC
- UNE preparation. Le jury valorise le fait d'avoir des idees plus que de te
- rminer l'exercice. Pense a voix haute\, ne reste jamais muet.\n\nTON CHOIX
-  : raisonner en PSEUDO-CODE pour eviter les fautes de syntaxe. C'est le bo
- n reflexe pour les algorithmes.\nMAIS le socle commun MP/PC/PT/PSI est exp
- licitement en PYTHON : sur les fondamentaux du langage\, l'examinateur peu
- t demander du vrai code. Regle simple : ALGORITHMES en pseudo-code\, FONDA
- MENTAUX PYTHON en Python.\n\nSocle exige : programme d'informatique commun
-  MP/PC/PT/PSI (prepas.org). Ressources : Informatique pour tous (Eyrolles)
-  + tes cours de L1-L2.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Travail L3
@@ -480,34 +387,6 @@ DESCRIPTION:Rattrapage : chapitre 0\, vocabulaire et notations\n\nPASSE 1
  apitre n'est pas acquis.\n\nReflexes du jour : un resultat demontre A VOIX
   HAUTE\, debout\, chronometre. Revision espacee J+1 / J+7 / J+30. Toute er
  reur va au carnet.
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Info mineure - Complexite\, terminaison\, correction (cours + impl
- ementation)
-DTSTART;TZID=Europe/Paris:20260907T095000
-DTEND;TZID=Europe/Paris:20260907T105000
-DTSTAMP:20260809T120000Z
-UID:5c0481a1b39e5adc4e6dc9b949f71636@fuf-romain
-SEQUENCE:13
-DESCRIPTION:THEME DE LA SEMAINE : Complexite\, terminaison\, correction\n
- \nA REVISER\nNotations O\, Omega\, Theta. Complexite au pire\, en moyenne
- \, amortie. Cout des boucles imbriquees. Variant de boucle (terminaison) e
- t invariant de boucle (correction). Correction partielle et totale.\n\nQUE
- STIONS TYPE EXAMINATEUR\n- Donnez la complexite de cet algorithme ET justi
- fiez-la (le 'justifiez' est le vrai sujet).\n- Quel est l'invariant de bou
- cle du tri par insertion ? Prouvez la correction.\n- Un algorithme en O(n
- ^2) est-il toujours plus lent qu'un O(n log n) ?\n- Que signifie une compl
- exite amortie ? Donnez un exemple concret.\n\nMODE COURS + IMPLEMENTATION 
- (lundi)\n1. Relis le cours et tes notes de L1-L2 sur le theme.\n2. Reecris
-  les algorithmes cles EN PSEUDO-CODE\, sans regarder.\n3. Implemente-en un
-  ou deux pour de vrai et fais-les tourner.\n4. Note au carnet tout ce que 
- tu n'as pas su reecrire seul.\n\nTON CHOIX : raisonner en PSEUDO-CODE pour
-  eviter les fautes de syntaxe. C'est le bon reflexe pour les algorithmes.
- \nMAIS le socle commun MP/PC/PT/PSI est explicitement en PYTHON : sur les 
- fondamentaux du langage\, l'examinateur peut demander du vrai code. Regle 
- simple : ALGORITHMES en pseudo-code\, FONDAMENTAUX PYTHON en Python.\n\nSo
- cle exige : programme d'informatique commun MP/PC/PT/PSI (prepas.org). Res
- sources : Informatique pour tous (Eyrolles) + tes cours de L1-L2.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Travail L3
@@ -635,33 +514,6 @@ DESCRIPTION:Preparer les TD a venir\, avancer le Projet Data\, refaire les
  rep concours.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Complexite\, terminaison\, correction (exercices)
-DTSTART;TZID=Europe/Paris:20260909T154000
-DTEND;TZID=Europe/Paris:20260909T165000
-DTSTAMP:20260809T120000Z
-UID:c5f45e630ee1497f6e0727a21ee35e53@fuf-romain
-SEQUENCE:13
-DESCRIPTION:THEME DE LA SEMAINE : Complexite\, terminaison\, correction\n
- \nA REVISER\nNotations O\, Omega\, Theta. Complexite au pire\, en moyenne
- \, amortie. Cout des boucles imbriquees. Variant de boucle (terminaison) e
- t invariant de boucle (correction). Correction partielle et totale.\n\nQUE
- STIONS TYPE EXAMINATEUR\n- Donnez la complexite de cet algorithme ET justi
- fiez-la (le 'justifiez' est le vrai sujet).\n- Quel est l'invariant de bou
- cle du tri par insertion ? Prouvez la correction.\n- Un algorithme en O(n
- ^2) est-il toujours plus lent qu'un O(n log n) ?\n- Que signifie une compl
- exite amortie ? Donnez un exemple concret.\n\nMODE EXERCICES (mercredi)\nT
- raite des exercices sur le theme de la semaine. Cherche 15 a 20 minutes MI
- NIMUM avant de regarder la correction.\nPour chaque exercice : annonce la 
- complexite AVANT de coder\, puis verifie.\n\nTON CHOIX : raisonner en PSEU
- DO-CODE pour eviter les fautes de syntaxe. C'est le bon reflexe pour les a
- lgorithmes.\nMAIS le socle commun MP/PC/PT/PSI est explicitement en PYTHON
-  : sur les fondamentaux du langage\, l'examinateur peut demander du vrai c
- ode. Regle simple : ALGORITHMES en pseudo-code\, FONDAMENTAUX PYTHON en Py
- thon.\n\nSocle exige : programme d'informatique commun MP/PC/PT/PSI (prepa
- s.org). Ressources : Informatique pour tous (Eyrolles) + tes cours de L1-L
- 2.
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Maths - passe 2 : exercices
 DTSTART;TZID=Europe/Paris:20260909T170000
 DTEND;TZID=Europe/Paris:20260909T182000
@@ -720,35 +572,6 @@ DESCRIPTION:Rattrapage : chapitre 0\, vocabulaire et notations\n\nPASSE 3
   cours. La ou tu bloques\, c'est ton trou a combler.\n\nReflexes du jour :
   un resultat demontre A VOIX HAUTE\, debout\, chronometre. Revision espace
  e J+1 / J+7 / J+30. Toute erreur va au carnet.
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Info mineure - Complexite\, terminaison\, correction (oral blanc)
-DTSTART;TZID=Europe/Paris:20260910T095000
-DTEND;TZID=Europe/Paris:20260910T105000
-DTSTAMP:20260809T120000Z
-UID:5eeca41af7e4287f9f9816c95c1e393b@fuf-romain
-SEQUENCE:13
-DESCRIPTION:THEME DE LA SEMAINE : Complexite\, terminaison\, correction\n
- \nA REVISER\nNotations O\, Omega\, Theta. Complexite au pire\, en moyenne
- \, amortie. Cout des boucles imbriquees. Variant de boucle (terminaison) e
- t invariant de boucle (correction). Correction partielle et totale.\n\nQUE
- STIONS TYPE EXAMINATEUR\n- Donnez la complexite de cet algorithme ET justi
- fiez-la (le 'justifiez' est le vrai sujet).\n- Quel est l'invariant de bou
- cle du tri par insertion ? Prouvez la correction.\n- Un algorithme en O(n
- ^2) est-il toujours plus lent qu'un O(n log n) ?\n- Que signifie une compl
- exite amortie ? Donnez un exemple concret.\n\nMODE ORAL BLANC (jeudi) - la
-  seance la plus importante de la semaine\nTraite les questions ci-dessus D
- EBOUT\, A VOIX HAUTE\, en ecrivant au tableau ou sur une grande feuille\, 
- comme le jour J.\nRegles du jour J : 50 minutes\, AUCUNE preparation. Le j
- ury valorise le fait d'avoir des idees plus que de terminer l'exercice. Pe
- nse a voix haute\, ne reste jamais muet.\n\nTON CHOIX : raisonner en PSEUD
- O-CODE pour eviter les fautes de syntaxe. C'est le bon reflexe pour les al
- gorithmes.\nMAIS le socle commun MP/PC/PT/PSI est explicitement en PYTHON 
- : sur les fondamentaux du langage\, l'examinateur peut demander du vrai co
- de. Regle simple : ALGORITHMES en pseudo-code\, FONDAMENTAUX PYTHON en Pyt
- hon.\n\nSocle exige : programme d'informatique commun MP/PC/PT/PSI (prepas
- .org). Ressources : Informatique pour tous (Eyrolles) + tes cours de L1-L2
- .
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Maths - oral blanc du soir
@@ -842,33 +665,6 @@ DESCRIPTION:Logique et raisonnement | Ensembles\, applications\, relations
  seul\, le chapitre n'est pas acquis.\n\nReflexes du jour : un resultat dem
  ontre A VOIX HAUTE\, debout\, chronometre. Revision espacee J+1 / J+7 / J+
  30. Toute erreur va au carnet.
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Info mineure - Recursivite et diviser-pour-regner (cours + impleme
- ntation)
-DTSTART;TZID=Europe/Paris:20260914T171000
-DTEND;TZID=Europe/Paris:20260914T184000
-DTSTAMP:20260809T120000Z
-UID:abfea2301c4e0343e69602a8fb1b1445@fuf-romain
-SEQUENCE:20
-DESCRIPTION:THEME DE LA SEMAINE : Recursivite et diviser-pour-regner\n\nA 
- REVISER\nPile d'appels\, cas de base\, terminaison. Recursivite terminale.
-  Exponentiation rapide. Recherche dichotomique. Relation de recurrence sur
-  le cout. Passage du recursif a l'iteratif.\n\nQUESTIONS TYPE EXAMINATEUR
- \n- Ecrivez l'exponentiation rapide et donnez sa complexite.\n- Pourquoi l
- a version naive de Fibonacci est-elle exponentielle ? Corrigez-la.\n- Comm
- ent prouve-t-on qu'une fonction recursive termine ?\n- Transformez cette f
- onction recursive en version iterative.\n\nMODE COURS + IMPLEMENTATION (lu
- ndi)\n1. Relis le cours et tes notes de L1-L2 sur le theme.\n2. Reecris le
- s algorithmes cles EN PSEUDO-CODE\, sans regarder.\n3. Implemente-en un ou
-  deux pour de vrai et fais-les tourner.\n4. Note au carnet tout ce que tu 
- n'as pas su reecrire seul.\n\nTON CHOIX : raisonner en PSEUDO-CODE pour ev
- iter les fautes de syntaxe. C'est le bon reflexe pour les algorithmes.\nMA
- IS le socle commun MP/PC/PT/PSI est explicitement en PYTHON : sur les fond
- amentaux du langage\, l'examinateur peut demander du vrai code. Regle simp
- le : ALGORITHMES en pseudo-code\, FONDAMENTAUX PYTHON en Python.\n\nSocle 
- exige : programme d'informatique commun MP/PC/PT/PSI (prepas.org). Ressour
- ces : Informatique pour tous (Eyrolles) + tes cours de L1-L2.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Travail L3
@@ -979,29 +775,42 @@ DESCRIPTION:Preparer les TD a venir\, avancer le Projet Data\, refaire les
  rep concours.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Recursivite et diviser-pour-regner (exercices)
+SUMMARY:Info mineure - Python : l'annexe limitative (exercices)
 DTSTART;TZID=Europe/Paris:20260916T105000
 DTEND;TZID=Europe/Paris:20260916T115000
 DTSTAMP:20260809T120000Z
 UID:1623763893d9eaa7371b0d2d9512b288@fuf-romain
-SEQUENCE:20
-DESCRIPTION:THEME DE LA SEMAINE : Recursivite et diviser-pour-regner\n\nA 
- REVISER\nPile d'appels\, cas de base\, terminaison. Recursivite terminale.
-  Exponentiation rapide. Recherche dichotomique. Relation de recurrence sur
-  le cout. Passage du recursif a l'iteratif.\n\nQUESTIONS TYPE EXAMINATEUR
- \n- Ecrivez l'exponentiation rapide et donnez sa complexite.\n- Pourquoi l
- a version naive de Fibonacci est-elle exponentielle ? Corrigez-la.\n- Comm
- ent prouve-t-on qu'une fonction recursive termine ?\n- Transformez cette f
- onction recursive en version iterative.\n\nMODE EXERCICES (mercredi)\nTrai
- te des exercices sur le theme de la semaine. Cherche 15 a 20 minutes MINIM
- UM avant de regarder la correction.\nPour chaque exercice : annonce la com
- plexite AVANT de coder\, puis verifie.\n\nTON CHOIX : raisonner en PSEUDO-
- CODE pour eviter les fautes de syntaxe. C'est le bon reflexe pour les algo
- rithmes.\nMAIS le socle commun MP/PC/PT/PSI est explicitement en PYTHON : 
- sur les fondamentaux du langage\, l'examinateur peut demander du vrai code
- . Regle simple : ALGORITHMES en pseudo-code\, FONDAMENTAUX PYTHON en Pytho
- n.\n\nSocle exige : programme d'informatique commun MP/PC/PT/PSI (prepas.o
- rg). Ressources : Informatique pour tous (Eyrolles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 1 - Python : l'annexe limitative\n\nDANS LE LIVRE : Be
+ ury ch. 1 (types\, listes\, boucles\, fonctions)\, ch. 2 (representation g
+ raphique)\, ch. 5 (lecture et ecriture de fichiers)\, ch. 9 (matrices de p
+ ixels et images)\n\nA REVISER\nTypes de base : int (// ** %)\, float\, boo
+ l et caractere paresseux de and/or\, comparaisons. Structures indicees imm
+ uables (chaines\, tuples). Listes : comprehension\, append\, pop en dernie
+ re position\, tranches\, COPIE SUPERFICIELLE. Dictionnaires : creation\, a
+ cces\, insertion\, k in d\, len\, copy. Controle : if/elif/else\, while\, 
+ for\, break\, return\, def. print\, import\, fichiers texte\, assert. Obje
+ ts muables et immuables\, copie superficielle contre copie profonde. Table
+ aux a deux dimensions et matrices de pixels.\n\nLES QUATRE TRAITS GENERAUX
+  EXIGIBLES : typage dynamique\, indentation\, portee lexicale\, appel de f
+ onction par valeur.\n\nL'ANNEXE EST LIMITATIVE : ensembles\, classes\, exc
+ eptions\, generateurs\, lambdas n'y sont PAS.\n\nQUESTIONS TYPE EXAMINATEU
+ R\n- Qu'est-ce que le typage dynamique ? Quelle consequence pratique ?\n- 
+ Expliquez la portee lexicale : ou Python cherche-t-il la valeur d'une vari
+ able utilisee dans une fonction ?\n- Que vaut a apres b = a puis b.append(
+ 1)\, si a est une liste ? Et si a est un tuple ?\n- Copie superficielle co
+ ntre copie profonde : un exemple ou la difference se voit.\n- Pourquoi and
+  et or sont-ils paresseux ? A quoi cela sert-il ?\n\nMODE EXERCICES (mercr
+ edi)\nTraite les exercices du chapitre de Beury\, en commencant par ceux r
+ eperes faciles. Cherche 15 a 20 minutes MINIMUM avant de lire le corrige.
+ \nPour chaque exercice : annonce la complexite AVANT de coder\, puis verif
+ ie.\n\nAlgorithmes en PSEUDO-CODE pour eviter les fautes de syntaxe. Mais 
+ l'annexe Python du programme est LIMITATIVE et exigible : sur les fondamen
+ taux du langage\, ecris du vrai Python.\n\nSocle officiel : Programme d'in
+ formatique commune MP PC PSI PT (tronc commun\, ministere 2021). Ton oral 
+ porte sur ce socle ET sur le programme que tu declares\, donc aussi sur te
+ s cours de L1-L2 (C\, programmation fonctionnelle\, structures de donnees)
+ .
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Maths - passe 2 : exercices
@@ -1064,31 +873,43 @@ DESCRIPTION:Logique et raisonnement | Ensembles\, applications\, relations
  ision espacee J+1 / J+7 / J+30. Toute erreur va au carnet.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Recursivite et diviser-pour-regner (oral blanc)
+SUMMARY:Info mineure - Python : l'annexe limitative (oral blanc)
 DTSTART;TZID=Europe/Paris:20260917T103500
 DTEND;TZID=Europe/Paris:20260917T113500
 DTSTAMP:20260809T120000Z
 UID:21b660774b33e8165ddde9da5bd7fa6e@fuf-romain
-SEQUENCE:20
-DESCRIPTION:THEME DE LA SEMAINE : Recursivite et diviser-pour-regner\n\nA 
- REVISER\nPile d'appels\, cas de base\, terminaison. Recursivite terminale.
-  Exponentiation rapide. Recherche dichotomique. Relation de recurrence sur
-  le cout. Passage du recursif a l'iteratif.\n\nQUESTIONS TYPE EXAMINATEUR
- \n- Ecrivez l'exponentiation rapide et donnez sa complexite.\n- Pourquoi l
- a version naive de Fibonacci est-elle exponentielle ? Corrigez-la.\n- Comm
- ent prouve-t-on qu'une fonction recursive termine ?\n- Transformez cette f
- onction recursive en version iterative.\n\nMODE ORAL BLANC (jeudi) - la se
- ance la plus importante de la semaine\nTraite les questions ci-dessus DEBO
- UT\, A VOIX HAUTE\, en ecrivant au tableau ou sur une grande feuille\, com
- me le jour J.\nRegles du jour J : 50 minutes\, AUCUNE preparation. Le jury
-  valorise le fait d'avoir des idees plus que de terminer l'exercice. Pense
-  a voix haute\, ne reste jamais muet.\n\nTON CHOIX : raisonner en PSEUDO-C
- ODE pour eviter les fautes de syntaxe. C'est le bon reflexe pour les algor
- ithmes.\nMAIS le socle commun MP/PC/PT/PSI est explicitement en PYTHON : s
- ur les fondamentaux du langage\, l'examinateur peut demander du vrai code.
-  Regle simple : ALGORITHMES en pseudo-code\, FONDAMENTAUX PYTHON en Python
- .\n\nSocle exige : programme d'informatique commun MP/PC/PT/PSI (prepas.or
- g). Ressources : Informatique pour tous (Eyrolles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 1 - Python : l'annexe limitative\n\nDANS LE LIVRE : Be
+ ury ch. 1 (types\, listes\, boucles\, fonctions)\, ch. 2 (representation g
+ raphique)\, ch. 5 (lecture et ecriture de fichiers)\, ch. 9 (matrices de p
+ ixels et images)\n\nA REVISER\nTypes de base : int (// ** %)\, float\, boo
+ l et caractere paresseux de and/or\, comparaisons. Structures indicees imm
+ uables (chaines\, tuples). Listes : comprehension\, append\, pop en dernie
+ re position\, tranches\, COPIE SUPERFICIELLE. Dictionnaires : creation\, a
+ cces\, insertion\, k in d\, len\, copy. Controle : if/elif/else\, while\, 
+ for\, break\, return\, def. print\, import\, fichiers texte\, assert. Obje
+ ts muables et immuables\, copie superficielle contre copie profonde. Table
+ aux a deux dimensions et matrices de pixels.\n\nLES QUATRE TRAITS GENERAUX
+  EXIGIBLES : typage dynamique\, indentation\, portee lexicale\, appel de f
+ onction par valeur.\n\nL'ANNEXE EST LIMITATIVE : ensembles\, classes\, exc
+ eptions\, generateurs\, lambdas n'y sont PAS.\n\nQUESTIONS TYPE EXAMINATEU
+ R\n- Qu'est-ce que le typage dynamique ? Quelle consequence pratique ?\n- 
+ Expliquez la portee lexicale : ou Python cherche-t-il la valeur d'une vari
+ able utilisee dans une fonction ?\n- Que vaut a apres b = a puis b.append(
+ 1)\, si a est une liste ? Et si a est un tuple ?\n- Copie superficielle co
+ ntre copie profonde : un exemple ou la difference se voit.\n- Pourquoi and
+  et or sont-ils paresseux ? A quoi cela sert-il ?\n\nMODE ORAL BLANC (jeud
+ i) - la seance la plus importante\nTraite les questions ci-dessus DEBOUT\,
+  A VOIX HAUTE\, au tableau\, comme le jour J.\nFormat reel : 50 minutes\, 
+ AUCUNE preparation. Le jury valorise le fait d'avoir des idees plus que de
+  terminer l'exercice. Pense a voix haute\, ne reste jamais muet.\nUtilise 
+ les extraits de sujets de concours du livre : ils sont reperes comme tels.
+ \n\nAlgorithmes en PSEUDO-CODE pour eviter les fautes de syntaxe. Mais l'a
+ nnexe Python du programme est LIMITATIVE et exigible : sur les fondamentau
+ x du langage\, ecris du vrai Python.\n\nSocle officiel : Programme d'infor
+ matique commune MP PC PSI PT (tronc commun\, ministere 2021). Ton oral por
+ te sur ce socle ET sur le programme que tu declares\, donc aussi sur tes c
+ ours de L1-L2 (C\, programmation fonctionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Maths - oral blanc du soir
@@ -1213,30 +1034,37 @@ DESCRIPTION:Fonctions numeriques | Calculs algebriques et trigonometrie\n
  . Toute erreur va au carnet.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Tris (cours + implementation)
+SUMMARY:Info mineure - Specification\, terminaison\, correction\, complexi
+ te (cours + implementation)
 DTSTART;TZID=Europe/Paris:20260921T171000
 DTEND;TZID=Europe/Paris:20260921T184000
 DTSTAMP:20260809T120000Z
 UID:26cfbcc658321a7db5d56aa62d580a33@fuf-romain
-SEQUENCE:20
-DESCRIPTION:THEME DE LA SEMAINE : Tris\n\nA REVISER\nTri par insertion\, s
- election\, a bulles\, fusion\, rapide. Stabilite. Complexites au pire\, en
-  moyenne\, en espace. Borne inferieure n log n pour les tris par comparais
- on. Tri par comptage et pourquoi il echappe a cette borne.\n\nQUESTIONS TY
- PE EXAMINATEUR\n- Demontrez la borne n log n pour les tris par comparaison
- .\n- Dans quel cas le tri rapide est-il en O(n^2) ? Comment l'eviter ?\n- 
- Qu'est-ce qu'un tri stable\, et pourquoi est-ce important en pratique ?\n-
-  Deroulez le tri fusion a la main sur ce tableau.\n\nMODE COURS + IMPLEMEN
- TATION (lundi)\n1. Relis le cours et tes notes de L1-L2 sur le theme.\n2. 
- Reecris les algorithmes cles EN PSEUDO-CODE\, sans regarder.\n3. Implement
- e-en un ou deux pour de vrai et fais-les tourner.\n4. Note au carnet tout 
- ce que tu n'as pas su reecrire seul.\n\nTON CHOIX : raisonner en PSEUDO-CO
- DE pour eviter les fautes de syntaxe. C'est le bon reflexe pour les algori
- thmes.\nMAIS le socle commun MP/PC/PT/PSI est explicitement en PYTHON : su
- r les fondamentaux du langage\, l'examinateur peut demander du vrai code. 
- Regle simple : ALGORITHMES en pseudo-code\, FONDAMENTAUX PYTHON en Python.
- \n\nSocle exige : programme d'informatique commun MP/PC/PT/PSI (prepas.org
- ). Ressources : Informatique pour tous (Eyrolles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 2 - Specification\, terminaison\, correction\, complex
+ ite\n\nDANS LE LIVRE : Beury ch. 3\n\nA REVISER\nInstruction et expression
+ \, effet de bord. Specification des donnees en entree et en sortie. Precon
+ dition\, postcondition\, invariant\, annotes en commentaires. Assertion : 
+ assert\, arret du programme (les exceptions sont hors programme). Terminai
+ son par VARIANT de boucle. Correction PARTIELLE (resultat correct si l'alg
+ orithme s'arrete) et TOTALE. INVARIANT de boucle. Jeu de tests ecrit a la 
+ main\, partitionnement des domaines d'entree\, test des limites. Complexit
+ e temporelle au pire en ordre de grandeur.\n\nQUESTIONS TYPE EXAMINATEUR\n
+ - Difference entre correction partielle et correction totale ?\n- Donnez l
+ e variant de boucle de la recherche dichotomique et prouvez la terminaison
+ .\n- Quel est l'invariant du tri par insertion ? Qu'en deduit-on ?\n- Ecri
+ vez un jeu de tests pour cette fonction. Qu'est-ce qu'un test des limites 
+ ?\n- En Python\, l'affectation est-elle une instruction ou une expression 
+ ?\n\nMODE COURS + IMPLEMENTATION (lundi)\n1. Lis le chapitre de Beury indi
+ que ci-dessus.\n2. Reecris les algorithmes cles EN PSEUDO-CODE\, sans rega
+ rder.\n3. Implemente-en un ou deux pour de vrai et fais-les tourner.\n4. N
+ ote au carnet ce que tu n'as pas su reecrire seul.\n\nAlgorithmes en PSEUD
+ O-CODE pour eviter les fautes de syntaxe. Mais l'annexe Python du programm
+ e est LIMITATIVE et exigible : sur les fondamentaux du langage\, ecris du 
+ vrai Python.\n\nSocle officiel : Programme d'informatique commune MP PC PS
+ I PT (tronc commun\, ministere 2021). Ton oral porte sur ce socle ET sur l
+ e programme que tu declares\, donc aussi sur tes cours de L1-L2 (C\, progr
+ ammation fonctionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Travail L3
@@ -1394,32 +1222,39 @@ DESCRIPTION:Fonctions numeriques | Calculs algebriques et trigonometrie\n
  ion espacee J+1 / J+7 / J+30. Toute erreur va au carnet.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Tris (oral blanc)
+SUMMARY:Info mineure - Specification\, terminaison\, correction\, complexi
+ te (oral blanc)
 DTSTART;TZID=Europe/Paris:20260924T095000
 DTEND;TZID=Europe/Paris:20260924T115000
 DTSTAMP:20260809T120000Z
 UID:75176cadb2a573831f7d0bea7ffe07d8@fuf-romain
-SEQUENCE:20
-DESCRIPTION:THEME DE LA SEMAINE : Tris\n\nA REVISER\nTri par insertion\, s
- election\, a bulles\, fusion\, rapide. Stabilite. Complexites au pire\, en
-  moyenne\, en espace. Borne inferieure n log n pour les tris par comparais
- on. Tri par comptage et pourquoi il echappe a cette borne.\n\nQUESTIONS TY
- PE EXAMINATEUR\n- Demontrez la borne n log n pour les tris par comparaison
- .\n- Dans quel cas le tri rapide est-il en O(n^2) ? Comment l'eviter ?\n- 
- Qu'est-ce qu'un tri stable\, et pourquoi est-ce important en pratique ?\n-
-  Deroulez le tri fusion a la main sur ce tableau.\n\nMODE ORAL BLANC (jeud
- i) - la seance la plus importante de la semaine\nTraite les questions ci-d
- essus DEBOUT\, A VOIX HAUTE\, en ecrivant au tableau ou sur une grande feu
- ille\, comme le jour J.\nRegles du jour J : 50 minutes\, AUCUNE preparatio
- n. Le jury valorise le fait d'avoir des idees plus que de terminer l'exerc
- ice. Pense a voix haute\, ne reste jamais muet.\n\nTON CHOIX : raisonner e
- n PSEUDO-CODE pour eviter les fautes de syntaxe. C'est le bon reflexe pour
-  les algorithmes.\nMAIS le socle commun MP/PC/PT/PSI est explicitement en 
- PYTHON : sur les fondamentaux du langage\, l'examinateur peut demander du 
- vrai code. Regle simple : ALGORITHMES en pseudo-code\, FONDAMENTAUX PYTHON
-  en Python.\n\nSocle exige : programme d'informatique commun MP/PC/PT/PSI 
- (prepas.org). Ressources : Informatique pour tous (Eyrolles) + tes cours d
- e L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 2 - Specification\, terminaison\, correction\, complex
+ ite\n\nDANS LE LIVRE : Beury ch. 3\n\nA REVISER\nInstruction et expression
+ \, effet de bord. Specification des donnees en entree et en sortie. Precon
+ dition\, postcondition\, invariant\, annotes en commentaires. Assertion : 
+ assert\, arret du programme (les exceptions sont hors programme). Terminai
+ son par VARIANT de boucle. Correction PARTIELLE (resultat correct si l'alg
+ orithme s'arrete) et TOTALE. INVARIANT de boucle. Jeu de tests ecrit a la 
+ main\, partitionnement des domaines d'entree\, test des limites. Complexit
+ e temporelle au pire en ordre de grandeur.\n\nQUESTIONS TYPE EXAMINATEUR\n
+ - Difference entre correction partielle et correction totale ?\n- Donnez l
+ e variant de boucle de la recherche dichotomique et prouvez la terminaison
+ .\n- Quel est l'invariant du tri par insertion ? Qu'en deduit-on ?\n- Ecri
+ vez un jeu de tests pour cette fonction. Qu'est-ce qu'un test des limites 
+ ?\n- En Python\, l'affectation est-elle une instruction ou une expression 
+ ?\n\nMODE ORAL BLANC (jeudi) - la seance la plus importante\nTraite les qu
+ estions ci-dessus DEBOUT\, A VOIX HAUTE\, au tableau\, comme le jour J.\nF
+ ormat reel : 50 minutes\, AUCUNE preparation. Le jury valorise le fait d'a
+ voir des idees plus que de terminer l'exercice. Pense a voix haute\, ne re
+ ste jamais muet.\nUtilise les extraits de sujets de concours du livre : il
+ s sont reperes comme tels.\n\nAlgorithmes en PSEUDO-CODE pour eviter les f
+ autes de syntaxe. Mais l'annexe Python du programme est LIMITATIVE et exig
+ ible : sur les fondamentaux du langage\, ecris du vrai Python.\n\nSocle of
+ ficiel : Programme d'informatique commune MP PC PSI PT (tronc commun\, min
+ istere 2021). Ton oral porte sur ce socle ET sur le programme que tu decla
+ res\, donc aussi sur tes cours de L1-L2 (C\, programmation fonctionnelle\,
+  structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Culture generale scientifique - La methode scientifique : Popper e
@@ -1553,31 +1388,33 @@ DESCRIPTION:Nombres complexes | Fonctions usuelles\n\nPASSE 1 - RECONSTRUI
  arnet.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Structures de donnees lineaires (cours + implementa
- tion)
+SUMMARY:Info mineure - Recherche et dichotomie (cours + implementation)
 DTSTART;TZID=Europe/Paris:20260928T171000
 DTEND;TZID=Europe/Paris:20260928T184000
 DTSTAMP:20260809T120000Z
 UID:18c72e6bc0532d66e4fea37347571573@fuf-romain
-SEQUENCE:20
-DESCRIPTION:THEME DE LA SEMAINE : Structures de donnees lineaires\n\nA REV
- ISER\nTableau dynamique et complexite amortie de l'ajout. Liste chainee si
- mple et double. Pile\, file\, deque. Implementations et complexites compar
- ees de chaque operation.\n\nQUESTIONS TYPE EXAMINATEUR\n- Implementez une 
- file avec deux piles. Quelle complexite amortie ?\n- Liste chainee ou tabl
- eau dynamique : que choisissez-vous\, et pourquoi ?\n- Pourquoi l'ajout en
-  fin de liste Python est-il en O(1) amorti ?\n- Donnez une structure ou l'
- insertion est en O(1) mais la recherche en O(n).\n\nMODE COURS + IMPLEMENT
- ATION (lundi)\n1. Relis le cours et tes notes de L1-L2 sur le theme.\n2. R
- eecris les algorithmes cles EN PSEUDO-CODE\, sans regarder.\n3. Implemente
- -en un ou deux pour de vrai et fais-les tourner.\n4. Note au carnet tout c
- e que tu n'as pas su reecrire seul.\n\nTON CHOIX : raisonner en PSEUDO-COD
- E pour eviter les fautes de syntaxe. C'est le bon reflexe pour les algorit
- hmes.\nMAIS le socle commun MP/PC/PT/PSI est explicitement en PYTHON : sur
-  les fondamentaux du langage\, l'examinateur peut demander du vrai code. R
- egle simple : ALGORITHMES en pseudo-code\, FONDAMENTAUX PYTHON en Python.
- \n\nSocle exige : programme d'informatique commun MP/PC/PT/PSI (prepas.org
- ). Ressources : Informatique pour tous (Eyrolles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 3 - Recherche et dichotomie\n\nDANS LE LIVRE : Beury c
+ h. 4\n\nA REVISER\nRecherche sequentielle d'un element dans une liste\, du
+  maximum\, du second maximum. Comptage des elements d'un tableau a l'aide 
+ d'un dictionnaire. Recherche d'un facteur dans un texte. Recherche des deu
+ x valeurs les plus proches. Complexite quadratique des boucles imbriquees.
+  RECHERCHE DICHOTOMIQUE dans une liste triee. Exponentiation rapide. Accel
+ eration du lineaire au logarithmique.\n\nQUESTIONS TYPE EXAMINATEUR\n- Ecr
+ ivez la recherche dichotomique. Quelle complexite\, et justifiez-la.\n- Po
+ urquoi la dichotomie exige-t-elle un tableau trie ?\n- Ecrivez l'exponenti
+ ation rapide et donnez sa complexite.\n- Comment trouver le second maximum
+  en un seul parcours ?\n- Deux valeurs les plus proches : complexite naive
+ \, puis amelioration ?\n\nMODE COURS + IMPLEMENTATION (lundi)\n1. Lis le c
+ hapitre de Beury indique ci-dessus.\n2. Reecris les algorithmes cles EN PS
+ EUDO-CODE\, sans regarder.\n3. Implemente-en un ou deux pour de vrai et fa
+ is-les tourner.\n4. Note au carnet ce que tu n'as pas su reecrire seul.\n
+ \nAlgorithmes en PSEUDO-CODE pour eviter les fautes de syntaxe. Mais l'ann
+ exe Python du programme est LIMITATIVE et exigible : sur les fondamentaux 
+ du langage\, ecris du vrai Python.\n\nSocle officiel : Programme d'informa
+ tique commune MP PC PSI PT (tronc commun\, ministere 2021). Ton oral porte
+  sur ce socle ET sur le programme que tu declares\, donc aussi sur tes cou
+ rs de L1-L2 (C\, programmation fonctionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Travail L3
@@ -1722,32 +1559,35 @@ DESCRIPTION:Nombres complexes | Fonctions usuelles\n\nPASSE 3 - ENSEIGNER.
  / J+30. Toute erreur va au carnet.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Structures de donnees lineaires (oral blanc)
+SUMMARY:Info mineure - Recherche et dichotomie (oral blanc)
 DTSTART;TZID=Europe/Paris:20261001T112000
 DTEND;TZID=Europe/Paris:20261001T122000
 DTSTAMP:20260809T120000Z
 UID:81e729abce0493eb18d0596c1aea0fb0@fuf-romain
-SEQUENCE:20
-DESCRIPTION:THEME DE LA SEMAINE : Structures de donnees lineaires\n\nA REV
- ISER\nTableau dynamique et complexite amortie de l'ajout. Liste chainee si
- mple et double. Pile\, file\, deque. Implementations et complexites compar
- ees de chaque operation.\n\nQUESTIONS TYPE EXAMINATEUR\n- Implementez une 
- file avec deux piles. Quelle complexite amortie ?\n- Liste chainee ou tabl
- eau dynamique : que choisissez-vous\, et pourquoi ?\n- Pourquoi l'ajout en
-  fin de liste Python est-il en O(1) amorti ?\n- Donnez une structure ou l'
- insertion est en O(1) mais la recherche en O(n).\n\nMODE ORAL BLANC (jeudi
- ) - la seance la plus importante de la semaine\nTraite les questions ci-de
- ssus DEBOUT\, A VOIX HAUTE\, en ecrivant au tableau ou sur une grande feui
- lle\, comme le jour J.\nRegles du jour J : 50 minutes\, AUCUNE preparation
- . Le jury valorise le fait d'avoir des idees plus que de terminer l'exerci
- ce. Pense a voix haute\, ne reste jamais muet.\n\nTON CHOIX : raisonner en
-  PSEUDO-CODE pour eviter les fautes de syntaxe. C'est le bon reflexe pour 
- les algorithmes.\nMAIS le socle commun MP/PC/PT/PSI est explicitement en P
- YTHON : sur les fondamentaux du langage\, l'examinateur peut demander du v
- rai code. Regle simple : ALGORITHMES en pseudo-code\, FONDAMENTAUX PYTHON 
- en Python.\n\nSocle exige : programme d'informatique commun MP/PC/PT/PSI (
- prepas.org). Ressources : Informatique pour tous (Eyrolles) + tes cours de
-  L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 3 - Recherche et dichotomie\n\nDANS LE LIVRE : Beury c
+ h. 4\n\nA REVISER\nRecherche sequentielle d'un element dans une liste\, du
+  maximum\, du second maximum. Comptage des elements d'un tableau a l'aide 
+ d'un dictionnaire. Recherche d'un facteur dans un texte. Recherche des deu
+ x valeurs les plus proches. Complexite quadratique des boucles imbriquees.
+  RECHERCHE DICHOTOMIQUE dans une liste triee. Exponentiation rapide. Accel
+ eration du lineaire au logarithmique.\n\nQUESTIONS TYPE EXAMINATEUR\n- Ecr
+ ivez la recherche dichotomique. Quelle complexite\, et justifiez-la.\n- Po
+ urquoi la dichotomie exige-t-elle un tableau trie ?\n- Ecrivez l'exponenti
+ ation rapide et donnez sa complexite.\n- Comment trouver le second maximum
+  en un seul parcours ?\n- Deux valeurs les plus proches : complexite naive
+ \, puis amelioration ?\n\nMODE ORAL BLANC (jeudi) - la seance la plus impo
+ rtante\nTraite les questions ci-dessus DEBOUT\, A VOIX HAUTE\, au tableau
+ \, comme le jour J.\nFormat reel : 50 minutes\, AUCUNE preparation. Le jur
+ y valorise le fait d'avoir des idees plus que de terminer l'exercice. Pens
+ e a voix haute\, ne reste jamais muet.\nUtilise les extraits de sujets de 
+ concours du livre : ils sont reperes comme tels.\n\nAlgorithmes en PSEUDO-
+ CODE pour eviter les fautes de syntaxe. Mais l'annexe Python du programme 
+ est LIMITATIVE et exigible : sur les fondamentaux du langage\, ecris du vr
+ ai Python.\n\nSocle officiel : Programme d'informatique commune MP PC PSI 
+ PT (tronc commun\, ministere 2021). Ton oral porte sur ce socle ET sur le 
+ programme que tu declares\, donc aussi sur tes cours de L1-L2 (C\, program
+ mation fonctionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Anglais - Futur et hypothese
@@ -1857,31 +1697,32 @@ DESCRIPTION:Nombres reels | Suites numeriques (Cauchy\, u(n+1)=f(u(n)))\n
  . Toute erreur va au carnet.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Dictionnaires et tables de hachage (cours + impleme
- ntation)
+SUMMARY:Info mineure - Recursivite (cours + implementation)
 DTSTART;TZID=Europe/Paris:20261005T171000
 DTEND;TZID=Europe/Paris:20261005T184000
 DTSTAMP:20260809T120000Z
 UID:d5fdc441d3b8aa1c7c808439031df2b2@fuf-romain
-SEQUENCE:20
-DESCRIPTION:THEME DE LA SEMAINE : Dictionnaires et tables de hachage\n\nA 
- REVISER\nFonction de hachage. Gestion des collisions : chainage et adressa
- ge ouvert. Facteur de charge et redimensionnement. Complexite en moyenne c
- ontre pire cas. Ensembles.\n\nQUESTIONS TYPE EXAMINATEUR\n- Pourquoi un di
- ctionnaire est-il en O(1) en moyenne mais O(n) au pire ?\n- Qu'est-ce qui 
- fait une bonne fonction de hachage ?\n- Pourquoi une liste ne peut-elle pa
- s etre cle de dictionnaire en Python ?\n- Comment detecter les doublons d'
- un tableau en O(n) ?\n\nMODE COURS + IMPLEMENTATION (lundi)\n1. Relis le c
- ours et tes notes de L1-L2 sur le theme.\n2. Reecris les algorithmes cles 
- EN PSEUDO-CODE\, sans regarder.\n3. Implemente-en un ou deux pour de vrai 
- et fais-les tourner.\n4. Note au carnet tout ce que tu n'as pas su reecrir
- e seul.\n\nTON CHOIX : raisonner en PSEUDO-CODE pour eviter les fautes de 
- syntaxe. C'est le bon reflexe pour les algorithmes.\nMAIS le socle commun 
- MP/PC/PT/PSI est explicitement en PYTHON : sur les fondamentaux du langage
- \, l'examinateur peut demander du vrai code. Regle simple : ALGORITHMES en
-  pseudo-code\, FONDAMENTAUX PYTHON en Python.\n\nSocle exige : programme d
- 'informatique commun MP/PC/PT/PSI (prepas.org). Ressources : Informatique 
- pour tous (Eyrolles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 4 - Recursivite\n\nDANS LE LIVRE : Beury ch. 7\n\nA RE
+ VISER\nFonction recursive\, cas de base\, instruction return dans une fonc
+ tion recursive. Fonction factorielle. Methode DIVISER POUR REGNER. Version
+ s recursives des algorithmes dichotomiques. Pile d'appels et depassement d
+ e sa taille. Terminaison et correction d'un algorithme recursif. Enumerati
+ on des sous-listes ou des permutations.\n\nQUESTIONS TYPE EXAMINATEUR\n- Q
+ u'est-ce que la pile d'appels ? Que se passe-t-il en cas de depassement ?
+ \n- Ecrivez la version recursive de la recherche dichotomique.\n- Enumerez
+  les sous-listes d'une liste. Quelle complexite ?\n- Comment prouve-t-on q
+ u'une fonction recursive termine ?\n- Diviser pour regner : schema general
+  et un exemple.\n\nMODE COURS + IMPLEMENTATION (lundi)\n1. Lis le chapitre
+  de Beury indique ci-dessus.\n2. Reecris les algorithmes cles EN PSEUDO-CO
+ DE\, sans regarder.\n3. Implemente-en un ou deux pour de vrai et fais-les 
+ tourner.\n4. Note au carnet ce que tu n'as pas su reecrire seul.\n\nAlgori
+ thmes en PSEUDO-CODE pour eviter les fautes de syntaxe. Mais l'annexe Pyth
+ on du programme est LIMITATIVE et exigible : sur les fondamentaux du langa
+ ge\, ecris du vrai Python.\n\nSocle officiel : Programme d'informatique co
+ mmune MP PC PSI PT (tronc commun\, ministere 2021). Ton oral porte sur ce 
+ socle ET sur le programme que tu declares\, donc aussi sur tes cours de L1
+ -L2 (C\, programmation fonctionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Travail L3
@@ -2039,31 +1880,34 @@ DESCRIPTION:Nombres reels | Suites numeriques (Cauchy\, u(n+1)=f(u(n)))\n
  ion espacee J+1 / J+7 / J+30. Toute erreur va au carnet.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Dictionnaires et tables de hachage (oral blanc)
+SUMMARY:Info mineure - Recursivite (oral blanc)
 DTSTART;TZID=Europe/Paris:20261008T095000
 DTEND;TZID=Europe/Paris:20261008T115000
 DTSTAMP:20260809T120000Z
 UID:0de4b4a087ef0e000a1eac31a34d9062@fuf-romain
-SEQUENCE:20
-DESCRIPTION:THEME DE LA SEMAINE : Dictionnaires et tables de hachage\n\nA 
- REVISER\nFonction de hachage. Gestion des collisions : chainage et adressa
- ge ouvert. Facteur de charge et redimensionnement. Complexite en moyenne c
- ontre pire cas. Ensembles.\n\nQUESTIONS TYPE EXAMINATEUR\n- Pourquoi un di
- ctionnaire est-il en O(1) en moyenne mais O(n) au pire ?\n- Qu'est-ce qui 
- fait une bonne fonction de hachage ?\n- Pourquoi une liste ne peut-elle pa
- s etre cle de dictionnaire en Python ?\n- Comment detecter les doublons d'
- un tableau en O(n) ?\n\nMODE ORAL BLANC (jeudi) - la seance la plus import
- ante de la semaine\nTraite les questions ci-dessus DEBOUT\, A VOIX HAUTE\,
-  en ecrivant au tableau ou sur une grande feuille\, comme le jour J.\nRegl
- es du jour J : 50 minutes\, AUCUNE preparation. Le jury valorise le fait d
- 'avoir des idees plus que de terminer l'exercice. Pense a voix haute\, ne 
- reste jamais muet.\n\nTON CHOIX : raisonner en PSEUDO-CODE pour eviter les
-  fautes de syntaxe. C'est le bon reflexe pour les algorithmes.\nMAIS le so
- cle commun MP/PC/PT/PSI est explicitement en PYTHON : sur les fondamentaux
-  du langage\, l'examinateur peut demander du vrai code. Regle simple : ALG
- ORITHMES en pseudo-code\, FONDAMENTAUX PYTHON en Python.\n\nSocle exige : 
- programme d'informatique commun MP/PC/PT/PSI (prepas.org). Ressources : In
- formatique pour tous (Eyrolles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 4 - Recursivite\n\nDANS LE LIVRE : Beury ch. 7\n\nA RE
+ VISER\nFonction recursive\, cas de base\, instruction return dans une fonc
+ tion recursive. Fonction factorielle. Methode DIVISER POUR REGNER. Version
+ s recursives des algorithmes dichotomiques. Pile d'appels et depassement d
+ e sa taille. Terminaison et correction d'un algorithme recursif. Enumerati
+ on des sous-listes ou des permutations.\n\nQUESTIONS TYPE EXAMINATEUR\n- Q
+ u'est-ce que la pile d'appels ? Que se passe-t-il en cas de depassement ?
+ \n- Ecrivez la version recursive de la recherche dichotomique.\n- Enumerez
+  les sous-listes d'une liste. Quelle complexite ?\n- Comment prouve-t-on q
+ u'une fonction recursive termine ?\n- Diviser pour regner : schema general
+  et un exemple.\n\nMODE ORAL BLANC (jeudi) - la seance la plus importante
+ \nTraite les questions ci-dessus DEBOUT\, A VOIX HAUTE\, au tableau\, comm
+ e le jour J.\nFormat reel : 50 minutes\, AUCUNE preparation. Le jury valor
+ ise le fait d'avoir des idees plus que de terminer l'exercice. Pense a voi
+ x haute\, ne reste jamais muet.\nUtilise les extraits de sujets de concour
+ s du livre : ils sont reperes comme tels.\n\nAlgorithmes en PSEUDO-CODE po
+ ur eviter les fautes de syntaxe. Mais l'annexe Python du programme est LIM
+ ITATIVE et exigible : sur les fondamentaux du langage\, ecris du vrai Pyth
+ on.\n\nSocle officiel : Programme d'informatique commune MP PC PSI PT (tro
+ nc commun\, ministere 2021). Ton oral porte sur ce socle ET sur le program
+ me que tu declares\, donc aussi sur tes cours de L1-L2 (C\, programmation 
+ fonctionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Culture generale scientifique - Qu'est-ce qu'un ingenieur ? Scienc
@@ -2198,29 +2042,30 @@ DESCRIPTION:Limites et continuite | Derivation\n\nPASSE 1 - RECONSTRUIRE.
  et.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Arbres (cours + implementation)
+SUMMARY:Info mineure - Tris (cours + implementation)
 DTSTART;TZID=Europe/Paris:20261012T171000
 DTEND;TZID=Europe/Paris:20261012T184000
 DTSTAMP:20260809T120000Z
 UID:2462b015ec9ce5f5fdf258d7653b40d1@fuf-romain
-SEQUENCE:20
-DESCRIPTION:THEME DE LA SEMAINE : Arbres\n\nA REVISER\nArbre binaire\, arb
- re binaire de recherche. Parcours prefixe\, infixe\, suffixe\, en largeur.
-  Hauteur et equilibrage. Tas binaire et file de priorite.\n\nQUESTIONS TYP
- E EXAMINATEUR\n- Que donne le parcours infixe d'un ABR ? Prouvez-le.\n- Co
- mplexite de la recherche dans un ABR ? Et dans le pire cas ?\n- Implemente
- z l'insertion dans un tas binaire.\n- Comment calcule-t-on la hauteur d'un
-  arbre recursivement ?\n\nMODE COURS + IMPLEMENTATION (lundi)\n1. Relis le
-  cours et tes notes de L1-L2 sur le theme.\n2. Reecris les algorithmes cle
- s EN PSEUDO-CODE\, sans regarder.\n3. Implemente-en un ou deux pour de vra
- i et fais-les tourner.\n4. Note au carnet tout ce que tu n'as pas su reecr
- ire seul.\n\nTON CHOIX : raisonner en PSEUDO-CODE pour eviter les fautes d
- e syntaxe. C'est le bon reflexe pour les algorithmes.\nMAIS le socle commu
- n MP/PC/PT/PSI est explicitement en PYTHON : sur les fondamentaux du langa
- ge\, l'examinateur peut demander du vrai code. Regle simple : ALGORITHMES 
- en pseudo-code\, FONDAMENTAUX PYTHON en Python.\n\nSocle exige : programme
-  d'informatique commun MP/PC/PT/PSI (prepas.org). Ressources : Informatiqu
- e pour tous (Eyrolles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 5 - Tris\n\nDANS LE LIVRE : Beury ch. 10\n\nA REVISER
+ \nTri par selection\, tri par insertion\, tri par fusion\, tri rapide\, tr
+ i par comptage. Pour chacun : STABLE ou non\, EN PLACE ou non\, COMPARATIF
+  ou non. Complexites au pire et en moyenne.\n\nQUESTIONS TYPE EXAMINATEUR
+ \n- Deroulez le tri par fusion sur ce tableau.\n- Qu'est-ce qu'un tri stab
+ le ? Lesquels le sont ?\n- Dans quel cas le tri rapide devient-il quadrati
+ que ?\n- Pourquoi le tri par comptage n'est-il pas comparatif ? Quelle com
+ plexite ?\n- Quel tri choisiriez-vous pour un tableau presque trie ?\n\nMO
+ DE COURS + IMPLEMENTATION (lundi)\n1. Lis le chapitre de Beury indique ci-
+ dessus.\n2. Reecris les algorithmes cles EN PSEUDO-CODE\, sans regarder.\n
+ 3. Implemente-en un ou deux pour de vrai et fais-les tourner.\n4. Note au 
+ carnet ce que tu n'as pas su reecrire seul.\n\nAlgorithmes en PSEUDO-CODE 
+ pour eviter les fautes de syntaxe. Mais l'annexe Python du programme est L
+ IMITATIVE et exigible : sur les fondamentaux du langage\, ecris du vrai Py
+ thon.\n\nSocle officiel : Programme d'informatique commune MP PC PSI PT (t
+ ronc commun\, ministere 2021). Ton oral porte sur ce socle ET sur le progr
+ amme que tu declares\, donc aussi sur tes cours de L1-L2 (C\, programmatio
+ n fonctionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Travail L3
@@ -2331,28 +2176,30 @@ DESCRIPTION:Preparer les TD a venir\, avancer le Projet Data\, refaire les
  rep concours.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Arbres (exercices)
+SUMMARY:Info mineure - Tris (exercices)
 DTSTART;TZID=Europe/Paris:20261014T105000
 DTEND;TZID=Europe/Paris:20261014T115000
 DTSTAMP:20260809T120000Z
 UID:d1b7ca0a35b563fb100e724abff01a4a@fuf-romain
-SEQUENCE:20
-DESCRIPTION:THEME DE LA SEMAINE : Arbres\n\nA REVISER\nArbre binaire\, arb
- re binaire de recherche. Parcours prefixe\, infixe\, suffixe\, en largeur.
-  Hauteur et equilibrage. Tas binaire et file de priorite.\n\nQUESTIONS TYP
- E EXAMINATEUR\n- Que donne le parcours infixe d'un ABR ? Prouvez-le.\n- Co
- mplexite de la recherche dans un ABR ? Et dans le pire cas ?\n- Implemente
- z l'insertion dans un tas binaire.\n- Comment calcule-t-on la hauteur d'un
-  arbre recursivement ?\n\nMODE EXERCICES (mercredi)\nTraite des exercices 
- sur le theme de la semaine. Cherche 15 a 20 minutes MINIMUM avant de regar
- der la correction.\nPour chaque exercice : annonce la complexite AVANT de 
- coder\, puis verifie.\n\nTON CHOIX : raisonner en PSEUDO-CODE pour eviter 
- les fautes de syntaxe. C'est le bon reflexe pour les algorithmes.\nMAIS le
-  socle commun MP/PC/PT/PSI est explicitement en PYTHON : sur les fondament
- aux du langage\, l'examinateur peut demander du vrai code. Regle simple : 
- ALGORITHMES en pseudo-code\, FONDAMENTAUX PYTHON en Python.\n\nSocle exige
-  : programme d'informatique commun MP/PC/PT/PSI (prepas.org). Ressources :
-  Informatique pour tous (Eyrolles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 5 - Tris\n\nDANS LE LIVRE : Beury ch. 10\n\nA REVISER
+ \nTri par selection\, tri par insertion\, tri par fusion\, tri rapide\, tr
+ i par comptage. Pour chacun : STABLE ou non\, EN PLACE ou non\, COMPARATIF
+  ou non. Complexites au pire et en moyenne.\n\nQUESTIONS TYPE EXAMINATEUR
+ \n- Deroulez le tri par fusion sur ce tableau.\n- Qu'est-ce qu'un tri stab
+ le ? Lesquels le sont ?\n- Dans quel cas le tri rapide devient-il quadrati
+ que ?\n- Pourquoi le tri par comptage n'est-il pas comparatif ? Quelle com
+ plexite ?\n- Quel tri choisiriez-vous pour un tableau presque trie ?\n\nMO
+ DE EXERCICES (mercredi)\nTraite les exercices du chapitre de Beury\, en co
+ mmencant par ceux reperes faciles. Cherche 15 a 20 minutes MINIMUM avant d
+ e lire le corrige.\nPour chaque exercice : annonce la complexite AVANT de 
+ coder\, puis verifie.\n\nAlgorithmes en PSEUDO-CODE pour eviter les fautes
+  de syntaxe. Mais l'annexe Python du programme est LIMITATIVE et exigible 
+ : sur les fondamentaux du langage\, ecris du vrai Python.\n\nSocle officie
+ l : Programme d'informatique commune MP PC PSI PT (tronc commun\, minister
+ e 2021). Ton oral porte sur ce socle ET sur le programme que tu declares\,
+  donc aussi sur tes cours de L1-L2 (C\, programmation fonctionnelle\, stru
+ ctures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:REPOS PROTEGE - ne rien planifier
@@ -2402,30 +2249,32 @@ DESCRIPTION:Limites et continuite | Derivation\n\nPASSE 3 - ENSEIGNER. Exp
  30. Toute erreur va au carnet.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Arbres (oral blanc)
+SUMMARY:Info mineure - Tris (oral blanc)
 DTSTART;TZID=Europe/Paris:20261015T112000
 DTEND;TZID=Europe/Paris:20261015T122000
 DTSTAMP:20260809T120000Z
 UID:5287b9dbd67b51fb20db6e70c632caa7@fuf-romain
-SEQUENCE:20
-DESCRIPTION:THEME DE LA SEMAINE : Arbres\n\nA REVISER\nArbre binaire\, arb
- re binaire de recherche. Parcours prefixe\, infixe\, suffixe\, en largeur.
-  Hauteur et equilibrage. Tas binaire et file de priorite.\n\nQUESTIONS TYP
- E EXAMINATEUR\n- Que donne le parcours infixe d'un ABR ? Prouvez-le.\n- Co
- mplexite de la recherche dans un ABR ? Et dans le pire cas ?\n- Implemente
- z l'insertion dans un tas binaire.\n- Comment calcule-t-on la hauteur d'un
-  arbre recursivement ?\n\nMODE ORAL BLANC (jeudi) - la seance la plus impo
- rtante de la semaine\nTraite les questions ci-dessus DEBOUT\, A VOIX HAUTE
- \, en ecrivant au tableau ou sur une grande feuille\, comme le jour J.\nRe
- gles du jour J : 50 minutes\, AUCUNE preparation. Le jury valorise le fait
-  d'avoir des idees plus que de terminer l'exercice. Pense a voix haute\, n
- e reste jamais muet.\n\nTON CHOIX : raisonner en PSEUDO-CODE pour eviter l
- es fautes de syntaxe. C'est le bon reflexe pour les algorithmes.\nMAIS le 
- socle commun MP/PC/PT/PSI est explicitement en PYTHON : sur les fondamenta
- ux du langage\, l'examinateur peut demander du vrai code. Regle simple : A
- LGORITHMES en pseudo-code\, FONDAMENTAUX PYTHON en Python.\n\nSocle exige 
- : programme d'informatique commun MP/PC/PT/PSI (prepas.org). Ressources : 
- Informatique pour tous (Eyrolles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 5 - Tris\n\nDANS LE LIVRE : Beury ch. 10\n\nA REVISER
+ \nTri par selection\, tri par insertion\, tri par fusion\, tri rapide\, tr
+ i par comptage. Pour chacun : STABLE ou non\, EN PLACE ou non\, COMPARATIF
+  ou non. Complexites au pire et en moyenne.\n\nQUESTIONS TYPE EXAMINATEUR
+ \n- Deroulez le tri par fusion sur ce tableau.\n- Qu'est-ce qu'un tri stab
+ le ? Lesquels le sont ?\n- Dans quel cas le tri rapide devient-il quadrati
+ que ?\n- Pourquoi le tri par comptage n'est-il pas comparatif ? Quelle com
+ plexite ?\n- Quel tri choisiriez-vous pour un tableau presque trie ?\n\nMO
+ DE ORAL BLANC (jeudi) - la seance la plus importante\nTraite les questions
+  ci-dessus DEBOUT\, A VOIX HAUTE\, au tableau\, comme le jour J.\nFormat r
+ eel : 50 minutes\, AUCUNE preparation. Le jury valorise le fait d'avoir de
+ s idees plus que de terminer l'exercice. Pense a voix haute\, ne reste jam
+ ais muet.\nUtilise les extraits de sujets de concours du livre : ils sont 
+ reperes comme tels.\n\nAlgorithmes en PSEUDO-CODE pour eviter les fautes d
+ e syntaxe. Mais l'annexe Python du programme est LIMITATIVE et exigible : 
+ sur les fondamentaux du langage\, ecris du vrai Python.\n\nSocle officiel 
+ : Programme d'informatique commune MP PC PSI PT (tronc commun\, ministere 
+ 2021). Ton oral porte sur ce socle ET sur le programme que tu declares\, d
+ onc aussi sur tes cours de L1-L2 (C\, programmation fonctionnelle\, struct
+ ures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CHECKPOINT 1
@@ -2546,31 +2395,32 @@ DESCRIPTION:Primitives et integrales | Equations differentielles lineaires
  30. Toute erreur va au carnet.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Graphes : representation et parcours (cours + imple
- mentation)
+SUMMARY:Info mineure - Algorithmes gloutons (cours + implementation)
 DTSTART;TZID=Europe/Paris:20261019T171000
 DTEND;TZID=Europe/Paris:20261019T184000
 DTSTAMP:20260809T120000Z
 UID:57768c0886ad50ee4d5f871c48948af4@fuf-romain
-SEQUENCE:20
-DESCRIPTION:THEME DE LA SEMAINE : Graphes : representation et parcours\n\n
- A REVISER\nMatrice d'adjacence contre listes d'adjacence : couts en espace
-  et en temps. Parcours en largeur (BFS) et en profondeur (DFS). Composante
- s connexes. Detection de cycle. Tri topologique.\n\nQUESTIONS TYPE EXAMINA
- TEUR\n- Matrice ou listes d'adjacence pour un graphe creux ? Justifiez.\n-
-  Difference entre BFS et DFS\, et complexites respectives ?\n- Comment det
- ecter un cycle dans un graphe oriente ? Et non oriente ?\n- Deroulez un tr
- i topologique sur ce graphe.\n\nMODE COURS + IMPLEMENTATION (lundi)\n1. Re
- lis le cours et tes notes de L1-L2 sur le theme.\n2. Reecris les algorithm
- es cles EN PSEUDO-CODE\, sans regarder.\n3. Implemente-en un ou deux pour 
- de vrai et fais-les tourner.\n4. Note au carnet tout ce que tu n'as pas su
-  reecrire seul.\n\nTON CHOIX : raisonner en PSEUDO-CODE pour eviter les fa
- utes de syntaxe. C'est le bon reflexe pour les algorithmes.\nMAIS le socle
-  commun MP/PC/PT/PSI est explicitement en PYTHON : sur les fondamentaux du
-  langage\, l'examinateur peut demander du vrai code. Regle simple : ALGORI
- THMES en pseudo-code\, FONDAMENTAUX PYTHON en Python.\n\nSocle exige : pro
- gramme d'informatique commun MP/PC/PT/PSI (prepas.org). Ressources : Infor
- matique pour tous (Eyrolles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 6 - Algorithmes gloutons\n\nDANS LE LIVRE : Beury ch. 
+ 8\n\nA REVISER\nPrincipe de la strategie gloutonne : choix localement opti
+ mal a chaque etape. Exemples : rendu de monnaie\, allocation de salles\, s
+ election d'activite. Point essentiel : un glouton NE DONNE PAS TOUJOURS l'
+ optimum\, et il faut savoir le montrer sur un contre-exemple.\n\nQUESTIONS
+  TYPE EXAMINATEUR\n- Enoncez le principe d'un algorithme glouton.\n- Le re
+ ndu de monnaie glouton est-il optimal ? Donnez un contre-exemple.\n- Selec
+ tion d'activite : quel critere glouton\, et pourquoi fonctionne-t-il ?\n- 
+ Comment demontre-t-on qu'un glouton est optimal ?\n- Quel rapport entre st
+ rategie gloutonne et programmation dynamique ?\n\nMODE COURS + IMPLEMENTAT
+ ION (lundi)\n1. Lis le chapitre de Beury indique ci-dessus.\n2. Reecris le
+ s algorithmes cles EN PSEUDO-CODE\, sans regarder.\n3. Implemente-en un ou
+  deux pour de vrai et fais-les tourner.\n4. Note au carnet ce que tu n'as 
+ pas su reecrire seul.\n\nAlgorithmes en PSEUDO-CODE pour eviter les fautes
+  de syntaxe. Mais l'annexe Python du programme est LIMITATIVE et exigible 
+ : sur les fondamentaux du langage\, ecris du vrai Python.\n\nSocle officie
+ l : Programme d'informatique commune MP PC PSI PT (tronc commun\, minister
+ e 2021). Ton oral porte sur ce socle ET sur le programme que tu declares\,
+  donc aussi sur tes cours de L1-L2 (C\, programmation fonctionnelle\, stru
+ ctures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Travail L3
@@ -2721,29 +2571,31 @@ DESCRIPTION:Preparer les TD a venir\, avancer le Projet Data\, refaire les
  rep concours.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Graphes : representation et parcours (exercices)
+SUMMARY:Info mineure - Algorithmes gloutons (exercices)
 DTSTART;TZID=Europe/Paris:20261021T105000
 DTEND;TZID=Europe/Paris:20261021T115000
 DTSTAMP:20260809T120000Z
 UID:0245f5c4960cbac84fea6db5b3badc93@fuf-romain
-SEQUENCE:20
-DESCRIPTION:THEME DE LA SEMAINE : Graphes : representation et parcours\n\n
- A REVISER\nMatrice d'adjacence contre listes d'adjacence : couts en espace
-  et en temps. Parcours en largeur (BFS) et en profondeur (DFS). Composante
- s connexes. Detection de cycle. Tri topologique.\n\nQUESTIONS TYPE EXAMINA
- TEUR\n- Matrice ou listes d'adjacence pour un graphe creux ? Justifiez.\n-
-  Difference entre BFS et DFS\, et complexites respectives ?\n- Comment det
- ecter un cycle dans un graphe oriente ? Et non oriente ?\n- Deroulez un tr
- i topologique sur ce graphe.\n\nMODE EXERCICES (mercredi)\nTraite des exer
- cices sur le theme de la semaine. Cherche 15 a 20 minutes MINIMUM avant de
-  regarder la correction.\nPour chaque exercice : annonce la complexite AVA
- NT de coder\, puis verifie.\n\nTON CHOIX : raisonner en PSEUDO-CODE pour e
- viter les fautes de syntaxe. C'est le bon reflexe pour les algorithmes.\nM
- AIS le socle commun MP/PC/PT/PSI est explicitement en PYTHON : sur les fon
- damentaux du langage\, l'examinateur peut demander du vrai code. Regle sim
- ple : ALGORITHMES en pseudo-code\, FONDAMENTAUX PYTHON en Python.\n\nSocle
-  exige : programme d'informatique commun MP/PC/PT/PSI (prepas.org). Ressou
- rces : Informatique pour tous (Eyrolles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 6 - Algorithmes gloutons\n\nDANS LE LIVRE : Beury ch. 
+ 8\n\nA REVISER\nPrincipe de la strategie gloutonne : choix localement opti
+ mal a chaque etape. Exemples : rendu de monnaie\, allocation de salles\, s
+ election d'activite. Point essentiel : un glouton NE DONNE PAS TOUJOURS l'
+ optimum\, et il faut savoir le montrer sur un contre-exemple.\n\nQUESTIONS
+  TYPE EXAMINATEUR\n- Enoncez le principe d'un algorithme glouton.\n- Le re
+ ndu de monnaie glouton est-il optimal ? Donnez un contre-exemple.\n- Selec
+ tion d'activite : quel critere glouton\, et pourquoi fonctionne-t-il ?\n- 
+ Comment demontre-t-on qu'un glouton est optimal ?\n- Quel rapport entre st
+ rategie gloutonne et programmation dynamique ?\n\nMODE EXERCICES (mercredi
+ )\nTraite les exercices du chapitre de Beury\, en commencant par ceux repe
+ res faciles. Cherche 15 a 20 minutes MINIMUM avant de lire le corrige.\nPo
+ ur chaque exercice : annonce la complexite AVANT de coder\, puis verifie.
+ \n\nAlgorithmes en PSEUDO-CODE pour eviter les fautes de syntaxe. Mais l'a
+ nnexe Python du programme est LIMITATIVE et exigible : sur les fondamentau
+ x du langage\, ecris du vrai Python.\n\nSocle officiel : Programme d'infor
+ matique commune MP PC PSI PT (tronc commun\, ministere 2021). Ton oral por
+ te sur ce socle ET sur le programme que tu declares\, donc aussi sur tes c
+ ours de L1-L2 (C\, programmation fonctionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Maths - passe 2 : exercices
@@ -2807,31 +2659,33 @@ DESCRIPTION:Primitives et integrales | Equations differentielles lineaires
  ision espacee J+1 / J+7 / J+30. Toute erreur va au carnet.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Graphes : representation et parcours (oral blanc)
+SUMMARY:Info mineure - Algorithmes gloutons (oral blanc)
 DTSTART;TZID=Europe/Paris:20261022T095000
 DTEND;TZID=Europe/Paris:20261022T115000
 DTSTAMP:20260809T120000Z
 UID:9b97fdd0895514c5c0b5d7911e92116d@fuf-romain
-SEQUENCE:20
-DESCRIPTION:THEME DE LA SEMAINE : Graphes : representation et parcours\n\n
- A REVISER\nMatrice d'adjacence contre listes d'adjacence : couts en espace
-  et en temps. Parcours en largeur (BFS) et en profondeur (DFS). Composante
- s connexes. Detection de cycle. Tri topologique.\n\nQUESTIONS TYPE EXAMINA
- TEUR\n- Matrice ou listes d'adjacence pour un graphe creux ? Justifiez.\n-
-  Difference entre BFS et DFS\, et complexites respectives ?\n- Comment det
- ecter un cycle dans un graphe oriente ? Et non oriente ?\n- Deroulez un tr
- i topologique sur ce graphe.\n\nMODE ORAL BLANC (jeudi) - la seance la plu
- s importante de la semaine\nTraite les questions ci-dessus DEBOUT\, A VOIX
-  HAUTE\, en ecrivant au tableau ou sur une grande feuille\, comme le jour 
- J.\nRegles du jour J : 50 minutes\, AUCUNE preparation. Le jury valorise l
- e fait d'avoir des idees plus que de terminer l'exercice. Pense a voix hau
- te\, ne reste jamais muet.\n\nTON CHOIX : raisonner en PSEUDO-CODE pour ev
- iter les fautes de syntaxe. C'est le bon reflexe pour les algorithmes.\nMA
- IS le socle commun MP/PC/PT/PSI est explicitement en PYTHON : sur les fond
- amentaux du langage\, l'examinateur peut demander du vrai code. Regle simp
- le : ALGORITHMES en pseudo-code\, FONDAMENTAUX PYTHON en Python.\n\nSocle 
- exige : programme d'informatique commun MP/PC/PT/PSI (prepas.org). Ressour
- ces : Informatique pour tous (Eyrolles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 6 - Algorithmes gloutons\n\nDANS LE LIVRE : Beury ch. 
+ 8\n\nA REVISER\nPrincipe de la strategie gloutonne : choix localement opti
+ mal a chaque etape. Exemples : rendu de monnaie\, allocation de salles\, s
+ election d'activite. Point essentiel : un glouton NE DONNE PAS TOUJOURS l'
+ optimum\, et il faut savoir le montrer sur un contre-exemple.\n\nQUESTIONS
+  TYPE EXAMINATEUR\n- Enoncez le principe d'un algorithme glouton.\n- Le re
+ ndu de monnaie glouton est-il optimal ? Donnez un contre-exemple.\n- Selec
+ tion d'activite : quel critere glouton\, et pourquoi fonctionne-t-il ?\n- 
+ Comment demontre-t-on qu'un glouton est optimal ?\n- Quel rapport entre st
+ rategie gloutonne et programmation dynamique ?\n\nMODE ORAL BLANC (jeudi) 
+ - la seance la plus importante\nTraite les questions ci-dessus DEBOUT\, A 
+ VOIX HAUTE\, au tableau\, comme le jour J.\nFormat reel : 50 minutes\, AUC
+ UNE preparation. Le jury valorise le fait d'avoir des idees plus que de te
+ rminer l'exercice. Pense a voix haute\, ne reste jamais muet.\nUtilise les
+  extraits de sujets de concours du livre : ils sont reperes comme tels.\n
+ \nAlgorithmes en PSEUDO-CODE pour eviter les fautes de syntaxe. Mais l'ann
+ exe Python du programme est LIMITATIVE et exigible : sur les fondamentaux 
+ du langage\, ecris du vrai Python.\n\nSocle officiel : Programme d'informa
+ tique commune MP PC PSI PT (tronc commun\, ministere 2021). Ton oral porte
+  sur ce socle ET sur le programme que tu declares\, donc aussi sur tes cou
+ rs de L1-L2 (C\, programmation fonctionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Culture generale scientifique - Climat : mecanismes\, chiffres\, c
@@ -3150,31 +3004,36 @@ DESCRIPTION:Integration | Relations de comparaison\n\nPASSE 1 - RECONSTRUI
  arnet.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Graphes : plus courts chemins et arbres couvrants (
- cours + implementation)
+SUMMARY:Info mineure - Representation des nombres (cours + implementation)
 DTSTART;TZID=Europe/Paris:20261102T092000
 DTEND;TZID=Europe/Paris:20261102T102000
 DTSTAMP:20260809T120000Z
 UID:45c15edf6b25782c22cce44888f2206f@fuf-romain
-SEQUENCE:20
-DESCRIPTION:THEME DE LA SEMAINE : Graphes : plus courts chemins et arbres 
- couvrants\n\nA REVISER\nDijkstra et sa limite. Bellman-Ford. Floyd-Warshal
- l. Arbres couvrants minimaux : Prim et Kruskal. Structure union-find.\n\nQ
- UESTIONS TYPE EXAMINATEUR\n- Pourquoi Dijkstra echoue-t-il avec des poids 
- negatifs ? Donnez un contre-exemple.\n- Complexite de Dijkstra avec un tas
-  binaire ?\n- Prim ou Kruskal pour un graphe dense ? Pour un graphe creux 
- ?\n- Qu'est-ce que l'union-find\, et quelle est sa complexite ?\n\nMODE CO
- URS + IMPLEMENTATION (lundi)\n1. Relis le cours et tes notes de L1-L2 sur 
- le theme.\n2. Reecris les algorithmes cles EN PSEUDO-CODE\, sans regarder.
- \n3. Implemente-en un ou deux pour de vrai et fais-les tourner.\n4. Note a
- u carnet tout ce que tu n'as pas su reecrire seul.\n\nTON CHOIX : raisonne
- r en PSEUDO-CODE pour eviter les fautes de syntaxe. C'est le bon reflexe p
- our les algorithmes.\nMAIS le socle commun MP/PC/PT/PSI est explicitement 
- en PYTHON : sur les fondamentaux du langage\, l'examinateur peut demander 
- du vrai code. Regle simple : ALGORITHMES en pseudo-code\, FONDAMENTAUX PYT
- HON en Python.\n\nSocle exige : programme d'informatique commun MP/PC/PT/P
- SI (prepas.org). Ressources : Informatique pour tous (Eyrolles) + tes cour
- s de L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 7 - Representation des nombres\n\nDANS LE LIVRE : Pas 
+ de chapitre chez Beury : tes cours de L1-L2\n\nA REVISER\nRepresentation d
+ es entiers positifs sur des mots de taille fixe. Entiers signes : COMPLEME
+ NT A DEUX. Entiers multi-precision de Python et difficulte a evaluer la co
+ mplexite des operations arithmetiques. Distinction entre reels\, decimaux 
+ et flottants : impossibilite de representer certains nombres. MANTISSE et 
+ EXPOSANT\, representation de 0. Precision des calculs\, limites pour les c
+ omparaisons.\n\nHORS PROGRAMME : norme IEEE-754\, denormalises\, infinis\,
+  NaN\, modes d'arrondi\, conversion de base.\n\nQUESTIONS TYPE EXAMINATEUR
+ \n- Qu'est-ce que le complement a deux ? Pourquoi cette representation ?\n
+ - Pourquoi 0.1 + 0.2 n'est-il pas egal a 0.3 ? Comment comparer deux flott
+ ants ?\n- Qu'est-ce que la mantisse ? L'exposant ?\n- Les entiers Python s
+ ont-ils bornes ? Consequence sur la complexite ?\n- Difference entre un no
+ mbre decimal et un flottant.\n\nMODE COURS + IMPLEMENTATION (lundi)\n1. Li
+ s le chapitre de Beury indique ci-dessus.\n2. Reecris les algorithmes cles
+  EN PSEUDO-CODE\, sans regarder.\n3. Implemente-en un ou deux pour de vrai
+  et fais-les tourner.\n4. Note au carnet ce que tu n'as pas su reecrire se
+ ul.\n\nAlgorithmes en PSEUDO-CODE pour eviter les fautes de syntaxe. Mais 
+ l'annexe Python du programme est LIMITATIVE et exigible : sur les fondamen
+ taux du langage\, ecris du vrai Python.\n\nSocle officiel : Programme d'in
+ formatique commune MP PC PSI PT (tronc commun\, ministere 2021). Ton oral 
+ porte sur ce socle ET sur le programme que tu declares\, donc aussi sur te
+ s cours de L1-L2 (C\, programmation fonctionnelle\, structures de donnees)
+ .
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Travail L3
@@ -3335,30 +3194,35 @@ DESCRIPTION:Preparer les TD a venir\, avancer le Projet Data\, refaire les
  rep concours.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Graphes : plus courts chemins et arbres couvrants (
- exercices)
+SUMMARY:Info mineure - Representation des nombres (exercices)
 DTSTART;TZID=Europe/Paris:20261104T171000
 DTEND;TZID=Europe/Paris:20261104T182000
 DTSTAMP:20260809T120000Z
 UID:e69d78f301fdf7bcda7192b549eaa035@fuf-romain
-SEQUENCE:20
-DESCRIPTION:THEME DE LA SEMAINE : Graphes : plus courts chemins et arbres 
- couvrants\n\nA REVISER\nDijkstra et sa limite. Bellman-Ford. Floyd-Warshal
- l. Arbres couvrants minimaux : Prim et Kruskal. Structure union-find.\n\nQ
- UESTIONS TYPE EXAMINATEUR\n- Pourquoi Dijkstra echoue-t-il avec des poids 
- negatifs ? Donnez un contre-exemple.\n- Complexite de Dijkstra avec un tas
-  binaire ?\n- Prim ou Kruskal pour un graphe dense ? Pour un graphe creux 
- ?\n- Qu'est-ce que l'union-find\, et quelle est sa complexite ?\n\nMODE EX
- ERCICES (mercredi)\nTraite des exercices sur le theme de la semaine. Cherc
- he 15 a 20 minutes MINIMUM avant de regarder la correction.\nPour chaque e
- xercice : annonce la complexite AVANT de coder\, puis verifie.\n\nTON CHOI
- X : raisonner en PSEUDO-CODE pour eviter les fautes de syntaxe. C'est le b
- on reflexe pour les algorithmes.\nMAIS le socle commun MP/PC/PT/PSI est ex
- plicitement en PYTHON : sur les fondamentaux du langage\, l'examinateur pe
- ut demander du vrai code. Regle simple : ALGORITHMES en pseudo-code\, FOND
- AMENTAUX PYTHON en Python.\n\nSocle exige : programme d'informatique commu
- n MP/PC/PT/PSI (prepas.org). Ressources : Informatique pour tous (Eyrolles
- ) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 7 - Representation des nombres\n\nDANS LE LIVRE : Pas 
+ de chapitre chez Beury : tes cours de L1-L2\n\nA REVISER\nRepresentation d
+ es entiers positifs sur des mots de taille fixe. Entiers signes : COMPLEME
+ NT A DEUX. Entiers multi-precision de Python et difficulte a evaluer la co
+ mplexite des operations arithmetiques. Distinction entre reels\, decimaux 
+ et flottants : impossibilite de representer certains nombres. MANTISSE et 
+ EXPOSANT\, representation de 0. Precision des calculs\, limites pour les c
+ omparaisons.\n\nHORS PROGRAMME : norme IEEE-754\, denormalises\, infinis\,
+  NaN\, modes d'arrondi\, conversion de base.\n\nQUESTIONS TYPE EXAMINATEUR
+ \n- Qu'est-ce que le complement a deux ? Pourquoi cette representation ?\n
+ - Pourquoi 0.1 + 0.2 n'est-il pas egal a 0.3 ? Comment comparer deux flott
+ ants ?\n- Qu'est-ce que la mantisse ? L'exposant ?\n- Les entiers Python s
+ ont-ils bornes ? Consequence sur la complexite ?\n- Difference entre un no
+ mbre decimal et un flottant.\n\nMODE EXERCICES (mercredi)\nTraite les exer
+ cices du chapitre de Beury\, en commencant par ceux reperes faciles. Cherc
+ he 15 a 20 minutes MINIMUM avant de lire le corrige.\nPour chaque exercice
+  : annonce la complexite AVANT de coder\, puis verifie.\n\nAlgorithmes en 
+ PSEUDO-CODE pour eviter les fautes de syntaxe. Mais l'annexe Python du pro
+ gramme est LIMITATIVE et exigible : sur les fondamentaux du langage\, ecri
+ s du vrai Python.\n\nSocle officiel : Programme d'informatique commune MP 
+ PC PSI PT (tronc commun\, ministere 2021). Ton oral porte sur ce socle ET 
+ sur le programme que tu declares\, donc aussi sur tes cours de L1-L2 (C\, 
+ programmation fonctionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:REPOS PROTEGE - ne rien planifier
@@ -3409,32 +3273,37 @@ DESCRIPTION:Integration | Relations de comparaison\n\nPASSE 3 - ENSEIGNER.
  / J+30. Toute erreur va au carnet.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Graphes : plus courts chemins et arbres couvrants (
- oral blanc)
+SUMMARY:Info mineure - Representation des nombres (oral blanc)
 DTSTART;TZID=Europe/Paris:20261105T095000
 DTEND;TZID=Europe/Paris:20261105T115000
 DTSTAMP:20260809T120000Z
 UID:439e8663c636715afd6770e359f19343@fuf-romain
-SEQUENCE:20
-DESCRIPTION:THEME DE LA SEMAINE : Graphes : plus courts chemins et arbres 
- couvrants\n\nA REVISER\nDijkstra et sa limite. Bellman-Ford. Floyd-Warshal
- l. Arbres couvrants minimaux : Prim et Kruskal. Structure union-find.\n\nQ
- UESTIONS TYPE EXAMINATEUR\n- Pourquoi Dijkstra echoue-t-il avec des poids 
- negatifs ? Donnez un contre-exemple.\n- Complexite de Dijkstra avec un tas
-  binaire ?\n- Prim ou Kruskal pour un graphe dense ? Pour un graphe creux 
- ?\n- Qu'est-ce que l'union-find\, et quelle est sa complexite ?\n\nMODE OR
- AL BLANC (jeudi) - la seance la plus importante de la semaine\nTraite les 
- questions ci-dessus DEBOUT\, A VOIX HAUTE\, en ecrivant au tableau ou sur 
- une grande feuille\, comme le jour J.\nRegles du jour J : 50 minutes\, AUC
- UNE preparation. Le jury valorise le fait d'avoir des idees plus que de te
- rminer l'exercice. Pense a voix haute\, ne reste jamais muet.\n\nTON CHOIX
-  : raisonner en PSEUDO-CODE pour eviter les fautes de syntaxe. C'est le bo
- n reflexe pour les algorithmes.\nMAIS le socle commun MP/PC/PT/PSI est exp
- licitement en PYTHON : sur les fondamentaux du langage\, l'examinateur peu
- t demander du vrai code. Regle simple : ALGORITHMES en pseudo-code\, FONDA
- MENTAUX PYTHON en Python.\n\nSocle exige : programme d'informatique commun
-  MP/PC/PT/PSI (prepas.org). Ressources : Informatique pour tous (Eyrolles)
-  + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 7 - Representation des nombres\n\nDANS LE LIVRE : Pas 
+ de chapitre chez Beury : tes cours de L1-L2\n\nA REVISER\nRepresentation d
+ es entiers positifs sur des mots de taille fixe. Entiers signes : COMPLEME
+ NT A DEUX. Entiers multi-precision de Python et difficulte a evaluer la co
+ mplexite des operations arithmetiques. Distinction entre reels\, decimaux 
+ et flottants : impossibilite de representer certains nombres. MANTISSE et 
+ EXPOSANT\, representation de 0. Precision des calculs\, limites pour les c
+ omparaisons.\n\nHORS PROGRAMME : norme IEEE-754\, denormalises\, infinis\,
+  NaN\, modes d'arrondi\, conversion de base.\n\nQUESTIONS TYPE EXAMINATEUR
+ \n- Qu'est-ce que le complement a deux ? Pourquoi cette representation ?\n
+ - Pourquoi 0.1 + 0.2 n'est-il pas egal a 0.3 ? Comment comparer deux flott
+ ants ?\n- Qu'est-ce que la mantisse ? L'exposant ?\n- Les entiers Python s
+ ont-ils bornes ? Consequence sur la complexite ?\n- Difference entre un no
+ mbre decimal et un flottant.\n\nMODE ORAL BLANC (jeudi) - la seance la plu
+ s importante\nTraite les questions ci-dessus DEBOUT\, A VOIX HAUTE\, au ta
+ bleau\, comme le jour J.\nFormat reel : 50 minutes\, AUCUNE preparation. L
+ e jury valorise le fait d'avoir des idees plus que de terminer l'exercice.
+  Pense a voix haute\, ne reste jamais muet.\nUtilise les extraits de sujet
+ s de concours du livre : ils sont reperes comme tels.\n\nAlgorithmes en PS
+ EUDO-CODE pour eviter les fautes de syntaxe. Mais l'annexe Python du progr
+ amme est LIMITATIVE et exigible : sur les fondamentaux du langage\, ecris 
+ du vrai Python.\n\nSocle officiel : Programme d'informatique commune MP PC
+  PSI PT (tronc commun\, ministere 2021). Ton oral porte sur ce socle ET su
+ r le programme que tu declares\, donc aussi sur tes cours de L1-L2 (C\, pr
+ ogrammation fonctionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Culture generale scientifique - Biodiversite : effondrement\, caus
@@ -3581,31 +3450,34 @@ DESCRIPTION:Developpements limites | Series numeriques\n\nPASSE 1 - RECONS
  au carnet.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Programmation dynamique (cours + implementation)
+SUMMARY:Info mineure - Piles\, files\, deques\, dictionnaires (cours + imp
+ lementation)
 DTSTART;TZID=Europe/Paris:20261109T171000
 DTEND;TZID=Europe/Paris:20261109T184000
 DTSTAMP:20260809T120000Z
 UID:105e4be35ee20fd8ca2dd1e37c57c3e3@fuf-romain
-SEQUENCE:20
-DESCRIPTION:THEME DE LA SEMAINE : Programmation dynamique\n\nA REVISER\nSo
- us-structure optimale et chevauchement des sous-problemes. Memoisation con
- tre tabulation. Sac a dos. Plus longue sous-sequence commune. Distance d'e
- dition. Rendu de monnaie. Comparaison avec les algorithmes gloutons.\n\nQU
- ESTIONS TYPE EXAMINATEUR\n- Quand la programmation dynamique s'applique-t-
- elle ?\n- Ecrivez la relation de recurrence du sac a dos.\n- Memoisation o
- u tabulation : quelle difference en complexite spatiale ?\n- Pourquoi le g
- louton echoue-t-il pour le rendu de monnaie avec certains systemes de piec
- es ?\n\nMODE COURS + IMPLEMENTATION (lundi)\n1. Relis le cours et tes note
- s de L1-L2 sur le theme.\n2. Reecris les algorithmes cles EN PSEUDO-CODE\,
-  sans regarder.\n3. Implemente-en un ou deux pour de vrai et fais-les tour
- ner.\n4. Note au carnet tout ce que tu n'as pas su reecrire seul.\n\nTON C
- HOIX : raisonner en PSEUDO-CODE pour eviter les fautes de syntaxe. C'est l
- e bon reflexe pour les algorithmes.\nMAIS le socle commun MP/PC/PT/PSI est
-  explicitement en PYTHON : sur les fondamentaux du langage\, l'examinateur
-  peut demander du vrai code. Regle simple : ALGORITHMES en pseudo-code\, F
- ONDAMENTAUX PYTHON en Python.\n\nSocle exige : programme d'informatique co
- mmun MP/PC/PT/PSI (prepas.org). Ressources : Informatique pour tous (Eyrol
- les) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 8 - Piles\, files\, deques\, dictionnaires\n\nDANS LE 
+ LIVRE : Beury ch. 6\n\nA REVISER\nPrincipe de fonctionnement d'une pile\, 
+ d'une file\, d'une deque. Dictionnaires : cles et valeurs\, PRINCIPES DU H
+ ACHAGE et limitations sur le domaine des cles. Probleme d'efficacite des f
+ iles implementees avec des listes Python\, interet de collections.deque. P
+ assage par reference des listes\, deques et dictionnaires dans les fonctio
+ ns.\n\nQUESTIONS TYPE EXAMINATEUR\n- Pourquoi une liste ne peut-elle pas e
+ tre cle de dictionnaire ?\n- Expliquez le principe du hachage. Complexite 
+ en moyenne\, au pire ?\n- Pourquoi implementer une file avec une liste Pyt
+ hon est-il inefficace ?\n- Implementez une pile puis une file. Donnez les 
+ complexites.\n- Comptez les occurrences d'un tableau a l'aide d'un diction
+ naire.\n\nMODE COURS + IMPLEMENTATION (lundi)\n1. Lis le chapitre de Beury
+  indique ci-dessus.\n2. Reecris les algorithmes cles EN PSEUDO-CODE\, sans
+  regarder.\n3. Implemente-en un ou deux pour de vrai et fais-les tourner.
+ \n4. Note au carnet ce que tu n'as pas su reecrire seul.\n\nAlgorithmes en
+  PSEUDO-CODE pour eviter les fautes de syntaxe. Mais l'annexe Python du pr
+ ogramme est LIMITATIVE et exigible : sur les fondamentaux du langage\, ecr
+ is du vrai Python.\n\nSocle officiel : Programme d'informatique commune MP
+  PC PSI PT (tronc commun\, ministere 2021). Ton oral porte sur ce socle ET
+  sur le programme que tu declares\, donc aussi sur tes cours de L1-L2 (C\,
+  programmation fonctionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Travail L3
@@ -3738,32 +3610,35 @@ DESCRIPTION:Developpements limites | Series numeriques\n\nPASSE 3 - ENSEIG
  J+7 / J+30. Toute erreur va au carnet.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Programmation dynamique (oral blanc)
+SUMMARY:Info mineure - Piles\, files\, deques\, dictionnaires (oral blanc)
 DTSTART;TZID=Europe/Paris:20261112T095000
 DTEND;TZID=Europe/Paris:20261112T115000
 DTSTAMP:20260809T120000Z
 UID:101aac8775234d38fdcef23ac4f45428@fuf-romain
-SEQUENCE:20
-DESCRIPTION:THEME DE LA SEMAINE : Programmation dynamique\n\nA REVISER\nSo
- us-structure optimale et chevauchement des sous-problemes. Memoisation con
- tre tabulation. Sac a dos. Plus longue sous-sequence commune. Distance d'e
- dition. Rendu de monnaie. Comparaison avec les algorithmes gloutons.\n\nQU
- ESTIONS TYPE EXAMINATEUR\n- Quand la programmation dynamique s'applique-t-
- elle ?\n- Ecrivez la relation de recurrence du sac a dos.\n- Memoisation o
- u tabulation : quelle difference en complexite spatiale ?\n- Pourquoi le g
- louton echoue-t-il pour le rendu de monnaie avec certains systemes de piec
- es ?\n\nMODE ORAL BLANC (jeudi) - la seance la plus importante de la semai
- ne\nTraite les questions ci-dessus DEBOUT\, A VOIX HAUTE\, en ecrivant au 
- tableau ou sur une grande feuille\, comme le jour J.\nRegles du jour J : 5
- 0 minutes\, AUCUNE preparation. Le jury valorise le fait d'avoir des idees
-  plus que de terminer l'exercice. Pense a voix haute\, ne reste jamais mue
- t.\n\nTON CHOIX : raisonner en PSEUDO-CODE pour eviter les fautes de synta
- xe. C'est le bon reflexe pour les algorithmes.\nMAIS le socle commun MP/PC
- /PT/PSI est explicitement en PYTHON : sur les fondamentaux du langage\, l'
- examinateur peut demander du vrai code. Regle simple : ALGORITHMES en pseu
- do-code\, FONDAMENTAUX PYTHON en Python.\n\nSocle exige : programme d'info
- rmatique commun MP/PC/PT/PSI (prepas.org). Ressources : Informatique pour 
- tous (Eyrolles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 8 - Piles\, files\, deques\, dictionnaires\n\nDANS LE 
+ LIVRE : Beury ch. 6\n\nA REVISER\nPrincipe de fonctionnement d'une pile\, 
+ d'une file\, d'une deque. Dictionnaires : cles et valeurs\, PRINCIPES DU H
+ ACHAGE et limitations sur le domaine des cles. Probleme d'efficacite des f
+ iles implementees avec des listes Python\, interet de collections.deque. P
+ assage par reference des listes\, deques et dictionnaires dans les fonctio
+ ns.\n\nQUESTIONS TYPE EXAMINATEUR\n- Pourquoi une liste ne peut-elle pas e
+ tre cle de dictionnaire ?\n- Expliquez le principe du hachage. Complexite 
+ en moyenne\, au pire ?\n- Pourquoi implementer une file avec une liste Pyt
+ hon est-il inefficace ?\n- Implementez une pile puis une file. Donnez les 
+ complexites.\n- Comptez les occurrences d'un tableau a l'aide d'un diction
+ naire.\n\nMODE ORAL BLANC (jeudi) - la seance la plus importante\nTraite l
+ es questions ci-dessus DEBOUT\, A VOIX HAUTE\, au tableau\, comme le jour 
+ J.\nFormat reel : 50 minutes\, AUCUNE preparation. Le jury valorise le fai
+ t d'avoir des idees plus que de terminer l'exercice. Pense a voix haute\, 
+ ne reste jamais muet.\nUtilise les extraits de sujets de concours du livre
+  : ils sont reperes comme tels.\n\nAlgorithmes en PSEUDO-CODE pour eviter 
+ les fautes de syntaxe. Mais l'annexe Python du programme est LIMITATIVE et
+  exigible : sur les fondamentaux du langage\, ecris du vrai Python.\n\nSoc
+ le officiel : Programme d'informatique commune MP PC PSI PT (tronc commun
+ \, ministere 2021). Ton oral porte sur ce socle ET sur le programme que tu
+  declares\, donc aussi sur tes cours de L1-L2 (C\, programmation fonctionn
+ elle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Culture generale scientifique - Ethique des sciences et du numeriq
@@ -3897,31 +3772,35 @@ DESCRIPTION:Structures algebriques usuelles | Arithmetique dans Z\n\nPASSE
   erreur va au carnet.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Bases de donnees et SQL (cours + implementation)
+SUMMARY:Info mineure - Graphes : vocabulaire et parcours (cours + implemen
+ tation)
 DTSTART;TZID=Europe/Paris:20261116T111000
 DTEND;TZID=Europe/Paris:20261116T122000
 DTSTAMP:20260809T120000Z
 UID:a3469657b5428d4d8cb616cbfac501b3@fuf-romain
-SEQUENCE:20
-DESCRIPTION:THEME DE LA SEMAINE : Bases de donnees et SQL\n\nA REVISER\nMo
- dele relationnel. Cles primaires et etrangeres. Algebre relationnelle : pr
- ojection\, selection\, jointure\, union\, difference. SQL : SELECT\, WHERE
- \, JOIN\, GROUP BY\, HAVING\, ORDER BY. Fonctions d'agregation.\n\nQUESTIO
- NS TYPE EXAMINATEUR\n- Traduisez cette requete SQL en algebre relationnell
- e.\n- Difference entre WHERE et HAVING ?\n- Qu'est-ce qu'une jointure natu
- relle ? Une jointure externe ?\n- Ecrivez une requete donnant\, pour chaqu
- e categorie\, le nombre d'articles dont le prix depasse la moyenne general
- e.\n\nMODE COURS + IMPLEMENTATION (lundi)\n1. Relis le cours et tes notes 
- de L1-L2 sur le theme.\n2. Reecris les algorithmes cles EN PSEUDO-CODE\, s
- ans regarder.\n3. Implemente-en un ou deux pour de vrai et fais-les tourne
- r.\n4. Note au carnet tout ce que tu n'as pas su reecrire seul.\n\nTON CHO
- IX : raisonner en PSEUDO-CODE pour eviter les fautes de syntaxe. C'est le 
- bon reflexe pour les algorithmes.\nMAIS le socle commun MP/PC/PT/PSI est e
- xplicitement en PYTHON : sur les fondamentaux du langage\, l'examinateur p
- eut demander du vrai code. Regle simple : ALGORITHMES en pseudo-code\, FON
- DAMENTAUX PYTHON en Python.\n\nSocle exige : programme d'informatique comm
- un MP/PC/PT/PSI (prepas.org). Ressources : Informatique pour tous (Eyrolle
- s) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 9 - Graphes : vocabulaire et parcours\n\nDANS LE LIVRE
+  : Beury ch. 11\n\nA REVISER\nGraphe oriente et non oriente. Sommet\, arc
+ \, arete\, boucle\, degre entrant et sortant\, chemin\, cycle\, connexite.
+  MATRICE D'ADJACENCE et LISTES D'ADJACENCE : couts compares en espace et e
+ n temps. Algorithmes de parcours de graphe\, introduisant les piles et les
+  files. Detection de cycles\, test de connexite.\n\nApplications a citer a
+ vec un ordre de grandeur : reseau de transport\, graphe du web\, reseaux s
+ ociaux\, bio-informatique.\n\nQUESTIONS TYPE EXAMINATEUR\n- Matrice ou lis
+ tes d'adjacence : cout en espace\, cout pour tester une arete ?\n- Differe
+ nce entre parcours en largeur et en profondeur ? Quelle structure ?\n- Com
+ ment detecter un cycle dans un graphe non oriente ?\n- Comment tester la c
+ onnexite d'un graphe ?\n- Pour le graphe du web\, quelle representation\, 
+ et pourquoi ?\n\nMODE COURS + IMPLEMENTATION (lundi)\n1. Lis le chapitre d
+ e Beury indique ci-dessus.\n2. Reecris les algorithmes cles EN PSEUDO-CODE
+ \, sans regarder.\n3. Implemente-en un ou deux pour de vrai et fais-les to
+ urner.\n4. Note au carnet ce que tu n'as pas su reecrire seul.\n\nAlgorith
+ mes en PSEUDO-CODE pour eviter les fautes de syntaxe. Mais l'annexe Python
+  du programme est LIMITATIVE et exigible : sur les fondamentaux du langage
+ \, ecris du vrai Python.\n\nSocle officiel : Programme d'informatique comm
+ une MP PC PSI PT (tronc commun\, ministere 2021). Ton oral porte sur ce so
+ cle ET sur le programme que tu declares\, donc aussi sur tes cours de L1-L
+ 2 (C\, programmation fonctionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Travail L3
@@ -4082,30 +3961,34 @@ DESCRIPTION:Preparer les TD a venir\, avancer le Projet Data\, refaire les
  rep concours.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Bases de donnees et SQL (exercices)
+SUMMARY:Info mineure - Graphes : vocabulaire et parcours (exercices)
 DTSTART;TZID=Europe/Paris:20261118T154000
 DTEND;TZID=Europe/Paris:20261118T165000
 DTSTAMP:20260809T120000Z
 UID:3dc41b0618b9c3d2b6e25ad11794351d@fuf-romain
-SEQUENCE:20
-DESCRIPTION:THEME DE LA SEMAINE : Bases de donnees et SQL\n\nA REVISER\nMo
- dele relationnel. Cles primaires et etrangeres. Algebre relationnelle : pr
- ojection\, selection\, jointure\, union\, difference. SQL : SELECT\, WHERE
- \, JOIN\, GROUP BY\, HAVING\, ORDER BY. Fonctions d'agregation.\n\nQUESTIO
- NS TYPE EXAMINATEUR\n- Traduisez cette requete SQL en algebre relationnell
- e.\n- Difference entre WHERE et HAVING ?\n- Qu'est-ce qu'une jointure natu
- relle ? Une jointure externe ?\n- Ecrivez une requete donnant\, pour chaqu
- e categorie\, le nombre d'articles dont le prix depasse la moyenne general
- e.\n\nMODE EXERCICES (mercredi)\nTraite des exercices sur le theme de la s
- emaine. Cherche 15 a 20 minutes MINIMUM avant de regarder la correction.\n
- Pour chaque exercice : annonce la complexite AVANT de coder\, puis verifie
- .\n\nTON CHOIX : raisonner en PSEUDO-CODE pour eviter les fautes de syntax
- e. C'est le bon reflexe pour les algorithmes.\nMAIS le socle commun MP/PC/
- PT/PSI est explicitement en PYTHON : sur les fondamentaux du langage\, l'e
- xaminateur peut demander du vrai code. Regle simple : ALGORITHMES en pseud
- o-code\, FONDAMENTAUX PYTHON en Python.\n\nSocle exige : programme d'infor
- matique commun MP/PC/PT/PSI (prepas.org). Ressources : Informatique pour t
- ous (Eyrolles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 9 - Graphes : vocabulaire et parcours\n\nDANS LE LIVRE
+  : Beury ch. 11\n\nA REVISER\nGraphe oriente et non oriente. Sommet\, arc
+ \, arete\, boucle\, degre entrant et sortant\, chemin\, cycle\, connexite.
+  MATRICE D'ADJACENCE et LISTES D'ADJACENCE : couts compares en espace et e
+ n temps. Algorithmes de parcours de graphe\, introduisant les piles et les
+  files. Detection de cycles\, test de connexite.\n\nApplications a citer a
+ vec un ordre de grandeur : reseau de transport\, graphe du web\, reseaux s
+ ociaux\, bio-informatique.\n\nQUESTIONS TYPE EXAMINATEUR\n- Matrice ou lis
+ tes d'adjacence : cout en espace\, cout pour tester une arete ?\n- Differe
+ nce entre parcours en largeur et en profondeur ? Quelle structure ?\n- Com
+ ment detecter un cycle dans un graphe non oriente ?\n- Comment tester la c
+ onnexite d'un graphe ?\n- Pour le graphe du web\, quelle representation\, 
+ et pourquoi ?\n\nMODE EXERCICES (mercredi)\nTraite les exercices du chapit
+ re de Beury\, en commencant par ceux reperes faciles. Cherche 15 a 20 minu
+ tes MINIMUM avant de lire le corrige.\nPour chaque exercice : annonce la c
+ omplexite AVANT de coder\, puis verifie.\n\nAlgorithmes en PSEUDO-CODE pou
+ r eviter les fautes de syntaxe. Mais l'annexe Python du programme est LIMI
+ TATIVE et exigible : sur les fondamentaux du langage\, ecris du vrai Pytho
+ n.\n\nSocle officiel : Programme d'informatique commune MP PC PSI PT (tron
+ c commun\, ministere 2021). Ton oral porte sur ce socle ET sur le programm
+ e que tu declares\, donc aussi sur tes cours de L1-L2 (C\, programmation f
+ onctionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Maths - passe 2 : exercices
@@ -4169,32 +4052,36 @@ DESCRIPTION:Structures algebriques usuelles | Arithmetique dans Z\n\nPASSE
  acee J+1 / J+7 / J+30. Toute erreur va au carnet.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Bases de donnees et SQL (oral blanc)
+SUMMARY:Info mineure - Graphes : vocabulaire et parcours (oral blanc)
 DTSTART;TZID=Europe/Paris:20261119T095000
 DTEND;TZID=Europe/Paris:20261119T115000
 DTSTAMP:20260809T120000Z
 UID:c17d63afca6365222a83f857f26ab19a@fuf-romain
-SEQUENCE:20
-DESCRIPTION:THEME DE LA SEMAINE : Bases de donnees et SQL\n\nA REVISER\nMo
- dele relationnel. Cles primaires et etrangeres. Algebre relationnelle : pr
- ojection\, selection\, jointure\, union\, difference. SQL : SELECT\, WHERE
- \, JOIN\, GROUP BY\, HAVING\, ORDER BY. Fonctions d'agregation.\n\nQUESTIO
- NS TYPE EXAMINATEUR\n- Traduisez cette requete SQL en algebre relationnell
- e.\n- Difference entre WHERE et HAVING ?\n- Qu'est-ce qu'une jointure natu
- relle ? Une jointure externe ?\n- Ecrivez une requete donnant\, pour chaqu
- e categorie\, le nombre d'articles dont le prix depasse la moyenne general
- e.\n\nMODE ORAL BLANC (jeudi) - la seance la plus importante de la semaine
- \nTraite les questions ci-dessus DEBOUT\, A VOIX HAUTE\, en ecrivant au ta
- bleau ou sur une grande feuille\, comme le jour J.\nRegles du jour J : 50 
- minutes\, AUCUNE preparation. Le jury valorise le fait d'avoir des idees p
- lus que de terminer l'exercice. Pense a voix haute\, ne reste jamais muet.
- \n\nTON CHOIX : raisonner en PSEUDO-CODE pour eviter les fautes de syntaxe
- . C'est le bon reflexe pour les algorithmes.\nMAIS le socle commun MP/PC/P
- T/PSI est explicitement en PYTHON : sur les fondamentaux du langage\, l'ex
- aminateur peut demander du vrai code. Regle simple : ALGORITHMES en pseudo
- -code\, FONDAMENTAUX PYTHON en Python.\n\nSocle exige : programme d'inform
- atique commun MP/PC/PT/PSI (prepas.org). Ressources : Informatique pour to
- us (Eyrolles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 9 - Graphes : vocabulaire et parcours\n\nDANS LE LIVRE
+  : Beury ch. 11\n\nA REVISER\nGraphe oriente et non oriente. Sommet\, arc
+ \, arete\, boucle\, degre entrant et sortant\, chemin\, cycle\, connexite.
+  MATRICE D'ADJACENCE et LISTES D'ADJACENCE : couts compares en espace et e
+ n temps. Algorithmes de parcours de graphe\, introduisant les piles et les
+  files. Detection de cycles\, test de connexite.\n\nApplications a citer a
+ vec un ordre de grandeur : reseau de transport\, graphe du web\, reseaux s
+ ociaux\, bio-informatique.\n\nQUESTIONS TYPE EXAMINATEUR\n- Matrice ou lis
+ tes d'adjacence : cout en espace\, cout pour tester une arete ?\n- Differe
+ nce entre parcours en largeur et en profondeur ? Quelle structure ?\n- Com
+ ment detecter un cycle dans un graphe non oriente ?\n- Comment tester la c
+ onnexite d'un graphe ?\n- Pour le graphe du web\, quelle representation\, 
+ et pourquoi ?\n\nMODE ORAL BLANC (jeudi) - la seance la plus importante\nT
+ raite les questions ci-dessus DEBOUT\, A VOIX HAUTE\, au tableau\, comme l
+ e jour J.\nFormat reel : 50 minutes\, AUCUNE preparation. Le jury valorise
+  le fait d'avoir des idees plus que de terminer l'exercice. Pense a voix h
+ aute\, ne reste jamais muet.\nUtilise les extraits de sujets de concours d
+ u livre : ils sont reperes comme tels.\n\nAlgorithmes en PSEUDO-CODE pour 
+ eviter les fautes de syntaxe. Mais l'annexe Python du programme est LIMITA
+ TIVE et exigible : sur les fondamentaux du langage\, ecris du vrai Python.
+ \n\nSocle officiel : Programme d'informatique commune MP PC PSI PT (tronc 
+ commun\, ministere 2021). Ton oral porte sur ce socle ET sur le programme 
+ que tu declares\, donc aussi sur tes cours de L1-L2 (C\, programmation fon
+ ctionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Culture generale scientifique - Rediger 'pourquoi l'X\, pourquoi m
@@ -4344,30 +4231,34 @@ DESCRIPTION:Calcul matriciel | Polynomes | Fractions rationnelles\n\nPASSE
   erreur va au carnet.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Calcul numerique (cours + implementation)
+SUMMARY:Info mineure - Plus courts chemins : Dijkstra (cours + implementat
+ ion)
 DTSTART;TZID=Europe/Paris:20261123T111000
 DTEND;TZID=Europe/Paris:20261123T122000
 DTSTAMP:20260809T120000Z
 UID:0fbd69ee7ea17471cd9065cf7aec4639@fuf-romain
-SEQUENCE:20
-DESCRIPTION:THEME DE LA SEMAINE : Calcul numerique\n\nA REVISER\nRecherche
-  de zeros : dichotomie et methode de Newton. Integration : rectangles et t
- rapezes. Equations differentielles : methode d'Euler. Systemes lineaires :
-  pivot de Gauss. Couts et stabilite numerique.\n\nQUESTIONS TYPE EXAMINATE
- UR\n- Comparez dichotomie et Newton : vitesse de convergence et conditions
- .\n- Quelle est la complexite du pivot de Gauss ?\n- Pourquoi la methode d
- 'Euler accumule-t-elle une erreur ?\n- Comment estimer l'erreur de la meth
- ode des trapezes ?\n\nMODE COURS + IMPLEMENTATION (lundi)\n1. Relis le cou
- rs et tes notes de L1-L2 sur le theme.\n2. Reecris les algorithmes cles EN
-  PSEUDO-CODE\, sans regarder.\n3. Implemente-en un ou deux pour de vrai et
-  fais-les tourner.\n4. Note au carnet tout ce que tu n'as pas su reecrire 
- seul.\n\nTON CHOIX : raisonner en PSEUDO-CODE pour eviter les fautes de sy
- ntaxe. C'est le bon reflexe pour les algorithmes.\nMAIS le socle commun MP
- /PC/PT/PSI est explicitement en PYTHON : sur les fondamentaux du langage\,
-  l'examinateur peut demander du vrai code. Regle simple : ALGORITHMES en p
- seudo-code\, FONDAMENTAUX PYTHON en Python.\n\nSocle exige : programme d'i
- nformatique commun MP/PC/PT/PSI (prepas.org). Ressources : Informatique po
- ur tous (Eyrolles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 10 - Plus courts chemins : Dijkstra\n\nDANS LE LIVRE :
+  Beury ch. 12\n\nA REVISER\nPonderation d'un graphe\, etiquettes. Recherch
+ e d'un plus court chemin AVEC DES POIDS POSITIFS. ALGORITHME DE DIJKSTRA 
+ \; un modele de file de priorite naif suffit. Longueur d'un trajet\, nombr
+ e de voisins d'un sommet. A* vu comme variante de Dijkstra\, premiere sens
+ ibilisation a la notion d'HEURISTIQUE.\n\nHORS SOCLE : Bellman-Ford\, Prim
+ \, Kruskal\, arbres couvrants\, union-find.\n\nQUESTIONS TYPE EXAMINATEUR
+ \n- Deroulez Dijkstra sur ce graphe.\n- Pourquoi Dijkstra exige-t-il des p
+ oids positifs ? Contre-exemple.\n- Quelle complexite avec une file de prio
+ rite naive ?\n- Qu'est-ce qu'une heuristique ? En quoi A* differe-t-il de 
+ Dijkstra ?\n- Comment reconstruire le chemin\, et pas seulement sa longueu
+ r ?\n\nMODE COURS + IMPLEMENTATION (lundi)\n1. Lis le chapitre de Beury in
+ dique ci-dessus.\n2. Reecris les algorithmes cles EN PSEUDO-CODE\, sans re
+ garder.\n3. Implemente-en un ou deux pour de vrai et fais-les tourner.\n4.
+  Note au carnet ce que tu n'as pas su reecrire seul.\n\nAlgorithmes en PSE
+ UDO-CODE pour eviter les fautes de syntaxe. Mais l'annexe Python du progra
+ mme est LIMITATIVE et exigible : sur les fondamentaux du langage\, ecris d
+ u vrai Python.\n\nSocle officiel : Programme d'informatique commune MP PC 
+ PSI PT (tronc commun\, ministere 2021). Ton oral porte sur ce socle ET sur
+  le programme que tu declares\, donc aussi sur tes cours de L1-L2 (C\, pro
+ grammation fonctionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Travail L3
@@ -4517,29 +4408,33 @@ DESCRIPTION:Preparer les TD a venir\, avancer le Projet Data\, refaire les
  rep concours.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Calcul numerique (exercices)
+SUMMARY:Info mineure - Plus courts chemins : Dijkstra (exercices)
 DTSTART;TZID=Europe/Paris:20261125T105000
 DTEND;TZID=Europe/Paris:20261125T115000
 DTSTAMP:20260809T120000Z
 UID:5a95a8cb076844460bef890d52a23e92@fuf-romain
-SEQUENCE:20
-DESCRIPTION:THEME DE LA SEMAINE : Calcul numerique\n\nA REVISER\nRecherche
-  de zeros : dichotomie et methode de Newton. Integration : rectangles et t
- rapezes. Equations differentielles : methode d'Euler. Systemes lineaires :
-  pivot de Gauss. Couts et stabilite numerique.\n\nQUESTIONS TYPE EXAMINATE
- UR\n- Comparez dichotomie et Newton : vitesse de convergence et conditions
- .\n- Quelle est la complexite du pivot de Gauss ?\n- Pourquoi la methode d
- 'Euler accumule-t-elle une erreur ?\n- Comment estimer l'erreur de la meth
- ode des trapezes ?\n\nMODE EXERCICES (mercredi)\nTraite des exercices sur 
- le theme de la semaine. Cherche 15 a 20 minutes MINIMUM avant de regarder 
- la correction.\nPour chaque exercice : annonce la complexite AVANT de code
- r\, puis verifie.\n\nTON CHOIX : raisonner en PSEUDO-CODE pour eviter les 
- fautes de syntaxe. C'est le bon reflexe pour les algorithmes.\nMAIS le soc
- le commun MP/PC/PT/PSI est explicitement en PYTHON : sur les fondamentaux 
- du langage\, l'examinateur peut demander du vrai code. Regle simple : ALGO
- RITHMES en pseudo-code\, FONDAMENTAUX PYTHON en Python.\n\nSocle exige : p
- rogramme d'informatique commun MP/PC/PT/PSI (prepas.org). Ressources : Inf
- ormatique pour tous (Eyrolles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 10 - Plus courts chemins : Dijkstra\n\nDANS LE LIVRE :
+  Beury ch. 12\n\nA REVISER\nPonderation d'un graphe\, etiquettes. Recherch
+ e d'un plus court chemin AVEC DES POIDS POSITIFS. ALGORITHME DE DIJKSTRA 
+ \; un modele de file de priorite naif suffit. Longueur d'un trajet\, nombr
+ e de voisins d'un sommet. A* vu comme variante de Dijkstra\, premiere sens
+ ibilisation a la notion d'HEURISTIQUE.\n\nHORS SOCLE : Bellman-Ford\, Prim
+ \, Kruskal\, arbres couvrants\, union-find.\n\nQUESTIONS TYPE EXAMINATEUR
+ \n- Deroulez Dijkstra sur ce graphe.\n- Pourquoi Dijkstra exige-t-il des p
+ oids positifs ? Contre-exemple.\n- Quelle complexite avec une file de prio
+ rite naive ?\n- Qu'est-ce qu'une heuristique ? En quoi A* differe-t-il de 
+ Dijkstra ?\n- Comment reconstruire le chemin\, et pas seulement sa longueu
+ r ?\n\nMODE EXERCICES (mercredi)\nTraite les exercices du chapitre de Beur
+ y\, en commencant par ceux reperes faciles. Cherche 15 a 20 minutes MINIMU
+ M avant de lire le corrige.\nPour chaque exercice : annonce la complexite 
+ AVANT de coder\, puis verifie.\n\nAlgorithmes en PSEUDO-CODE pour eviter l
+ es fautes de syntaxe. Mais l'annexe Python du programme est LIMITATIVE et 
+ exigible : sur les fondamentaux du langage\, ecris du vrai Python.\n\nSocl
+ e officiel : Programme d'informatique commune MP PC PSI PT (tronc commun\,
+  ministere 2021). Ton oral porte sur ce socle ET sur le programme que tu d
+ eclares\, donc aussi sur tes cours de L1-L2 (C\, programmation fonctionnel
+ le\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Maths - passe 2 : exercices
@@ -4603,31 +4498,35 @@ DESCRIPTION:Calcul matriciel | Polynomes | Fractions rationnelles\n\nPASSE
  acee J+1 / J+7 / J+30. Toute erreur va au carnet.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Calcul numerique (oral blanc)
+SUMMARY:Info mineure - Plus courts chemins : Dijkstra (oral blanc)
 DTSTART;TZID=Europe/Paris:20261126T095000
 DTEND;TZID=Europe/Paris:20261126T115000
 DTSTAMP:20260809T120000Z
 UID:bb670daad4d3e5edfd55799f7d18fad1@fuf-romain
-SEQUENCE:20
-DESCRIPTION:THEME DE LA SEMAINE : Calcul numerique\n\nA REVISER\nRecherche
-  de zeros : dichotomie et methode de Newton. Integration : rectangles et t
- rapezes. Equations differentielles : methode d'Euler. Systemes lineaires :
-  pivot de Gauss. Couts et stabilite numerique.\n\nQUESTIONS TYPE EXAMINATE
- UR\n- Comparez dichotomie et Newton : vitesse de convergence et conditions
- .\n- Quelle est la complexite du pivot de Gauss ?\n- Pourquoi la methode d
- 'Euler accumule-t-elle une erreur ?\n- Comment estimer l'erreur de la meth
- ode des trapezes ?\n\nMODE ORAL BLANC (jeudi) - la seance la plus importan
- te de la semaine\nTraite les questions ci-dessus DEBOUT\, A VOIX HAUTE\, e
- n ecrivant au tableau ou sur une grande feuille\, comme le jour J.\nRegles
-  du jour J : 50 minutes\, AUCUNE preparation. Le jury valorise le fait d'a
- voir des idees plus que de terminer l'exercice. Pense a voix haute\, ne re
- ste jamais muet.\n\nTON CHOIX : raisonner en PSEUDO-CODE pour eviter les f
- autes de syntaxe. C'est le bon reflexe pour les algorithmes.\nMAIS le socl
- e commun MP/PC/PT/PSI est explicitement en PYTHON : sur les fondamentaux d
- u langage\, l'examinateur peut demander du vrai code. Regle simple : ALGOR
- ITHMES en pseudo-code\, FONDAMENTAUX PYTHON en Python.\n\nSocle exige : pr
- ogramme d'informatique commun MP/PC/PT/PSI (prepas.org). Ressources : Info
- rmatique pour tous (Eyrolles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 10 - Plus courts chemins : Dijkstra\n\nDANS LE LIVRE :
+  Beury ch. 12\n\nA REVISER\nPonderation d'un graphe\, etiquettes. Recherch
+ e d'un plus court chemin AVEC DES POIDS POSITIFS. ALGORITHME DE DIJKSTRA 
+ \; un modele de file de priorite naif suffit. Longueur d'un trajet\, nombr
+ e de voisins d'un sommet. A* vu comme variante de Dijkstra\, premiere sens
+ ibilisation a la notion d'HEURISTIQUE.\n\nHORS SOCLE : Bellman-Ford\, Prim
+ \, Kruskal\, arbres couvrants\, union-find.\n\nQUESTIONS TYPE EXAMINATEUR
+ \n- Deroulez Dijkstra sur ce graphe.\n- Pourquoi Dijkstra exige-t-il des p
+ oids positifs ? Contre-exemple.\n- Quelle complexite avec une file de prio
+ rite naive ?\n- Qu'est-ce qu'une heuristique ? En quoi A* differe-t-il de 
+ Dijkstra ?\n- Comment reconstruire le chemin\, et pas seulement sa longueu
+ r ?\n\nMODE ORAL BLANC (jeudi) - la seance la plus importante\nTraite les 
+ questions ci-dessus DEBOUT\, A VOIX HAUTE\, au tableau\, comme le jour J.
+ \nFormat reel : 50 minutes\, AUCUNE preparation. Le jury valorise le fait 
+ d'avoir des idees plus que de terminer l'exercice. Pense a voix haute\, ne
+  reste jamais muet.\nUtilise les extraits de sujets de concours du livre :
+  ils sont reperes comme tels.\n\nAlgorithmes en PSEUDO-CODE pour eviter le
+ s fautes de syntaxe. Mais l'annexe Python du programme est LIMITATIVE et e
+ xigible : sur les fondamentaux du langage\, ecris du vrai Python.\n\nSocle
+  officiel : Programme d'informatique commune MP PC PSI PT (tronc commun\, 
+ ministere 2021). Ton oral porte sur ce socle ET sur le programme que tu de
+ clares\, donc aussi sur tes cours de L1-L2 (C\, programmation fonctionnell
+ e\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Culture generale scientifique - Savoir parler de ton projet en tro
@@ -4764,30 +4663,36 @@ DESCRIPTION:Espaces vectoriels | Applications lineaires | Dimension finie
  30. Toute erreur va au carnet.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Revision generale : reprendre le carnet d'erreurs (
- cours + implementation)
+SUMMARY:Info mineure - Programmation dynamique (cours + implementation)
 DTSTART;TZID=Europe/Paris:20261130T171000
 DTEND;TZID=Europe/Paris:20261130T184000
 DTSTAMP:20260809T120000Z
 UID:37d983d51b28075785da9a5cfa98d602@fuf-romain
-SEQUENCE:20
-DESCRIPTION:THEME DE LA SEMAINE : Revision generale : reprendre le carnet 
- d'erreurs\n\nA REVISER\nAucun theme nouveau. Reprends UNIQUEMENT ce que tu
-  n'as pas su refaire seul depuis septembre. Tout ce que tu maitrises deja 
- est du temps perdu.\n\nQUESTIONS TYPE EXAMINATEUR\n- Tire trois themes au 
- hasard parmi les douze et traite une question de chacun\, debout\, sans pr
- eparation.\n- Reprends les deux questions qui t'ont le plus resiste depuis
-  la rentree.\n\nMODE COURS + IMPLEMENTATION (lundi)\n1. Relis le cours et 
- tes notes de L1-L2 sur le theme.\n2. Reecris les algorithmes cles EN PSEUD
- O-CODE\, sans regarder.\n3. Implemente-en un ou deux pour de vrai et fais-
- les tourner.\n4. Note au carnet tout ce que tu n'as pas su reecrire seul.
- \n\nTON CHOIX : raisonner en PSEUDO-CODE pour eviter les fautes de syntaxe
- . C'est le bon reflexe pour les algorithmes.\nMAIS le socle commun MP/PC/P
- T/PSI est explicitement en PYTHON : sur les fondamentaux du langage\, l'ex
- aminateur peut demander du vrai code. Regle simple : ALGORITHMES en pseudo
- -code\, FONDAMENTAUX PYTHON en Python.\n\nSocle exige : programme d'inform
- atique commun MP/PC/PT/PSI (prepas.org). Ressources : Informatique pour to
- us (Eyrolles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 11 - Programmation dynamique\n\nDANS LE LIVRE : Beury 
+ ch. 13\n\nA REVISER\nSOUS-STRUCTURE OPTIMALE et CHEVAUCHEMENT DE SOUS-PROB
+ LEMES. Calcul de bas en haut ou par MEMOISATION (implementee par un dictio
+ nnaire). Reconstruction d'une solution optimale a partir de l'information 
+ calculee. Enjeux de complexite en memoire.\n\nExemples du programme : part
+ ition equilibree d'un tableau d'entiers positifs\, ordonnancement de tache
+ s ponderees\, plus longue sous-suite commune\, distance d'edition (Levensh
+ tein)\, distances dans un graphe (Floyd-Warshall).\n\nA mettre en rapport 
+ avec la strategie gloutonne de la semaine 6.\n\nQUESTIONS TYPE EXAMINATEUR
+ \n- Quelles deux proprietes justifient l'emploi de la programmation dynami
+ que ?\n- Ecrivez la relation de recurrence de la distance de Levenshtein.
+ \n- Memoisation ou calcul de bas en haut : difference en complexite memoir
+ e ?\n- Comment reconstruire la solution optimale\, pas seulement sa valeur
+  ?\n- Floyd-Warshall : quelle complexite\, et pourquoi est-ce de la prog d
+ ynamique ?\n\nMODE COURS + IMPLEMENTATION (lundi)\n1. Lis le chapitre de B
+ eury indique ci-dessus.\n2. Reecris les algorithmes cles EN PSEUDO-CODE\, 
+ sans regarder.\n3. Implemente-en un ou deux pour de vrai et fais-les tourn
+ er.\n4. Note au carnet ce que tu n'as pas su reecrire seul.\n\nAlgorithmes
+  en PSEUDO-CODE pour eviter les fautes de syntaxe. Mais l'annexe Python du
+  programme est LIMITATIVE et exigible : sur les fondamentaux du langage\, 
+ ecris du vrai Python.\n\nSocle officiel : Programme d'informatique commune
+  MP PC PSI PT (tronc commun\, ministere 2021). Ton oral porte sur ce socle
+  ET sur le programme que tu declares\, donc aussi sur tes cours de L1-L2 (
+ C\, programmation fonctionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Travail L3
@@ -4935,29 +4840,36 @@ DESCRIPTION:Preparer les TD a venir\, avancer le Projet Data\, refaire les
  rep concours.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Revision generale : reprendre le carnet d'erreurs (
- exercices)
+SUMMARY:Info mineure - Programmation dynamique (exercices)
 DTSTART;TZID=Europe/Paris:20261202T105000
 DTEND;TZID=Europe/Paris:20261202T115000
 DTSTAMP:20260809T120000Z
 UID:24e9ad5eec1b555c04fe33742be93a6f@fuf-romain
-SEQUENCE:20
-DESCRIPTION:THEME DE LA SEMAINE : Revision generale : reprendre le carnet 
- d'erreurs\n\nA REVISER\nAucun theme nouveau. Reprends UNIQUEMENT ce que tu
-  n'as pas su refaire seul depuis septembre. Tout ce que tu maitrises deja 
- est du temps perdu.\n\nQUESTIONS TYPE EXAMINATEUR\n- Tire trois themes au 
- hasard parmi les douze et traite une question de chacun\, debout\, sans pr
- eparation.\n- Reprends les deux questions qui t'ont le plus resiste depuis
-  la rentree.\n\nMODE EXERCICES (mercredi)\nTraite des exercices sur le the
- me de la semaine. Cherche 15 a 20 minutes MINIMUM avant de regarder la cor
- rection.\nPour chaque exercice : annonce la complexite AVANT de coder\, pu
- is verifie.\n\nTON CHOIX : raisonner en PSEUDO-CODE pour eviter les fautes
-  de syntaxe. C'est le bon reflexe pour les algorithmes.\nMAIS le socle com
- mun MP/PC/PT/PSI est explicitement en PYTHON : sur les fondamentaux du lan
- gage\, l'examinateur peut demander du vrai code. Regle simple : ALGORITHME
- S en pseudo-code\, FONDAMENTAUX PYTHON en Python.\n\nSocle exige : program
- me d'informatique commun MP/PC/PT/PSI (prepas.org). Ressources : Informati
- que pour tous (Eyrolles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 11 - Programmation dynamique\n\nDANS LE LIVRE : Beury 
+ ch. 13\n\nA REVISER\nSOUS-STRUCTURE OPTIMALE et CHEVAUCHEMENT DE SOUS-PROB
+ LEMES. Calcul de bas en haut ou par MEMOISATION (implementee par un dictio
+ nnaire). Reconstruction d'une solution optimale a partir de l'information 
+ calculee. Enjeux de complexite en memoire.\n\nExemples du programme : part
+ ition equilibree d'un tableau d'entiers positifs\, ordonnancement de tache
+ s ponderees\, plus longue sous-suite commune\, distance d'edition (Levensh
+ tein)\, distances dans un graphe (Floyd-Warshall).\n\nA mettre en rapport 
+ avec la strategie gloutonne de la semaine 6.\n\nQUESTIONS TYPE EXAMINATEUR
+ \n- Quelles deux proprietes justifient l'emploi de la programmation dynami
+ que ?\n- Ecrivez la relation de recurrence de la distance de Levenshtein.
+ \n- Memoisation ou calcul de bas en haut : difference en complexite memoir
+ e ?\n- Comment reconstruire la solution optimale\, pas seulement sa valeur
+  ?\n- Floyd-Warshall : quelle complexite\, et pourquoi est-ce de la prog d
+ ynamique ?\n\nMODE EXERCICES (mercredi)\nTraite les exercices du chapitre 
+ de Beury\, en commencant par ceux reperes faciles. Cherche 15 a 20 minutes
+  MINIMUM avant de lire le corrige.\nPour chaque exercice : annonce la comp
+ lexite AVANT de coder\, puis verifie.\n\nAlgorithmes en PSEUDO-CODE pour e
+ viter les fautes de syntaxe. Mais l'annexe Python du programme est LIMITAT
+ IVE et exigible : sur les fondamentaux du langage\, ecris du vrai Python.
+ \n\nSocle officiel : Programme d'informatique commune MP PC PSI PT (tronc 
+ commun\, ministere 2021). Ton oral porte sur ce socle ET sur le programme 
+ que tu declares\, donc aussi sur tes cours de L1-L2 (C\, programmation fon
+ ctionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Maths - passe 2 : exercices
@@ -5021,31 +4933,38 @@ DESCRIPTION:Espaces vectoriels | Applications lineaires | Dimension finie
  ision espacee J+1 / J+7 / J+30. Toute erreur va au carnet.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Revision generale : reprendre le carnet d'erreurs (
- oral blanc)
+SUMMARY:Info mineure - Programmation dynamique (oral blanc)
 DTSTART;TZID=Europe/Paris:20261203T095000
 DTEND;TZID=Europe/Paris:20261203T115000
 DTSTAMP:20260809T120000Z
 UID:f5561a28111bf0218efbb26255ae6631@fuf-romain
-SEQUENCE:20
-DESCRIPTION:THEME DE LA SEMAINE : Revision generale : reprendre le carnet 
- d'erreurs\n\nA REVISER\nAucun theme nouveau. Reprends UNIQUEMENT ce que tu
-  n'as pas su refaire seul depuis septembre. Tout ce que tu maitrises deja 
- est du temps perdu.\n\nQUESTIONS TYPE EXAMINATEUR\n- Tire trois themes au 
- hasard parmi les douze et traite une question de chacun\, debout\, sans pr
- eparation.\n- Reprends les deux questions qui t'ont le plus resiste depuis
-  la rentree.\n\nMODE ORAL BLANC (jeudi) - la seance la plus importante de 
- la semaine\nTraite les questions ci-dessus DEBOUT\, A VOIX HAUTE\, en ecri
- vant au tableau ou sur une grande feuille\, comme le jour J.\nRegles du jo
- ur J : 50 minutes\, AUCUNE preparation. Le jury valorise le fait d'avoir d
- es idees plus que de terminer l'exercice. Pense a voix haute\, ne reste ja
- mais muet.\n\nTON CHOIX : raisonner en PSEUDO-CODE pour eviter les fautes 
- de syntaxe. C'est le bon reflexe pour les algorithmes.\nMAIS le socle comm
- un MP/PC/PT/PSI est explicitement en PYTHON : sur les fondamentaux du lang
- age\, l'examinateur peut demander du vrai code. Regle simple : ALGORITHMES
-  en pseudo-code\, FONDAMENTAUX PYTHON en Python.\n\nSocle exige : programm
- e d'informatique commun MP/PC/PT/PSI (prepas.org). Ressources : Informatiq
- ue pour tous (Eyrolles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 11 - Programmation dynamique\n\nDANS LE LIVRE : Beury 
+ ch. 13\n\nA REVISER\nSOUS-STRUCTURE OPTIMALE et CHEVAUCHEMENT DE SOUS-PROB
+ LEMES. Calcul de bas en haut ou par MEMOISATION (implementee par un dictio
+ nnaire). Reconstruction d'une solution optimale a partir de l'information 
+ calculee. Enjeux de complexite en memoire.\n\nExemples du programme : part
+ ition equilibree d'un tableau d'entiers positifs\, ordonnancement de tache
+ s ponderees\, plus longue sous-suite commune\, distance d'edition (Levensh
+ tein)\, distances dans un graphe (Floyd-Warshall).\n\nA mettre en rapport 
+ avec la strategie gloutonne de la semaine 6.\n\nQUESTIONS TYPE EXAMINATEUR
+ \n- Quelles deux proprietes justifient l'emploi de la programmation dynami
+ que ?\n- Ecrivez la relation de recurrence de la distance de Levenshtein.
+ \n- Memoisation ou calcul de bas en haut : difference en complexite memoir
+ e ?\n- Comment reconstruire la solution optimale\, pas seulement sa valeur
+  ?\n- Floyd-Warshall : quelle complexite\, et pourquoi est-ce de la prog d
+ ynamique ?\n\nMODE ORAL BLANC (jeudi) - la seance la plus importante\nTrai
+ te les questions ci-dessus DEBOUT\, A VOIX HAUTE\, au tableau\, comme le j
+ our J.\nFormat reel : 50 minutes\, AUCUNE preparation. Le jury valorise le
+  fait d'avoir des idees plus que de terminer l'exercice. Pense a voix haut
+ e\, ne reste jamais muet.\nUtilise les extraits de sujets de concours du l
+ ivre : ils sont reperes comme tels.\n\nAlgorithmes en PSEUDO-CODE pour evi
+ ter les fautes de syntaxe. Mais l'annexe Python du programme est LIMITATIV
+ E et exigible : sur les fondamentaux du langage\, ecris du vrai Python.\n
+ \nSocle officiel : Programme d'informatique commune MP PC PSI PT (tronc co
+ mmun\, ministere 2021). Ton oral porte sur ce socle ET sur le programme qu
+ e tu declares\, donc aussi sur tes cours de L1-L2 (C\, programmation fonct
+ ionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Culture generale scientifique - Actualite scientifique du semestre
@@ -6296,28 +6215,36 @@ DESCRIPTION:Gozard ch. 1 : Groupes\, anneaux\, arithmetique\, algebres\n\n
  e regarder la correction. La galere\, c'est l'apprentissage.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Python : les fondamentaux (reprise orale)
+SUMMARY:Info mineure - Bases de donnees et SQL (exercices)
 DTSTART;TZID=Europe/Paris:20270112T140000
 DTEND;TZID=Europe/Paris:20270112T160000
 DTSTAMP:20260809T120000Z
 UID:f15b2fed6e57770b7c92a129418d5556@fuf-romain
-SEQUENCE:6
-DESCRIPTION:REPRISE EN MODE ORAL - Python : les fondamentaux\n\nCONTENU\nT
- ypes (int\, float\, bool\, str\, list\, tuple\, dict\, set) et mutabilite.
-  Affectation et references : b = a ne copie pas une liste. Portee des vari
- ables. Fonctions\, arguments par defaut\, arguments nommes. Structures de 
- controle. Slicing et indexation negative. Comprehensions de listes. Iterab
- les et iterateurs. Lecture et ecriture de fichiers.\n\nQUESTIONS A TRAITER
-  DEBOUT\, A VOIX HAUTE\n- Difference entre une liste et un tuple ? Quand u
- tiliser l'un plutot que l'autre ?\n- Que vaut a apres b = a puis b.append(
- 1)\, si a est une liste ? Et si a est un entier ?\n- Ecrivez une fonction 
- qui inverse une liste sans utiliser reverse().\n- Pourquoi ne faut-il jama
- is mettre une liste mutable en argument par defaut ?\n\nC'EST LA SEMAINE O
- U LE PSEUDO-CODE NE SUFFIT PAS : ecris du vrai Python\, execute-le\, verif
- ie.\n\nTu as vu ce theme a l'automne : ici on ne revise plus\, on PERFORME
- . Chronometre-toi\, pense a voix haute\, ne reste jamais muet.\n\nSocle ex
- ige : programme d'informatique commun MP/PC/PT/PSI (prepas.org). Ressource
- s : Informatique pour tous (Eyrolles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 12 - Bases de donnees et SQL\n\nDANS LE LIVRE : Beury 
+ ch. 15\n\nA REVISER\nModele entite-association\, modele relationnel\, type
+ s d'associations. Tables\, attributs\, domaine\, schema\, enregistrements.
+  CLE PRIMAIRE et CLE ETRANGERE. Requetes SELECT avec WHERE\, projection\, 
+ renommage AS. DISTINCT\, LIMIT\, OFFSET\, ORDER BY. Operateurs ensembliste
+ s UNION\, INTERSECT\, EXCEPT. Jointure et produit cartesien\, autojointure
+ . Agregation MIN\, MAX\, SUM\, AVG\, COUNT avec GROUP BY. Filtrage des agr
+ egats avec HAVING. Requetes imbriquees.\n\nHORS PROGRAMME : algebre relati
+ onnelle et calcul relationnel\, NULL\, index\, creation et suppression de 
+ tables\, transactions\, bases non relationnelles.\n\nQUESTIONS TYPE EXAMIN
+ ATEUR\n- Difference entre WHERE et HAVING ? Illustrez.\n- Comment traduit-
+ on une association *-* en schema relationnel ?\n- Ecrivez une requete avec
+  GROUP BY et HAVING.\n- Qu'est-ce qu'une autojointure ? Donnez un cas d'us
+ age.\n- A quoi servent une cle primaire et une cle etrangere ?\n\nMODE EXE
+ RCICES (mardi)\nTraite les exercices du chapitre de Beury\, en commencant 
+ par ceux reperes faciles. Cherche 15 a 20 minutes MINIMUM avant de lire le
+  corrige.\nPour chaque exercice : annonce la complexite AVANT de coder\, p
+ uis verifie.\n\nAlgorithmes en PSEUDO-CODE pour eviter les fautes de synta
+ xe. Mais l'annexe Python du programme est LIMITATIVE et exigible : sur les
+  fondamentaux du langage\, ecris du vrai Python.\n\nSocle officiel : Progr
+ amme d'informatique commune MP PC PSI PT (tronc commun\, ministere 2021). 
+ Ton oral porte sur ce socle ET sur le programme que tu declares\, donc aus
+ si sur tes cours de L1-L2 (C\, programmation fonctionnelle\, structures de
+  donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -6560,26 +6487,36 @@ DESCRIPTION:Gozard ch. 2 : Complements d'algebre lineaire\n\nPASSE 2 - EXE
   correction. La galere\, c'est l'apprentissage.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Complexite\, terminaison\, correction (reprise oral
- e)
+SUMMARY:Info mineure - IA et jeux (exercices)
 DTSTART;TZID=Europe/Paris:20270119T140000
 DTEND;TZID=Europe/Paris:20270119T160000
 DTSTAMP:20260809T120000Z
 UID:df25d6525e4e1b659c23c3bdf32fe141@fuf-romain
-SEQUENCE:6
-DESCRIPTION:REPRISE EN MODE ORAL - Complexite\, terminaison\, correction\n
- \nCONTENU\nNotations O\, Omega\, Theta. Complexite au pire\, en moyenne\, 
- amortie. Cout des boucles imbriquees. Variant de boucle (terminaison) et i
- nvariant de boucle (correction). Correction partielle et totale.\n\nQUESTI
- ONS A TRAITER DEBOUT\, A VOIX HAUTE\n- Donnez la complexite de cet algorit
- hme ET justifiez-la (le 'justifiez' est le vrai sujet).\n- Quel est l'inva
- riant de boucle du tri par insertion ? Prouvez la correction.\n- Un algori
- thme en O(n^2) est-il toujours plus lent qu'un O(n log n) ?\n- Que signifi
- e une complexite amortie ? Donnez un exemple concret.\n\nTu as vu ce theme
-  a l'automne : ici on ne revise plus\, on PERFORME. Chronometre-toi\, pens
- e a voix haute\, ne reste jamais muet.\n\nSocle exige : programme d'inform
- atique commun MP/PC/PT/PSI (prepas.org). Ressources : Informatique pour to
- us (Eyrolles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:SEMAINE 13 - IA et jeux\n\nDANS LE LIVRE : Beury ch. 14\n\nA R
+ EVISER\nApprentissage supervise : algorithme des k PLUS PROCHES VOISINS av
+ ec distance euclidienne\, matrice de confusion. Apprentissage non supervis
+ e : algorithme des k-MOYENNES\, convergence vers des minima locaux (la dem
+ onstration n'est pas au programme). Intelligence artificielle et jeux : je
+ ux d'accessibilite a deux joueurs sur un graphe biparti\, strategie\, stra
+ tegie gagnante\, position gagnante\, calcul des ATTRACTEURS. Notion d'heur
+ istique\, algorithme MINMAX avec heuristique (l'elagage alpha-beta n'est p
+ as au programme).\n\nCe theme recoupe directement ta coloration IA et ton 
+ UE de Projet Data.\n\nQUESTIONS TYPE EXAMINATEUR\n- Decrivez les k plus pr
+ oches voisins. Comment choisir k ?\n- Qu'est-ce qu'une matrice de confusio
+ n ? A quoi sert-elle ?\n- Pourquoi les k-moyennes convergent-elles vers un
+  minimum local ?\n- Qu'est-ce qu'une position gagnante ? Comment la calcul
+ e-t-on par attracteurs ?\n- Expliquez minmax. Pourquoi une heuristique est
+ -elle necessaire ?\n\nMODE EXERCICES (mardi)\nTraite les exercices du chap
+ itre de Beury\, en commencant par ceux reperes faciles. Cherche 15 a 20 mi
+ nutes MINIMUM avant de lire le corrige.\nPour chaque exercice : annonce la
+  complexite AVANT de coder\, puis verifie.\n\nAlgorithmes en PSEUDO-CODE p
+ our eviter les fautes de syntaxe. Mais l'annexe Python du programme est LI
+ MITATIVE et exigible : sur les fondamentaux du langage\, ecris du vrai Pyt
+ hon.\n\nSocle officiel : Programme d'informatique commune MP PC PSI PT (tr
+ onc commun\, ministere 2021). Ton oral porte sur ce socle ET sur le progra
+ mme que tu declares\, donc aussi sur tes cours de L1-L2 (C\, programmation
+  fonctionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -6823,24 +6760,38 @@ DESCRIPTION:Gozard ch. 3 : Reduction des endomorphismes\n\nPASSE 2 - EXERC
  orrection. La galere\, c'est l'apprentissage.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Recursivite et diviser-pour-regner (reprise orale)
+SUMMARY:Info mineure - Python : l'annexe limitative (reprise orale)
 DTSTART;TZID=Europe/Paris:20270126T140000
 DTEND;TZID=Europe/Paris:20270126T160000
 DTSTAMP:20260809T120000Z
 UID:e8da486fc9ec6e17acdeef8c26d601c9@fuf-romain
-SEQUENCE:6
-DESCRIPTION:REPRISE EN MODE ORAL - Recursivite et diviser-pour-regner\n\nC
- ONTENU\nPile d'appels\, cas de base\, terminaison. Recursivite terminale. 
- Exponentiation rapide. Recherche dichotomique. Relation de recurrence sur 
- le cout. Passage du recursif a l'iteratif.\n\nQUESTIONS A TRAITER DEBOUT\,
-  A VOIX HAUTE\n- Ecrivez l'exponentiation rapide et donnez sa complexite.
- \n- Pourquoi la version naive de Fibonacci est-elle exponentielle ? Corrig
- ez-la.\n- Comment prouve-t-on qu'une fonction recursive termine ?\n- Trans
- formez cette fonction recursive en version iterative.\n\nTu as vu ce theme
-  a l'automne : ici on ne revise plus\, on PERFORME. Chronometre-toi\, pens
- e a voix haute\, ne reste jamais muet.\n\nSocle exige : programme d'inform
- atique commun MP/PC/PT/PSI (prepas.org). Ressources : Informatique pour to
- us (Eyrolles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:REPRISE EN MODE ORAL - Python : l'annexe limitative\n\nDANS LE
+  LIVRE : Beury ch. 1 (types\, listes\, boucles\, fonctions)\, ch. 2 (repre
+ sentation graphique)\, ch. 5 (lecture et ecriture de fichiers)\, ch. 9 (ma
+ trices de pixels et images)\n\nCONTENU\nTypes de base : int (// ** %)\, fl
+ oat\, bool et caractere paresseux de and/or\, comparaisons. Structures ind
+ icees immuables (chaines\, tuples). Listes : comprehension\, append\, pop 
+ en derniere position\, tranches\, COPIE SUPERFICIELLE. Dictionnaires : cre
+ ation\, acces\, insertion\, k in d\, len\, copy. Controle : if/elif/else\,
+  while\, for\, break\, return\, def. print\, import\, fichiers texte\, ass
+ ert. Objets muables et immuables\, copie superficielle contre copie profon
+ de. Tableaux a deux dimensions et matrices de pixels.\n\nLES QUATRE TRAITS
+  GENERAUX EXIGIBLES : typage dynamique\, indentation\, portee lexicale\, a
+ ppel de fonction par valeur.\n\nL'ANNEXE EST LIMITATIVE : ensembles\, clas
+ ses\, exceptions\, generateurs\, lambdas n'y sont PAS.\n\nQUESTIONS A TRAI
+ TER DEBOUT\, A VOIX HAUTE\n- Qu'est-ce que le typage dynamique ? Quelle co
+ nsequence pratique ?\n- Expliquez la portee lexicale : ou Python cherche-t
+ -il la valeur d'une variable utilisee dans une fonction ?\n- Que vaut a ap
+ res b = a puis b.append(1)\, si a est une liste ? Et si a est un tuple ?\n
+ - Copie superficielle contre copie profonde : un exemple ou la difference 
+ se voit.\n- Pourquoi and et or sont-ils paresseux ? A quoi cela sert-il ?
+ \n\nTu as vu ce theme a l'automne : ici on ne revise plus\, on PERFORME. C
+ hronometre-toi\, pense a voix haute\, ne reste jamais muet.\n\nSocle offic
+ iel : Programme d'informatique commune MP PC PSI PT (tronc commun\, minist
+ ere 2021). Ton oral porte sur ce socle ET sur le programme que tu declares
+ \, donc aussi sur tes cours de L1-L2 (C\, programmation fonctionnelle\, st
+ ructures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -7116,24 +7067,33 @@ DESCRIPTION:Gozard ch. 4 : Endomorphismes d'un espace euclidien (adjoint\,
  sage.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Tris (reprise orale)
+SUMMARY:Info mineure - Specification\, terminaison\, correction\, complexi
+ te (reprise orale)
 DTSTART;TZID=Europe/Paris:20270202T140000
 DTEND;TZID=Europe/Paris:20270202T160000
 DTSTAMP:20260809T120000Z
 UID:4c55fb47d1682ab18d96132fe37075d5@fuf-romain
-SEQUENCE:6
-DESCRIPTION:REPRISE EN MODE ORAL - Tris\n\nCONTENU\nTri par insertion\, se
- lection\, a bulles\, fusion\, rapide. Stabilite. Complexites au pire\, en 
- moyenne\, en espace. Borne inferieure n log n pour les tris par comparaiso
- n. Tri par comptage et pourquoi il echappe a cette borne.\n\nQUESTIONS A T
- RAITER DEBOUT\, A VOIX HAUTE\n- Demontrez la borne n log n pour les tris p
- ar comparaison.\n- Dans quel cas le tri rapide est-il en O(n^2) ? Comment 
- l'eviter ?\n- Qu'est-ce qu'un tri stable\, et pourquoi est-ce important en
-  pratique ?\n- Deroulez le tri fusion a la main sur ce tableau.\n\nTu as v
- u ce theme a l'automne : ici on ne revise plus\, on PERFORME. Chronometre-
- toi\, pense a voix haute\, ne reste jamais muet.\n\nSocle exige : programm
- e d'informatique commun MP/PC/PT/PSI (prepas.org). Ressources : Informatiq
- ue pour tous (Eyrolles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:REPRISE EN MODE ORAL - Specification\, terminaison\, correctio
+ n\, complexite\n\nDANS LE LIVRE : Beury ch. 3\n\nCONTENU\nInstruction et e
+ xpression\, effet de bord. Specification des donnees en entree et en sorti
+ e. Precondition\, postcondition\, invariant\, annotes en commentaires. Ass
+ ertion : assert\, arret du programme (les exceptions sont hors programme).
+  Terminaison par VARIANT de boucle. Correction PARTIELLE (resultat correct
+  si l'algorithme s'arrete) et TOTALE. INVARIANT de boucle. Jeu de tests ec
+ rit a la main\, partitionnement des domaines d'entree\, test des limites. 
+ Complexite temporelle au pire en ordre de grandeur.\n\nQUESTIONS A TRAITER
+  DEBOUT\, A VOIX HAUTE\n- Difference entre correction partielle et correct
+ ion totale ?\n- Donnez le variant de boucle de la recherche dichotomique e
+ t prouvez la terminaison.\n- Quel est l'invariant du tri par insertion ? Q
+ u'en deduit-on ?\n- Ecrivez un jeu de tests pour cette fonction. Qu'est-ce
+  qu'un test des limites ?\n- En Python\, l'affectation est-elle une instru
+ ction ou une expression ?\n\nTu as vu ce theme a l'automne : ici on ne rev
+ ise plus\, on PERFORME. Chronometre-toi\, pense a voix haute\, ne reste ja
+ mais muet.\n\nSocle officiel : Programme d'informatique commune MP PC PSI 
+ PT (tronc commun\, ministere 2021). Ton oral porte sur ce socle ET sur le 
+ programme que tu declares\, donc aussi sur tes cours de L1-L2 (C\, program
+ mation fonctionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -7378,24 +7338,29 @@ DESCRIPTION:Gozard ch. 5 : Espaces vectoriels normes\, topologie\n\nPASSE
  rder la correction. La galere\, c'est l'apprentissage.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Structures de donnees lineaires (reprise orale)
+SUMMARY:Info mineure - Recherche et dichotomie (reprise orale)
 DTSTART;TZID=Europe/Paris:20270209T140000
 DTEND;TZID=Europe/Paris:20270209T160000
 DTSTAMP:20260809T120000Z
 UID:8a7fb60f6e1e2181f35d0053da4beb0a@fuf-romain
-SEQUENCE:6
-DESCRIPTION:REPRISE EN MODE ORAL - Structures de donnees lineaires\n\nCONT
- ENU\nTableau dynamique et complexite amortie de l'ajout. Liste chainee sim
- ple et double. Pile\, file\, deque. Implementations et complexites compare
- es de chaque operation.\n\nQUESTIONS A TRAITER DEBOUT\, A VOIX HAUTE\n- Im
- plementez une file avec deux piles. Quelle complexite amortie ?\n- Liste c
- hainee ou tableau dynamique : que choisissez-vous\, et pourquoi ?\n- Pourq
- uoi l'ajout en fin de liste Python est-il en O(1) amorti ?\n- Donnez une s
- tructure ou l'insertion est en O(1) mais la recherche en O(n).\n\nTu as vu
-  ce theme a l'automne : ici on ne revise plus\, on PERFORME. Chronometre-t
- oi\, pense a voix haute\, ne reste jamais muet.\n\nSocle exige : programme
-  d'informatique commun MP/PC/PT/PSI (prepas.org). Ressources : Informatiqu
- e pour tous (Eyrolles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:REPRISE EN MODE ORAL - Recherche et dichotomie\n\nDANS LE LIVR
+ E : Beury ch. 4\n\nCONTENU\nRecherche sequentielle d'un element dans une l
+ iste\, du maximum\, du second maximum. Comptage des elements d'un tableau 
+ a l'aide d'un dictionnaire. Recherche d'un facteur dans un texte. Recherch
+ e des deux valeurs les plus proches. Complexite quadratique des boucles im
+ briquees. RECHERCHE DICHOTOMIQUE dans une liste triee. Exponentiation rapi
+ de. Acceleration du lineaire au logarithmique.\n\nQUESTIONS A TRAITER DEBO
+ UT\, A VOIX HAUTE\n- Ecrivez la recherche dichotomique. Quelle complexite
+ \, et justifiez-la.\n- Pourquoi la dichotomie exige-t-elle un tableau trie
+  ?\n- Ecrivez l'exponentiation rapide et donnez sa complexite.\n- Comment 
+ trouver le second maximum en un seul parcours ?\n- Deux valeurs les plus p
+ roches : complexite naive\, puis amelioration ?\n\nTu as vu ce theme a l'a
+ utomne : ici on ne revise plus\, on PERFORME. Chronometre-toi\, pense a vo
+ ix haute\, ne reste jamais muet.\n\nSocle officiel : Programme d'informati
+ que commune MP PC PSI PT (tronc commun\, ministere 2021). Ton oral porte s
+ ur ce socle ET sur le programme que tu declares\, donc aussi sur tes cours
+  de L1-L2 (C\, programmation fonctionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -7639,24 +7604,28 @@ DESCRIPTION:Gozard ch. 6 : Continuite\, etude locale d'une application\n\n
  e regarder la correction. La galere\, c'est l'apprentissage.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Dictionnaires et tables de hachage (reprise orale)
+SUMMARY:Info mineure - Recursivite (reprise orale)
 DTSTART;TZID=Europe/Paris:20270216T140000
 DTEND;TZID=Europe/Paris:20270216T160000
 DTSTAMP:20260809T120000Z
 UID:1f0cb845d40c2d3566f321e79658b7db@fuf-romain
-SEQUENCE:6
-DESCRIPTION:REPRISE EN MODE ORAL - Dictionnaires et tables de hachage\n\nC
- ONTENU\nFonction de hachage. Gestion des collisions : chainage et adressag
- e ouvert. Facteur de charge et redimensionnement. Complexite en moyenne co
- ntre pire cas. Ensembles.\n\nQUESTIONS A TRAITER DEBOUT\, A VOIX HAUTE\n- 
- Pourquoi un dictionnaire est-il en O(1) en moyenne mais O(n) au pire ?\n- 
- Qu'est-ce qui fait une bonne fonction de hachage ?\n- Pourquoi une liste n
- e peut-elle pas etre cle de dictionnaire en Python ?\n- Comment detecter l
- es doublons d'un tableau en O(n) ?\n\nTu as vu ce theme a l'automne : ici 
- on ne revise plus\, on PERFORME. Chronometre-toi\, pense a voix haute\, ne
-  reste jamais muet.\n\nSocle exige : programme d'informatique commun MP/PC
- /PT/PSI (prepas.org). Ressources : Informatique pour tous (Eyrolles) + tes
-  cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:REPRISE EN MODE ORAL - Recursivite\n\nDANS LE LIVRE : Beury ch
+ . 7\n\nCONTENU\nFonction recursive\, cas de base\, instruction return dans
+  une fonction recursive. Fonction factorielle. Methode DIVISER POUR REGNER
+ . Versions recursives des algorithmes dichotomiques. Pile d'appels et depa
+ ssement de sa taille. Terminaison et correction d'un algorithme recursif. 
+ Enumeration des sous-listes ou des permutations.\n\nQUESTIONS A TRAITER DE
+ BOUT\, A VOIX HAUTE\n- Qu'est-ce que la pile d'appels ? Que se passe-t-il 
+ en cas de depassement ?\n- Ecrivez la version recursive de la recherche di
+ chotomique.\n- Enumerez les sous-listes d'une liste. Quelle complexite ?\n
+ - Comment prouve-t-on qu'une fonction recursive termine ?\n- Diviser pour 
+ regner : schema general et un exemple.\n\nTu as vu ce theme a l'automne : 
+ ici on ne revise plus\, on PERFORME. Chronometre-toi\, pense a voix haute
+ \, ne reste jamais muet.\n\nSocle officiel : Programme d'informatique comm
+ une MP PC PSI PT (tronc commun\, ministere 2021). Ton oral porte sur ce so
+ cle ET sur le programme que tu declares\, donc aussi sur tes cours de L1-L
+ 2 (C\, programmation fonctionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -7911,23 +7880,26 @@ DESCRIPTION:Gozard ch. 7 : Series numeriques et vectorielles\n\nPASSE 2 -
   la correction. La galere\, c'est l'apprentissage.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Arbres (reprise orale)
+SUMMARY:Info mineure - Tris (reprise orale)
 DTSTART;TZID=Europe/Paris:20270223T140000
 DTEND;TZID=Europe/Paris:20270223T160000
 DTSTAMP:20260809T120000Z
 UID:672ad97d1e65a25e4f3ac6157b6550c5@fuf-romain
-SEQUENCE:6
-DESCRIPTION:REPRISE EN MODE ORAL - Arbres\n\nCONTENU\nArbre binaire\, arbr
- e binaire de recherche. Parcours prefixe\, infixe\, suffixe\, en largeur. 
- Hauteur et equilibrage. Tas binaire et file de priorite.\n\nQUESTIONS A TR
- AITER DEBOUT\, A VOIX HAUTE\n- Que donne le parcours infixe d'un ABR ? Pro
- uvez-le.\n- Complexite de la recherche dans un ABR ? Et dans le pire cas ?
- \n- Implementez l'insertion dans un tas binaire.\n- Comment calcule-t-on l
- a hauteur d'un arbre recursivement ?\n\nTu as vu ce theme a l'automne : ic
- i on ne revise plus\, on PERFORME. Chronometre-toi\, pense a voix haute\, 
- ne reste jamais muet.\n\nSocle exige : programme d'informatique commun MP/
- PC/PT/PSI (prepas.org). Ressources : Informatique pour tous (Eyrolles) + t
- es cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:REPRISE EN MODE ORAL - Tris\n\nDANS LE LIVRE : Beury ch. 10\n
+ \nCONTENU\nTri par selection\, tri par insertion\, tri par fusion\, tri ra
+ pide\, tri par comptage. Pour chacun : STABLE ou non\, EN PLACE ou non\, C
+ OMPARATIF ou non. Complexites au pire et en moyenne.\n\nQUESTIONS A TRAITE
+ R DEBOUT\, A VOIX HAUTE\n- Deroulez le tri par fusion sur ce tableau.\n- Q
+ u'est-ce qu'un tri stable ? Lesquels le sont ?\n- Dans quel cas le tri rap
+ ide devient-il quadratique ?\n- Pourquoi le tri par comptage n'est-il pas 
+ comparatif ? Quelle complexite ?\n- Quel tri choisiriez-vous pour un table
+ au presque trie ?\n\nTu as vu ce theme a l'automne : ici on ne revise plus
+ \, on PERFORME. Chronometre-toi\, pense a voix haute\, ne reste jamais mue
+ t.\n\nSocle officiel : Programme d'informatique commune MP PC PSI PT (tron
+ c commun\, ministere 2021). Ton oral porte sur ce socle ET sur le programm
+ e que tu declares\, donc aussi sur tes cours de L1-L2 (C\, programmation f
+ onctionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -8173,25 +8145,28 @@ DESCRIPTION:Gozard ch. 8 : Suites et series de fonctions (convergences sim
  \, c'est l'apprentissage.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Graphes : representation et parcours (reprise orale
- )
+SUMMARY:Info mineure - Algorithmes gloutons (reprise orale)
 DTSTART;TZID=Europe/Paris:20270302T140000
 DTEND;TZID=Europe/Paris:20270302T160000
 DTSTAMP:20260809T120000Z
 UID:4fb602b53e53656629e1d115f0377d8b@fuf-romain
-SEQUENCE:6
-DESCRIPTION:REPRISE EN MODE ORAL - Graphes : representation et parcours\n
- \nCONTENU\nMatrice d'adjacence contre listes d'adjacence : couts en espace
-  et en temps. Parcours en largeur (BFS) et en profondeur (DFS). Composante
- s connexes. Detection de cycle. Tri topologique.\n\nQUESTIONS A TRAITER DE
- BOUT\, A VOIX HAUTE\n- Matrice ou listes d'adjacence pour un graphe creux 
- ? Justifiez.\n- Difference entre BFS et DFS\, et complexites respectives ?
- \n- Comment detecter un cycle dans un graphe oriente ? Et non oriente ?\n-
-  Deroulez un tri topologique sur ce graphe.\n\nTu as vu ce theme a l'autom
- ne : ici on ne revise plus\, on PERFORME. Chronometre-toi\, pense a voix h
- aute\, ne reste jamais muet.\n\nSocle exige : programme d'informatique com
- mun MP/PC/PT/PSI (prepas.org). Ressources : Informatique pour tous (Eyroll
- es) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:REPRISE EN MODE ORAL - Algorithmes gloutons\n\nDANS LE LIVRE :
+  Beury ch. 8\n\nCONTENU\nPrincipe de la strategie gloutonne : choix locale
+ ment optimal a chaque etape. Exemples : rendu de monnaie\, allocation de s
+ alles\, selection d'activite. Point essentiel : un glouton NE DONNE PAS TO
+ UJOURS l'optimum\, et il faut savoir le montrer sur un contre-exemple.\n\n
+ QUESTIONS A TRAITER DEBOUT\, A VOIX HAUTE\n- Enoncez le principe d'un algo
+ rithme glouton.\n- Le rendu de monnaie glouton est-il optimal ? Donnez un 
+ contre-exemple.\n- Selection d'activite : quel critere glouton\, et pourqu
+ oi fonctionne-t-il ?\n- Comment demontre-t-on qu'un glouton est optimal ?
+ \n- Quel rapport entre strategie gloutonne et programmation dynamique ?\n
+ \nTu as vu ce theme a l'automne : ici on ne revise plus\, on PERFORME. Chr
+ onometre-toi\, pense a voix haute\, ne reste jamais muet.\n\nSocle officie
+ l : Programme d'informatique commune MP PC PSI PT (tronc commun\, minister
+ e 2021). Ton oral porte sur ce socle ET sur le programme que tu declares\,
+  donc aussi sur tes cours de L1-L2 (C\, programmation fonctionnelle\, stru
+ ctures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -8450,24 +8425,31 @@ DESCRIPTION:Gozard ch. 9 : Series entieres\n\nPASSE 2 - EXERCER. Cherche c
   galere\, c'est l'apprentissage.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Graphes : plus courts chemins et arbres couvrants (
- reprise orale)
+SUMMARY:Info mineure - Representation des nombres (reprise orale)
 DTSTART;TZID=Europe/Paris:20270309T140000
 DTEND;TZID=Europe/Paris:20270309T160000
 DTSTAMP:20260809T120000Z
 UID:0706002b56567ae12424555e377ca23e@fuf-romain
-SEQUENCE:6
-DESCRIPTION:REPRISE EN MODE ORAL - Graphes : plus courts chemins et arbres
-  couvrants\n\nCONTENU\nDijkstra et sa limite. Bellman-Ford. Floyd-Warshall
- . Arbres couvrants minimaux : Prim et Kruskal. Structure union-find.\n\nQU
- ESTIONS A TRAITER DEBOUT\, A VOIX HAUTE\n- Pourquoi Dijkstra echoue-t-il a
- vec des poids negatifs ? Donnez un contre-exemple.\n- Complexite de Dijkst
- ra avec un tas binaire ?\n- Prim ou Kruskal pour un graphe dense ? Pour un
-  graphe creux ?\n- Qu'est-ce que l'union-find\, et quelle est sa complexit
- e ?\n\nTu as vu ce theme a l'automne : ici on ne revise plus\, on PERFORME
- . Chronometre-toi\, pense a voix haute\, ne reste jamais muet.\n\nSocle ex
- ige : programme d'informatique commun MP/PC/PT/PSI (prepas.org). Ressource
- s : Informatique pour tous (Eyrolles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:REPRISE EN MODE ORAL - Representation des nombres\n\nDANS LE L
+ IVRE : Pas de chapitre chez Beury : tes cours de L1-L2\n\nCONTENU\nReprese
+ ntation des entiers positifs sur des mots de taille fixe. Entiers signes :
+  COMPLEMENT A DEUX. Entiers multi-precision de Python et difficulte a eval
+ uer la complexite des operations arithmetiques. Distinction entre reels\, 
+ decimaux et flottants : impossibilite de representer certains nombres. MAN
+ TISSE et EXPOSANT\, representation de 0. Precision des calculs\, limites p
+ our les comparaisons.\n\nHORS PROGRAMME : norme IEEE-754\, denormalises\, 
+ infinis\, NaN\, modes d'arrondi\, conversion de base.\n\nQUESTIONS A TRAIT
+ ER DEBOUT\, A VOIX HAUTE\n- Qu'est-ce que le complement a deux ? Pourquoi 
+ cette representation ?\n- Pourquoi 0.1 + 0.2 n'est-il pas egal a 0.3 ? Com
+ ment comparer deux flottants ?\n- Qu'est-ce que la mantisse ? L'exposant ?
+ \n- Les entiers Python sont-ils bornes ? Consequence sur la complexite ?\n
+ - Difference entre un nombre decimal et un flottant.\n\nTu as vu ce theme 
+ a l'automne : ici on ne revise plus\, on PERFORME. Chronometre-toi\, pense
+  a voix haute\, ne reste jamais muet.\n\nSocle officiel : Programme d'info
+ rmatique commune MP PC PSI PT (tronc commun\, ministere 2021). Ton oral po
+ rte sur ce socle ET sur le programme que tu declares\, donc aussi sur tes 
+ cours de L1-L2 (C\, programmation fonctionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -8748,24 +8730,30 @@ DESCRIPTION:Gozard ch. 10 : Integration sur un intervalle quelconque\n\nPA
  regarder la correction. La galere\, c'est l'apprentissage.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Programmation dynamique (reprise orale)
+SUMMARY:Info mineure - Piles\, files\, deques\, dictionnaires (reprise ora
+ le)
 DTSTART;TZID=Europe/Paris:20270316T140000
 DTEND;TZID=Europe/Paris:20270316T160000
 DTSTAMP:20260809T120000Z
 UID:54f0855688266801dc5c742d3e38c1e2@fuf-romain
-SEQUENCE:6
-DESCRIPTION:REPRISE EN MODE ORAL - Programmation dynamique\n\nCONTENU\nSou
- s-structure optimale et chevauchement des sous-problemes. Memoisation cont
- re tabulation. Sac a dos. Plus longue sous-sequence commune. Distance d'ed
- ition. Rendu de monnaie. Comparaison avec les algorithmes gloutons.\n\nQUE
- STIONS A TRAITER DEBOUT\, A VOIX HAUTE\n- Quand la programmation dynamique
-  s'applique-t-elle ?\n- Ecrivez la relation de recurrence du sac a dos.\n-
-  Memoisation ou tabulation : quelle difference en complexite spatiale ?\n-
-  Pourquoi le glouton echoue-t-il pour le rendu de monnaie avec certains sy
- stemes de pieces ?\n\nTu as vu ce theme a l'automne : ici on ne revise plu
- s\, on PERFORME. Chronometre-toi\, pense a voix haute\, ne reste jamais mu
- et.\n\nSocle exige : programme d'informatique commun MP/PC/PT/PSI (prepas.
- org). Ressources : Informatique pour tous (Eyrolles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:REPRISE EN MODE ORAL - Piles\, files\, deques\, dictionnaires
+ \n\nDANS LE LIVRE : Beury ch. 6\n\nCONTENU\nPrincipe de fonctionnement d'u
+ ne pile\, d'une file\, d'une deque. Dictionnaires : cles et valeurs\, PRIN
+ CIPES DU HACHAGE et limitations sur le domaine des cles. Probleme d'effica
+ cite des files implementees avec des listes Python\, interet de collection
+ s.deque. Passage par reference des listes\, deques et dictionnaires dans l
+ es fonctions.\n\nQUESTIONS A TRAITER DEBOUT\, A VOIX HAUTE\n- Pourquoi une
+  liste ne peut-elle pas etre cle de dictionnaire ?\n- Expliquez le princip
+ e du hachage. Complexite en moyenne\, au pire ?\n- Pourquoi implementer un
+ e file avec une liste Python est-il inefficace ?\n- Implementez une pile p
+ uis une file. Donnez les complexites.\n- Comptez les occurrences d'un tabl
+ eau a l'aide d'un dictionnaire.\n\nTu as vu ce theme a l'automne : ici on 
+ ne revise plus\, on PERFORME. Chronometre-toi\, pense a voix haute\, ne re
+ ste jamais muet.\n\nSocle officiel : Programme d'informatique commune MP P
+ C PSI PT (tronc commun\, ministere 2021). Ton oral porte sur ce socle ET s
+ ur le programme que tu declares\, donc aussi sur tes cours de L1-L2 (C\, p
+ rogrammation fonctionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -9024,24 +9012,30 @@ DESCRIPTION:Gozard ch. 11 : Integrales a parametre (Fourier\, Laplace)\n\n
  e regarder la correction. La galere\, c'est l'apprentissage.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Bases de donnees et SQL (reprise orale)
+SUMMARY:Info mineure - Graphes : vocabulaire et parcours (reprise orale)
 DTSTART;TZID=Europe/Paris:20270323T140000
 DTEND;TZID=Europe/Paris:20270323T160000
 DTSTAMP:20260809T120000Z
 UID:4bf50d5515c495701de0a83ec095a6bc@fuf-romain
-SEQUENCE:6
-DESCRIPTION:REPRISE EN MODE ORAL - Bases de donnees et SQL\n\nCONTENU\nMod
- ele relationnel. Cles primaires et etrangeres. Algebre relationnelle : pro
- jection\, selection\, jointure\, union\, difference. SQL : SELECT\, WHERE
- \, JOIN\, GROUP BY\, HAVING\, ORDER BY. Fonctions d'agregation.\n\nQUESTIO
- NS A TRAITER DEBOUT\, A VOIX HAUTE\n- Traduisez cette requete SQL en algeb
- re relationnelle.\n- Difference entre WHERE et HAVING ?\n- Qu'est-ce qu'un
- e jointure naturelle ? Une jointure externe ?\n- Ecrivez une requete donna
- nt\, pour chaque categorie\, le nombre d'articles dont le prix depasse la 
- moyenne generale.\n\nTu as vu ce theme a l'automne : ici on ne revise plus
- \, on PERFORME. Chronometre-toi\, pense a voix haute\, ne reste jamais mue
- t.\n\nSocle exige : programme d'informatique commun MP/PC/PT/PSI (prepas.o
- rg). Ressources : Informatique pour tous (Eyrolles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:REPRISE EN MODE ORAL - Graphes : vocabulaire et parcours\n\nDA
+ NS LE LIVRE : Beury ch. 11\n\nCONTENU\nGraphe oriente et non oriente. Somm
+ et\, arc\, arete\, boucle\, degre entrant et sortant\, chemin\, cycle\, co
+ nnexite. MATRICE D'ADJACENCE et LISTES D'ADJACENCE : couts compares en esp
+ ace et en temps. Algorithmes de parcours de graphe\, introduisant les pile
+ s et les files. Detection de cycles\, test de connexite.\n\nApplications a
+  citer avec un ordre de grandeur : reseau de transport\, graphe du web\, r
+ eseaux sociaux\, bio-informatique.\n\nQUESTIONS A TRAITER DEBOUT\, A VOIX 
+ HAUTE\n- Matrice ou listes d'adjacence : cout en espace\, cout pour tester
+  une arete ?\n- Difference entre parcours en largeur et en profondeur ? Qu
+ elle structure ?\n- Comment detecter un cycle dans un graphe non oriente ?
+ \n- Comment tester la connexite d'un graphe ?\n- Pour le graphe du web\, q
+ uelle representation\, et pourquoi ?\n\nTu as vu ce theme a l'automne : ic
+ i on ne revise plus\, on PERFORME. Chronometre-toi\, pense a voix haute\, 
+ ne reste jamais muet.\n\nSocle officiel : Programme d'informatique commune
+  MP PC PSI PT (tronc commun\, ministere 2021). Ton oral porte sur ce socle
+  ET sur le programme que tu declares\, donc aussi sur tes cours de L1-L2 (
+ C\, programmation fonctionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -9299,24 +9293,29 @@ DESCRIPTION:Gozard ch. 12 : Series de Fourier\n\nPASSE 2 - EXERCER. Cherch
   La galere\, c'est l'apprentissage.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Calcul numerique (reprise orale)
+SUMMARY:Info mineure - Plus courts chemins : Dijkstra (reprise orale)
 DTSTART;TZID=Europe/Paris:20270330T140000
 DTEND;TZID=Europe/Paris:20270330T160000
 DTSTAMP:20260809T120000Z
 UID:21dabc2a7a9a38b820756c601b9267b9@fuf-romain
-SEQUENCE:6
-DESCRIPTION:REPRISE EN MODE ORAL - Calcul numerique\n\nCONTENU\nRecherche 
- de zeros : dichotomie et methode de Newton. Integration : rectangles et tr
- apezes. Equations differentielles : methode d'Euler. Systemes lineaires : 
- pivot de Gauss. Couts et stabilite numerique.\n\nQUESTIONS A TRAITER DEBOU
- T\, A VOIX HAUTE\n- Comparez dichotomie et Newton : vitesse de convergence
-  et conditions.\n- Quelle est la complexite du pivot de Gauss ?\n- Pourquo
- i la methode d'Euler accumule-t-elle une erreur ?\n- Comment estimer l'err
- eur de la methode des trapezes ?\n\nTu as vu ce theme a l'automne : ici on
-  ne revise plus\, on PERFORME. Chronometre-toi\, pense a voix haute\, ne r
- este jamais muet.\n\nSocle exige : programme d'informatique commun MP/PC/P
- T/PSI (prepas.org). Ressources : Informatique pour tous (Eyrolles) + tes c
- ours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:REPRISE EN MODE ORAL - Plus courts chemins : Dijkstra\n\nDANS 
+ LE LIVRE : Beury ch. 12\n\nCONTENU\nPonderation d'un graphe\, etiquettes. 
+ Recherche d'un plus court chemin AVEC DES POIDS POSITIFS. ALGORITHME DE DI
+ JKSTRA \; un modele de file de priorite naif suffit. Longueur d'un trajet
+ \, nombre de voisins d'un sommet. A* vu comme variante de Dijkstra\, premi
+ ere sensibilisation a la notion d'HEURISTIQUE.\n\nHORS SOCLE : Bellman-For
+ d\, Prim\, Kruskal\, arbres couvrants\, union-find.\n\nQUESTIONS A TRAITER
+  DEBOUT\, A VOIX HAUTE\n- Deroulez Dijkstra sur ce graphe.\n- Pourquoi Dij
+ kstra exige-t-il des poids positifs ? Contre-exemple.\n- Quelle complexite
+  avec une file de priorite naive ?\n- Qu'est-ce qu'une heuristique ? En qu
+ oi A* differe-t-il de Dijkstra ?\n- Comment reconstruire le chemin\, et pa
+ s seulement sa longueur ?\n\nTu as vu ce theme a l'automne : ici on ne rev
+ ise plus\, on PERFORME. Chronometre-toi\, pense a voix haute\, ne reste ja
+ mais muet.\n\nSocle officiel : Programme d'informatique commune MP PC PSI 
+ PT (tronc commun\, ministere 2021). Ton oral porte sur ce socle ET sur le 
+ programme que tu declares\, donc aussi sur tes cours de L1-L2 (C\, program
+ mation fonctionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -9570,24 +9569,32 @@ DESCRIPTION:Gozard ch. 13 : Equations differentielles lineaires\n\nPASSE 2
  der la correction. La galere\, c'est l'apprentissage.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - Revision generale : reprendre le carnet d'erreurs (
- reprise orale)
+SUMMARY:Info mineure - Programmation dynamique (reprise orale)
 DTSTART;TZID=Europe/Paris:20270406T140000
 DTEND;TZID=Europe/Paris:20270406T160000
 DTSTAMP:20260809T120000Z
 UID:b94052c7d86df4b10d1199b7533debe6@fuf-romain
-SEQUENCE:6
-DESCRIPTION:REPRISE EN MODE ORAL - Revision generale : reprendre le carnet
-  d'erreurs\n\nCONTENU\nAucun theme nouveau. Reprends UNIQUEMENT ce que tu 
- n'as pas su refaire seul depuis septembre. Tout ce que tu maitrises deja e
- st du temps perdu.\n\nQUESTIONS A TRAITER DEBOUT\, A VOIX HAUTE\n- Tire tr
- ois themes au hasard parmi les douze et traite une question de chacun\, de
- bout\, sans preparation.\n- Reprends les deux questions qui t'ont le plus 
- resiste depuis la rentree.\n\nTu as vu ce theme a l'automne : ici on ne re
- vise plus\, on PERFORME. Chronometre-toi\, pense a voix haute\, ne reste j
- amais muet.\n\nSocle exige : programme d'informatique commun MP/PC/PT/PSI 
- (prepas.org). Ressources : Informatique pour tous (Eyrolles) + tes cours d
- e L1-L2.
+SEQUENCE:22
+DESCRIPTION:REPRISE EN MODE ORAL - Programmation dynamique\n\nDANS LE LIVR
+ E : Beury ch. 13\n\nCONTENU\nSOUS-STRUCTURE OPTIMALE et CHEVAUCHEMENT DE S
+ OUS-PROBLEMES. Calcul de bas en haut ou par MEMOISATION (implementee par u
+ n dictionnaire). Reconstruction d'une solution optimale a partir de l'info
+ rmation calculee. Enjeux de complexite en memoire.\n\nExemples du programm
+ e : partition equilibree d'un tableau d'entiers positifs\, ordonnancement 
+ de taches ponderees\, plus longue sous-suite commune\, distance d'edition 
+ (Levenshtein)\, distances dans un graphe (Floyd-Warshall).\n\nA mettre en 
+ rapport avec la strategie gloutonne de la semaine 6.\n\nQUESTIONS A TRAITE
+ R DEBOUT\, A VOIX HAUTE\n- Quelles deux proprietes justifient l'emploi de 
+ la programmation dynamique ?\n- Ecrivez la relation de recurrence de la di
+ stance de Levenshtein.\n- Memoisation ou calcul de bas en haut : differenc
+ e en complexite memoire ?\n- Comment reconstruire la solution optimale\, p
+ as seulement sa valeur ?\n- Floyd-Warshall : quelle complexite\, et pourqu
+ oi est-ce de la prog dynamique ?\n\nTu as vu ce theme a l'automne : ici on
+  ne revise plus\, on PERFORME. Chronometre-toi\, pense a voix haute\, ne r
+ este jamais muet.\n\nSocle officiel : Programme d'informatique commune MP 
+ PC PSI PT (tronc commun\, ministere 2021). Ton oral porte sur ce socle ET 
+ sur le programme que tu declares\, donc aussi sur tes cours de L1-L2 (C\, 
+ programmation fonctionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -9841,20 +9848,32 @@ DESCRIPTION:Gozard ch. 14 : Calcul differentiel\n\nPASSE 2 - EXERCER. Cher
  n. La galere\, c'est l'apprentissage.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - annales mixtes
+SUMMARY:Info mineure - Bases de donnees et SQL (reprise orale)
 DTSTART;TZID=Europe/Paris:20270413T140000
 DTEND;TZID=Europe/Paris:20270413T160000
 DTSTAMP:20260809T120000Z
 UID:7e313c004e078b9555f47da3b837ec3f@fuf-romain
-SEQUENCE:6
-DESCRIPTION:ANNALES MIXTES - tous themes confondus.\n\nTire un theme au ha
- sard parmi les douze et traite-le sans preparation\, debout\, 50 minutes c
- hrono. C'est le format exact de l'epreuve.\n\nLes douze themes : Python\, 
- complexite\, recursivite\, tris\, structures lineaires\, hachage\, arbres
- \, graphes (parcours)\, graphes (plus courts chemins)\, programmation dyna
- mique\, SQL\, calcul numerique.\n\nSocle exige : programme d'informatique 
- commun MP/PC/PT/PSI (prepas.org). Ressources : Informatique pour tous (Eyr
- olles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:REPRISE EN MODE ORAL - Bases de donnees et SQL\n\nDANS LE LIVR
+ E : Beury ch. 15\n\nCONTENU\nModele entite-association\, modele relationne
+ l\, types d'associations. Tables\, attributs\, domaine\, schema\, enregist
+ rements. CLE PRIMAIRE et CLE ETRANGERE. Requetes SELECT avec WHERE\, proje
+ ction\, renommage AS. DISTINCT\, LIMIT\, OFFSET\, ORDER BY. Operateurs ens
+ emblistes UNION\, INTERSECT\, EXCEPT. Jointure et produit cartesien\, auto
+ jointure. Agregation MIN\, MAX\, SUM\, AVG\, COUNT avec GROUP BY. Filtrage
+  des agregats avec HAVING. Requetes imbriquees.\n\nHORS PROGRAMME : algebr
+ e relationnelle et calcul relationnel\, NULL\, index\, creation et suppres
+ sion de tables\, transactions\, bases non relationnelles.\n\nQUESTIONS A T
+ RAITER DEBOUT\, A VOIX HAUTE\n- Difference entre WHERE et HAVING ? Illustr
+ ez.\n- Comment traduit-on une association *-* en schema relationnel ?\n- E
+ crivez une requete avec GROUP BY et HAVING.\n- Qu'est-ce qu'une autojointu
+ re ? Donnez un cas d'usage.\n- A quoi servent une cle primaire et une cle 
+ etrangere ?\n\nTu as vu ce theme a l'automne : ici on ne revise plus\, on 
+ PERFORME. Chronometre-toi\, pense a voix haute\, ne reste jamais muet.\n\n
+ Socle officiel : Programme d'informatique commune MP PC PSI PT (tronc comm
+ un\, ministere 2021). Ton oral porte sur ce socle ET sur le programme que 
+ tu declares\, donc aussi sur tes cours de L1-L2 (C\, programmation fonctio
+ nnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -10138,20 +10157,32 @@ DESCRIPTION:Revision generale et oraux blancs intensifs\n\nPASSE 2 - EXERC
  orrection. La galere\, c'est l'apprentissage.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - annales mixtes
+SUMMARY:Info mineure - IA et jeux (reprise orale)
 DTSTART;TZID=Europe/Paris:20270420T140000
 DTEND;TZID=Europe/Paris:20270420T160000
 DTSTAMP:20260809T120000Z
 UID:342be9b866c6b18c60c978a0550f6d9e@fuf-romain
-SEQUENCE:6
-DESCRIPTION:ANNALES MIXTES - tous themes confondus.\n\nTire un theme au ha
- sard parmi les douze et traite-le sans preparation\, debout\, 50 minutes c
- hrono. C'est le format exact de l'epreuve.\n\nLes douze themes : Python\, 
- complexite\, recursivite\, tris\, structures lineaires\, hachage\, arbres
- \, graphes (parcours)\, graphes (plus courts chemins)\, programmation dyna
- mique\, SQL\, calcul numerique.\n\nSocle exige : programme d'informatique 
- commun MP/PC/PT/PSI (prepas.org). Ressources : Informatique pour tous (Eyr
- olles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:REPRISE EN MODE ORAL - IA et jeux\n\nDANS LE LIVRE : Beury ch.
+  14\n\nCONTENU\nApprentissage supervise : algorithme des k PLUS PROCHES VO
+ ISINS avec distance euclidienne\, matrice de confusion. Apprentissage non 
+ supervise : algorithme des k-MOYENNES\, convergence vers des minima locaux
+  (la demonstration n'est pas au programme). Intelligence artificielle et j
+ eux : jeux d'accessibilite a deux joueurs sur un graphe biparti\, strategi
+ e\, strategie gagnante\, position gagnante\, calcul des ATTRACTEURS. Notio
+ n d'heuristique\, algorithme MINMAX avec heuristique (l'elagage alpha-beta
+  n'est pas au programme).\n\nCe theme recoupe directement ta coloration IA
+  et ton UE de Projet Data.\n\nQUESTIONS A TRAITER DEBOUT\, A VOIX HAUTE\n-
+  Decrivez les k plus proches voisins. Comment choisir k ?\n- Qu'est-ce qu'
+ une matrice de confusion ? A quoi sert-elle ?\n- Pourquoi les k-moyennes c
+ onvergent-elles vers un minimum local ?\n- Qu'est-ce qu'une position gagna
+ nte ? Comment la calcule-t-on par attracteurs ?\n- Expliquez minmax. Pourq
+ uoi une heuristique est-elle necessaire ?\n\nTu as vu ce theme a l'automne
+  : ici on ne revise plus\, on PERFORME. Chronometre-toi\, pense a voix hau
+ te\, ne reste jamais muet.\n\nSocle officiel : Programme d'informatique co
+ mmune MP PC PSI PT (tronc commun\, ministere 2021). Ton oral porte sur ce 
+ socle ET sur le programme que tu declares\, donc aussi sur tes cours de L1
+ -L2 (C\, programmation fonctionnelle\, structures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -10404,20 +10435,38 @@ DESCRIPTION:Revision generale et oraux blancs intensifs\n\nPASSE 2 - EXERC
  orrection. La galere\, c'est l'apprentissage.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Info mineure - annales mixtes
+SUMMARY:Info mineure - Python : l'annexe limitative (reprise orale)
 DTSTART;TZID=Europe/Paris:20270427T140000
 DTEND;TZID=Europe/Paris:20270427T160000
 DTSTAMP:20260809T120000Z
 UID:66cf274606bff3fb0d8129c0cd3f1854@fuf-romain
-SEQUENCE:6
-DESCRIPTION:ANNALES MIXTES - tous themes confondus.\n\nTire un theme au ha
- sard parmi les douze et traite-le sans preparation\, debout\, 50 minutes c
- hrono. C'est le format exact de l'epreuve.\n\nLes douze themes : Python\, 
- complexite\, recursivite\, tris\, structures lineaires\, hachage\, arbres
- \, graphes (parcours)\, graphes (plus courts chemins)\, programmation dyna
- mique\, SQL\, calcul numerique.\n\nSocle exige : programme d'informatique 
- commun MP/PC/PT/PSI (prepas.org). Ressources : Informatique pour tous (Eyr
- olles) + tes cours de L1-L2.
+SEQUENCE:22
+DESCRIPTION:REPRISE EN MODE ORAL - Python : l'annexe limitative\n\nDANS LE
+  LIVRE : Beury ch. 1 (types\, listes\, boucles\, fonctions)\, ch. 2 (repre
+ sentation graphique)\, ch. 5 (lecture et ecriture de fichiers)\, ch. 9 (ma
+ trices de pixels et images)\n\nCONTENU\nTypes de base : int (// ** %)\, fl
+ oat\, bool et caractere paresseux de and/or\, comparaisons. Structures ind
+ icees immuables (chaines\, tuples). Listes : comprehension\, append\, pop 
+ en derniere position\, tranches\, COPIE SUPERFICIELLE. Dictionnaires : cre
+ ation\, acces\, insertion\, k in d\, len\, copy. Controle : if/elif/else\,
+  while\, for\, break\, return\, def. print\, import\, fichiers texte\, ass
+ ert. Objets muables et immuables\, copie superficielle contre copie profon
+ de. Tableaux a deux dimensions et matrices de pixels.\n\nLES QUATRE TRAITS
+  GENERAUX EXIGIBLES : typage dynamique\, indentation\, portee lexicale\, a
+ ppel de fonction par valeur.\n\nL'ANNEXE EST LIMITATIVE : ensembles\, clas
+ ses\, exceptions\, generateurs\, lambdas n'y sont PAS.\n\nQUESTIONS A TRAI
+ TER DEBOUT\, A VOIX HAUTE\n- Qu'est-ce que le typage dynamique ? Quelle co
+ nsequence pratique ?\n- Expliquez la portee lexicale : ou Python cherche-t
+ -il la valeur d'une variable utilisee dans une fonction ?\n- Que vaut a ap
+ res b = a puis b.append(1)\, si a est une liste ? Et si a est un tuple ?\n
+ - Copie superficielle contre copie profonde : un exemple ou la difference 
+ se voit.\n- Pourquoi and et or sont-ils paresseux ? A quoi cela sert-il ?
+ \n\nTu as vu ce theme a l'automne : ici on ne revise plus\, on PERFORME. C
+ hronometre-toi\, pense a voix haute\, ne reste jamais muet.\n\nSocle offic
+ iel : Programme d'informatique commune MP PC PSI PT (tronc commun\, minist
+ ere 2021). Ton oral porte sur ce socle ET sur le programme que tu declares
+ \, donc aussi sur tes cours de L1-L2 (C\, programmation fonctionnelle\, st
+ ructures de donnees).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
