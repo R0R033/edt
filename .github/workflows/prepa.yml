@@ -1,0 +1,48 @@
+name: Publier le contrat de seance du jour
+
+# Injecte dans X_FUF_2027_complet.ics les contrats de prepa/contrats.md dont la
+# date est atteinte. Aucun secret : GitHub fournit lui-meme le jeton d'ecriture
+# le temps du job, exactement comme pour edt.yml.
+
+on:
+  schedule:
+    - cron: "10 4 * * *" # ~06h10 Paris, apres edt.yml et avant le resume de 7h50
+  workflow_dispatch: # bouton "Run workflow" pour declencher a la main
+  push: # republie des que tu modifies un contrat
+    paths:
+      - "prepa/**"
+      - ".github/workflows/prepa.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prepa
+  cancel-in-progress: false
+
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Aucune dependance : appliquer.py n'utilise que la bibliotheque standard.
+      - name: Appliquer les contrats du jour
+        run: python prepa/appliquer.py
+
+      - name: Publier seulement s'il y a un changement
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add X_FUF_2027_complet.ics
+          if git diff --cached --quiet; then
+            echo "Aucun changement, rien a publier."
+          else
+            git commit -m "Contrat de seance du $(date -u +%F)"
+            git push
+            echo "Contrat du jour publie."
+          fi
