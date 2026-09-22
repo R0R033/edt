@@ -2,8 +2,9 @@
 # -*- coding: utf-8 -*-
 """Injecte les contrats de seance de prepa/contrats.md dans le calendrier FUF.
 
-Publie les blocs dont la date est <= aujourd'hui + 1 : le contrat du jour est en
-place au reveil, et celui du lendemain est visible le soir, pendant le rappel.
+Publie TOUS les blocs du fichier. Ce qui est dans contrats.md est dans le
+calendrier : pas de fenetre, pas de surprise. Une semaine de contrats devient
+visible des que tu la deposes, et tu vois venir les seances suivantes.
 
 Le fichier est modifie chirurgicalement : les UID sont conserves a l'identique,
 SEQUENCE n'est incremente que si le texte change reellement, et l'encodage
@@ -11,7 +12,7 @@ SEQUENCE n'est incremente que si le texte change reellement, et l'encodage
 
 Idempotent : deux executions de suite ne produisent aucun second changement.
 
-Usage :  python prepa/appliquer.py [--date AAAA-MM-JJ] [--tout] [--verifier]
+Usage :  python prepa/appliquer.py [--fenetre N] [--date AAAA-MM-JJ] [--verifier]
 """
 
 import argparse
@@ -96,19 +97,25 @@ def echapper(t):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--date', help='simuler une autre date du jour')
+    ap.add_argument('--fenetre', type=int, metavar='N',
+                    help="ne publier que les blocs dont la date est <= aujourd'hui + N "
+                         "(par defaut : tout est publie)")
     ap.add_argument('--tout', action='store_true',
-                    help='publier tous les blocs, sans filtre de date')
+                    help='conserve pour compatibilite ; publier tout est deja le defaut')
     ap.add_argument('--verifier', action='store_true',
                     help="n'ecrit rien, signale seulement ce qui changerait")
     args = ap.parse_args()
 
     aujourdhui = (datetime.date.fromisoformat(args.date) if args.date
                   else datetime.date.today())
-    limite = aujourdhui + datetime.timedelta(days=1)
 
     plan = lire_contrats(CONTRATS)
-    a_publier = {uid: (titre, corps) for d, uid, titre, corps in plan
-                 if args.tout or d <= limite}
+    if args.fenetre is None:
+        a_publier = {uid: (titre, corps) for _, uid, titre, corps in plan}
+    else:
+        limite = aujourdhui + datetime.timedelta(days=args.fenetre)
+        a_publier = {uid: (titre, corps) for d, uid, titre, corps in plan
+                     if d <= limite}
     if not a_publier:
         print('Rien a publier au %s.' % aujourdhui)
         return 0
