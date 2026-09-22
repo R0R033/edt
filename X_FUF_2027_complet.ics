@@ -1193,35 +1193,37 @@ DTSTART;TZID=Europe/Paris:20260923T080000
 DTEND;TZID=Europe/Paris:20260923T085000
 DTSTAMP:20260809T120000Z
 UID:8e05670b992eaff7bc30089ddb47252a@fuf-romain
-SEQUENCE:22
+SEQUENCE:23
 DESCRIPTION:Fonctions numeriques | Calculs algebriques et trigonometrie\n
  \nCONTRAT DU JOUR - reparer la preuve d'hier\nFin de seance = le theorem
- e redemontre par les accroissements finis\, le\ncontre-exemple exhibe av
- ec un couple\, et un oral de 10 min.\n\n25 min - LA PREUVE CORRECTE\nSoi
- ent a < b dans I.\n  1. Pourquoi [a\, b] est-il inclus dans I ? Ecris-le
-  noir sur blanc. C'est ici\,\n     et nulle part ailleurs\, que sert l'h
- ypothese d'intervalle.\n  2. Verifie les hypotheses du theoreme des accr
- oissements finis : f continue\n     sur [a\, b]\, derivable sur ]a\, b[.
-  D'ou viennent-elles ?\n  3. Applique le TAF et conclus.\nRappel du pass
- age interdit d'hier : de "la limite du taux est >= 0" tu as\ndeduit "le 
- taux est >= 0". Faux. Contre-exemple a garder : f : x -> x^2 en\nx0 = 0\
- , ou f'(0) = 0 >= 0 alors que le taux vaut x\, negatif des que x < 0.\n\
- n15 min - DEUX CHOSES A FAIRE VITE\n  a. Le contre-exemple\, correctemen
- t : f : x -> -1/x sur R*. Ne dis pas\n     "pas croissante car R* n'est 
- pas un intervalle" : l'echec d'une hypothese\n     ne prouve jamais que 
- la conclusion est fausse. EXHIBE un couple.\n  b. Chronometre-toi sur | 
- |x| - |y| | <= |x - y|. Objectif : deux lignes.\n     Idee unique : ecri
- s x = (x - y) + y\, applique l'inegalite triangulaire\,\n     puis "par 
- symetrie des roles de x et y" au lieu de tout refaire.\n\n10 min - ORAL 
- DU JOUR\nDebout\, chronometre : enonce et demontre que f' >= 0 sur un in
- tervalle entraine\nf croissante. A la fin\, dis a voix haute : "l'hypoth
- ese d'intervalle sert a\ngarantir que [a\, b] est inclus dans I". Si tu 
- ne l'as pas dite\, l'oral ne\ncompte pas.\n\nMETHODE\nTu lis d'abord\, c
- 'est ton choix\, mais la lecture est CHRONOMETREE et le livre\nse referm
- e au signal. Ce qui compte n'est pas d'avoir lu\, c'est ce qui ressort\n
- livre ferme.\nUn exercice se cherche 20 min maximum. Passe ce delai : co
- rrige\, comprends\, et\nle lendemain refais-le de zero.\nToute erreur va
-  au carnet\, avec la date. Elle se refait a J+2.
+ e redemontre par les accroissements finis\, le contre-exemple exhibe ave
+ c un couple\, et un oral de 10 min.\n\n25 min  -  LA PREUVE CORRECTE\nSo
+ ient a < b dans I.\n  1. Pourquoi [a\, b] est-il inclus dans I ? Ecris-l
+ e noir sur blanc. C'est ici\, et nulle part ailleurs\, que sert l'hypoth
+ ese d'intervalle.\n  2. Verifie les hypotheses du theoreme des accroisse
+ ments finis : f continue sur [a\, b]\, derivable sur ]a\, b[. D'ou vienn
+ ent-elles ?\n  3. Applique le TAF et conclus.\nRappel du passage interdi
+ t d'hier : de 'la limite du taux est >= 0' tu as deduit 'le taux est >= 
+ 0'. Faux. Contre-exemple a garder : f : x -> x^2 en x0 = 0\, ou f'(0) = 
+ 0 >= 0 alors que le taux vaut x\, negatif des que x < 0.\n\n15 min  -  D
+ EUX CHOSES A FAIRE VITE\n  a. Le contre-exemple\, correctement : f : x -
+ > -1/x sur R*. Ne dis pas 'pas croissante car R* n'est pas un intervalle
+ ' : l'echec d'une hypothese ne prouve jamais que la conclusion est fauss
+ e. EXHIBE un couple.\n  b. Chronometre-toi sur | |x| - |y| | <= |x - y|.
+  Objectif : deux lignes. Idee unique : ecris x = (x - y) + y\, applique 
+ l'inegalite triangulaire\, puis 'par symetrie des roles de x et y' au li
+ eu de tout refaire.\n\n10 min  -  ORAL DU JOUR\nDebout\, chronometre : e
+ nonce et demontre que f' >= 0 sur un intervalle entraine f croissante. A
+  la fin\, dis a voix haute : 'l'hypothese d'intervalle sert a garantir q
+ ue [a\, b] est inclus dans I'. Si tu ne l'as pas dite\, l'oral ne compte
+  pas.\n\nLES DEUX CONTROLES A FAIRE SUR CHAQUE PREUVE\, desormais :\n  -
+  Ai-je utilise CHAQUE hypothese ? Si l'une ne sert nulle part\, la preuv
+ e est fausse.\n  - Ce que je viens d'ecrire contredit-il quelque chose q
+ ue je sais deja ?\n\nMETHODE\nNomme l'OUTIL avant d'ecrire la premiere l
+ igne : quel theoreme du cours s'applique ici ? Si aucun ne vient\, c'est
+  deja une information.\nUn exercice se cherche 20 min maximum. Passe ce 
+ delai : corrige\, comprends\, et le lendemain refais-le de zero.\nToute 
+ erreur va au carnet\, avec la date. Elle se refait a J+2.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Travail L3
