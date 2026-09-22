@@ -46,24 +46,41 @@ Toute erreur va au carnet, avec la date. Elle se refait a J+2.
 @@ 2026-09-23 8e05670b992eaff7bc30089ddb47252a@fuf-romain
 Fonctions numeriques | Calculs algebriques et trigonometrie
 
-CONTRAT DU JOUR - revision espacee J+1 sur la seance d'hier
-Fin de seance = les 4 resultats d'hier ressortis sans notes + l'exercice rate refait.
+CONTRAT DU JOUR - reparer la preuve d'hier
+Fin de seance = le theoreme redemontre par les accroissements finis, le
+contre-exemple exhibe avec un couple, et un oral de 10 min.
 
-15 min  -  RESTITUTION A FROID
-Feuille blanche, rien d'ouvert. Reecris R1 a R4 d'hier (inegalite triangulaire, inegalite triangulaire inverse, Bernoulli, caracterisation du sup) avec les demonstrations. Coche ce qui sort seul.
-Ce qui ne sort pas aujourd'hui alors que tu l'avais hier : c'est exactement ca qu'il faut revoir. Note-le au carnet, ce n'est pas un echec, c'est l'information que tu es venu chercher.
+25 min - LA PREUVE CORRECTE
+Soient a < b dans I.
+  1. Pourquoi [a, b] est-il inclus dans I ? Ecris-le noir sur blanc. C'est ici,
+     et nulle part ailleurs, que sert l'hypothese d'intervalle.
+  2. Verifie les hypotheses du theoreme des accroissements finis : f continue
+     sur [a, b], derivable sur ]a, b[. D'ou viennent-elles ?
+  3. Applique le TAF et conclus.
+Rappel du passage interdit d'hier : de "la limite du taux est >= 0" tu as
+deduit "le taux est >= 0". Faux. Contre-exemple a garder : f : x -> x^2 en
+x0 = 0, ou f'(0) = 0 >= 0 alors que le taux vaut x, negatif des que x < 0.
 
-20 min  -  L'EXERCICE QUE TU N'AS PAS TROUVE HIER
-Refais-le de zero, sans relire le corrige. Si tu l'avais tous trouves, prends celui-ci :
-  Montrer que pour tout n >= 1 : sum(k = 1 a n) k C(n, k) = n 2^(n-1).
-  Deux voies : deriver (1 + x)^n, ou la formule dite du capitaine k C(n, k) = n C(n-1, k-1). Fais les deux.
+15 min - DEUX CHOSES A FAIRE VITE
+  a. Le contre-exemple, correctement : f : x -> -1/x sur R*. Ne dis pas
+     "pas croissante car R* n'est pas un intervalle" : l'echec d'une hypothese
+     ne prouve jamais que la conclusion est fausse. EXHIBE un couple.
+  b. Chronometre-toi sur | |x| - |y| | <= |x - y|. Objectif : deux lignes.
+     Idee unique : ecris x = (x - y) + y, applique l'inegalite triangulaire,
+     puis "par symetrie des roles de x et y" au lieu de tout refaire.
 
-15 min  -  ORAL DU JOUR
-Debout, chronometre : R4, la caracterisation du sup, enoncee et demontree. Puis l'illustrer sur A = { 1 - 1/n, n >= 1 }.
+10 min - ORAL DU JOUR
+Debout, chronometre : enonce et demontre que f' >= 0 sur un intervalle entraine
+f croissante. A la fin, dis a voix haute : "l'hypothese d'intervalle sert a
+garantir que [a, b] est inclus dans I". Si tu ne l'as pas dite, l'oral ne
+compte pas.
 
 METHODE
-Tu lis d'abord, c'est ton choix, mais la lecture est CHRONOMETREE et le livre se referme au signal. Ce qui compte n'est pas d'avoir lu, c'est ce qui ressort livre ferme.
-Un exercice se cherche 20 min maximum. Passe ce delai : corrige, comprends, et le lendemain refais-le de zero.
+Tu lis d'abord, c'est ton choix, mais la lecture est CHRONOMETREE et le livre
+se referme au signal. Ce qui compte n'est pas d'avoir lu, c'est ce qui ressort
+livre ferme.
+Un exercice se cherche 20 min maximum. Passe ce delai : corrige, comprends, et
+le lendemain refais-le de zero.
 Toute erreur va au carnet, avec la date. Elle se refait a J+2.
 
 @@ 2026-09-24 c84fd76a2b2d5473c58aa5aca2127db1@fuf-romain
