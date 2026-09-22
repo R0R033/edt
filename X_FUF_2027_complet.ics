@@ -1308,48 +1308,54 @@ DTSTART;TZID=Europe/Paris:20260924T095000
 DTEND;TZID=Europe/Paris:20260924T115000
 DTSTAMP:20260809T120000Z
 UID:75176cadb2a573831f7d0bea7ffe07d8@fuf-romain
-SEQUENCE:23
+SEQUENCE:24
 DESCRIPTION:SEMAINE 2 - Specification\, terminaison\, correction\, comple
  xite\nDANS LE LIVRE : Beury ch. 3\n\nSEANCE REQUALIFIEE : c'est ta PREMI
  ERE seance d'informatique\, pas un oral blanc. Un oral blanc sur un chap
  itre jamais ouvert ne mesure rien. L'oral blanc d'info passe a jeudi pro
- chain\, sur ce chapitre-ci.\n\nCONTRAT DU JOUR\nFin de seance = la dicho
- tomie entierement specifiee\, prouvee (terminaison ET correction) et son
-  cout etabli\, le tout sans le livre.\nAucune ligne de Python n'est exig
- ee aujourd'hui. Ton oral porte sur du raisonnement\, pas sur la syntaxe.
- \n\n30 min  -  LECTURE\, chronometree (Beury ch. 3)\nTu cherches quatre 
- mots et leur definition exacte : precondition\, postcondition\, variant\
- , invariant. Le reste se lira en le pratiquant.\n\n50 min  -  LA DICHOTO
- MIE\, LIVRE FERME\nSur la recherche dichotomique d'une valeur v dans un 
- tableau trie T de taille n :\n  1. Ecris la specification complete : ce 
- qu'on suppose en entree (precondition)\, ce qu'on garantit en sortie (po
- stcondition). Sois precis sur 'trie'.\n  2. Donne un VARIANT de boucle e
- t prouve la terminaison. Un variant est un entier naturel qui decroit st
- rictement a chaque tour : dis lequel\, et montre-le.\n  3. Donne l'INVAR
- IANT de boucle et prouve la correction PARTIELLE. L'invariant a dire : s
- i v est dans T\, alors v est dans la tranche encore consideree.\n  4. Co
- nclus a la correction TOTALE\, et explique pourquoi ce mot exige les deu
- x preuves precedentes et pas une seule.\n  5. Complexite au pire : pose 
- la recurrence C(n) = C(n/2) + O(1)\, resous-la\, et dis pourquoi c'est u
- n ordre de grandeur et non un nombre d'operations.\n\n30 min  -  EXERCIC
- E AUTOSUFFISANT (enonce complet\, rien a connaitre d'avance)\n  Soit T u
- n tableau de n entiers\, STRICTEMENT croissant\, indice de 0 a n-1.\n  O
- n cherche s'il existe un indice i tel que T[i] = i.\n  a. Montrer que la
-  suite g(i) = T[i] - i est croissante au sens large.\n  b. En deduire un
-  algorithme en O(log n). L'ecrire en pseudo-code.\n  c. En donner l'inva
- riant de boucle\, prouver la terminaison et la correction.\n  d. Pourquo
- i l'hypothese STRICTEMENT croissant est-elle indispensable ? Donner un t
- ableau croissant au sens large pour lequel la methode echoue.\n  La ques
- tion d est la vraie question. Une hypothese qu'on ne sait pas casser est
-  une hypothese qu'on n'a pas comprise.\n\nCLOTURE  -  une seule tentativ
- e\, pas de rattrapage\nDebout\, a voix haute\, chronometre 5 min : enonc
- e l'invariant de la dichotomie et explique en une phrase la difference e
- ntre correction partielle et correction totale.\n\nMETHODE\nTu lis d'abo
- rd\, c'est ton choix\, mais la lecture est CHRONOMETREE et le livre se r
- eferme au signal. Ce qui compte n'est pas d'avoir lu\, c'est ce qui ress
- ort livre ferme.\nUn exercice se cherche 20 min maximum. Passe ce delai 
- : corrige\, comprends\, et le lendemain refais-le de zero.\nToute erreur
-  va au carnet\, avec la date. Elle se refait a J+2.
+ chain\, sur ce chapitre-ci.\n\nCONTRAT DU JOUR\nFin de seance = 7 defini
+ tions recitees sans notes + la dichotomie entierement specifiee\, prouve
+ e et chiffree + 1 exercice + 1 oral de 5 min.\nAucune ligne de Python n'
+ est exigee aujourd'hui. Ton oral porte sur du raisonnement\, pas sur la 
+ syntaxe.\n\n25 min  -  LECTURE CHRONOMETREE (Beury ch. 3)\nTu ne lis pas
+  pour tout retenir\, tu lis pour remplir les sept cases ci-dessous. Refe
+ rme le livre au signal.\n\n20 min  -  LES 7 DEFINITIONS\, LIVRE FERME\nE
+ cris chacune en UNE phrase\, de memoire. Ce sont elles qu'un examinateur
+  demande en premier\, et elles doivent sortir mot pour mot.\n  D1. Preco
+ ndition.\n  D2. Postcondition.\n  D3. Variant de boucle.\n  D4. Invarian
+ t de boucle.\n  D5. Correction partielle.\n  D6. Correction totale.\n  D
+ 7. Complexite au pire\, en ordre de grandeur.\nCelles qui ne sortent pas
+  : relis CE point seul\, puis reecris.\n\n45 min  -  LA DICHOTOMIE\, DE 
+ BOUT EN BOUT\nRecherche d'une valeur v dans un tableau trie T de taille 
+ n.\n  1. Specification complete : precondition\, postcondition. Sois pre
+ cis sur le mot 'trie'.\n  2. VARIANT et preuve de terminaison. Un varian
+ t est un entier naturel qui decroit strictement a chaque tour : dis lequ
+ el\, et montre-le.\n  3. INVARIANT et preuve de correction partielle. L'
+ invariant a dire : si v figure dans T\, alors v figure dans la tranche e
+ ncore consideree.\n  4. Conclus a la correction TOTALE\, et explique pou
+ rquoi ce mot exige les deux preuves precedentes et pas une seule.\n  5. 
+ Complexite au pire : pose la recurrence\, resous-la\, et dis pourquoi c'
+ est un ordre de grandeur et non un nombre d'operations.\n\n25 min  -  EX
+ ERCICE AUTOSUFFISANT (enonce complet\, rien a savoir d'avance)\n  Soit T
+  un tableau de n entiers\, STRICTEMENT croissant\, indice de 0 a n-1.\n 
+  On cherche s'il existe un indice i tel que T[i] = i.\n  a. Montrer que 
+ g(i) = T[i] - i est croissante au sens large.\n  b. En deduire un algori
+ thme en O(log n). L'ecrire en pseudo-code.\n  c. En donner l'invariant\,
+  prouver terminaison et correction.\n  d. Pourquoi STRICTEMENT croissant
+  est-il indispensable ? Donner un tableau croissant au sens large qui me
+ t la methode en defaut.\n  La question d est la vraie question. Une hypo
+ these qu'on ne sait pas casser est une hypothese qu'on n'a pas comprise.
+ \n\n5 min  -  CLOTURE\, une seule tentative\nDebout\, chronometre : l'in
+ variant de la dichotomie\, puis la difference entre correction partielle
+  et totale\, en une phrase chacune.\n\nLE REFLEXE DU JOUR\, le meme qu'e
+ n maths : avant d'ecrire le moindre algorithme\, ecris sa SPECIFICATION.
+  C'est l'equivalent informatique de nommer l'outil avant de commencer.\n
+ \nMETHODE\nTu lis d'abord\, c'est ton choix\, mais la lecture est CHRONO
+ METREE et le livre se referme au signal. Ce qui compte n'est pas d'avoir
+  lu\, c'est ce qui ressort livre ferme.\nUn exercice se cherche 20 min m
+ aximum. Passe ce delai : corrige\, comprends\, et le lendemain refais-le
+  de zero.\nToute erreur va au carnet\, avec la date. Elle se refait a J+
+ 2.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Culture generale scientifique - La methode scientifique : Popper 
@@ -1358,11 +1364,43 @@ DTSTART;TZID=Europe/Paris:20260924T171000
 DTEND;TZID=Europe/Paris:20260924T183000
 DTSTAMP:20260809T120000Z
 UID:893e62d6fe850c1ec0dd627bf6313951@fuf-romain
-SEQUENCE:21
-DESCRIPTION:Theme le plus frequent de l'epreuve. Sache l'expliquer en deu
- x minutes et l'illustrer par un exemple concret.\n\nEpreuve : 30 min de 
- preparation\, 30 min d'oral. L'examinateur revient toujours sur ta lettr
- e de motivation.
+SEQUENCE:22
+DESCRIPTION:La methode scientifique : Popper et la refutabilite\nTheme le
+  plus frequent de l'epreuve. Coefficient 4.\n\nCONTRAT DU JOUR\nFin de s
+ eance = une fiche en cinq blocs + un expose de 15 min tenu debout\, sans
+  notes.\n\n35 min  -  CONSTRUIRE LA FICHE. Cinq blocs\, pas un de plus.\
+ n  1. LE PROBLEME. Hume et l'induction : aucune quantite d'observations 
+ ne demontre une loi universelle. Ecris pourquoi\, en deux phrases.\n  2.
+  LA REPONSE DE POPPER. L'asymetrie logique : un enonce universel n'est j
+ amais definitivement verifiable\, mais un seul contre-exemple le refute.
+  D'ou le critere : est scientifique ce qui INTERDIT quelque chose.\n  3.
+  DEUX EXEMPLES OPPOSES\, avec dates. D'un cote l'eclipse de 1919 et la d
+ eviation de la lumiere : une prediction risquee\, qui pouvait echouer. D
+ e l'autre\, les theories que Popper juge irrefutables parce que tout les
+  confirme. Cherche toi-meme lesquelles il vise\, et ce qu'il leur reproc
+ he exactement.\n  4. LES OBJECTIONS. Duhem-Quine : on ne teste jamais un
+ e hypothese seule mais un bloc (hypothese + hypotheses auxiliaires + con
+ ditions experimentales)\, donc un echec ne dit pas QUOI abandonner. Kuhn
+  : la science normale ne cherche pas a refuter\, elle resout des enigmes
+  \; les ruptures sont des revolutions. Lakatos : un noyau dur protege pa
+ r une ceinture d'hypotheses ajustables.\n  5. TROIS CONFUSIONS A NE PAS 
+ FAIRE.\n     - Refutable n'est pas faux. Un enonce refutable peut etre v
+ rai\, et c'est le cas de toutes les bonnes theories.\n     - Refutable n
+ 'est pas verifiable. Le Cercle de Vienne demandait la verification \; Po
+ pper se construit contre eux.\n     - Non scientifique n'est pas denue d
+ e sens. Popper ne condamne pas la metaphysique\, il la place hors du cha
+ mp de la science.\n     C'est ici que se gagne le demi-point : la plupar
+ t des candidats confondent au moins une de ces trois paires.\n\n35 min  
+ -  MISE EN CONDITION\, une seule tentative\, pas de rattrapage\n  Sujet 
+ : "Une theorie qui explique tout explique-t-elle quelque chose ?"\n  15 
+ min de preparation montre en main\, puis 15 min debout\, a voix haute\, 
+ sans notes. Puis 5 min pour ecrire ce qui a manque.\n  EXIGENCE : un exe
+ mple pris dans TON domaine. Une borne de complexite se refute par un seu
+ l contre-exemple. Une conjecture comme P different de NP est-elle refuta
+ ble\, et en quel sens ? Personne d'autre dans la salle n'aura cette cart
+ e : joue-la.\n\n10 min  -  CARNET\nNote ce que tu n'as pas su DIRE\, pas
+  ce que tu n'as pas su lire. A cette epreuve\, ce qui n'est pas prononce
+  n'existe pas.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Maths - oral blanc du soir
@@ -1398,13 +1436,30 @@ DTSTART;TZID=Europe/Paris:20260925T080000
 DTEND;TZID=Europe/Paris:20260925T085000
 DTSTAMP:20260809T120000Z
 UID:4f29f2fcfb4dcf9e112ae86ae3e689c0@fuf-romain
-SEQUENCE:21
-DESCRIPTION:Preterit vs present perfect : la distinction que le francais 
- ne fait pas.\n\nPreterit = action datee et terminee (I saw him yesterday
- ). Present perfect = bilan sans date precise (I have seen him). Past per
- fect = anteriorite dans le passe.\n\nRevoir aussi les verbes irreguliers
-  les plus frequents : c'est du par-coeur\, mais ca s'entend immediatemen
- t a l'oral.\n\nDouble usage : preparation Bristol + epreuve (coeff 3).
+SEQUENCE:22
+DESCRIPTION:Temps du passe. Coefficient 3.\n\nCONTRAT DU JOUR\nFin de sea
+ nce = deux minutes d'anglais parle enregistrees\, reecoutees\, et le com
+ pte exact de tes fautes de temps.\n\n15 min  -  LES TROIS FAUTES DE FRAN
+ COPHONE\nPour chacune\, ecris UNE phrase juste et UNE phrase fausse. C'e
+ st le contraste qui fixe la regle\, pas la regle seule.\n  1. Action dat
+ ee = preterit\, toujours. "I saw him yesterday"\, jamais "I have seen hi
+ m yesterday". Des qu'une date\, une heure ou un "ago" apparait\, le pres
+ ent perfect est exclu.\n  2. "Depuis" se coupe en deux : since + point d
+ e depart\, for + duree\, et le verbe va au present perfect. "I have live
+ d here for three years" / "since 2023". Le francais dit "je vis ici depu
+ is" au present : d'ou la faute\, systematique.\n  3. Anteriorite dans un
+  recit deja au passe = past perfect. "When I arrived\, he had already le
+ ft." Le francais s'en passe souvent\, l'anglais non.\n\n25 min  -  PRODU
+ CTION. C'est le coeur de la seance.\nChoisis un fait scientifique recent
+ . Raconte-le a voix haute\, en anglais\, au passe\, pendant 2 minutes. E
+ NREGISTRE-TOI avec ton telephone.\nNe t'arrete pas pour te corriger : au
+  concours tu ne pourras pas.\nPuis reecoute\, et COMPTE. Le nombre de fa
+ utes de temps est ta note du jour.\n\n10 min  -  REFAIRE\nReprends les m
+ emes 2 minutes\, une seule fois\, en corrigeant ce que tu as entendu. L'
+ ecart entre les deux prises est ce que tu as reellement appris aujourd'h
+ ui.\n\nPOURQUOI T'ENREGISTRER : a l'ecrit tu vois tes fautes\, a l'oral 
+ tu ne les entends pas. C'est le seul moyen de te relire en anglais parle
+ \, et c'est en anglais parle que tu seras note.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Maths - ORAL BLANC a voix haute\, chronometre
@@ -1442,12 +1497,37 @@ DTSTART;TZID=Europe/Paris:20260925T161000
 DTEND;TZID=Europe/Paris:20260925T174000
 DTSTAMP:20260809T120000Z
 UID:dd3094bc057004fed7fe4d23f93f737f@fuf-romain
-SEQUENCE:21
-DESCRIPTION:Deux esthetiques opposees\, tres rentables a l'oral. Cherche 
- des auteurs peu attendus plutot que les incontournables du lycee.\n\nEpr
- euve : resume fidele en 2-3 min\, reflexion personnelle de 10-12 min\, p
- uis entretien. Evite L'Etranger et Candide : trop attendus pour etre val
- orises.
+SEQUENCE:22
+DESCRIPTION:Baroque et classicisme. Coefficient 3.\nDeux esthetiques oppo
+ sees\, tres rentables a l'oral.\n\nCONTRAT DU JOUR\nFin de seance = une 
+ fiche-munition complete\, au format habituel en cinq sections\, avec au 
+ moins six citations sues mot pour mot.\n\nFormat impose\, le meme que te
+ s autres fiches-munitions :\n  1. idees et themes majeurs\n  2. citation
+ s a memoriser mot pour mot\n  3. applications en dissertation\n  4. cont
+ exte auteur et dates precises\n  5. categories thematiques\n\n40 min  - 
+  LES DEUX ESTHETIQUES\, EN TABLEAU\n  Baroque : instabilite\, metamorpho
+ se\, illusion\, mouvement\, ostentation\, le theatre dans le theatre. Mo
+ tifs a retenir : l'eau\, le miroir\, la bulle\, les ruines\, le songe\, 
+ la vanite.\n  Classicisme : ordre\, mesure\, raison\, bienseance\, vrais
+ emblance\, les trois unites\, l'imitation des Anciens\, plaire et instru
+ ire.\n\n  AUTEURS : pas ceux du lycee. Cote baroque\, va voir Sponde\, C
+ hassignet\, Saint-Amant\, et le proces de Theophile de Viau. Cote classi
+ que\, prends La Rochefoucauld\, La Bruyere\, Madame de La Fayette plutot
+  que Racine et Moliere\, que tout le monde citera.\n  Verifie CHAQUE dat
+ e dans une source. N'en invente aucune : une date fausse a l'oral coute 
+ plus cher qu'une date absente.\n\n30 min  -  CITATIONS\nSix au minimum\,
+  trois par esthetique\, apprises mot pour mot. Courtes. Une citation de 
+ six mots placee au bon endroit vaut mieux qu'un paragraphe recite.\n\n20
+  min  -  LE PIEGE\, et c'est la que tu prends de l'avance\nL'opposition 
+ baroque / classicisme est trop propre pour etre vraie. Trois choses a sa
+ voir dire :\n  - Corneille appartient aux deux\, et L'Illusion comique (
+ 1636) en est la preuve. Cherche pourquoi.\n  - Le classicisme ne s'est p
+ as pense comme une reaction au baroque. Le mot 'baroque' applique a la l
+ itterature francaise est une construction critique tardive\, pas une eti
+ quette que ces auteurs revendiquaient.\n  - Les bornes chronologiques us
+ uelles sont commodes\, pas etanches.\nUn candidat qui oppose proprement 
+ recite un cours. Un candidat qui montre que la frontiere est construite 
+ a lu.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Travail L3
