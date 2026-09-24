@@ -13438,4 +13438,119 @@ ACTION:DISPLAY
 DESCRIPTION:Rappel du soir - 15 min\, sans notes
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:9a308ae0541459452e6befbb177db438@fuf-romain
+DTSTAMP:20260924T235000Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Paris:20260926T100000
+DTEND;TZID=Europe/Paris:20260926T120000
+SUMMARY:Info mineure - Specification\, terminaison\, correction\, complex
+ ite (rattrapage)
+DESCRIPTION:RATTRAPAGE de la seance de jeudi 24/09 - c'est ton demarrage 
+ en informatique.\nBeury ch. 3 : p. 45 a 50\, six pages. Les 25 min de le
+ cture suffisent largement.\n\nSEMAINE 2 - Specification\, terminaison\, 
+ correction\, complexite\nDANS LE LIVRE : Beury ch. 3\n\nSEANCE REQUALIFI
+ EE : c'est ta PREMIERE seance d'informatique\, pas un oral blanc. Un ora
+ l blanc sur un chapitre jamais ouvert ne mesure rien. L'oral blanc d'inf
+ o passe a jeudi prochain\, sur ce chapitre-ci.\n\nCONTRAT DU JOUR\nFin d
+ e seance = 7 definitions recitees sans notes + la dichotomie entierement
+  specifiee\, prouvee et chiffree + 1 exercice + 1 oral de 5 min.\nAucune
+  ligne de Python n'est exigee aujourd'hui. Ton oral porte sur du raisonn
+ ement\, pas sur la syntaxe.\n\n25 min  -  LECTURE CHRONOMETREE (Beury ch
+ . 3)\nTu ne lis pas pour tout retenir\, tu lis pour remplir les sept cas
+ es ci-dessous. Referme le livre au signal.\n\n20 min  -  LES 7 DEFINITIO
+ NS\, LIVRE FERME\nEcris chacune en UNE phrase\, de memoire. Ce sont elle
+ s qu'un examinateur demande en premier\, et elles doivent sortir mot pou
+ r mot.\n  D1. Precondition.\n  D2. Postcondition.\n  D3. Variant de bouc
+ le.\n  D4. Invariant de boucle.\n  D5. Correction partielle.\n  D6. Corr
+ ection totale.\n  D7. Complexite au pire\, en ordre de grandeur.\nCelles
+  qui ne sortent pas : relis CE point seul\, puis reecris.\n\n45 min  -  
+ LA DICHOTOMIE\, DE BOUT EN BOUT\nRecherche d'une valeur v dans un tablea
+ u trie T de taille n.\n  1. Specification complete : precondition\, post
+ condition. Sois precis sur le mot 'trie'.\n  2. VARIANT et preuve de ter
+ minaison. Un variant est un entier naturel qui decroit strictement a cha
+ que tour : dis lequel\, et montre-le.\n  3. INVARIANT et preuve de corre
+ ction partielle. L'invariant a dire : si v figure dans T\, alors v figur
+ e dans la tranche encore consideree.\n  4. Conclus a la correction TOTAL
+ E\, et explique pourquoi ce mot exige les deux preuves precedentes et pa
+ s une seule.\n  5. Complexite au pire : pose la recurrence\, resous-la\,
+  et dis pourquoi c'est un ordre de grandeur et non un nombre d'operation
+ s.\n\n25 min  -  EXERCICE AUTOSUFFISANT (enonce complet\, rien a savoir 
+ d'avance)\n  Soit T un tableau de n entiers\, STRICTEMENT croissant\, in
+ dice de 0 a n-1.\n  On cherche s'il existe un indice i tel que T[i] = i.
+ \n  a. Montrer que g(i) = T[i] - i est croissante au sens large.\n  b. E
+ n deduire un algorithme en O(log n). L'ecrire en pseudo-code.\n  c. En d
+ onner l'invariant\, prouver terminaison et correction.\n  d. Pourquoi ST
+ RICTEMENT croissant est-il indispensable ? Donner un tableau croissant a
+ u sens large qui met la methode en defaut.\n  La question d est la vraie
+  question. Une hypothese qu'on ne sait pas casser est une hypothese qu'o
+ n n'a pas comprise.\n\n5 min  -  CLOTURE\, une seule tentative\nDebout\,
+  chronometre : l'invariant de la dichotomie\, puis la difference entre c
+ orrection partielle et totale\, en une phrase chacune.\n\nLE REFLEXE DU 
+ JOUR\, le meme qu'en maths : avant d'ecrire le moindre algorithme\, ecri
+ s sa SPECIFICATION. C'est l'equivalent informatique de nommer l'outil av
+ ant de commencer.\n\nMETHODE\nTu lis d'abord\, c'est ton choix\, mais la
+  lecture est CHRONOMETREE et le livre se referme au signal. Ce qui compt
+ e n'est pas d'avoir lu\, c'est ce qui ressort livre ferme.\nUn exercice 
+ se cherche 20 min maximum. Passe ce delai : corrige\, comprends\, et le 
+ lendemain refais-le de zero.\nToute erreur va au carnet\, avec la date. 
+ Elle se refait a J+2.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Info mineure - Specification\, terminaison\, correction\, com
+ plexite (rattrapage)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d21316d7606643b6de48cc1f15a1372c@fuf-romain
+DTSTAMP:20260924T235000Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Paris:20260927T160000
+DTEND;TZID=Europe/Paris:20260927T172000
+SUMMARY:Culture generale scientifique - Popper et la refutabilite (rattra
+ page)
+DESCRIPTION:RATTRAPAGE de la seance de jeudi 24/09.\n\nLa methode scienti
+ fique : Popper et la refutabilite\nTheme le plus frequent de l'epreuve. 
+ Coefficient 4.\n\nCONTRAT DU JOUR\nFin de seance = une fiche en cinq blo
+ cs + un expose de 15 min tenu debout\, sans notes.\n\n35 min  -  CONSTRU
+ IRE LA FICHE. Cinq blocs\, pas un de plus.\n  1. LE PROBLEME. Hume et l'
+ induction : aucune quantite d'observations ne demontre une loi universel
+ le. Ecris pourquoi\, en deux phrases.\n  2. LA REPONSE DE POPPER. L'asym
+ etrie logique : un enonce universel n'est jamais definitivement verifiab
+ le\, mais un seul contre-exemple le refute. D'ou le critere : est scient
+ ifique ce qui INTERDIT quelque chose.\n  3. DEUX EXEMPLES OPPOSES\, avec
+  dates. D'un cote l'eclipse de 1919 et la deviation de la lumiere : une 
+ prediction risquee\, qui pouvait echouer. De l'autre\, les theories que 
+ Popper juge irrefutables parce que tout les confirme. Cherche toi-meme l
+ esquelles il vise\, et ce qu'il leur reproche exactement.\n  4. LES OBJE
+ CTIONS. Duhem-Quine : on ne teste jamais une hypothese seule mais un blo
+ c (hypothese + hypotheses auxiliaires + conditions experimentales)\, don
+ c un echec ne dit pas QUOI abandonner. Kuhn : la science normale ne cher
+ che pas a refuter\, elle resout des enigmes \; les ruptures sont des rev
+ olutions. Lakatos : un noyau dur protege par une ceinture d'hypotheses a
+ justables.\n  5. TROIS CONFUSIONS A NE PAS FAIRE.\n     - Refutable n'es
+ t pas faux. Un enonce refutable peut etre vrai\, et c'est le cas de tout
+ es les bonnes theories.\n     - Refutable n'est pas verifiable. Le Cercl
+ e de Vienne demandait la verification \; Popper se construit contre eux.
+ \n     - Non scientifique n'est pas denue de sens. Popper ne condamne pa
+ s la metaphysique\, il la place hors du champ de la science.\n     C'est
+  ici que se gagne le demi-point : la plupart des candidats confondent au
+  moins une de ces trois paires.\n\n35 min  -  MISE EN CONDITION\, une se
+ ule tentative\, pas de rattrapage\n  Sujet : "Une theorie qui explique t
+ out explique-t-elle quelque chose ?"\n  15 min de preparation montre en 
+ main\, puis 15 min debout\, a voix haute\, sans notes. Puis 5 min pour e
+ crire ce qui a manque.\n  EXIGENCE : un exemple pris dans TON domaine. U
+ ne borne de complexite se refute par un seul contre-exemple. Une conject
+ ure comme P different de NP est-elle refutable\, et en quel sens ? Perso
+ nne d'autre dans la salle n'aura cette carte : joue-la.\n\n10 min  -  CA
+ RNET\nNote ce que tu n'as pas su DIRE\, pas ce que tu n'as pas su lire. 
+ A cette epreuve\, ce qui n'est pas prononce n'existe pas.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Culture generale scientifique - Popper et la refutabilite (ra
+ ttrapage)
+END:VALARM
+END:VEVENT
 END:VCALENDAR
