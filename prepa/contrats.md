@@ -3,7 +3,7 @@
 # Un bloc par seance. En-tete : @@ AAAA-MM-JJ UID
 # Ligne !titre: juste apres l'en-tete = remplace aussi le titre de l'evenement.
 # Tout le reste jusqu'au prochain @@ devient le commentaire de l'evenement.
-# Publie par .github/workflows/prepa.yml le jour meme (et la veille au soir).
+# Publie par .github/workflows/prepa.yml des que le fichier change, puis chaque matin.
 # Fichier ASCII : pas d'accents, comme le reste du calendrier.
 
 @@ 2026-09-22 abcd143f2ebe5f00c7cbdd3a0adc1817@fuf-romain
@@ -277,20 +277,317 @@ L'opposition baroque / classicisme est trop propre pour etre vraie. Trois choses
   - Les bornes chronologiques usuelles sont commodes, pas etanches.
 Un candidat qui oppose proprement recite un cours. Un candidat qui montre que la frontiere est construite a lu.
 
+# ===================== SEMAINE DU 28/09/2026 =====================
+
 @@ 2026-09-27 bf530fdb2538c92cc660d4f5f0f9496b@fuf-romain
 Trois questions : oral quotidien fait 5 fois ? chapitre-cible tenu ? carnet relu et erreurs retravaillees ? Trois oui = tu es a jour.
 
 LE COMPTE DE LA SEMAINE - ecris les chiffres, ne les estime pas
-  - resultats du ch. 3 et du ch. 4 que tu sais redemontrer seul, livre ferme : ___
+  - resultats du ch. 3 que tu sais redemontrer seul, livre ferme : ___
   - exercices cherches 20 min : ___
   - oraux debout chronometres : ___
   - lignes ajoutees au carnet d'erreurs : ___
 Un carnet vide n'est pas une bonne semaine, c'est une semaine trop facile.
 
-CE QUI DEVAIT ETRE ACQUIS CETTE SEMAINE
-  Ch. 3 : inegalite triangulaire et sa forme inverse, Bernoulli, caracterisation du sup, derivee positive sur un INTERVALLE donne croissance, theoreme de la bijection monotone.
-  Ch. 4 : telescopage, sommes geometriques, binome de Newton, formule du capitaine, factorisation par l'angle moitie.
+CE QUI DEVAIT ETRE ACQUIS
+  Ch. 3, section I : inegalite triangulaire et sa forme inverse, Bernoulli, caracterisation du sup, derivee positive sur un INTERVALLE donne croissance.
   Info : specification, variant, invariant, correction partielle et totale, complexite au pire.
-Coche. Ce qui n'est pas coche passe en tete de la semaine prochaine, avant le nouveau chapitre.
 
-SEMAINE PROCHAINE : ch. 5 nombres complexes, ch. 6 fonctions usuelles. Info : recherche et dichotomie.
+SEMAINE PROCHAINE : profond ch. 3, sections II a IV et cloture samedi | outil ch. 4, sommes, binome, pivot. Info : recherche et dichotomie. Francais : nouvelle methode, premier resume vendredi.
+
+@@ 2026-09-27 51fc27a2433c7e7425483e93642348e5@fuf-romain
+RAPPEL DU SOIR - 15 min, sans notes
+Se retester a distance de la seance, c'est ce qui fait tenir un resultat jusqu'en mai. C'est court expres.
+
+1. 5 min - Demain 8 h, outil ch. 4 : ecris de tete ce que tu sais deja des sommes (geometrique, sum k, telescopage). C'est ton point de depart.
+2. 5 min - Info : relis la correction de la dichotomie de cet apres-midi, ferme-la, puis reecris le variant et l'invariant.
+3. 5 min - Carnet d'erreurs : relis a voix haute les lignes de la semaine.
+
+Si un point ne sort pas ce soir, tu ne le revois pas maintenant : tu le notes, et il ouvre la seance de demain.
+
+@@ 2026-09-28 df5234b893605b867089706f1710a6a5@fuf-romain
+!titre: Maths - Outil ch. 4 (I) : sommes, changement d'indice, telescopage
+THEME DE LA SEMAINE : profond ch. 3 (sections II a IV, cloture samedi) | outil ch. 4 (sections I a III)
+
+OUTIL - Deschamps ch. 4, section I 'Symboles somme et produit', p. 102-115.
+Un chapitre OUTIL ne se redemontre pas : il s'automatise. Peu de lecture, beaucoup de calculs courts, justes du premier coup.
+Fin de seance = 6 calculs justes. Chaque faute va au carnet avec sa cause : indice, borne ou signe.
+
+08h00-08h10 SURVOL p. 102-115, crayon en main. Note seulement les formules que tu ne saurais pas ecrire de tete.
+
+08h10-08h45 SIX CALCULS, livre ferme, 5 a 6 min chacun
+  S1. sum(k = 0 a n) q^k pour q different de 1. Puis sum(k = 3 a n) q^k : la somme geometrique qui ne commence pas en 0, une faiblesse que le jury de l'X releve chez les candidats.
+  S2. sum(k = 1 a n) 1 / (k (k + 1)) par telescopage. C'etait le bonus de mardi dernier.
+  S3. Retrouve sum(k = 1 a n) k^2 en telescopant (k + 1)^3 - k^3.
+  S4. prod(k = 2 a n) (1 - 1/k^2). Factorise chaque facteur, puis telescope le produit.
+  S5. Somme double : sum(1 <= i <= j <= n) i. Somme d'abord en i, a j fixe.
+  S6. Avec le changement d'indice j = n - k, montre que sum(k = 0 a n) k = sum(k = 0 a n) (n - k), et deduis-en la formule de Gauss sans recurrence.
+
+08h45-08h50 CLOTURE, debout : la formule de sum(k = p a n) q^k, et comment tu la retrouves en 20 secondes.
+
+A ne regarder qu'apres : S2 = n / (n + 1) ; S4 = (n + 1) / (2n) ; S5 = n (n + 1) (n + 2) / 6.
+
+@@ 2026-09-29 dcd7a674adb05b82b870c9fb33d8aefc@fuf-romain
+!titre: Maths - Profond ch. 3 (II) : fonctions reelles de la variable reelle
+THEME DE LA SEMAINE : profond ch. 3 (sections II a IV, cloture samedi) | outil ch. 4 (sections I a III)
+
+PROFOND - Deschamps ch. 3, section II 'Fonctions reelles de la variable reelle', p. 72-79. En fin de seance, lecture de la section III.
+Fin de seance = section II lue, 3 resultats reecrits livre ferme avec leur preuve, 3 exercices cherches, 1 oral de 5 min.
+
+14h00-14h10 REPRISE, 10 min max. De tete : 'f' >= 0 sur un intervalle implique f croissante', hypotheses comprises, preuve par les accroissements finis en 5 lignes. Ce qui ne sort pas va au carnet et revient a J+2.
+
+14h10-14h40 LECTURE CHRONOMETREE p. 72-79. En lisant, dresse la liste des enonces encadres : c'est ta liste de reconstruction.
+
+14h40-15h05 LIVRE FERME, avec preuve
+  R1. La composee de deux fonctions decroissantes est croissante. Pour les trois autres cas, 'de meme' suffit, mais sache dire lequel donne quoi.
+  R2. Une fonction strictement monotone est injective.
+  R3. f est bornee si et seulement si |f| est majoree. Les DEUX sens.
+  Plus les autres enonces encadres de ta liste.
+
+15h05-15h15 PAUSE
+
+15h15-16h15 TROIS EXERCICES, 20 min max chacun
+  E1. (analyse-synthese) Montrer que toute fonction f : R -> R s'ecrit de maniere UNIQUE comme somme d'une fonction paire et d'une fonction impaire. Commence par l'analyse : si f = p + i, que valent p(x) et i(x) en fonction de f(x) et f(-x) ?
+  E2. (la reciproque de R2) Une fonction injective de R dans R est-elle forcement monotone ? Preuve ou contre-exemple. Puis ecris, sans le demontrer, quel theoreme deviendrait necessaire si l'on imposait en plus la continuite sur un intervalle.
+  E3. Soit f : R -> R periodique et monotone. Montrer que f est constante.
+
+16h15-16h40 LECTURE p. 80-85 (section III, rappels de derivation). Note seulement ce que tu ne saurais pas demontrer : c'est le programme de demain.
+
+16h40-16h50 CLOTURE, une seule tentative : debout, chronometre, 5 min. Enonce et demontre R2, puis donne ton contre-exemple de E2.
+
+METHODE
+Lecture chronometree, livre ferme au signal. Un exercice se cherche 20 min maximum ; passe ce delai, corrige, comprends, et refais-le de zero a J+2. Avant la premiere ligne d'un exercice, ecris 'OUTIL :' et le resultat que tu comptes utiliser.
+Deux controles sur chaque preuve : chaque hypothese a-t-elle servi ? Ai-je ecrit quelque chose qui contredit ce que je sais deja ?
+
+@@ 2026-09-30 293b89d2436fd38b81d37a30558ae8d8@fuf-romain
+!titre: Maths - Profond ch. 3 (III) : derivation, les preuves a savoir faire
+THEME DE LA SEMAINE : profond ch. 3 (sections II a IV, cloture samedi) | outil ch. 4 (sections I a III)
+
+PROFOND - Deschamps ch. 3, section III 'Derivation - rappels du secondaire', p. 80-85, lue hier en fin de seance.
+Fin de seance = 3 resultats enonces avec leurs hypotheses exactes, dont 1 redemontre, 1 exercice, 1 oral.
+
+09h40-09h55 REPRISE, 15 min max : ce qui a casse hier (carnet).
+
+09h55-10h20 LIVRE FERME
+  R1. Derivee d'un produit, a partir du taux d'accroissement. L'astuce tient en une ligne : ajouter et retrancher f(a) g(x). Preuve complete.
+  R2. Derivee d'une composee : (g o f)'(a) = f'(a) g'(f(a)). Enonce exact : ou f doit-elle etre derivable, et ou g ?
+  R3. Derivee de la reciproque : f bijection de l'intervalle I sur J, derivable en a avec f'(a) non nul ; alors f^-1 est derivable en b = f(a), et (f^-1)'(b) = 1 / f'(a). Dis pourquoi f'(a) non nul est indispensable : regarde x -> x^3 en 0.
+  Si le livre admet R2 et R3 dans cette section, retiens l'enonce exact et le role de chaque hypothese : la preuve viendra au ch. 11.
+
+10h20-10h40 EXERCICE, 20 min max
+  E1. Montrer que arctan est derivable sur R et calculer sa derivee par la formule de la reciproque. L'etape que presque tout le monde saute : tan est une bijection DE QUOI SUR QUOI ?
+
+10h40-10h50 CLOTURE : debout, 5 min, R3 et le contre-exemple x^3. Puis 5 min de carnet.
+
+METHODE
+Lecture chronometree, livre ferme au signal. Un exercice se cherche 20 min maximum ; passe ce delai, corrige, comprends, et refais-le de zero a J+2. Avant la premiere ligne d'un exercice, ecris 'OUTIL :' et le resultat que tu comptes utiliser.
+Deux controles sur chaque preuve : chaque hypothese a-t-elle servi ? Ai-je ecrit quelque chose qui contredit ce que je sais deja ?
+
+@@ 2026-10-01 464ec5adfbd495308d03d609e444285c@fuf-romain
+!titre: Maths - Profond ch. 3 (IV) : variations d'une fonction sur un intervalle
+THEME DE LA SEMAINE : profond ch. 3 (sections II a IV, cloture samedi) | outil ch. 4 (sections I a III)
+
+PROFOND - Deschamps ch. 3, section IV 'Variations d'une fonction sur un intervalle', p. 86-94.
+Fin de seance = section IV lue, 2 resultats reecrits, 1 exercice, 1 oral de 3 min.
+
+09h40-09h55 REPRISE, 15 min max : carnet de mardi et de mercredi.
+
+09h55-10h25 LECTURE CHRONOMETREE p. 86-94. Liste les enonces encadres.
+  A verifier livre en main, et a me dire ce soir : le theoreme de la bijection (fonction continue et strictement monotone sur un intervalle) est-il enonce ici, ou seulement au ch. 10 ?
+
+10h25-10h50 LIVRE FERME
+  R1. f' >= 0 sur un intervalle implique f croissante. Tu l'as deja : 3 min, pas plus.
+  R2. Si f' > 0 sur l'intervalle sauf en un nombre fini de points, alors f est strictement croissante. Indice : f est croissante par R1 ; si f(a) = f(b) avec a < b, que vaut f sur [a, b], et donc f' sur ]a, b[ ?
+  Plus les autres enonces encadres de ta liste.
+
+10h50-11h05 EXERCICE, 15 min
+  E1. Montrer que pour tout x de [0, pi/2] : (2/pi) x <= sin x <= x.
+  La majoration est immediate. Pour la minoration, etudie h(x) = sin x - 2x/pi : h' change de signe une seule fois. Qu'en deduis-tu sur h, sachant que h(0) = h(pi/2) = 0 ?
+
+11h05-11h10 CLOTURE : debout, 3 min, R2.
+
+METHODE
+Lecture chronometree, livre ferme au signal. Un exercice se cherche 20 min maximum ; passe ce delai, corrige, comprends, et refais-le de zero a J+2. Avant la premiere ligne d'un exercice, ecris 'OUTIL :' et le resultat que tu comptes utiliser.
+Deux controles sur chaque preuve : chaque hypothese a-t-elle servi ? Ai-je ecrit quelque chose qui contredit ce que je sais deja ?
+
+@@ 2026-10-02 1af70f9607aee0dd1c9f49df6cf147ef@fuf-romain
+!titre: Maths - Oral blanc format jury (2 exercices) + outil ch. 4 (II-III)
+THEME DE LA SEMAINE : profond ch. 3 (sections II a IV, cloture samedi) | outil ch. 4 (sections I a III)
+
+FORMAT DU JURY FUF : deux exercices tires de deux parties distinctes du programme, environ 25 min chacun, debout, a voix haute, sans preparation. Tu parles pendant que tu cherches.
+
+14h00-14h25 EXERCICE 1
+  Soit f definie sur R par f(x) = x / (1 + |x|).
+  1. Montrer que f est strictement croissante et impaire.
+  2. Montrer que f est une bijection de R sur ]-1, 1[ et expliciter sa reciproque.
+  3. f est-elle derivable en 0 ? Et f^-1 ?
+  Question d'examinateur a anticiper : comment prouves-tu la surjectivite SANS le theoreme des valeurs intermediaires ?
+
+14h25-14h30 Trois observations sur ta prestation, ecrites.
+
+14h30-14h55 EXERCICE 2
+  Pour n >= 1, calculer S = sum(k = 0 a n) k binom(n, k).
+  Deux methodes exigees : (a) la relation k binom(n, k) = n binom(n - 1, k - 1), a justifier ; (b) deriver x -> (1 + x)^n.
+  Relance possible : et sum(k = 0 a n) k^2 binom(n, k) ?
+
+14h55-15h00 Trois observations de plus.
+
+15h00-16h00 OUTIL ch. 4, sections II et III (binome p. 116-118, pivot p. 119-123). Survol 10 min, puis livre ferme :
+  B1. Formule de Pascal : une preuve par le calcul, une preuve par le denombrement.
+  B2. sum(k = 0 a n) binom(n, k) 2^k.
+  B3. La somme des binom(n, k) pour k pair, n >= 1. Combine (1 + 1)^n et (1 - 1)^n.
+  B4. Resoudre par le pivot, en discutant selon le reel m :
+      x + y + z = 1 ; x + 2y + 3z = 2 ; x + 4y + m z = 3.
+  Critere : 4 resultats justes. Chaque faute au carnet avec sa cause.
+
+LES SIX OBSERVATIONS : le moment exact ou tu t'es tu ; un tic de langage ; une etape ecrite sans etre dite ; ton temps reel sur chaque exercice. Le jury annonce deux exercices en 50 min : l'ecart entre ton temps et 25 min est ce qu'il te reste a gagner.
+
+@@ 2026-10-03 d51198d372f67224b817ce51b7783909@fuf-romain
+!titre: Maths - Cloture du ch. 3 : l'enseigner, puis deux exercices
+THEME DE LA SEMAINE : profond ch. 3 (sections II a IV, cloture samedi) | outil ch. 4 (sections I a III)
+
+CLOTURE DU CHAPITRE 3. Un chapitre est fini quand tu l'as enseigne a voix haute, pas quand tu as lu sa derniere page.
+Fin de seance = plan de memoire + cours de 20 min donne debout + 2 exercices + le compte des sections.
+
+10h00-10h15 REPRISE, 15 min max : carnet de la semaine.
+
+10h15-10h20 PLAN DE MEMOIRE : les 4 sections du ch. 3 en 4 lignes, chacune avec son resultat phare.
+
+10h20-10h45 ENSEIGNE, debout, 20 min, sans notes. Impose-toi 3 theoremes avec leurs hypotheses exactes, 1 exemple et 2 contre-exemples : derivee positive sans croissance sur R*, fonction injective non monotone.
+
+10h45-10h55 LA OU TU AS HESITE : reprends ce point seul, puis reenseigne-le une fois.
+
+10h55-11h05 PAUSE
+
+11h05-11h25 EXERCICE 1, 20 min max
+  Montrer que ln x <= x - 1 pour tout x > 0, avec egalite si et seulement si x = 1.
+  En deduire, pour a1, ..., an > 0 de moyenne arithmetique m : a1 a2 ... an <= m^n. Indice : applique l'inegalite a chaque ai / m, puis somme.
+
+11h25-11h45 EXERCICE 2, 20 min max
+  Soit f(x) = x^3 + x sur R. Montrer que f est une bijection de R sur R, que f^-1 est derivable sur R, et calculer (f^-1)'(2).
+  Pour la surjectivite, tu peux invoquer le theoreme de la bijection : dis precisement ce qu'il demande.
+
+11h45-12h10 LE COMPTE, ecrit :
+  sections du ch. 3 faites / prevues : ___ / 4 (II, III, IV, cloture)
+  sections du ch. 4 faites / prevues : ___ / 3 (I, II, III)
+  resultats redemontrables livre ferme : ___ ; exercices cherches : ___ ; oraux debout : ___
+Ces chiffres ouvrent le bilan de dimanche.
+
+12h10-12h20 Marge.
+
+METHODE
+Lecture chronometree, livre ferme au signal. Un exercice se cherche 20 min maximum ; passe ce delai, corrige, comprends, et refais-le de zero a J+2. Avant la premiere ligne d'un exercice, ecris 'OUTIL :' et le resultat que tu comptes utiliser.
+Deux controles sur chaque preuve : chaque hypothese a-t-elle servi ? Ai-je ecrit quelque chose qui contredit ce que je sais deja ?
+
+@@ 2026-09-28 18c72e6bc0532d66e4fea37347571573@fuf-romain
+SEMAINE 3 - Recherche et dichotomie. Beury ch. 4, p. 51-58. Le rattrapage de la semaine Python est integre ici.
+Fin de seance = la dichotomie reprise au propre + 4 algorithmes ecrits en vrai Python et testes, chacun avec sa specification et sa complexite justifiee.
+
+17h10-17h25 REPRISE DE LA CORRECTION DE DIMANCHE, 15 min max, livre ferme
+  - Le variant est UN entier naturel qui decroit strictement a chaque tour : fin - debut + 1, la taille de la tranche. 'Les indices debut et fin' n'est pas un variant.
+  - L'invariant : si v est dans T, alors v est dans T[debut..fin].
+  - La correction partielle se lit a la SORTIE de la boucle : ou bien T[m] = v et on renvoie m ; ou bien la tranche est vide, et l'invariant donne 'v n'est pas dans T'. 'On finira par tomber sur T[m] = v' n'est pas une preuve.
+  - Au pire (v absent), la taille est au moins divisee par 2 a chaque tour : au plus floor(log2 n) + 1 tours. C'est un ordre de grandeur parce qu'on compte des tours de boucle, a une constante pres. Et le pire cas ne depend pas de v : c'est le maximum sur toutes les entrees de taille n.
+
+17h25-17h50 LECTURE CHRONOMETREE Beury ch. 4, p. 51-58.
+
+17h50-18h30 QUATRE ALGORITHMES EN VRAI PYTHON, 10 min chacun. Pour chacun : precondition, postcondition, complexite au pire justifiee en une phrase.
+  A1. Maximum d'une liste non vide ET son indice, en un seul parcours.
+  A2. Second maximum en un seul parcours. Decide ce que tu renvoies pour [5, 5, 3] et ecris-le dans la specification.
+  A3. Nombre d'occurrences de chaque element, avec un dictionnaire. Puis la meme chose avec une liste de couples (element, compte) a la place du dictionnaire : quelle complexite, et pourquoi ?
+  A4. Exponentiation rapide : son invariant, et pourquoi O(log n) multiplications.
+
+18h30-18h40 CLOTURE : debout, 5 min, la preuve complete de la dichotomie, dite. Puis carnet.
+
+LE RATTRAPAGE PYTHON est dans A1 a A4 : les fondamentaux du langage s'ecrivent en vrai Python (listes, boucles, fonctions, dictionnaires). Le jury prefere le raisonnement a la syntaxe : la specification et la complexite comptent plus que le code.
+
+Socle officiel : programme d'informatique commune MP PC PSI PT (2021), plus le programme que tu declares.
+
+@@ 2026-10-01 81e729abce0493eb18d0596c1aea0fb0@fuf-romain
+ORAL BLANC D'INFO - format jour J, debout, a voix haute. 50 min de questions, 10 min de bilan.
+Tout doit etre DIT : ce qui est seulement ecrit n'existe pas pour l'examinateur.
+
+11h20-11h35 Q1. La recherche dichotomique de bout en bout : specification, algorithme, terminaison par le variant, correction par l'invariant, complexite au pire. Sans notes.
+
+11h35-11h55 Q2. T est un tableau STRICTEMENT croissant de n entiers, indices de 0 a n-1. Existe-t-il i tel que T[i] = i ?
+  a. Montrer que g(i) = T[i] - i est croissante au sens large. C'est ici que servent 'strictement' ET 'entiers'.
+  b. En deduire un algorithme en O(log n), avec son invariant.
+  c. Question d'examinateur : pourquoi 'strictement' ? Donne un tableau croissant au sens large qui met ta methode en defaut.
+
+11h55-12h10 Q3. Deux valeurs les plus proches dans une liste de n reels. L'algorithme naif et sa complexite. Puis l'amelioration par un tri prealable : pourquoi suffit-il alors de comparer des voisins ? Quelle complexite totale ?
+
+12h10-12h20 BILAN : trois observations. Le moment ou tu t'es tu, un tic de langage, une etape ecrite sans etre dite.
+
+@@ 2026-10-02 e1a2d74976ca75a44c2fe1de6cfeadae@fuf-romain
+Futur et hypothese. Coefficient 3.
+
+CONTRAT DU JOUR
+Fin de seance = deux minutes d'anglais parle enregistrees, reecoutees, et le compte exact de tes fautes de futur et de conditionnel.
+
+15 min - LES REGLES, EN PAIRES : une phrase juste et une phrase fausse par regle. C'est le contraste qui fixe la regle.
+  1. Will = decision prise sur le moment, ou prediction. Be going to = intention deja formee, ou indice present. Present continu = arrangement deja fixe : 'I'm meeting my tutor tomorrow' quand le rendez-vous est pris.
+  2. Jamais de will apres if ou when dans la subordonnee : 'When I arrive in Bristol, I will call you', jamais 'When I will arrive'. C'est LA faute du francophone, calquee sur 'quand j'arriverai'.
+  3. Hypothese sur le present : if + preterit, would. 'If I had more time, I would read more.' Jamais 'if I would have'.
+  4. Irreel du passe : if + past perfect, would have + participe. 'If I had known, I would have applied earlier.'
+
+25 min - PRODUCTION. C'est le coeur de la seance.
+Sujet : 'Your semester in Bristol: what you expect, what you have planned, and what you would do differently if you could start your degree again.' Il force les quatre regles.
+Deux minutes a voix haute, sans t'arreter pour te corriger. ENREGISTRE-TOI.
+Reecoute et COMPTE : fautes de futur, fautes de conditionnel. Ce nombre est ta note du jour.
+
+10 min - REFAIRE : les memes deux minutes, une seule fois, en corrigeant ce que tu as entendu. L'ecart entre les deux prises est ce que tu as reellement appris aujourd'hui.
+
+@@ 2026-10-02 db110acf5f63fe7508f977401e3c11a8@fuf-romain
+!titre: Francais - Le resume (1) : methode, inventaire honnete, premier resume
+CE QUI CHANGE EN FRANCAIS, a partir d'aujourd'hui
+Deux chantiers, et seulement deux :
+  - L'EXERCICE. Le jury le dit : il 'ne s'improvise pas'. On l'entraine au format reel, chronometre, enregistre.
+  - LE CORPUS. Uniquement des oeuvres que tu as lues ou vues. Moins nombreuses, mais tenues.
+
+FORMAT DE L'EPREUVE (rapports du jury FUF 2020-2025) : 45 min de preparation sur un texte d'une bonne page (litterature, philosophie, esthetique, sciences humaines, de l'Antiquite a aujourd'hui). Puis 30 min : resume en 2-3 min ; expose d'une douzaine de minutes (introduction avec problematique et plan, trois parties qui progressent, breve conclusion, un exemple culturel precis et maitrise par partie) ; entretien d'une quinzaine de minutes.
+REGLE DU CORPUS : aucune oeuvre citee sans l'avoir lue ou vue. Le jury l'ecrit, et l'entretien le verifie.
+
+CONTRAT DU JOUR
+Fin de seance = ton inventaire honnete + un resume ecrit en entier, dit debout en 2 a 3 min, enregistre et passe a la grille.
+
+15 min - INVENTAIRE HONNETE
+Liste ce que tu as REELLEMENT lu ou vu, en entier ou le passage precis : livres, poemes, films, series, tableaux, pieces, expositions, concerts. Cinq cases par ligne : titre, auteur, date, un detail precis que tu saurais raconter, 'je tiens 2 min dessus' oui ou non.
+Marque d'une croix les oeuvres que le jury dit voir revenir tous les ans : 1984, Le Meilleur des mondes, Candide, L'Etranger, Germinal, Rhinoceros, Bel-Ami, Guernica, la science-fiction, les mangas, l'heroic fantasy. Il ne les accepte que si tu les connais PARFAITEMENT.
+Les lignes a 'oui' sans croix forment ton vrai corpus de depart. Tes fiches sur Camus n'y entrent que si tu as lu les textes.
+
+45 min - PREMIER RESUME, SUR UN AUTEUR DE CONCOURS
+Texte : Baudelaire, la lettre-dedicace 'A Arsene Houssaye', en tete du Spleen de Paris (Petits poemes en prose). Une page, sur Wikisource. Le Spleen de Paris figurait parmi les textes donnes en 2024.
+  1. Lis-la deux fois. A la deuxieme, marque dans la marge chaque articulation : ton resume les garde toutes, dans l'ordre.
+  2. Redige le resume EN ENTIER au brouillon, comme le jour J. Le jury conseille de le rediger integralement, et tu as le droit de le lire, 'avec le ton'.
+  3. Debout, chronometre, enregistre-toi. Cible : entre 2 et 3 min.
+
+LA GRILLE - chaque 'non' va au carnet
+  - Enonciation : Baudelaire ecrit 'je' a un ami, ton resume garde ce 'je'. Deux interdits explicites du jury : commencer par 'ce texte parle de', et passer a la troisieme personne ('Baudelaire explique que') quand l'auteur parle en son nom.
+  - Aucun jugement, aucun commentaire personnel.
+  - Reformulation forte : aucune phrase du texte recopiee.
+  - Toutes les articulations, dans l'ordre.
+  - Entre 2 et 3 min. Le jury deplore les resumes expedies en moins d'une minute : 'trop de candidats', ecrivait-il en 2024.
+
+20 min - APERCU DE L'EXPOSE, sans le faire
+Le sujet se choisit sur un aspect MAJEUR du texte, a partir d'une de ses phrases. 'Le texte n'est pas un pretexte.'
+Choisis ta phrase. Ecris une problematique en une question, puis trois titres de parties qui PROGRESSENT, pas trois exemples juxtaposes.
+Pas d'exemples aujourd'hui. Pour chaque partie, regarde seulement si ton inventaire contient une oeuvre qui la nourrirait. Une case vide, c'est ton prochain chantier de corpus.
+
+10 min - CARNET
+La duree de ton resume, le nombre de 'non' a la grille, et les mots familiers entendus a la reecoute. Le jury cite 'au final', 'positionner', 'au jour d'aujourd'hui', 'ceci dit', 'solutionner', et les anglicismes.
+
+@@ 2026-10-04 475df1e728b11319a2c742398aa72cd7@fuf-romain
+LE COMPTE DE LA SEMAINE - ecris les chiffres, ne les estime pas.
+
+MATHS - sections faites / prevues
+  ch. 3 : II, III, IV, cloture -> ___ / 4
+  ch. 4 : I, II, III -> ___ / 3
+  resultats redemontrables livre ferme : ___ ; exercices cherches 20 min : ___ ; oraux debout : ___
+INFO - la dichotomie dite sans notes, de bout en bout : oui / non. Algorithmes ecrits et testes : ___ / 4.
+FRANCAIS - inventaire fait : oui / non. Duree de ton resume : ___ min ___ s. 'Non' a la grille : ___.
+ANGLAIS - fautes de futur et de conditionnel : prise 1 ___, prise 2 ___.
+CARNET - lignes ajoutees : ___ ; erreurs refaites a J+2 : ___.
+
+Une section non faite ne se rattrape pas en force : elle decale le plan. Donne-moi ces chiffres ce soir, je recale la suite sur ton rythme reel.
+
+SEMAINE PROCHAINE : profond ch. 9, nombres reels et suites | outil ch. 4 (trigonometrie) puis ch. 5 (complexes). Info : recursivite.
