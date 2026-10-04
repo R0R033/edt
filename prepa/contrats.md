@@ -277,7 +277,6 @@ L'opposition baroque / classicisme est trop propre pour etre vraie. Trois choses
   - Les bornes chronologiques usuelles sont commodes, pas etanches.
 Un candidat qui oppose proprement recite un cours. Un candidat qui montre que la frontiere est construite a lu.
 
-# ===================== SEMAINE DU 28/09/2026 =====================
 
 @@ 2026-09-27 bf530fdb2538c92cc660d4f5f0f9496b@fuf-romain
 Trois questions : oral quotidien fait 5 fois ? chapitre-cible tenu ? carnet relu et erreurs retravaillees ? Trois oui = tu es a jour.
@@ -591,3 +590,305 @@ CARNET - lignes ajoutees : ___ ; erreurs refaites a J+2 : ___.
 Une section non faite ne se rattrape pas en force : elle decale le plan. Donne-moi ces chiffres ce soir, je recale la suite sur ton rythme reel.
 
 SEMAINE PROCHAINE : profond ch. 9, nombres reels et suites | outil ch. 4 (trigonometrie) puis ch. 5 (complexes). Info : recursivite.
+
+@@ 2026-10-05 303b88192dbd7cefdfb81ffa333d012b@fuf-romain
+!titre: Maths - Cloture du ch. 3 (1) : l'enseigner, puis ln x <= x - 1
+THEME DE LA SEMAINE : reports d'abord (cloture du ch. 3, oral blanc, ch. 4 II-III), puis profond ch. 9 (I a III) | outil ch. 4 (IV)
+
+REPRISE APRES LA COUPURE. Ce qui n'a pas ete fait vendredi et samedi passe avant le chapitre 9 : on ne rattrape pas en force, on decale.
+Fin de seance = plan de memoire + cours de 20 min donne debout + 1 exercice.
+
+08h00-08h05 PLAN DE MEMOIRE : les 4 sections du ch. 3 en 4 lignes, chacune avec son resultat phare.
+
+08h05-08h25 ENSEIGNE, debout, 20 min, sans notes. Impose-toi 3 theoremes avec leurs hypotheses exactes, 1 exemple et 2 contre-exemples : derivee positive sans croissance sur R*, fonction injective non monotone. Pour le second, deux couples temoins, un par sens.
+
+08h25-08h45 EXERCICE, 20 min max
+  Montrer que ln x <= x - 1 pour tout x > 0, avec egalite si et seulement si x = 1.
+  En deduire, pour a1, ..., an > 0 de moyenne arithmetique m : a1 a2 ... an <= m^n. Indice : applique l'inegalite a chaque ai / m, puis somme.
+
+08h45-08h50 CARNET : le point ou tu as hesite en enseignant. C'est le vrai resultat de la seance.
+
+@@ 2026-10-05 d5fdc441d3b8aa1c7c808439031df2b2@fuf-romain
+SEMAINE 4 - Recursivite. Beury ch. 7, p. 79-96. Deux reports y sont absorbes : l'exponentiation rapide (le A4) et la dichotomie, en version recursive.
+Fin de seance = 3 fonctions recursives ecrites en vrai Python et testees, chacune avec terminaison, correction et complexite.
+
+17h10-17h35 LECTURE CHRONOMETREE Beury ch. 7 : p. 79-81, puis survol des exemples.
+
+17h35-17h45 LIVRE FERME, quatre phrases a savoir dire :
+  1. Le cas de base, et pourquoi sans lui la fonction ne termine pas.
+  2. L'appel recursif porte sur une instance strictement plus petite : cette taille est le variant.
+  3. La correction se prouve par recurrence (forte) sur la taille.
+  4. La complexite se lit sur une relation de recurrence : C(n) = C(n/2) + O(1) donne O(log n).
+
+17h45-18h30 TROIS FONCTIONS, 15 min chacune
+  R1. Exponentiation rapide recursive, de zero, sans relire ma correction.
+  R2. Recherche dichotomique recursive dans T[g..d] : terminaison par la taille d - g + 1, correction par recurrence forte sur cette taille.
+  R3. Tours de Hanoi : la fonction qui affiche les deplacements pour n disques. Montre que le nombre de deplacements verifie u(n) = 2 u(n-1) + 1, puis u(n) = 2^n - 1. Mercredi, tu retrouveras la meme structure en maths.
+
+18h30-18h40 CLOTURE : debout, 5 min, la correction de l'exponentiation rapide par recurrence forte. Puis carnet.
+
+Le jury prefere le raisonnement a la syntaxe : la terminaison et la correction comptent plus que le code.
+
+@@ 2026-10-06 58c1b4be060ac1127fa24f0b381d97b7@fuf-romain
+!titre: Maths - Cloture du ch. 3 (2) + profond ch. 9 (I) : l'ensemble des nombres reels
+THEME DE LA SEMAINE : reports d'abord (cloture du ch. 3, oral blanc, ch. 4 II-III), puis profond ch. 9 (I a III) | outil ch. 4 (IV)
+
+Fin de seance = l'exercice de cloture du ch. 3 + section I du ch. 9 lue, 3 resultats reecrits, 2 exercices, 1 oral.
+L'essentiel est place en premier. Le dernier bloc est un BONUS : s'il saute, rien n'est en retard.
+
+14h00-14h20 CLOTURE DU CH. 3, exercice 2, 20 min max
+  Soit f(x) = x^3 + x sur R. Montrer que f est une bijection de R sur R, que f^-1 est derivable sur R, et calculer (f^-1)'(2).
+  Pour la surjectivite, tu peux invoquer le theoreme de la bijection : dis precisement ce qu'il demande.
+
+14h20-14h50 LECTURE CHRONOMETREE ch. 9, section I 'L'ensemble des nombres reels', p. 310-313. Liste les enonces encadres.
+
+14h50-15h15 LIVRE FERME, avec preuve
+  R1. R est archimedien : pour tout a > 0 et tout reel b, il existe n entier avec n a > b.
+  R2. Partie entiere : pour tout reel x, il existe un UNIQUE entier n tel que n <= x < n + 1. Existence ET unicite.
+  R3. Q est dense dans R : entre deux reels a < b, il y a un rationnel. Indice : choisis n avec 1/n < b - a, puis regarde (floor(n a) + 1) / n.
+  LEMME DU PLANCHER, deja vu cet ete : pour k entier, k <= y equivaut a k <= floor(y). Invoque-le par son nom, ne le redemontre pas.
+
+15h15-15h25 PAUSE
+
+15h25-16h05 DEUX EXERCICES, 20 min max chacun
+  E1. Montrer que pour tout reel x : floor(2x) = floor(x) + floor(x + 1/2). Ecris x = n + t avec n entier et t dans [0, 1[, puis distingue t < 1/2 et t >= 1/2.
+  E2. Montrer que l'ensemble des irrationnels est dense dans R. Indice : applique R3 entre a - racine(2) et b - racine(2).
+
+16h05-16h10 CLOTURE, une seule tentative : debout, 5 min, R2 (existence et unicite de la partie entiere).
+
+16h10-16h50 BONUS : lecture du ch. 9, section II, p. 314-316. Si tu la fais, mercredi commence directement au livre ferme.
+
+METHODE
+Lecture chronometree, livre ferme au signal. Un exercice se cherche 20 min maximum ; passe ce delai, corrige, comprends, et refais-le de zero a J+2. Avant la premiere ligne d'un exercice, ecris 'OUTIL :' et le resultat que tu comptes utiliser.
+Deux controles sur chaque preuve : chaque hypothese a-t-elle servi ? Ai-je ecrit quelque chose qui contredit ce que je sais deja ?
+
+@@ 2026-10-07 d65850b67a4607ec1a94e5c1ffa732cc@fuf-romain
+!titre: Maths - Profond ch. 9 (II) : generalites sur les suites reelles
+THEME DE LA SEMAINE : reports d'abord (cloture du ch. 3, oral blanc, ch. 4 II-III), puis profond ch. 9 (I a III) | outil ch. 4 (IV)
+
+PROFOND - Deschamps ch. 9, section II, p. 314-316.
+Fin de seance = 1 resultat reecrit avec sa preuve + 1 exercice + 1 oral de 3 min.
+
+08h00-08h10 REPRISE, 10 min max : ce qui a casse mardi (carnet).
+
+08h10-08h25 LECTURE p. 314-316. Si tu l'as faite mardi en bonus, relis 5 min et garde 10 min pour l'exercice.
+
+08h25-08h35 LIVRE FERME
+  R1. Suite arithmetico-geometrique u(n+1) = a u(n) + b, avec a different de 1. Pose l = b / (1 - a), le point fixe. Montre que u(n) - l = a^n (u(0) - l) en trois lignes. Que le livre la traite ici ou non, c'est un incontournable d'oral.
+
+08h35-08h45 EXERCICE, 10 min
+  u(0) = 0 et u(n+1) = 2 u(n) + 3. Expliciter u(n). Tu retrouveras exactement cette structure lundi soir en info, avec les tours de Hanoi.
+
+08h45-08h50 CLOTURE : debout, 3 min, R1 et sa preuve.
+
+@@ 2026-10-08 4cfe4ed8e75f34f068cf07d638b726e4@fuf-romain
+!titre: Maths - Profond ch. 9 (III) : la limite d'une suite, la definition
+THEME DE LA SEMAINE : reports d'abord (cloture du ch. 3, oral blanc, ch. 4 II-III), puis profond ch. 9 (I a III) | outil ch. 4 (IV)
+
+PROFOND - Deschamps ch. 9, section III 'Limite d'une suite reelle', p. 317-322. La fin de la section passe samedi.
+Fin de seance = section III lue + 2 resultats reecrits + 1 oral.
+
+08h55-09h20 LECTURE CHRONOMETREE p. 317-322. Liste les enonces encadres.
+
+09h20-09h35 LIVRE FERME
+  R1. La definition de 'u(n) tend vers l', avec ses quantificateurs dans le bon ordre. Puis sa NEGATION, ecrite proprement. C'est le chapitre 1 en situation : la negation est la que les candidats tombent.
+  R2. Unicite de la limite, par l'absurde, avec epsilon = |l - l'| / 3.
+      Question d'examinateur : si la definition est ecrite avec |u(n) - l| <= epsilon, pourquoi epsilon = |l - l'| / 2 ne suffirait-il pas ? Et avec une inegalite stricte ?
+
+09h35-09h40 CLOTURE : debout, 3 min, R2.
+
+@@ 2026-10-08 0de4b4a087ef0e000a1eac31a34d9062@fuf-romain
+ORAL BLANC D'INFO - 2 h, debout, a voix haute. Les questions de l'oral manque jeudi dernier y sont reprises.
+Tout doit etre DIT : ce qui est seulement ecrit n'existe pas pour l'examinateur.
+
+09h50-10h05 Q1. L'exponentiation rapide recursive : algorithme, terminaison, correction, complexite.
+
+10h05-10h25 Q2 (report). T est un tableau STRICTEMENT croissant de n entiers. Existe-t-il i tel que T[i] = i ?
+  Montre que g(i) = T[i] - i est croissante, deduis-en un algorithme en O(log n), puis dis pourquoi 'strictement' est indispensable, avec un tableau qui casse la methode.
+
+10h25-10h45 Q3. Fibonacci recursif naif. Montre que le nombre d'appels A(n) verifie A(n) = A(n-1) + A(n-2) + 1, puis que A(n) >= 2^floor(n/2) : le nombre d'appels est exponentiel. Donne ensuite une version en O(n).
+
+10h45-11h00 Q4 (report). Deux valeurs les plus proches dans une liste de n reels : naif et sa complexite, puis tri prealable. Pourquoi suffit-il alors de comparer des voisins ?
+
+11h00-11h20 Q5. Tours de Hanoi a l'oral : la recurrence et sa resolution. Question d'examinateur : peut-on faire moins de 2^n - 1 deplacements ? Indice : au moment ou le plus grand disque bouge, ou sont les n - 1 autres ?
+
+11h20-11h35 BILAN : trois observations. Le moment ou tu t'es tu, un tic de langage, une etape ecrite sans etre dite.
+
+11h35-11h50 Marge et carnet.
+
+@@ 2026-10-08 5942f8261794449014c8ae11d1231c05@fuf-romain
+Qu'est-ce qu'un ingenieur ? Science, technique, societe. Coefficient 4.
+Le sujet le plus proche de l'X elle-meme : il servira aussi a l'entretien de motivation.
+
+CONTRAT DU JOUR
+Fin de seance = une fiche en cinq blocs + un expose de 10 min tenu debout, sans notes, enregistre.
+
+35 min - LA FICHE, cinq blocs, pas un de plus
+  1. LES DISTINCTIONS, une phrase chacune : science (comprendre), technique (faire), technologie (une technique fondee sur la science), ingenierie (concevoir sous contraintes : cout, securite, delais, normes).
+  2. L'INGENIEUR EN FRANCE : la creation de l'Ecole polytechnique en 1794, sous le nom d'Ecole centrale des travaux publics, et ce que l'X dit former aujourd'hui. Verifie chaque date dans une source avant de l'ecrire.
+  3. DEUX THESES OPPOSEES. La technique est neutre, tout depend de l'usage. Ou bien elle ne l'est pas : elle impose ses propres fins. Cherche ce que soutient Jacques Ellul (La Technique ou l'enjeu du siecle, 1954) et resume-le en deux phrases.
+  4. LA RESPONSABILITE. Hans Jonas, Le Principe responsabilite (1979), et son imperatif : 'Agis de facon que les effets de ton action soient compatibles avec la permanence d'une vie authentiquement humaine sur terre.' Puis le principe de precaution, inscrit dans la Charte de l'environnement de 2005.
+  5. UN CAS. Challenger, 1986 : des joints dont la defaillance par temps froid etait connue, et une decision de lancement. Feynman conclut son annexe au rapport d'enquete : 'For a successful technology, reality must take precedence over public relations, for nature cannot be fooled.' Puis un cas a toi : ton stage a l'Inria, et la question de ce qu'on choisit d'optimiser.
+
+REGLE : tu cites une idee au niveau ou tu la connais. 'Jonas soutient que...' oui. 'Au chapitre tant de son livre...' seulement si tu l'as lu.
+
+15 min - PREPARATION, montre en main
+  Sujet : 'L'ingenieur doit-il se demander a quoi servira ce qu'il construit ?'
+
+10 min - EXPOSE debout, sans notes, chronometre, ENREGISTRE. Exigence : un exemple pris dans ton propre domaine.
+
+10 min - REECOUTE ET CARNET : ce que tu n'as pas su DIRE, pas ce que tu n'as pas su lire.
+
+Preparation et expose sont raccourcis ici : la seance vise le contenu. Le format complet viendra dans les seances de repetition.
+
+@@ 2026-10-09 5fe08f461e3a0ed1a8a3661ccbf5399f@fuf-romain
+!titre: Anglais - Futur et hypothese (report de vendredi dernier)
+REPORT DE VENDREDI DERNIER, a l'identique. Les modaux passent a vendredi prochain.
+
+Futur et hypothese. Coefficient 3.
+
+CONTRAT DU JOUR
+Fin de seance = deux minutes d'anglais parle enregistrees, reecoutees, et le compte exact de tes fautes de futur et de conditionnel.
+
+15 min - LES REGLES, EN PAIRES : une phrase juste et une phrase fausse par regle. C'est le contraste qui fixe la regle.
+  1. Will = decision prise sur le moment, ou prediction. Be going to = intention deja formee, ou indice present. Present continu = arrangement deja fixe : 'I'm meeting my tutor tomorrow' quand le rendez-vous est pris.
+  2. Jamais de will apres if ou when dans la subordonnee : 'When I arrive in Bristol, I will call you', jamais 'When I will arrive'. C'est LA faute du francophone, calquee sur 'quand j'arriverai'.
+  3. Hypothese sur le present : if + preterit, would. 'If I had more time, I would read more.' Jamais 'if I would have'.
+  4. Irreel du passe : if + past perfect, would have + participe. 'If I had known, I would have applied earlier.'
+
+25 min - PRODUCTION. C'est le coeur de la seance.
+Sujet : 'Your semester in Bristol: what you expect, what you have planned, and what you would do differently if you could start your degree again.' Il force les quatre regles.
+Deux minutes a voix haute, sans t'arreter pour te corriger. ENREGISTRE-TOI.
+Reecoute et COMPTE : fautes de futur, fautes de conditionnel. Ce nombre est ta note du jour.
+
+10 min - REFAIRE : les memes deux minutes, une seule fois, en corrigeant ce que tu as entendu. L'ecart entre les deux prises est ce que tu as reellement appris aujourd'hui.
+
+@@ 2026-10-09 52b9ce28382b7b1db141eb969b220c2c@fuf-romain
+!titre: Maths - Oral blanc format jury (2 exercices) + outil ch. 4 (II-III)
+THEME DE LA SEMAINE : reports d'abord (cloture du ch. 3, oral blanc, ch. 4 II-III), puis profond ch. 9 (I a III) | outil ch. 4 (IV)
+
+REPORT DE VENDREDI DERNIER, a l'identique.
+
+FORMAT DU JURY FUF : deux exercices tires de deux parties distinctes du programme, environ 25 min chacun, debout, a voix haute, sans preparation. Tu parles pendant que tu cherches.
+
+14h00-14h25 EXERCICE 1
+  Soit f definie sur R par f(x) = x / (1 + |x|).
+  1. Montrer que f est strictement croissante et impaire.
+  2. Montrer que f est une bijection de R sur ]-1, 1[ et expliciter sa reciproque.
+  3. f est-elle derivable en 0 ? Et f^-1 ?
+  Question d'examinateur a anticiper : comment prouves-tu la surjectivite SANS le theoreme des valeurs intermediaires ?
+
+14h25-14h30 Trois observations sur ta prestation, ecrites.
+
+14h30-14h55 EXERCICE 2
+  Pour n >= 1, calculer S = sum(k = 0 a n) k binom(n, k).
+  Deux methodes exigees : (a) la relation k binom(n, k) = n binom(n - 1, k - 1), a justifier ; (b) deriver x -> (1 + x)^n.
+  Relance possible : et sum(k = 0 a n) k^2 binom(n, k) ?
+
+14h55-15h00 Trois observations de plus.
+
+15h00-16h00 OUTIL ch. 4, sections II et III (binome p. 116-118, pivot p. 119-123). Survol 10 min, puis livre ferme :
+  B1. Formule de Pascal : une preuve par le calcul, une preuve par le denombrement.
+  B2. sum(k = 0 a n) binom(n, k) 2^k.
+  B3. La somme des binom(n, k) pour k pair, n >= 1. Combine (1 + 1)^n et (1 - 1)^n.
+  B4. Resoudre par le pivot, en discutant selon le reel m :
+      x + y + z = 1 ; x + 2y + 3z = 2 ; x + 4y + m z = 3.
+  Critere : 4 resultats justes. Chaque faute au carnet avec sa cause.
+
+LES SIX OBSERVATIONS : le moment exact ou tu t'es tu ; un tic de langage ; une etape ecrite sans etre dite ; ton temps reel sur chaque exercice. Le jury annonce deux exercices en 50 min : l'ecart entre ton temps et 25 min est ce qu'il te reste a gagner.
+
+@@ 2026-10-09 bec6df8b8149be80096c7d78921f705c@fuf-romain
+!titre: Francais - Le resume (1) : methode, inventaire honnete, premier resume
+REPORT DE VENDREDI DERNIER. Tout le programme de francais glisse d'une seance ; la seance de bilan du 04/12 disparait, son compte passera au bilan du dimanche.
+
+CE QUI CHANGE EN FRANCAIS, a partir d'aujourd'hui
+Deux chantiers, et seulement deux :
+  - L'EXERCICE. Le jury le dit : il 'ne s'improvise pas'. On l'entraine au format reel, chronometre, enregistre.
+  - LE CORPUS. Uniquement des oeuvres que tu as lues ou vues. Moins nombreuses, mais tenues.
+
+FORMAT DE L'EPREUVE (rapports du jury FUF 2020-2025) : 45 min de preparation sur un texte d'une bonne page (litterature, philosophie, esthetique, sciences humaines, de l'Antiquite a aujourd'hui). Puis 30 min : resume en 2-3 min ; expose d'une douzaine de minutes (introduction avec problematique et plan, trois parties qui progressent, breve conclusion, un exemple culturel precis et maitrise par partie) ; entretien d'une quinzaine de minutes.
+REGLE DU CORPUS : aucune oeuvre citee sans l'avoir lue ou vue. Le jury l'ecrit, et l'entretien le verifie.
+
+CONTRAT DU JOUR
+Fin de seance = ton inventaire honnete + un resume ecrit en entier, dit debout en 2 a 3 min, enregistre et passe a la grille.
+
+15 min - INVENTAIRE HONNETE
+Liste ce que tu as REELLEMENT lu ou vu, en entier ou le passage precis : livres, poemes, films, series, tableaux, pieces, expositions, concerts. Cinq cases par ligne : titre, auteur, date, un detail precis que tu saurais raconter, 'je tiens 2 min dessus' oui ou non.
+Marque d'une croix les oeuvres que le jury dit voir revenir tous les ans : 1984, Le Meilleur des mondes, Candide, L'Etranger, Germinal, Rhinoceros, Bel-Ami, Guernica, la science-fiction, les mangas, l'heroic fantasy. Il ne les accepte que si tu les connais PARFAITEMENT.
+Les lignes a 'oui' sans croix forment ton vrai corpus de depart. Tes fiches sur Camus n'y entrent que si tu as lu les textes.
+
+45 min - PREMIER RESUME, SUR UN AUTEUR DE CONCOURS
+Texte : Baudelaire, la lettre-dedicace 'A Arsene Houssaye', en tete du Spleen de Paris (Petits poemes en prose). Une page, sur Wikisource. Le Spleen de Paris figurait parmi les textes donnes en 2024.
+  1. Lis-la deux fois. A la deuxieme, marque dans la marge chaque articulation : ton resume les garde toutes, dans l'ordre.
+  2. Redige le resume EN ENTIER au brouillon, comme le jour J. Le jury conseille de le rediger integralement, et tu as le droit de le lire, 'avec le ton'.
+  3. Debout, chronometre, enregistre-toi. Cible : entre 2 et 3 min.
+
+LA GRILLE - chaque 'non' va au carnet
+  - Enonciation : Baudelaire ecrit 'je' a un ami, ton resume garde ce 'je'. Deux interdits explicites du jury : commencer par 'ce texte parle de', et passer a la troisieme personne ('Baudelaire explique que') quand l'auteur parle en son nom.
+  - Aucun jugement, aucun commentaire personnel.
+  - Reformulation forte : aucune phrase du texte recopiee.
+  - Toutes les articulations, dans l'ordre.
+  - Entre 2 et 3 min. Le jury deplore les resumes expedies en moins d'une minute : 'trop de candidats', ecrivait-il en 2024.
+
+20 min - APERCU DE L'EXPOSE, sans le faire
+Le sujet se choisit sur un aspect MAJEUR du texte, a partir d'une de ses phrases. 'Le texte n'est pas un pretexte.'
+Choisis ta phrase. Ecris une problematique en une question, puis trois titres de parties qui PROGRESSENT, pas trois exemples juxtaposes.
+Pas d'exemples aujourd'hui. Pour chaque partie, regarde seulement si ton inventaire contient une oeuvre qui la nourrirait. Une case vide, c'est ton prochain chantier de corpus.
+
+10 min - CARNET
+La duree de ton resume, le nombre de 'non' a la grille, et les mots familiers entendus a la reecoute. Le jury cite 'au final', 'positionner', 'au jour d'aujourd'hui', 'ceci dit', 'solutionner', et les anglicismes.
+
+@@ 2026-10-10 a8019d9311e5f4e7f06bfca50369e23e@fuf-romain
+!titre: Maths - Profond ch. 9 (III, fin) + outil ch. 4 (IV) : trigonometrie
+THEME DE LA SEMAINE : reports d'abord (cloture du ch. 3, oral blanc, ch. 4 II-III), puis profond ch. 9 (I a III) | outil ch. 4 (IV)
+
+Fin de seance = 3 resultats reecrits, 2 exercices, 5 calculs de trigonometrie justes, et le compte de la semaine.
+
+10h00-10h15 REPRISE, 15 min max : carnet de la semaine.
+
+10h15-10h40 LIVRE FERME, ch. 9 section III
+  R3. Toute suite convergente est bornee.
+  R4. Passage a la limite dans les inegalites LARGES. Puis le contre-exemple pour les strictes : u(n) = 1/n est > 0, et sa limite ne l'est pas.
+  R5. La definition de 'u(n) tend vers + l'infini'.
+
+10h40-11h20 DEUX EXERCICES, 20 min max chacun
+  E1. En revenant a la definition, montrer que u(n) = (2n + 1) / (n + 3) tend vers 2. Exhibe le N, explicitement, en fonction d'epsilon.
+  E2. Une suite d'entiers relatifs converge. Montrer qu'elle est constante a partir d'un certain rang. Indice : epsilon = 1/3, et demande-toi pourquoi pas 1/2.
+
+11h20-11h30 PAUSE
+
+11h30-12h10 OUTIL ch. 4, section IV 'Trigonometrie', p. 124-140. Survol 10 min, puis livre ferme, 5 calculs :
+  T1. cos(a + b) et sin(a + b) de tete ; en deduire cos(2a), puis cos^2(a) en fonction de cos(2a).
+  T2. Resoudre cos x = sin(2x) sur R.
+  T3. Lineariser cos^3(x).
+  T4. tan(a + b) en fonction de tan a et tan b, avec les conditions d'existence.
+  T5. cos p + cos q en produit.
+  Critere : 5 justes. Chaque faute au carnet, avec sa cause.
+
+12h10-12h20 LE COMPTE, ecrit, pour le bilan de demain :
+  cloture du ch. 3 faite : oui / non ; oral blanc fait : oui / non
+  ch. 4 : sections II, III, IV faites -> ___ / 3
+  ch. 9 : sections I, II, III faites -> ___ / 3
+
+METHODE
+Lecture chronometree, livre ferme au signal. Un exercice se cherche 20 min maximum ; passe ce delai, corrige, comprends, et refais-le de zero a J+2. Avant la premiere ligne d'un exercice, ecris 'OUTIL :' et le resultat que tu comptes utiliser.
+Deux controles sur chaque preuve : chaque hypothese a-t-elle servi ? Ai-je ecrit quelque chose qui contredit ce que je sais deja ?
+
+@@ 2026-10-11 af0df3ef191cc1ff93d882a2a4767754@fuf-romain
+LE COMPTE DE LA SEMAINE - ecris les chiffres, ne les estime pas.
+
+REPORTS DE LA SEMAINE DERNIERE
+  cloture du ch. 3 (enseigner + 2 exercices) : oui / non
+  oral blanc de maths a deux exercices : oui / non
+  francais, premier resume : duree ___ min ___ s ; 'non' a la grille : ___
+  anglais, futur et hypothese : fautes prise 1 ___, prise 2 ___
+
+MATHS - sections faites / prevues
+  ch. 4 : II, III, IV -> ___ / 3
+  ch. 9 : I, II, III -> ___ / 3
+  resultats redemontrables livre ferme : ___ ; exercices cherches 20 min : ___ ; oraux debout : ___
+INFO - fonctions recursives ecrites et prouvees : ___ / 3. Questions tenues a l'oral blanc : ___ / 5.
+CULTURE GENERALE - expose de 10 min tenu : oui / non.
+CARNET - lignes ajoutees : ___ ; erreurs refaites a J+2 : ___.
+
+Deux semaines de compteur, c'est assez pour mesurer ton rythme reel. Donne-moi ces chiffres ce soir : je recale la suite du plan dessus.
