@@ -892,3 +892,294 @@ CULTURE GENERALE - expose de 10 min tenu : oui / non.
 CARNET - lignes ajoutees : ___ ; erreurs refaites a J+2 : ___.
 
 Deux semaines de compteur, c'est assez pour mesurer ton rythme reel. Donne-moi ces chiffres ce soir : je recale la suite du plan dessus.
+
+@@ 2026-10-12 e7b6c5beb97d43607a8ccca72bf9a8ad@fuf-romain
+!titre: Maths - Profond ch. 9 (IV) : operations sur les limites
+THEME DE LA SEMAINE : profond ch. 9 (IV a VII, debut VIII) | outil ch. 5 (I-II)
+
+Charge de la semaine inchangee. Les seances du 08 au 11/10 sont inscrites au rattrapage de la Toussaint, l'apres-midi du 26 au 31/10 : rien a rattraper d'ici la.
+
+PROFOND - Deschamps ch. 9, section IV 'Operations sur les limites', p. 323-327.
+Fin de seance = section IV lue + 2 resultats reecrits livre ferme + 1 oral de 5 min.
+La section III (definition, unicite, convergente implique bornee) attend la Toussaint. D'ici la, tu t'appuies sur la definition de la limite telle que tu la connais, et tu INVOQUES les resultats de III sans les redemontrer.
+
+08h00-08h20 LECTURE CHRONOMETREE p. 323-327. Liste les enonces encadres : c'est ta liste de reconstruction pour mardi.
+
+08h20-08h40 LIVRE FERME, avec preuve
+  R1. Si u(n) -> l et v(n) -> l', alors u(n) + v(n) -> l + l'. Epsilon / 2, puis N = max(N1, N2).
+  R2. Si u(n) -> 0 et si v est bornee, alors u(n) v(n) -> 0. Puis le produit : si u(n) -> l et v(n) -> l', alors u(n) v(n) -> l l'. Ecris u(n) v(n) - l l' = u(n) (v(n) - l') + l' (u(n) - l), et invoque par son nom 'toute suite convergente est bornee'.
+
+08h40-08h45 CLOTURE, une seule tentative : debout, 5 min, R2 en entier.
+
+08h45-08h50 CARNET : l'etape ou tu as hesite.
+
+@@ 2026-10-12 2462b015ec9ce5f5fdf258d7653b40d1@fuf-romain
+SEMAINE 5 - Tris. Beury ch. 10, p. 117-142 : selection p. 118, insertion p. 119, fusion p. 120, rapide p. 121.
+Fin de seance = le tableau des tris rempli de memoire + 3 algorithmes ecrits en vrai Python, chacun avec son invariant ou sa recurrence, et sa complexite prouvee.
+
+17h10-17h35 LECTURE CHRONOMETREE Beury ch. 10, p. 117-122.
+
+17h35-17h45 LIVRE FERME, LE TABLEAU : selection, insertion, fusion, rapide, comptage. Pour chacun : en place ou non, stable ou non, comparatif ou non, complexite dans le pire et dans le meilleur cas. Puis verifie : chaque case fausse va au carnet.
+
+17h45-18h30 TROIS ALGORITHMES, 15 min chacun
+  A1. Tri par insertion. Enonce l'invariant : au debut du tour i, T[0..i-1] est trie et contient les memes elements qu'au depart. Montre qu'il est conserve. Compte les comparaisons : n(n-1)/2 dans le pire cas, n - 1 dans le meilleur. Quels sont ces deux cas ?
+  A2. Tri par fusion : la fonction qui fusionne deux listes triees (combien de comparaisons au plus pour des tailles p et q ?), puis le tri recursif. Terminaison, correction par recurrence forte sur la taille, et complexite : deroule C(n) = 2 C(n/2) + n pour n = 2^k.
+  A3. Tri rapide, pivot = premier element : la fonction de partition, avec son invariant. Puis montre que sur un tableau deja trie, C(n) = C(n-1) + (n - 1), et resous.
+
+18h30-18h40 CLOTURE : debout, 5 min, la complexite du tri par fusion, recurrence deroulee de bout en bout. Puis carnet.
+
+Le jury prefere le raisonnement a la syntaxe : l'invariant et la complexite comptent plus que le code.
+
+@@ 2026-10-13 0a49879ff68735d18537586b5a9e42c8@fuf-romain
+!titre: Maths - Profond ch. 9 (IV fin, V) : encadrement, limite monotone, suites adjacentes
+THEME DE LA SEMAINE : profond ch. 9 (IV a VII, debut VIII) | outil ch. 5 (I-II)
+
+PROFOND - Deschamps ch. 9, fin de la section IV (p. 323-327), puis section V 'Resultats d'existence de limites', p. 328-329.
+Fin de seance = 5 resultats reecrits livre ferme + 2 exercices cherches + 1 oral.
+L'essentiel est place en premier. Le dernier bloc est un BONUS : s'il saute, rien n'est en retard.
+
+14h00-14h10 REPRISE, 10 min max : R2 de lundi, de tete. Ce qui ne sort pas va au carnet.
+
+14h10-14h40 LIVRE FERME, fin de la section IV. Que le livre range un enonce en III ou en IV, fais-le ici.
+  R3. Theoreme d'encadrement : si v(n) <= u(n) <= w(n) a partir d'un certain rang, et si v et w tendent vers l, alors u(n) -> l.
+  R4. Si u(n) >= v(n) a partir d'un certain rang et si v(n) -> + l'infini, alors u(n) -> + l'infini.
+  R5. Quotient : si v(n) -> l' avec l' non nul, alors v(n) est non nul a partir d'un certain rang, et 1 / v(n) -> 1 / l'. Le pas cle : |v(n)| >= |l'| / 2 a partir d'un certain rang. Dis pourquoi.
+
+14h40-14h55 LECTURE CHRONOMETREE p. 328-329.
+
+14h55-15h25 LIVRE FERME, section V
+  R6. Theoreme de la limite monotone : une suite croissante et majoree converge, vers la borne superieure de ses termes. Invoque la caracterisation de la borne superieure par son nom. Puis : une suite croissante non majoree tend vers + l'infini.
+  R7. Suites adjacentes : si u est croissante, v decroissante et v(n) - u(n) -> 0, alors u et v convergent vers la meme limite. Commence par montrer que u(n) <= v(n) pour tout n.
+
+15h25-15h35 PAUSE
+
+15h35-16h15 DEUX EXERCICES, 20 min max chacun
+  E1. H(n) = 1 + 1/2 + ... + 1/n. Montrer que H(2n) - H(n) >= 1/2. En deduire que H(n) -> + l'infini.
+  E2. Pour n >= 1 : u(n) = somme pour k de 0 a n de 1/k!, et v(n) = u(n) + 1 / (n . n!). Montrer que u et v sont adjacentes.
+
+16h15-16h20 CLOTURE, une seule tentative : debout, 5 min, R6 et sa preuve.
+
+16h20-16h50 BONUS : lecture de la section VI, p. 330. Si tu la fais, mercredi commence directement au livre ferme.
+
+METHODE
+Lecture chronometree, livre ferme au signal. Un exercice se cherche 20 min maximum ; passe ce delai, corrige, comprends, et refais-le de zero a J+2. Avant la premiere ligne d'un exercice, ecris 'OUTIL :' et le resultat que tu comptes utiliser.
+Deux controles sur chaque preuve : chaque hypothese a-t-elle servi ? Ai-je ecrit quelque chose qui contredit ce que je sais deja ?
+
+@@ 2026-10-14 63e14ab4a23fd9f21612eb5fb3d39061@fuf-romain
+!titre: Maths - Profond ch. 9 (V-VI) : Bolzano-Weierstrass, caracterisations sequentielles
+THEME DE LA SEMAINE : profond ch. 9 (IV a VII, debut VIII) | outil ch. 5 (I-II)
+
+PROFOND - Deschamps ch. 9, section VI 'Traduction sequentielle de certaines proprietes', p. 330, et le theoreme de Bolzano-Weierstrass, quelle que soit la section ou le livre le range.
+Fin de seance = 3 resultats reecrits livre ferme + 1 oral de 5 min.
+
+08h00-08h05 REPRISE : ce qui a casse mardi (carnet).
+
+08h05-08h15 LECTURE p. 330, puis repere ou le livre enonce Bolzano-Weierstrass. Si tu as fait le bonus mardi, relis 3 min et garde le reste pour R3.
+
+08h15-08h40 LIVRE FERME
+  R1. Si A est une partie non vide et majoree de R, il existe une suite d'elements de A qui converge vers sup A. Prends epsilon = 1/(n+1) dans la caracterisation de la borne superieure.
+  R2. Tout reel est limite d'une suite de rationnels. Le lemme de densite de Q (ch. 9, section I) suffit : invoque-le.
+  R3. Bolzano-Weierstrass : de toute suite reelle bornee, on peut extraire une suite convergente. Preuve par dichotomie : construis par recurrence des segments emboites [a(k), b(k)], de longueur divisee par 2 a chaque etape, contenant chacun u(n) pour une infinite d'indices n ; puis des indices phi(k) strictement croissants. Conclus avec R7 de mardi et l'encadrement.
+
+08h40-08h45 CLOTURE : debout, 5 min, R3.
+
+08h45-08h50 CARNET.
+
+@@ 2026-10-14 d1b7ca0a35b563fb100e724abff01a4a@fuf-romain
+SEMAINE 5 - Tris, exercices. Enonces autosuffisants : le livre n'est pas necessaire.
+Fin de seance = 3 exercices cherches 15 min chacun, chacun conclu par une phrase de complexite justifiee.
+
+10h50-11h05 E1. STABILITE. On trie des couples (nom, note) selon la note seule.
+  1. Definis un tri stable.
+  2. Le tri par selection qui ECHANGE le minimum avec la case i est-il stable ? Contre-exemple a 3 elements.
+  3. Le tri par insertion qui decale tant que l'element est STRICTEMENT plus grand est-il stable ? Justifie avec l'invariant de lundi. Et avec 'plus grand ou egal' ?
+
+11h05-11h20 E2. INVERSIONS. Une inversion de T est un couple (i, j) avec i < j et T[i] > T[j].
+  1. Combien d'inversions au plus pour n elements ? Pour quel tableau ?
+  2. Montre que chaque decalage du tri par insertion supprime exactement une inversion, et aucune autre.
+  3. En deduire que le tri par insertion s'execute en O(n + k) sur un tableau a k inversions. Pourquoi est-ce le tri d'un tableau presque trie ?
+
+11h20-11h35 E3. COMPTAGE. T contient n entiers de [0, m[.
+  1. Ecris le tri par comptage : compter les occurrences, puis reconstruire. Complexite en fonction de n et de m.
+  2. Pourquoi n'est-il pas comparatif ? Pourquoi cela ne contredit-il pas la borne en n log n des tris par comparaisons ?
+  3. Quand devient-il un mauvais choix ? Donne un ordre de grandeur de m.
+
+11h35-11h45 E4, si le temps reste. Un tri par comparaisons doit distinguer les n! ordres possibles, et k comparaisons distinguent au plus 2^k cas. En deduire k >= log2(n!), puis montrer que log2(n!) >= (n/2) log2(n/2).
+
+11h45-11h50 CARNET : la question ou tu as ecrit sans pouvoir justifier.
+
+@@ 2026-10-15 78c15b5485a0b9a853bdb949c6be87fa@fuf-romain
+!titre: Maths - Profond ch. 9 (VII) : suites complexes
+THEME DE LA SEMAINE : profond ch. 9 (IV a VII, debut VIII) | outil ch. 5 (I-II)
+
+PROFOND - Deschamps ch. 9, section VII 'Suites complexes', p. 331-334.
+Fin de seance = section VII lue + 2 resultats reecrits + 2 exercices + 1 oral.
+
+09h40-09h55 LECTURE CHRONOMETREE p. 331-334. Liste les enonces encadres.
+
+09h55-10h20 LIVRE FERME
+  R1. Une suite complexe (z(n)) converge vers l si et seulement si (Re z(n)) converge vers Re l et (Im z(n)) vers Im l. Les deux sens, avec les inegalites |Re w| <= |w| et |w| <= |Re w| + |Im w|.
+  R2. Bolzano-Weierstrass dans C : de toute suite complexe bornee, on peut extraire une suite convergente. Invoque Bolzano-Weierstrass reel deux fois, et dis pourquoi une suite extraite d'une suite extraite est encore une suite extraite.
+
+10h20-10h40 EXERCICE 1, 20 min max
+  Soit z un complexe. Montrer que la suite (z^n) converge si et seulement si |z| < 1 ou z = 1.
+  Le cas difficile est |z| = 1 avec z different de 1 : suppose que z^n -> l, et regarde z^(n+1) de deux facons.
+
+10h40-10h55 EXERCICE 2, 15 min max
+  Soient a et b deux complexes avec |a| < 1, z(0) quelconque et z(n+1) = a z(n) + b. Montrer que (z(n)) converge, et donner sa limite. C'est la suite arithmetico-geometrique de mercredi dernier, dans C : reprends la meme preuve, et dis ce qui change.
+
+10h55-11h05 CLOTURE : debout, 5 min, l'exercice 1 en entier, comme a l'oral.
+
+11h05-11h10 CARNET.
+
+@@ 2026-10-15 5287b9dbd67b51fb20db6e70c632caa7@fuf-romain
+ORAL BLANC D'INFO - tris. 50 min de questions, debout, a voix haute, sans notes ; 10 min de bilan.
+Tout doit etre DIT : ce qui est seulement ecrit n'existe pas pour l'examinateur.
+
+11h20-11h30 Q1. Deroule le tri par fusion sur [5, 2, 4, 7, 1, 3, 2, 6] : l'arbre des appels, puis chaque fusion. Ce tri est-il stable ? Qu'est-ce qui, dans la fusion, en decide ?
+
+11h30-11h40 Q2. Dans quel cas le tri rapide devient-il quadratique ? Prouve-le. Comment l'eviter ? Quelle est sa complexite en moyenne (enonce admis) ?
+
+11h40-11h50 Q3. Un tableau presque trie : quel tri, et pourquoi ? Justifie par les inversions, sans relire mercredi.
+
+11h50-12h00 Q4. n couples (age, nom), avec des ages entiers entre 0 et 120. Trier par age en O(n), de facon STABLE. Pourquoi le simple comptage des ages ne suffit-il pas ?
+
+12h00-12h10 Q5. Trouver a la fois le minimum et le maximum de n nombres. L'algorithme naif fait 2(n - 1) comparaisons : fais-en environ 3n/2. Relance d'examinateur : compare d'abord les elements deux par deux.
+
+12h10-12h20 BILAN : trois observations. Le moment ou tu t'es tu, un tic de langage, une etape ecrite sans etre dite.
+
+@@ 2026-10-16 628b323729c00c136a3c4c110c8f6ba2@fuf-romain
+Modaux. Coefficient 3, et le semestre a Bristol.
+
+CONTRAT DU JOUR
+Fin de seance = deux minutes d'anglais parle enregistrees, reecoutees, et le compte exact de tes fautes de modaux, prise 1 et prise 2.
+
+15 min - LES REGLES, EN PAIRES : une phrase juste et une phrase fausse par regle. C'est le contraste qui fixe la regle.
+  1. Certitude au present : must (quasi-certain), may / might / could (possible), can't (impossible). 'He can't be at home, his car is gone' ; jamais 'he mustn't be at home' pour dire que c'est impossible.
+  2. Obligation : must (le locuteur l'impose) ou have to (la regle vient de l'exterieur). Et surtout : mustn't = interdiction, don't have to = absence d'obligation. 'You don't have to come' ne veut pas dire 'you mustn't come'.
+  3. Le passe : must have + participe (deduction sur le passe), can't have + participe (impossibilite passee), should have + participe (regret, reproche), could have + participe (possibilite non realisee). 'I should have started earlier', jamais 'I should had started'.
+  4. La forme : pas de to apres un modal (sauf ought to et have to), pas de s a la troisieme personne. 'She can swim', jamais 'she cans swim' ni 'she can to swim'.
+
+25 min - PRODUCTION. C'est le coeur de la seance.
+Sujet : 'Looking back on your first two years at university and ahead to Bristol: what you should have done differently, what you will have to do there, and what might go wrong.' Il force les quatre regles.
+Deux minutes a voix haute, sans t'arreter pour te corriger. ENREGISTRE-TOI.
+Reecoute et COMPTE tes fautes de modaux. Ce nombre est ta note du jour.
+
+10 min - REFAIRE : les memes deux minutes, une seule fois, en corrigeant ce que tu as entendu. L'ecart entre les deux prises est ce que tu as reellement appris aujourd'hui.
+
+@@ 2026-10-16 b5aab3ececcfa8793c121a7efd6bd4c0@fuf-romain
+!titre: Maths - Oral blanc format jury (2 exercices) + outil ch. 5 (I)
+THEME DE LA SEMAINE : profond ch. 9 (IV a VII, debut VIII) | outil ch. 5 (I-II)
+
+Les oraux blancs du 02/10 et du 09/10 n'ont pas eu lieu ; ils sont au rattrapage de la Toussaint. Celui-ci est la priorite de la semaine : c'est le format de l'epreuve, et ton point faible.
+FORMAT DU JURY FUF : deux exercices tires de deux parties distinctes du programme, environ 25 min chacun, debout, a voix haute, sans preparation. Tu parles pendant que tu cherches. Ne lis chaque enonce qu'au top du chrono.
+
+14h00-14h25 EXERCICE 1
+  Soit u(0) dans ]0, 1[ et u(n+1) = u(n) - u(n)^2.
+  1. Montrer que (u(n)) converge et determiner sa limite.
+  2. Montrer que 1/u(n+1) - 1/u(n) -> 1.
+  3. En deduire que n u(n) -> 1. Tu peux admettre le lemme de Cesaro : si a(n) -> l, alors (a(1) + ... + a(n)) / n -> l.
+  Relance d'examinateur a anticiper : demontrez le lemme de Cesaro.
+
+14h25-14h30 Trois observations sur ta prestation, ecrites.
+
+14h30-14h55 EXERCICE 2
+  1. Montrer que pour tout x > 0 : x - x^2/2 <= ln(1 + x) <= x.
+  2. En deduire la limite, quand n -> + l'infini, de P(n) = (1 + 1/n^2) (1 + 2/n^2) ... (1 + n/n^2).
+  Relance possible : et si l'on remplace n^2 par n^3 ?
+
+14h55-15h00 Trois observations de plus.
+
+15h00-16h00 OUTIL ch. 5, section I 'L'ensemble des nombres complexes', p. 159-174. Survol 10 min, puis livre ferme, 7 calculs :
+  C1. Module et argument de 1 + i et de 1 - i racine(3). En deduire (1 + i)^10 sous forme algebrique.
+  C2. L'inegalite triangulaire dans C et son cas d'egalite, enonces exactement. Pas de preuve.
+  C3. Pour t dans ]-pi, pi[, factoriser 1 + e^(it) par l'angle moitie, puis en deduire son module et un argument.
+  C4. Lineariser sin^3(x) avec les formules d'Euler.
+  C5. Exprimer cos(3x) en fonction de cos(x) avec la formule de Moivre.
+  C6. Pour x non multiple de 2 pi, calculer la somme des cos(kx) pour k de 0 a n. Passe par la somme des e^(ikx), puis l'angle moitie.
+  C7. Resoudre e^z = 1 + i, d'inconnue z complexe.
+  Critere : 7 justes. Chaque faute au carnet avec sa cause.
+
+LES SIX OBSERVATIONS : le moment exact ou tu t'es tu ; un tic de langage ; une etape ecrite sans etre dite ; ton temps reel sur chaque exercice. L'ecart entre ton temps et 25 min est ce qu'il te reste a gagner.
+
+A ne regarder qu'apres : C1 donne (1 + i)^10 = 32 i ; C6 donne cos(nx/2) sin((n+1)x/2) / sin(x/2).
+
+@@ 2026-10-16 bc447ee4da1b05a6c869a3470008af2d@fuf-romain
+Deux tableaux, pas un de plus, regardes en detail. Le jury : 'des connaissances precises en peinture (classique et moderne) sont aussi tres appreciees'.
+Le premier resume (seance du 09/10) est au rattrapage de la Toussaint ; cette seance n'en depend pas.
+
+CONTRAT DU JOUR
+Fin de seance = deux fiches-munitions + un oral de 2 min enregistre sur le Goya, tenu comme un exemple d'expose.
+
+10 min - LE SECOND TABLEAU. Hors de la liste des oeuvres trop attendues, dont Guernica fait partie. Deux pistes : Manet, L'Execution de Maximilien (version de la Kunsthalle de Mannheim, 1868-1869), qui reprend la composition de Goya et ouvre une comparaison ; ou un tableau que tu as vu en vrai. Un seul.
+
+30 min - GOYA, Tres de Mayo, sur le site du Prado : l'image en haute definition et la notice du musee.
+  1. Ce qu'on voit, precisement : huit details, de gauche a droite, verifiables sur l'image.
+  2. La date et le contexte, verifies sur la notice : l'evenement, et l'annee ou Goya le peint.
+  3. Ce que le tableau PROUVE, en une phrase. Pas ce qu'il 'represente' : ce qu'il permet d'affirmer dans un expose.
+
+25 min - LE SECOND, les memes trois etapes, sur le site du musee qui le conserve. Puis une phrase de comparaison avec le Goya.
+
+15 min - LES DEUX FICHES-MUNITIONS, en cinq sections : idees et themes majeurs ; formules a retenir mot pour mot (titre exact, date, lieu de conservation, et ta phrase de l'etape 3) ; applications en dissertation (trois sujets ou il sert) ; contexte et dates ; categories thematiques.
+
+10 min - ORAL, debout, sans notes, enregistre : 2 min sur le Goya, comme un exemple place dans une partie d'expose. Le detail, ce qu'il prouve, l'idee qu'il soutient. A la reecoute, chaque date hesitante va au carnet.
+
+Pour la fiche : Baudelaire consacre a Goya une strophe des 'Phares', dans Les Fleurs du mal. Deux pieces de ton corpus se repondent ; note-le, sans plus.
+
+FORMAT DE L'EPREUVE (rapports du jury FUF 2020-2025) : 45 min de preparation sur un texte d'une bonne page (litterature, philosophie, esthetique, sciences humaines, de l'Antiquite a aujourd'hui). Puis 30 min : resume en 2-3 min ; expose d'une douzaine de minutes (introduction avec problematique et plan, trois parties qui progressent, breve conclusion, un exemple culturel precis et maitrise par partie) ; entretien d'une quinzaine de minutes.
+REGLE DU CORPUS : aucune oeuvre citee sans l'avoir lue ou vue. Le jury l'ecrit, et l'entretien le verifie.
+
+@@ 2026-10-17 102cb9ab3afc7191daa1b52cd83d1a25@fuf-romain
+!titre: Maths - Profond ch. 9 (VIII, debut) : suites recurrentes + outil ch. 5 (II)
+THEME DE LA SEMAINE : profond ch. 9 (IV a VII, debut VIII) | outil ch. 5 (I-II)
+
+PROFOND - Deschamps ch. 9, section VIII 'Etude de suites, suites recurrentes', p. 335-356 : la premiere moitie aujourd'hui ; la fin et la cloture du chapitre la semaine prochaine.
+Fin de seance = 2 resultats reecrits + 1 exercice + 4 calculs de complexes justes + le compte de la semaine.
+
+10h00-10h15 REPRISE, 15 min max : carnet de la semaine.
+
+10h15-10h35 LECTURE CHRONOMETREE p. 335-345. Liste les enonces encadres.
+
+10h35-11h05 LIVRE FERME
+  R1. Recurrence lineaire d'ordre 2 : u(n+2) = a u(n+1) + b u(n), a et b reels. Equation caracteristique r^2 = a r + b. Si elle a deux racines reelles distinctes r1 et r2, toute suite solution s'ecrit u(n) = lambda r1^n + mu r2^n. Montre que ces suites sont solutions, que lambda et mu se calent sur u(0) et u(1), puis conclus par recurrence double. Enonce, sans preuve, le cas de la racine double et celui des racines complexes.
+  R2. u(n+1) = f(u(n)), avec I un intervalle stable par f. (a) Si f est continue sur I et si u(n) -> l avec l dans I, alors f(l) = l. (b) Si f est croissante sur I, u est monotone, et le signe de u(1) - u(0) donne le sens. (c) Si f est decroissante, que dire de u(2n) et de u(2n+1) ?
+
+11h05-11h25 EXERCICE, 20 min max
+  Suite de Fibonacci : F(0) = 0, F(1) = 1, F(n+2) = F(n+1) + F(n). Exprimer F(n) en fonction de n, puis montrer que F(n+1) / F(n) -> (1 + racine(5)) / 2.
+
+11h25-11h35 PAUSE
+
+11h35-12h05 OUTIL ch. 5, section II 'Resolution d'equations dans C', p. 175-180. Survol 5 min, puis livre ferme :
+  C8. Les racines carrees de 3 - 4i, par la methode algebrique.
+  C9. Resoudre z^2 - 3z + 3 + i = 0.
+  C10. Resoudre z^3 = 8i. Les trois solutions sous forme algebrique.
+  C11. Les racines n-iemes de l'unite : leur somme pour n >= 2, puis leur produit.
+  Critere : 4 justes.
+
+12h05-12h20 LE COMPTE, ecrit, pour le bilan de demain :
+  oral blanc fait : oui / non ; temps reels : exercice 1 ___ min, exercice 2 ___ min
+  ch. 9 : sections IV, V, VI, VII, debut VIII faites -> ___ / 5
+  ch. 5 : sections I, II faites -> ___ / 2
+
+A ne regarder qu'apres : C8 donne +/-(2 - i) ; C9 donne 1 + i et 2 - i ; C10 donne racine(3) + i, -racine(3) + i et -2i.
+
+METHODE
+Lecture chronometree, livre ferme au signal. Un exercice se cherche 20 min maximum ; passe ce delai, corrige, comprends, et refais-le de zero a J+2. Avant la premiere ligne d'un exercice, ecris 'OUTIL :' et le resultat que tu comptes utiliser.
+Deux controles sur chaque preuve : chaque hypothese a-t-elle servi ? Ai-je ecrit quelque chose qui contredit ce que je sais deja ?
+
+@@ 2026-10-18 de4d2ff22d184ffb9f221028c05f5fba@fuf-romain
+LE COMPTE DE LA SEMAINE - ecris les chiffres, ne les estime pas.
+
+MATHS - sections faites / prevues
+  ch. 9 : IV, V, VI, VII, debut VIII -> ___ / 5
+  ch. 5 (outil) : I, II -> ___ / 2
+  oral blanc a deux exercices : oui / non ; temps reels ___ et ___ min
+  resultats redemontrables livre ferme : ___ ; exercices cherches 20 min : ___ ; oraux debout : ___
+INFO - tableau des tris, cases fausses : ___. Questions tenues a l'oral blanc : ___ / 5.
+FRANCAIS - fiches faites : ___ / 2 ; oral de 2 min sur le Goya enregistre : oui / non.
+ANGLAIS - fautes de modaux : prise 1 ___, prise 2 ___.
+CARNET - lignes ajoutees : ___ ; erreurs refaites a J+2 : ___.
+
+RATTRAPAGE - les seances du 08 au 11/10 sont au calendrier, l'apres-midi du 26 au 31/10 (10 h 30). Rien a faire avant. Une seance de cette semaine qui saute s'ajoute a la liste : dis-le-moi ce soir, je la mets a jour.
+
+ENGAGEMENTS - ceux des trois semaines qui viennent, avec leurs dates. Je deplace les seances autour, au lieu de les perdre.
