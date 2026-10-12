@@ -2662,19 +2662,31 @@ DESCRIPTION:SEMAINE : profond ch. 9 Nombres reels\, suites (IV-VII\, debu
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Maths - passe 1 : reconstruire les demonstrations
+SUMMARY:Maths - Profond ch. 9 (IV) : operations sur les limites
 DTSTART;TZID=Europe/Paris:20261012T080000
 DTEND;TZID=Europe/Paris:20261012T085000
 DTSTAMP:20260809T120000Z
 UID:e7b6c5beb97d43607a8ccca72bf9a8ad@fuf-romain
-SEQUENCE:22
-DESCRIPTION:SEMAINE : profond ch. 9 Nombres reels\, suites (IV-VII\, debu
- t VIII) | outil ch. 5 Nombres complexes (debut)\n\nPASSE 1 - RECONSTRUIR
- E. Lis le cours\, puis refais CHAQUE demonstration sur feuille blanche\,
-  sans regarder. Tant que tu ne sais pas la refaire seul\, le chapitre n'
- est pas acquis.\n\nReflexes du jour : un resultat demontre A VOIX HAUTE\
- , debout\, chronometre. Revision espacee J+1 / J+7 / J+30. Toute erreur 
- va au carnet.
+SEQUENCE:23
+DESCRIPTION:THEME DE LA SEMAINE : profond ch. 9 (IV a VII\, debut VIII) |
+  outil ch. 5 (I-II)\n\nCharge de la semaine inchangee. Les seances du 08
+  au 11/10 sont inscrites au rattrapage de la Toussaint\, l'apres-midi du
+  26 au 31/10 : rien a rattraper d'ici la.\n\nPROFOND - Deschamps ch. 9\,
+  section IV 'Operations sur les limites'\, p. 323-327.\nFin de seance = 
+ section IV lue + 2 resultats reecrits livre ferme + 1 oral de 5 min.\nLa
+  section III (definition\, unicite\, convergente implique bornee) attend
+  la Toussaint. D'ici la\, tu t'appuies sur la definition de la limite te
+ lle que tu la connais\, et tu INVOQUES les resultats de III sans les red
+ emontrer.\n\n08h00-08h20 LECTURE CHRONOMETREE p. 323-327. Liste les enon
+ ces encadres : c'est ta liste de reconstruction pour mardi.\n\n08h20-08h
+ 40 LIVRE FERME\, avec preuve\n  R1. Si u(n) -> l et v(n) -> l'\, alors u
+ (n) + v(n) -> l + l'. Epsilon / 2\, puis N = max(N1\, N2).\n  R2. Si u(n
+ ) -> 0 et si v est bornee\, alors u(n) v(n) -> 0. Puis le produit : si u
+ (n) -> l et v(n) -> l'\, alors u(n) v(n) -> l l'. Ecris u(n) v(n) - l l'
+  = u(n) (v(n) - l') + l' (u(n) - l)\, et invoque par son nom 'toute suit
+ e convergente est bornee'.\n\n08h40-08h45 CLOTURE\, une seule tentative 
+ : debout\, 5 min\, R2 en entier.\n\n08h45-08h50 CARNET : l'etape ou tu a
+ s hesite.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Info mineure - Tris (cours + implementation)
@@ -2682,25 +2694,30 @@ DTSTART;TZID=Europe/Paris:20261012T171000
 DTEND;TZID=Europe/Paris:20261012T184000
 DTSTAMP:20260809T120000Z
 UID:2462b015ec9ce5f5fdf258d7653b40d1@fuf-romain
-SEQUENCE:22
-DESCRIPTION:SEMAINE 5 - Tris\n\nDANS LE LIVRE : Beury ch. 10\n\nA REVISER
- \nTri par selection\, tri par insertion\, tri par fusion\, tri rapide\, 
- tri par comptage. Pour chacun : STABLE ou non\, EN PLACE ou non\, COMPAR
- ATIF ou non. Complexites au pire et en moyenne.\n\nQUESTIONS TYPE EXAMIN
- ATEUR\n- Deroulez le tri par fusion sur ce tableau.\n- Qu'est-ce qu'un t
- ri stable ? Lesquels le sont ?\n- Dans quel cas le tri rapide devient-il
-  quadratique ?\n- Pourquoi le tri par comptage n'est-il pas comparatif ?
-  Quelle complexite ?\n- Quel tri choisiriez-vous pour un tableau presque
-  trie ?\n\nMODE COURS + IMPLEMENTATION (lundi)\n1. Lis le chapitre de Be
- ury indique ci-dessus.\n2. Reecris les algorithmes cles EN PSEUDO-CODE\,
-  sans regarder.\n3. Implemente-en un ou deux pour de vrai et fais-les to
- urner.\n4. Note au carnet ce que tu n'as pas su reecrire seul.\n\nAlgori
- thmes en PSEUDO-CODE pour eviter les fautes de syntaxe. Mais l'annexe Py
- thon du programme est LIMITATIVE et exigible : sur les fondamentaux du l
- angage\, ecris du vrai Python.\n\nSocle officiel : Programme d'informati
- que commune MP PC PSI PT (tronc commun\, ministere 2021). Ton oral porte
-  sur ce socle ET sur le programme que tu declares\, donc aussi sur tes c
- ours de L1-L2 (C\, programmation fonctionnelle\, structures de donnees).
+SEQUENCE:23
+DESCRIPTION:SEMAINE 5 - Tris. Beury ch. 10\, p. 117-142 : selection p. 11
+ 8\, insertion p. 119\, fusion p. 120\, rapide p. 121.\nFin de seance = l
+ e tableau des tris rempli de memoire + 3 algorithmes ecrits en vrai Pyth
+ on\, chacun avec son invariant ou sa recurrence\, et sa complexite prouv
+ ee.\n\n17h10-17h35 LECTURE CHRONOMETREE Beury ch. 10\, p. 117-122.\n\n17
+ h35-17h45 LIVRE FERME\, LE TABLEAU : selection\, insertion\, fusion\, ra
+ pide\, comptage. Pour chacun : en place ou non\, stable ou non\, compara
+ tif ou non\, complexite dans le pire et dans le meilleur cas. Puis verif
+ ie : chaque case fausse va au carnet.\n\n17h45-18h30 TROIS ALGORITHMES\,
+  15 min chacun\n  A1. Tri par insertion. Enonce l'invariant : au debut d
+ u tour i\, T[0..i-1] est trie et contient les memes elements qu'au depar
+ t. Montre qu'il est conserve. Compte les comparaisons : n(n-1)/2 dans le
+  pire cas\, n - 1 dans le meilleur. Quels sont ces deux cas ?\n  A2. Tri
+  par fusion : la fonction qui fusionne deux listes triees (combien de co
+ mparaisons au plus pour des tailles p et q ?)\, puis le tri recursif. Te
+ rminaison\, correction par recurrence forte sur la taille\, et complexit
+ e : deroule C(n) = 2 C(n/2) + n pour n = 2^k.\n  A3. Tri rapide\, pivot 
+ = premier element : la fonction de partition\, avec son invariant. Puis 
+ montre que sur un tableau deja trie\, C(n) = C(n-1) + (n - 1)\, et resou
+ s.\n\n18h30-18h40 CLOTURE : debout\, 5 min\, la complexite du tri par fu
+ sion\, recurrence deroulee de bout en bout. Puis carnet.\n\nLe jury pref
+ ere le raisonnement a la syntaxe : l'invariant et la complexite comptent
+  plus que le code.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Travail L3
@@ -2732,19 +2749,48 @@ DESCRIPTION:SEANCE 1000 m - developpement de la VMA (phase 1)\n\nTON ALLU
  ile.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Maths - passe 1 : reconstruire les demonstrations
+SUMMARY:Maths - Profond ch. 9 (IV fin\, V) : encadrement\, limite monoton
+ e\, suites adjacentes
 DTSTART;TZID=Europe/Paris:20261013T140000
 DTEND;TZID=Europe/Paris:20261013T165000
 DTSTAMP:20260809T120000Z
 UID:0a49879ff68735d18537586b5a9e42c8@fuf-romain
-SEQUENCE:22
-DESCRIPTION:SEMAINE : profond ch. 9 Nombres reels\, suites (IV-VII\, debu
- t VIII) | outil ch. 5 Nombres complexes (debut)\n\nPASSE 1 - RECONSTRUIR
- E. Lis le cours\, puis refais CHAQUE demonstration sur feuille blanche\,
-  sans regarder. Tant que tu ne sais pas la refaire seul\, le chapitre n'
- est pas acquis.\n\nReflexes du jour : un resultat demontre A VOIX HAUTE\
- , debout\, chronometre. Revision espacee J+1 / J+7 / J+30. Toute erreur 
- va au carnet.
+SEQUENCE:23
+DESCRIPTION:THEME DE LA SEMAINE : profond ch. 9 (IV a VII\, debut VIII) |
+  outil ch. 5 (I-II)\n\nPROFOND - Deschamps ch. 9\, fin de la section IV 
+ (p. 323-327)\, puis section V 'Resultats d'existence de limites'\, p. 32
+ 8-329.\nFin de seance = 5 resultats reecrits livre ferme + 2 exercices c
+ herches + 1 oral.\nL'essentiel est place en premier. Le dernier bloc est
+  un BONUS : s'il saute\, rien n'est en retard.\n\n14h00-14h10 REPRISE\, 
+ 10 min max : R2 de lundi\, de tete. Ce qui ne sort pas va au carnet.\n\n
+ 14h10-14h40 LIVRE FERME\, fin de la section IV. Que le livre range un en
+ once en III ou en IV\, fais-le ici.\n  R3. Theoreme d'encadrement : si v
+ (n) <= u(n) <= w(n) a partir d'un certain rang\, et si v et w tendent ve
+ rs l\, alors u(n) -> l.\n  R4. Si u(n) >= v(n) a partir d'un certain ran
+ g et si v(n) -> + l'infini\, alors u(n) -> + l'infini.\n  R5. Quotient :
+  si v(n) -> l' avec l' non nul\, alors v(n) est non nul a partir d'un ce
+ rtain rang\, et 1 / v(n) -> 1 / l'. Le pas cle : |v(n)| >= |l'| / 2 a pa
+ rtir d'un certain rang. Dis pourquoi.\n\n14h40-14h55 LECTURE CHRONOMETRE
+ E p. 328-329.\n\n14h55-15h25 LIVRE FERME\, section V\n  R6. Theoreme de 
+ la limite monotone : une suite croissante et majoree converge\, vers la 
+ borne superieure de ses termes. Invoque la caracterisation de la borne s
+ uperieure par son nom. Puis : une suite croissante non majoree tend vers
+  + l'infini.\n  R7. Suites adjacentes : si u est croissante\, v decroiss
+ ante et v(n) - u(n) -> 0\, alors u et v convergent vers la meme limite. 
+ Commence par montrer que u(n) <= v(n) pour tout n.\n\n15h25-15h35 PAUSE\
+ n\n15h35-16h15 DEUX EXERCICES\, 20 min max chacun\n  E1. H(n) = 1 + 1/2 
+ + ... + 1/n. Montrer que H(2n) - H(n) >= 1/2. En deduire que H(n) -> + l
+ 'infini.\n  E2. Pour n >= 1 : u(n) = somme pour k de 0 a n de 1/k!\, et 
+ v(n) = u(n) + 1 / (n . n!). Montrer que u et v sont adjacentes.\n\n16h15
+ -16h20 CLOTURE\, une seule tentative : debout\, 5 min\, R6 et sa preuve.
+ \n\n16h20-16h50 BONUS : lecture de la section VI\, p. 330. Si tu la fais
+ \, mercredi commence directement au livre ferme.\n\nMETHODE\nLecture chr
+ onometree\, livre ferme au signal. Un exercice se cherche 20 min maximum
+  \; passe ce delai\, corrige\, comprends\, et refais-le de zero a J+2. A
+ vant la premiere ligne d'un exercice\, ecris 'OUTIL :' et le resultat qu
+ e tu comptes utiliser.\nDeux controles sur chaque preuve : chaque hypoth
+ ese a-t-elle servi ? Ai-je ecrit quelque chose qui contredit ce que je s
+ ais deja ?
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -2787,18 +2833,32 @@ DESCRIPTION:SEANCE NATATION - VITESSE ET NAGE PURE (mardi) - bassin de 50
  ues a 18h45 : tu es pile dans le creneau\, ne traine pas au vestiaire.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Maths - revision espacee + oral du jour
+SUMMARY:Maths - Profond ch. 9 (V-VI) : Bolzano-Weierstrass\, caracterisat
+ ions sequentielles
 DTSTART;TZID=Europe/Paris:20261014T080000
 DTEND;TZID=Europe/Paris:20261014T085000
 DTSTAMP:20260809T120000Z
 UID:63e14ab4a23fd9f21612eb5fb3d39061@fuf-romain
-SEQUENCE:22
-DESCRIPTION:SEMAINE : profond ch. 9 Nombres reels\, suites (IV-VII\, debu
- t VIII) | outil ch. 5 Nombres complexes (debut)\n\nREVISION ESPACEE + OR
- AL DU JOUR. Ferme le cours et rappelle-toi activement : reenonce le theo
- reme de tete\, refais une demo cle.\n\nReflexes du jour : un resultat de
- montre A VOIX HAUTE\, debout\, chronometre. Revision espacee J+1 / J+7 /
-  J+30. Toute erreur va au carnet.
+SEQUENCE:23
+DESCRIPTION:THEME DE LA SEMAINE : profond ch. 9 (IV a VII\, debut VIII) |
+  outil ch. 5 (I-II)\n\nPROFOND - Deschamps ch. 9\, section VI 'Traductio
+ n sequentielle de certaines proprietes'\, p. 330\, et le theoreme de Bol
+ zano-Weierstrass\, quelle que soit la section ou le livre le range.\nFin
+  de seance = 3 resultats reecrits livre ferme + 1 oral de 5 min.\n\n08h0
+ 0-08h05 REPRISE : ce qui a casse mardi (carnet).\n\n08h05-08h15 LECTURE 
+ p. 330\, puis repere ou le livre enonce Bolzano-Weierstrass. Si tu as fa
+ it le bonus mardi\, relis 3 min et garde le reste pour R3.\n\n08h15-08h4
+ 0 LIVRE FERME\n  R1. Si A est une partie non vide et majoree de R\, il e
+ xiste une suite d'elements de A qui converge vers sup A. Prends epsilon 
+ = 1/(n+1) dans la caracterisation de la borne superieure.\n  R2. Tout re
+ el est limite d'une suite de rationnels. Le lemme de densite de Q (ch. 9
+ \, section I) suffit : invoque-le.\n  R3. Bolzano-Weierstrass : de toute
+  suite reelle bornee\, on peut extraire une suite convergente. Preuve pa
+ r dichotomie : construis par recurrence des segments emboites [a(k)\, b(
+ k)]\, de longueur divisee par 2 a chaque etape\, contenant chacun u(n) p
+ our une infinite d'indices n \; puis des indices phi(k) strictement croi
+ ssants. Conclus avec R7 de mardi et l'encadrement.\n\n08h40-08h45 CLOTUR
+ E : debout\, 5 min\, R3.\n\n08h45-08h50 CARNET.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Travail L3
@@ -2819,25 +2879,31 @@ DTSTART;TZID=Europe/Paris:20261014T105000
 DTEND;TZID=Europe/Paris:20261014T115000
 DTSTAMP:20260809T120000Z
 UID:d1b7ca0a35b563fb100e724abff01a4a@fuf-romain
-SEQUENCE:22
-DESCRIPTION:SEMAINE 5 - Tris\n\nDANS LE LIVRE : Beury ch. 10\n\nA REVISER
- \nTri par selection\, tri par insertion\, tri par fusion\, tri rapide\, 
- tri par comptage. Pour chacun : STABLE ou non\, EN PLACE ou non\, COMPAR
- ATIF ou non. Complexites au pire et en moyenne.\n\nQUESTIONS TYPE EXAMIN
- ATEUR\n- Deroulez le tri par fusion sur ce tableau.\n- Qu'est-ce qu'un t
- ri stable ? Lesquels le sont ?\n- Dans quel cas le tri rapide devient-il
-  quadratique ?\n- Pourquoi le tri par comptage n'est-il pas comparatif ?
-  Quelle complexite ?\n- Quel tri choisiriez-vous pour un tableau presque
-  trie ?\n\nMODE EXERCICES (mercredi)\nTraite les exercices du chapitre d
- e Beury\, en commencant par ceux reperes faciles. Cherche 15 a 20 minute
- s MINIMUM avant de lire le corrige.\nPour chaque exercice : annonce la c
- omplexite AVANT de coder\, puis verifie.\n\nAlgorithmes en PSEUDO-CODE p
- our eviter les fautes de syntaxe. Mais l'annexe Python du programme est 
- LIMITATIVE et exigible : sur les fondamentaux du langage\, ecris du vrai
-  Python.\n\nSocle officiel : Programme d'informatique commune MP PC PSI 
- PT (tronc commun\, ministere 2021). Ton oral porte sur ce socle ET sur l
- e programme que tu declares\, donc aussi sur tes cours de L1-L2 (C\, pro
- grammation fonctionnelle\, structures de donnees).
+SEQUENCE:23
+DESCRIPTION:SEMAINE 5 - Tris\, exercices. Enonces autosuffisants : le liv
+ re n'est pas necessaire.\nFin de seance = 3 exercices cherches 15 min ch
+ acun\, chacun conclu par une phrase de complexite justifiee.\n\n10h50-11
+ h05 E1. STABILITE. On trie des couples (nom\, note) selon la note seule.
+ \n  1. Definis un tri stable.\n  2. Le tri par selection qui ECHANGE le 
+ minimum avec la case i est-il stable ? Contre-exemple a 3 elements.\n  3
+ . Le tri par insertion qui decale tant que l'element est STRICTEMENT plu
+ s grand est-il stable ? Justifie avec l'invariant de lundi. Et avec 'plu
+ s grand ou egal' ?\n\n11h05-11h20 E2. INVERSIONS. Une inversion de T est
+  un couple (i\, j) avec i < j et T[i] > T[j].\n  1. Combien d'inversions
+  au plus pour n elements ? Pour quel tableau ?\n  2. Montre que chaque d
+ ecalage du tri par insertion supprime exactement une inversion\, et aucu
+ ne autre.\n  3. En deduire que le tri par insertion s'execute en O(n + k
+ ) sur un tableau a k inversions. Pourquoi est-ce le tri d'un tableau pre
+ sque trie ?\n\n11h20-11h35 E3. COMPTAGE. T contient n entiers de [0\, m[
+ .\n  1. Ecris le tri par comptage : compter les occurrences\, puis recon
+ struire. Complexite en fonction de n et de m.\n  2. Pourquoi n'est-il pa
+ s comparatif ? Pourquoi cela ne contredit-il pas la borne en n log n des
+  tris par comparaisons ?\n  3. Quand devient-il un mauvais choix ? Donne
+  un ordre de grandeur de m.\n\n11h35-11h45 E4\, si le temps reste. Un tr
+ i par comparaisons doit distinguer les n! ordres possibles\, et k compar
+ aisons distinguent au plus 2^k cas. En deduire k >= log2(n!)\, puis mont
+ rer que log2(n!) >= (n/2) log2(n/2).\n\n11h45-11h50 CARNET : la question
+  ou tu as ecrit sans pouvoir justifier.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:REPOS PROTEGE - ne rien planifier
@@ -2875,18 +2941,32 @@ DESCRIPTION:SEANCE 100 m - vitesse (phase 1)\n\nTON REPERE : 13"32 (11 pt
  au moins six fois avant mai.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Maths - passe 3 : enseigner a voix haute
+SUMMARY:Maths - Profond ch. 9 (VII) : suites complexes
 DTSTART;TZID=Europe/Paris:20261015T094000
 DTEND;TZID=Europe/Paris:20261015T111000
 DTSTAMP:20260809T120000Z
 UID:78c15b5485a0b9a853bdb949c6be87fa@fuf-romain
-SEQUENCE:22
-DESCRIPTION:SEMAINE : profond ch. 9 Nombres reels\, suites (IV-VII\, debu
- t VIII) | outil ch. 5 Nombres complexes (debut)\n\nPASSE 3 - ENSEIGNER. 
- Explique le chapitre a voix haute\, comme si tu le donnais en cours. La 
- ou tu bloques\, c'est ton trou a combler.\n\nReflexes du jour : un resul
- tat demontre A VOIX HAUTE\, debout\, chronometre. Revision espacee J+1 /
-  J+7 / J+30. Toute erreur va au carnet.
+SEQUENCE:23
+DESCRIPTION:THEME DE LA SEMAINE : profond ch. 9 (IV a VII\, debut VIII) |
+  outil ch. 5 (I-II)\n\nPROFOND - Deschamps ch. 9\, section VII 'Suites c
+ omplexes'\, p. 331-334.\nFin de seance = section VII lue + 2 resultats r
+ eecrits + 2 exercices + 1 oral.\n\n09h40-09h55 LECTURE CHRONOMETREE p. 3
+ 31-334. Liste les enonces encadres.\n\n09h55-10h20 LIVRE FERME\n  R1. Un
+ e suite complexe (z(n)) converge vers l si et seulement si (Re z(n)) con
+ verge vers Re l et (Im z(n)) vers Im l. Les deux sens\, avec les inegali
+ tes |Re w| <= |w| et |w| <= |Re w| + |Im w|.\n  R2. Bolzano-Weierstrass 
+ dans C : de toute suite complexe bornee\, on peut extraire une suite con
+ vergente. Invoque Bolzano-Weierstrass reel deux fois\, et dis pourquoi u
+ ne suite extraite d'une suite extraite est encore une suite extraite.\n\
+ n10h20-10h40 EXERCICE 1\, 20 min max\n  Soit z un complexe. Montrer que 
+ la suite (z^n) converge si et seulement si |z| < 1 ou z = 1.\n  Le cas d
+ ifficile est |z| = 1 avec z different de 1 : suppose que z^n -> l\, et r
+ egarde z^(n+1) de deux facons.\n\n10h40-10h55 EXERCICE 2\, 15 min max\n 
+  Soient a et b deux complexes avec |a| < 1\, z(0) quelconque et z(n+1) =
+  a z(n) + b. Montrer que (z(n)) converge\, et donner sa limite. C'est la
+  suite arithmetico-geometrique de mercredi dernier\, dans C : reprends l
+ a meme preuve\, et dis ce qui change.\n\n10h55-11h05 CLOTURE : debout\, 
+ 5 min\, l'exercice 1 en entier\, comme a l'oral.\n\n11h05-11h10 CARNET.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Info mineure - Tris (oral blanc)
@@ -2894,27 +2974,24 @@ DTSTART;TZID=Europe/Paris:20261015T112000
 DTEND;TZID=Europe/Paris:20261015T122000
 DTSTAMP:20260809T120000Z
 UID:5287b9dbd67b51fb20db6e70c632caa7@fuf-romain
-SEQUENCE:22
-DESCRIPTION:SEMAINE 5 - Tris\n\nDANS LE LIVRE : Beury ch. 10\n\nA REVISER
- \nTri par selection\, tri par insertion\, tri par fusion\, tri rapide\, 
- tri par comptage. Pour chacun : STABLE ou non\, EN PLACE ou non\, COMPAR
- ATIF ou non. Complexites au pire et en moyenne.\n\nQUESTIONS TYPE EXAMIN
- ATEUR\n- Deroulez le tri par fusion sur ce tableau.\n- Qu'est-ce qu'un t
- ri stable ? Lesquels le sont ?\n- Dans quel cas le tri rapide devient-il
-  quadratique ?\n- Pourquoi le tri par comptage n'est-il pas comparatif ?
-  Quelle complexite ?\n- Quel tri choisiriez-vous pour un tableau presque
-  trie ?\n\nMODE ORAL BLANC (jeudi) - la seance la plus importante\nTrait
- e les questions ci-dessus DEBOUT\, A VOIX HAUTE\, au tableau\, comme le 
- jour J.\nFormat reel : 50 minutes\, AUCUNE preparation. Le jury valorise
-  le fait d'avoir des idees plus que de terminer l'exercice. Pense a voix
-  haute\, ne reste jamais muet.\nUtilise les extraits de sujets de concou
- rs du livre : ils sont reperes comme tels.\n\nAlgorithmes en PSEUDO-CODE
-  pour eviter les fautes de syntaxe. Mais l'annexe Python du programme es
- t LIMITATIVE et exigible : sur les fondamentaux du langage\, ecris du vr
- ai Python.\n\nSocle officiel : Programme d'informatique commune MP PC PS
- I PT (tronc commun\, ministere 2021). Ton oral porte sur ce socle ET sur
-  le programme que tu declares\, donc aussi sur tes cours de L1-L2 (C\, p
- rogrammation fonctionnelle\, structures de donnees).
+SEQUENCE:23
+DESCRIPTION:ORAL BLANC D'INFO - tris. 50 min de questions\, debout\, a vo
+ ix haute\, sans notes \; 10 min de bilan.\nTout doit etre DIT : ce qui e
+ st seulement ecrit n'existe pas pour l'examinateur.\n\n11h20-11h30 Q1. D
+ eroule le tri par fusion sur [5\, 2\, 4\, 7\, 1\, 3\, 2\, 6] : l'arbre d
+ es appels\, puis chaque fusion. Ce tri est-il stable ? Qu'est-ce qui\, d
+ ans la fusion\, en decide ?\n\n11h30-11h40 Q2. Dans quel cas le tri rapi
+ de devient-il quadratique ? Prouve-le. Comment l'eviter ? Quelle est sa 
+ complexite en moyenne (enonce admis) ?\n\n11h40-11h50 Q3. Un tableau pre
+ sque trie : quel tri\, et pourquoi ? Justifie par les inversions\, sans 
+ relire mercredi.\n\n11h50-12h00 Q4. n couples (age\, nom)\, avec des age
+ s entiers entre 0 et 120. Trier par age en O(n)\, de facon STABLE. Pourq
+ uoi le simple comptage des ages ne suffit-il pas ?\n\n12h00-12h10 Q5. Tr
+ ouver a la fois le minimum et le maximum de n nombres. L'algorithme naif
+  fait 2(n - 1) comparaisons : fais-en environ 3n/2. Relance d'examinateu
+ r : compare d'abord les elements deux par deux.\n\n12h10-12h20 BILAN : t
+ rois observations. Le moment ou tu t'es tu\, un tic de langage\, une eta
+ pe ecrite sans etre dite.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CHECKPOINT 1
@@ -2922,11 +2999,14 @@ DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 DTSTAMP:20260809T120000Z
 UID:9f9dd2bd87e95fcf772d8e4f6eeaf817@fuf-romain
-SEQUENCE:4
-DESCRIPTION:Deschamps : analyse d'une variable bouclee jusqu'aux equation
- s differentielles. Prends 5 theoremes au hasard : 4 sur 5 demontres sur 
- feuille blanche. Rapports de jury FUF lus.\nEn retard ? Utilise la Touss
- aint\, coupe francais et culture G.
+SEQUENCE:5
+DESCRIPTION:Deschamps\, selon le plan : ch. 3 clos \; ch. 9 jusqu'a la se
+ ction VII\, la section III attendant le rattrapage de la Toussaint \; ch
+ . 4 fait en outil\, sauf II-IV\, au rattrapage \; ch. 5 commence. Test :
+  5 resultats tires au hasard dans ces sections\, 4 sur 5 demontres sur f
+ euille blanche. Rapports de jury FUF lus.\nEn retard ? Rien ne se rattra
+ pe en force : ce qui manque s'ajoute a la liste de la Toussaint\, que le
+  bilan du dimanche tient a jour.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2935,28 +3015,75 @@ DTSTART;TZID=Europe/Paris:20261016T080000
 DTEND;TZID=Europe/Paris:20261016T085000
 DTSTAMP:20260809T120000Z
 UID:628b323729c00c136a3c4c110c8f6ba2@fuf-romain
-SEQUENCE:22
-DESCRIPTION:Can / could\, may / might\, must / have to\, should / ought t
- o\, would.\n\nDeux points a soigner : les degres de certitude (must = qu
- asi-certain\, may / might = possible\, can't = impossible)\, et les form
- es passees (must have done\, should have done\, could have done) qui per
- mettent de nuancer un jugement.\n\nDouble usage : preparation Bristol + 
- epreuve (coeff 3).
+SEQUENCE:23
+DESCRIPTION:Modaux. Coefficient 3\, et le semestre a Bristol.\n\nCONTRAT 
+ DU JOUR\nFin de seance = deux minutes d'anglais parle enregistrees\, ree
+ coutees\, et le compte exact de tes fautes de modaux\, prise 1 et prise 
+ 2.\n\n15 min - LES REGLES\, EN PAIRES : une phrase juste et une phrase f
+ ausse par regle. C'est le contraste qui fixe la regle.\n  1. Certitude a
+ u present : must (quasi-certain)\, may / might / could (possible)\, can'
+ t (impossible). 'He can't be at home\, his car is gone' \; jamais 'he mu
+ stn't be at home' pour dire que c'est impossible.\n  2. Obligation : mus
+ t (le locuteur l'impose) ou have to (la regle vient de l'exterieur). Et 
+ surtout : mustn't = interdiction\, don't have to = absence d'obligation.
+  'You don't have to come' ne veut pas dire 'you mustn't come'.\n  3. Le 
+ passe : must have + participe (deduction sur le passe)\, can't have + pa
+ rticipe (impossibilite passee)\, should have + participe (regret\, repro
+ che)\, could have + participe (possibilite non realisee). 'I should have
+  started earlier'\, jamais 'I should had started'.\n  4. La forme : pas 
+ de to apres un modal (sauf ought to et have to)\, pas de s a la troisiem
+ e personne. 'She can swim'\, jamais 'she cans swim' ni 'she can to swim'
+ .\n\n25 min - PRODUCTION. C'est le coeur de la seance.\nSujet : 'Looking
+  back on your first two years at university and ahead to Bristol: what y
+ ou should have done differently\, what you will have to do there\, and w
+ hat might go wrong.' Il force les quatre regles.\nDeux minutes a voix ha
+ ute\, sans t'arreter pour te corriger. ENREGISTRE-TOI.\nReecoute et COMP
+ TE tes fautes de modaux. Ce nombre est ta note du jour.\n\n10 min - REFA
+ IRE : les memes deux minutes\, une seule fois\, en corrigeant ce que tu 
+ as entendu. L'ecart entre les deux prises est ce que tu as reellement ap
+ pris aujourd'hui.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Maths - ORAL BLANC a voix haute\, chronometre
+SUMMARY:Maths - Oral blanc format jury (2 exercices) + outil ch. 5 (I)
 DTSTART;TZID=Europe/Paris:20261016T140000
 DTEND;TZID=Europe/Paris:20261016T160000
 DTSTAMP:20260809T120000Z
 UID:b5aab3ececcfa8793c121a7efd6bd4c0@fuf-romain
-SEQUENCE:22
-DESCRIPTION:SEMAINE : profond ch. 9 Nombres reels\, suites (IV-VII\, debu
- t VIII) | outil ch. 5 Nombres complexes (debut)\n\nORAL BLANC\, format d
- u jury FUF : deux exercices tires de deux parties distinctes du programm
- e\, environ 25 min chacun\, debout\, a voix haute\, sans preparation. Le
-  jury valorise le fait d'avoir des idees plus que de terminer l'exercice
- .\n\nReflexes du jour : un resultat demontre A VOIX HAUTE\, debout\, chr
- onometre. Revision espacee J+1 / J+7 / J+30. Toute erreur va au carnet.
+SEQUENCE:23
+DESCRIPTION:THEME DE LA SEMAINE : profond ch. 9 (IV a VII\, debut VIII) |
+  outil ch. 5 (I-II)\n\nLes oraux blancs du 02/10 et du 09/10 n'ont pas e
+ u lieu \; ils sont au rattrapage de la Toussaint. Celui-ci est la priori
+ te de la semaine : c'est le format de l'epreuve\, et ton point faible.\n
+ FORMAT DU JURY FUF : deux exercices tires de deux parties distinctes du 
+ programme\, environ 25 min chacun\, debout\, a voix haute\, sans prepara
+ tion. Tu parles pendant que tu cherches. Ne lis chaque enonce qu'au top 
+ du chrono.\n\n14h00-14h25 EXERCICE 1\n  Soit u(0) dans ]0\, 1[ et u(n+1)
+  = u(n) - u(n)^2.\n  1. Montrer que (u(n)) converge et determiner sa lim
+ ite.\n  2. Montrer que 1/u(n+1) - 1/u(n) -> 1.\n  3. En deduire que n u(
+ n) -> 1. Tu peux admettre le lemme de Cesaro : si a(n) -> l\, alors (a(1
+ ) + ... + a(n)) / n -> l.\n  Relance d'examinateur a anticiper : demontr
+ ez le lemme de Cesaro.\n\n14h25-14h30 Trois observations sur ta prestati
+ on\, ecrites.\n\n14h30-14h55 EXERCICE 2\n  1. Montrer que pour tout x > 
+ 0 : x - x^2/2 <= ln(1 + x) <= x.\n  2. En deduire la limite\, quand n ->
+  + l'infini\, de P(n) = (1 + 1/n^2) (1 + 2/n^2) ... (1 + n/n^2).\n  Rela
+ nce possible : et si l'on remplace n^2 par n^3 ?\n\n14h55-15h00 Trois ob
+ servations de plus.\n\n15h00-16h00 OUTIL ch. 5\, section I 'L'ensemble d
+ es nombres complexes'\, p. 159-174. Survol 10 min\, puis livre ferme\, 7
+  calculs :\n  C1. Module et argument de 1 + i et de 1 - i racine(3). En 
+ deduire (1 + i)^10 sous forme algebrique.\n  C2. L'inegalite triangulair
+ e dans C et son cas d'egalite\, enonces exactement. Pas de preuve.\n  C3
+ . Pour t dans ]-pi\, pi[\, factoriser 1 + e^(it) par l'angle moitie\, pu
+ is en deduire son module et un argument.\n  C4. Lineariser sin^3(x) avec
+  les formules d'Euler.\n  C5. Exprimer cos(3x) en fonction de cos(x) ave
+ c la formule de Moivre.\n  C6. Pour x non multiple de 2 pi\, calculer la
+  somme des cos(kx) pour k de 0 a n. Passe par la somme des e^(ikx)\, pui
+ s l'angle moitie.\n  C7. Resoudre e^z = 1 + i\, d'inconnue z complexe.\n
+   Critere : 7 justes. Chaque faute au carnet avec sa cause.\n\nLES SIX O
+ BSERVATIONS : le moment exact ou tu t'es tu \; un tic de langage \; une 
+ etape ecrite sans etre dite \; ton temps reel sur chaque exercice. L'eca
+ rt entre ton temps et 25 min est ce qu'il te reste a gagner.\n\nA ne reg
+ arder qu'apres : C1 donne (1 + i)^10 = 32 i \; C6 donne cos(nx/2) sin((n
+ +1)x/2) / sin(x/2).
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Francais - Corpus (1) : deux tableaux\, regardes en detail
@@ -2964,23 +3091,43 @@ DTSTART;TZID=Europe/Paris:20261016T161000
 DTEND;TZID=Europe/Paris:20261016T174000
 DTSTAMP:20260809T120000Z
 UID:bc447ee4da1b05a6c869a3470008af2d@fuf-romain
-SEQUENCE:23
-DESCRIPTION:Deux tableaux\, pas un de plus\, regardes en detail sur le si
- te du musee qui les conserve : a defaut d'exposition\, le jury le recomm
- ande. Goya\, Tres de Mayo (Prado)\, deja dans ton corpus\, et un second 
- de ton choix\, hors de la liste des oeuvres trop attendues.\nPour chacun
-  : ce qu'on voit\, precisement \; la date et le contexte \; ce que le ta
- bleau PROUVE\, en une phrase. Puis la fiche-munition en cinq sections.\n
- Le jury : 'des connaissances precises en peinture (classique et moderne)
-  sont aussi tres appreciees'.\n\nFORMAT DE L'EPREUVE (rapports du jury F
- UF 2020-2025) : 45 min de preparation sur un texte d'une bonne page (lit
- terature\, philosophie\, esthetique\, sciences humaines\, de l'Antiquite
-  a aujourd'hui). Puis 30 min : resume en 2-3 min \; expose d'une douzain
- e de minutes (introduction avec problematique et plan\, trois parties qu
- i progressent\, breve conclusion\, un exemple culturel precis et maitris
- e par partie) \; entretien d'une quinzaine de minutes.\nREGLE DU CORPUS 
- : aucune oeuvre citee sans l'avoir lue ou vue. Le jury l'ecrit\, et l'en
- tretien le verifie.
+SEQUENCE:24
+DESCRIPTION:Deux tableaux\, pas un de plus\, regardes en detail. Le jury 
+ : 'des connaissances precises en peinture (classique et moderne) sont au
+ ssi tres appreciees'.\nLe premier resume (seance du 09/10) est au rattra
+ page de la Toussaint \; cette seance n'en depend pas.\n\nCONTRAT DU JOUR
+ \nFin de seance = deux fiches-munitions + un oral de 2 min enregistre su
+ r le Goya\, tenu comme un exemple d'expose.\n\n10 min - LE SECOND TABLEA
+ U. Hors de la liste des oeuvres trop attendues\, dont Guernica fait part
+ ie. Deux pistes : Manet\, L'Execution de Maximilien (version de la Kunst
+ halle de Mannheim\, 1868-1869)\, qui reprend la composition de Goya et o
+ uvre une comparaison \; ou un tableau que tu as vu en vrai. Un seul.\n\n
+ 30 min - GOYA\, Tres de Mayo\, sur le site du Prado : l'image en haute d
+ efinition et la notice du musee.\n  1. Ce qu'on voit\, precisement : hui
+ t details\, de gauche a droite\, verifiables sur l'image.\n  2. La date 
+ et le contexte\, verifies sur la notice : l'evenement\, et l'annee ou Go
+ ya le peint.\n  3. Ce que le tableau PROUVE\, en une phrase. Pas ce qu'i
+ l 'represente' : ce qu'il permet d'affirmer dans un expose.\n\n25 min - 
+ LE SECOND\, les memes trois etapes\, sur le site du musee qui le conserv
+ e. Puis une phrase de comparaison avec le Goya.\n\n15 min - LES DEUX FIC
+ HES-MUNITIONS\, en cinq sections : idees et themes majeurs \; formules a
+  retenir mot pour mot (titre exact\, date\, lieu de conservation\, et ta
+  phrase de l'etape 3) \; applications en dissertation (trois sujets ou i
+ l sert) \; contexte et dates \; categories thematiques.\n\n10 min - ORAL
+ \, debout\, sans notes\, enregistre : 2 min sur le Goya\, comme un exemp
+ le place dans une partie d'expose. Le detail\, ce qu'il prouve\, l'idee 
+ qu'il soutient. A la reecoute\, chaque date hesitante va au carnet.\n\nP
+ our la fiche : Baudelaire consacre a Goya une strophe des 'Phares'\, dan
+ s Les Fleurs du mal. Deux pieces de ton corpus se repondent \; note-le\,
+  sans plus.\n\nFORMAT DE L'EPREUVE (rapports du jury FUF 2020-2025) : 45
+  min de preparation sur un texte d'une bonne page (litterature\, philoso
+ phie\, esthetique\, sciences humaines\, de l'Antiquite a aujourd'hui). P
+ uis 30 min : resume en 2-3 min \; expose d'une douzaine de minutes (intr
+ oduction avec problematique et plan\, trois parties qui progressent\, br
+ eve conclusion\, un exemple culturel precis et maitrise par partie) \; e
+ ntretien d'une quinzaine de minutes.\nREGLE DU CORPUS : aucune oeuvre ci
+ tee sans l'avoir lue ou vue. Le jury l'ecrit\, et l'entretien le verifie
+ .
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Travail L3
@@ -3015,12 +3162,22 @@ DTSTART;TZID=Europe/Paris:20261018T180000
 DTEND;TZID=Europe/Paris:20261018T183000
 DTSTAMP:20260809T120000Z
 UID:de4d2ff22d184ffb9f221028c05f5fba@fuf-romain
-SEQUENCE:4
-DESCRIPTION:Trois questions : oral quotidien fait 5 fois ? chapitre-cible
-  tenu ? carnet relu et erreurs retravaillees ? Trois oui = tu es a jour.
- \n\nDeux 'non' deux semaines de suite : applique l'ordre de sacrifice (c
- ulture\, puis francais\, puis ADS\, puis info - jamais les maths ni le s
- port).
+SEQUENCE:5
+DESCRIPTION:LE COMPTE DE LA SEMAINE - ecris les chiffres\, ne les estime 
+ pas.\n\nMATHS - sections faites / prevues\n  ch. 9 : IV\, V\, VI\, VII\,
+  debut VIII -> ___ / 5\n  ch. 5 (outil) : I\, II -> ___ / 2\n  oral blan
+ c a deux exercices : oui / non \; temps reels ___ et ___ min\n  resultat
+ s redemontrables livre ferme : ___ \; exercices cherches 20 min : ___ \;
+  oraux debout : ___\nINFO - tableau des tris\, cases fausses : ___. Ques
+ tions tenues a l'oral blanc : ___ / 5.\nFRANCAIS - fiches faites : ___ /
+  2 \; oral de 2 min sur le Goya enregistre : oui / non.\nANGLAIS - faute
+ s de modaux : prise 1 ___\, prise 2 ___.\nCARNET - lignes ajoutees : ___
+  \; erreurs refaites a J+2 : ___.\n\nRATTRAPAGE - les seances du 08 au 1
+ 1/10 sont au calendrier\, l'apres-midi du 26 au 31/10 (10 h 30). Rien a 
+ faire avant. Une seance de cette semaine qui saute s'ajoute a la liste :
+  dis-le-moi ce soir\, je la mets a jour.\n\nENGAGEMENTS - ceux des trois
+  semaines qui viennent\, avec leurs dates. Je deplace les seances autour
+ \, au lieu de les perdre.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:THEME MATHS : profond ch. 9 (fin VIII\, cloture)\, ch. 10 (debut 
@@ -3488,14 +3645,24 @@ DESCRIPTION:Trois questions : oral quotidien fait 5 fois ? chapitre-cible
  port).
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VACANCES DE TOUSSAINT - rattrapage\, 2 h/jour maximum
+SUMMARY:VACANCES DE TOUSSAINT - le plan le matin\, le rattrapage l'apres-
+ midi
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261102
 DTSTAMP:20260809T120000Z
 UID:412ce753c010dddf893e46055a32b0a5@fuf-romain
-SEQUENCE:4
-DESCRIPTION:Pas de nouveau chapitre. Uniquement les demos ratees du carne
- t. Sport maintenu.
+SEQUENCE:5
+DESCRIPTION:Le matin\, 2 h : les sections du plan\, comme une semaine nor
+ male. L'apres-midi : le rattrapage des seances du 08 au 11/10\, une ou d
+ eux seances par jour\, deja inscrites au calendrier. Sport maintenu.\n\n
+ RATTRAPAGE (10 h 30 en tout\, en plus des 11 h du plan)\n  lun 26 : math
+ s\, ch. 9 III\, la limite d'une suite (1 h 50)\n  mar 27 : info\, oral b
+ lanc recursivite (2 h)\n  mer 28 : francais\, le resume (1) (1 h 30) \; 
+ anglais\, futur et hypothese (50 min)\n  jeu 29 : culture generale\, l'i
+ ngenieur (1 h 10)\n  ven 30 : maths\, outil ch. 4 II-IV (1 h 40)\n  sam 
+ 31 : maths\, oral blanc a deux exercices (1 h) \; carnet en attente (30 
+ min)\n\nUne seance de l'automne qui saute s'ajoute a cette liste : le bi
+ lan du dimanche la tient a jour.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -4083,10 +4250,12 @@ DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 DTSTAMP:20260809T120000Z
 UID:cf2f250f80ce43a67f7bb3f19b6c5ee6@fuf-romain
-SEQUENCE:4
-DESCRIPTION:Toute l'analyse Deschamps faite (DL et series numeriques incl
- us). Un oral blanc maths par semaine tenu. 1000 m sous 4'00''. Carnet ac
- tif.\nEn retard ? Algebre en priorite absolue\, info en pause.
+SEQUENCE:5
+DESCRIPTION:Deschamps\, selon le plan : ch. 9 et 10 clos\, ch. 11 (deriva
+ tion) commence \; outil ch. 5 a 8 faits. Le rattrapage de la Toussaint s
+ olde. Un oral blanc maths par semaine tenu. 1000 m sous 4'00''. Carnet a
+ ctif.\nEn retard ? Chaque section non faite decale le plan d'autant : le
+  bilan du dimanche dit de combien.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -4105,11 +4274,11 @@ DESCRIPTION:Who / which / that / whose / where\, relatives determinatives
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Maths - ORAL BLANC a voix haute\, chronometre
-DTSTART;TZID=Europe/Paris:20261106T090000
-DTEND;TZID=Europe/Paris:20261106T110000
+DTSTART;TZID=Europe/Paris:20261106T154000
+DTEND;TZID=Europe/Paris:20261106T174000
 DTSTAMP:20260809T120000Z
 UID:e484c9faf1bba812ae430b4894940796@fuf-romain
-SEQUENCE:22
+SEQUENCE:23
 DESCRIPTION:SEMAINE : profond ch. 10 Limites et continuite (fin III\, clo
  ture)\, ch. 11 Derivation (I\, debut II) | outil ch. 7 Primitives et int
  egrales (fin)\, ch. 8 Equations differentielles lineaires\, ch. 2 Ensemb
@@ -4123,11 +4292,11 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Francais - Oral blanc complet 1 : 45 min de preparation\, 30 min 
  d'oral
-DTSTART;TZID=Europe/Paris:20261106T111000
-DTEND;TZID=Europe/Paris:20261106T122000
+DTSTART;TZID=Europe/Paris:20261107T140000
+DTEND;TZID=Europe/Paris:20261107T153000
 DTSTAMP:20260809T120000Z
 UID:2075f6f9cdf2924eaccb9df4d72512cc@fuf-romain
-SEQUENCE:23
+SEQUENCE:24
 DESCRIPTION:Format reel\, chronometre\, enregistre. Le texte est donne da
  ns le contrat de la semaine. Apres l'oral : reecoute\, grille\, carnet\,
   et les trois questions d'entretien que tu aurais redoutees.\n\nFORMAT D
@@ -5879,10 +6048,12 @@ DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 DTSTAMP:20260809T120000Z
 UID:52a3b23d4fecee3c56328d23c5461197@fuf-romain
-SEQUENCE:4
-DESCRIPTION:Toute l'algebre Deschamps faite. Info commune solide. Program
- me detaille redige. Certification anglais passee. 50 m nage sans pause.\
- nEn retard ? Reporte l'algebre restante aux vacances de Noel.
+SEQUENCE:5
+DESCRIPTION:Deschamps\, selon le plan : toute l'analyse faite (ch. 9 a 16
+ \, DL et series numeriques inclus) \; l'algebre commence (ch. 18\, struc
+ tures). Info commune solide. Programme detaille redige. Certification an
+ glais passee. 50 m nage sans pause.\nEn retard ? Les vacances de Noel ab
+ sorbent le reste\, avant l'algebre.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -8005,10 +8176,12 @@ DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 DTSTAMP:20260809T120000Z
 UID:c28b6b9656b42078c2134e172e80abd8@fuf-romain
-SEQUENCE:4
+SEQUENCE:5
 DESCRIPTION:Dossier FUF depose complet\, frais payes\, aller-retour Brist
- ol-Palaiseau reserve\, Bristol prevenu de ton absence en mai. Gozard : 3
-  chapitres faits.\nEn retard ? Priorite absolue a l'administratif.
+ ol-Palaiseau reserve\, Bristol prevenu de ton absence en mai. Deschamps\
+ , selon le plan : algebre close jusqu'au ch. 24 (dimension finie)\, ch. 
+ 25 en cours \; le Gozard commence la semaine du 8 fevrier.\nEn retard ? 
+ Priorite absolue a l'administratif.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -9857,11 +10030,11 @@ DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 DTSTAMP:20260809T120000Z
 UID:3f0c761ea3b31ad016edcb868d2606ee@fuf-romain
-SEQUENCE:4
-DESCRIPTION:Gozard aux deux tiers (jusqu'aux series entieres). Une ADS co
- rrecte en conditions. Deux oraux blancs maths par semaine. Sport autour 
- de 10-12 points.\nEn retard ? Coupe la culture G\, recentre sur maths et
-  ADS.
+SEQUENCE:5
+DESCRIPTION:Gozard\, selon le plan : G1\, G3\, G4\, G8\, G11 et G12 faits
+ \, series entieres (G13) en cours. Une ADS correcte en conditions. Deux 
+ oraux blancs maths par semaine. Sport autour de 10-12 points.\nEn retard
+  ? Coupe la culture G\, recentre sur maths et ADS.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -11949,10 +12122,12 @@ DTSTART;VALUE=DATE:20270430
 DTEND;VALUE=DATE:20270501
 DTSTAMP:20260809T120000Z
 UID:63f38d04d2248307695ea49d6c160d2d@fuf-romain
-SEQUENCE:4
-DESCRIPTION:Gozard fini. Un exercice X-ENS au hasard traite a voix haute 
- en 15 min environ. Entretien de motivation pret. Baremes sport vises. Lo
- gistique confirmee.
+SEQUENCE:5
+DESCRIPTION:Gozard\, selon le plan : tout\, sauf la fin des probabilites 
+ (G18-G19) et la queue assumee (G14\, G15\, G2\, survol G5-G6-G9)\, soit 
+ environ 13 h que le plan ne couvre pas a ce jour. Un exercice X-ENS au h
+ asard traite a voix haute en 15 min environ. Entretien de motivation pre
+ t. Baremes sport vises. Logistique confirmee.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -14632,19 +14807,90 @@ END:VEVENT
 BEGIN:VEVENT
 UID:102cb9ab3afc7191daa1b52cd83d1a25@fuf-romain
 DTSTAMP:20260927T170000Z
-SEQUENCE:1
+SEQUENCE:2
 DTSTART;TZID=Europe/Paris:20261017T100000
 DTEND;TZID=Europe/Paris:20261017T122000
-SUMMARY:Maths - Samedi : fin des sections de la semaine (+ cloture)
-DESCRIPTION:SEMAINE : profond ch. 9 Nombres reels\, suites (IV-VII\, debu
- t VIII) | outil ch. 5 Nombres complexes (debut)\n\nSAMEDI MATIN. Ce qui 
- n'a pas tenu dans la semaine\, la section suivante\, et la cloture si un
-  chapitre se termine : l'enseigner 20 min a voix haute\, sans notes. Le 
- contrat detaille est publie dans la semaine.
+SUMMARY:Maths - Profond ch. 9 (VIII\, debut) : suites recurrentes + outil
+  ch. 5 (II)
+DESCRIPTION:THEME DE LA SEMAINE : profond ch. 9 (IV a VII\, debut VIII) |
+  outil ch. 5 (I-II)\n\nPROFOND - Deschamps ch. 9\, section VIII 'Etude d
+ e suites\, suites recurrentes'\, p. 335-356 : la premiere moitie aujourd
+ 'hui \; la fin et la cloture du chapitre la semaine prochaine.\nFin de s
+ eance = 2 resultats reecrits + 1 exercice + 4 calculs de complexes juste
+ s + le compte de la semaine.\n\n10h00-10h15 REPRISE\, 15 min max : carne
+ t de la semaine.\n\n10h15-10h35 LECTURE CHRONOMETREE p. 335-345. Liste l
+ es enonces encadres.\n\n10h35-11h05 LIVRE FERME\n  R1. Recurrence lineai
+ re d'ordre 2 : u(n+2) = a u(n+1) + b u(n)\, a et b reels. Equation carac
+ teristique r^2 = a r + b. Si elle a deux racines reelles distinctes r1 e
+ t r2\, toute suite solution s'ecrit u(n) = lambda r1^n + mu r2^n. Montre
+  que ces suites sont solutions\, que lambda et mu se calent sur u(0) et 
+ u(1)\, puis conclus par recurrence double. Enonce\, sans preuve\, le cas
+  de la racine double et celui des racines complexes.\n  R2. u(n+1) = f(u
+ (n))\, avec I un intervalle stable par f. (a) Si f est continue sur I et
+  si u(n) -> l avec l dans I\, alors f(l) = l. (b) Si f est croissante su
+ r I\, u est monotone\, et le signe de u(1) - u(0) donne le sens. (c) Si 
+ f est decroissante\, que dire de u(2n) et de u(2n+1) ?\n\n11h05-11h25 EX
+ ERCICE\, 20 min max\n  Suite de Fibonacci : F(0) = 0\, F(1) = 1\, F(n+2)
+  = F(n+1) + F(n). Exprimer F(n) en fonction de n\, puis montrer que F(n+
+ 1) / F(n) -> (1 + racine(5)) / 2.\n\n11h25-11h35 PAUSE\n\n11h35-12h05 OU
+ TIL ch. 5\, section II 'Resolution d'equations dans C'\, p. 175-180. Sur
+ vol 5 min\, puis livre ferme :\n  C8. Les racines carrees de 3 - 4i\, pa
+ r la methode algebrique.\n  C9. Resoudre z^2 - 3z + 3 + i = 0.\n  C10. R
+ esoudre z^3 = 8i. Les trois solutions sous forme algebrique.\n  C11. Les
+  racines n-iemes de l'unite : leur somme pour n >= 2\, puis leur produit
+ .\n  Critere : 4 justes.\n\n12h05-12h20 LE COMPTE\, ecrit\, pour le bila
+ n de demain :\n  oral blanc fait : oui / non \; temps reels : exercice 1
+  ___ min\, exercice 2 ___ min\n  ch. 9 : sections IV\, V\, VI\, VII\, de
+ but VIII faites -> ___ / 5\n  ch. 5 : sections I\, II faites -> ___ / 2\
+ n\nA ne regarder qu'apres : C8 donne +/-(2 - i) \; C9 donne 1 + i et 2 -
+  i \; C10 donne racine(3) + i\, -racine(3) + i et -2i.\n\nMETHODE\nLectu
+ re chronometree\, livre ferme au signal. Un exercice se cherche 20 min m
+ aximum \; passe ce delai\, corrige\, comprends\, et refais-le de zero a 
+ J+2. Avant la premiere ligne d'un exercice\, ecris 'OUTIL :' et le resul
+ tat que tu comptes utiliser.\nDeux controles sur chaque preuve : chaque 
+ hypothese a-t-elle servi ? Ai-je ecrit quelque chose qui contredit ce qu
+ e je sais deja ?
 BEGIN:VALARM
 TRIGGER:-PT15M
 ACTION:DISPLAY
-DESCRIPTION:Maths - Samedi : fin des sections de la semaine (+ cloture)
+DESCRIPTION:THEME DE LA SEMAINE : profond ch. 9 (IV a VII\, debut VIII) |
+  outil ch. 5 (I-II)\n\nPROFOND - Deschamps ch. 9\, section VIII 'Etude d
+ e suites\, suites recurrentes'\, p. 335-356 : la premiere moitie aujourd
+ 'hui \; la fin et la cloture du chapitre la semaine prochaine.\nFin de s
+ eance = 2 resultats reecrits + 1 exercice + 4 calculs de complexes juste
+ s + le compte de la semaine.\n\n10h00-10h15 REPRISE\, 15 min max : carne
+ t de la semaine.\n\n10h15-10h35 LECTURE CHRONOMETREE p. 335-345. Liste l
+ es enonces encadres.\n\n10h35-11h05 LIVRE FERME\n  R1. Recurrence lineai
+ re d'ordre 2 : u(n+2) = a u(n+1) + b u(n)\, a et b reels. Equation carac
+ teristique r^2 = a r + b. Si elle a deux racines reelles distinctes r1 e
+ t r2\, toute suite solution s'ecrit u(n) = lambda r1^n + mu r2^n. Montre
+  que ces suites sont solutions\, que lambda et mu se calent sur u(0) et 
+ u(1)\, puis conclus par recurrence double. Enonce\, sans preuve\, le cas
+  de la racine double et celui des racines complexes.\n  R2. u(n+1) = f(u
+ (n))\, avec I un intervalle stable par f. (a) Si f est continue sur I et
+  si u(n) -> l avec l dans I\, alors f(l) = l. (b) Si f est croissante su
+ r I\, u est monotone\, et le signe de u(1) - u(0) donne le sens. (c) Si 
+ f est decroissante\, que dire de u(2n) et de u(2n+1) ?\n\n11h05-11h25 EX
+ ERCICE\, 20 min max\n  Suite de Fibonacci : F(0) = 0\, F(1) = 1\, F(n+2)
+  = F(n+1) + F(n). Exprimer F(n) en fonction de n\, puis montrer que F(n+
+ 1) / F(n) -> (1 + racine(5)) / 2.\n\n11h25-11h35 PAUSE\n\n11h35-12h05 OU
+ TIL ch. 5\, section II 'Resolution d'equations dans C'\, p. 175-180. Sur
+ vol 5 min\, puis livre ferme :\n  C8. Les racines carrees de 3 - 4i\, pa
+ r la methode algebrique.\n  C9. Resoudre z^2 - 3z + 3 + i = 0.\n  C10. R
+ esoudre z^3 = 8i. Les trois solutions sous forme algebrique.\n  C11. Les
+  racines n-iemes de l'unite : leur somme pour n >= 2\, puis leur produit
+ .\n  Critere : 4 justes.\n\n12h05-12h20 LE COMPTE\, ecrit\, pour le bila
+ n de demain :\n  oral blanc fait : oui / non \; temps reels : exercice 1
+  ___ min\, exercice 2 ___ min\n  ch. 9 : sections IV\, V\, VI\, VII\, de
+ but VIII faites -> ___ / 5\n  ch. 5 : sections I\, II faites -> ___ / 2\
+ n\nA ne regarder qu'apres : C8 donne +/-(2 - i) \; C9 donne 1 + i et 2 -
+  i \; C10 donne racine(3) + i\, -racine(3) + i et -2i.\n\nMETHODE\nLectu
+ re chronometree\, livre ferme au signal. Un exercice se cherche 20 min m
+ aximum \; passe ce delai\, corrige\, comprends\, et refais-le de zero a 
+ J+2. Avant la premiere ligne d'un exercice\, ecris 'OUTIL :' et le resul
+ tat que tu comptes utiliser.\nDeux controles sur chaque preuve : chaque 
+ hypothese a-t-elle servi ? Ai-je ecrit quelque chose qui contredit ce qu
+ e je sais deja ?
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -14858,6 +15104,424 @@ BEGIN:VALARM
 TRIGGER:PT0S
 ACTION:DISPLAY
 DESCRIPTION:Rappel du soir - se retester sans notes (15 min)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5402abdb4aeb24d989d5a17679057bc3@fuf-romain
+DTSTAMP:20261012T010000Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Paris:20261012T214500
+DTEND;TZID=Europe/Paris:20261012T220000
+SUMMARY:Rappel du soir - se retester sans notes (15 min)
+DESCRIPTION:RAPPEL DU SOIR - 15 min\, sans notes\nSe retester a distance 
+ de la seance\, c'est ce qui fait tenir un resultat jusqu'en mai. C'est c
+ ourt expres.\n\n1. 5 min - Le produit des limites : la decomposition de 
+ u(n) v(n) - l l'\, et le lemme que tu invoques.\n2. 5 min - Info : l'inv
+ ariant du tri par insertion\, puis ses deux cas extremes de complexite.\
+ n3. 5 min - J+7 : ln x <= x - 1\, et comment on en tire l'inegalite arit
+ hmetico-geometrique.\n\nSi un point ne sort pas ce soir\, tu ne le revoi
+ s pas maintenant : tu le notes\, et il ouvre la seance de demain.
+BEGIN:VALARM
+TRIGGER:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Rappel du soir - se retester sans notes (15 min)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d48b23cffb64d3c5cea43200c32e102a@fuf-romain
+DTSTAMP:20261012T010000Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Paris:20261013T214500
+DTEND;TZID=Europe/Paris:20261013T220000
+SUMMARY:Rappel du soir - se retester sans notes (15 min)
+DESCRIPTION:RAPPEL DU SOIR - 15 min\, sans notes\nSe retester a distance 
+ de la seance\, c'est ce qui fait tenir un resultat jusqu'en mai. C'est c
+ ourt expres.\n\n1. 5 min - La limite monotone : l'enonce exact\, puis la
+  preuve en 4 lignes avec la borne superieure.\n2. 5 min - J+7 : partie e
+ ntiere\, existence et unicite\, l'idee de chaque preuve en une ligne.\n3
+ . 5 min - Carnet : refais l'erreur notee lundi.\n\nSi un point ne sort p
+ as ce soir\, tu ne le revois pas maintenant : tu le notes\, et il ouvre 
+ la seance de demain.
+BEGIN:VALARM
+TRIGGER:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Rappel du soir - se retester sans notes (15 min)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:602d1bb1dc786957fa7618db49017418@fuf-romain
+DTSTAMP:20261012T010000Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Paris:20261014T214500
+DTEND;TZID=Europe/Paris:20261014T220000
+SUMMARY:Rappel du soir - se retester sans notes (15 min)
+DESCRIPTION:RAPPEL DU SOIR - 15 min\, sans notes\nSe retester a distance 
+ de la seance\, c'est ce qui fait tenir un resultat jusqu'en mai. C'est c
+ ourt expres.\n\n1. 5 min - Bolzano-Weierstrass : les trois etapes de la 
+ dichotomie\, sans les details.\n2. 5 min - J+7 : u(n) - l = a^n (u(0) - 
+ l) pour la suite arithmetico-geometrique\, en 3 lignes.\n3. 5 min - Carn
+ et : refais l'erreur notee lundi (J+2).\n\nSi un point ne sort pas ce so
+ ir\, tu ne le revois pas maintenant : tu le notes\, et il ouvre la seanc
+ e de demain.
+BEGIN:VALARM
+TRIGGER:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Rappel du soir - se retester sans notes (15 min)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4eb1c5b88deba6ad2cd74f136db73a9c@fuf-romain
+DTSTAMP:20261012T010000Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Paris:20261015T214500
+DTEND;TZID=Europe/Paris:20261015T220000
+SUMMARY:Rappel du soir - se retester sans notes (15 min)
+DESCRIPTION:RAPPEL DU SOIR - 15 min\, sans notes\nSe retester a distance 
+ de la seance\, c'est ce qui fait tenir un resultat jusqu'en mai. C'est c
+ ourt expres.\n\n1. 5 min - (z^n) converge si et seulement si |z| < 1 ou 
+ z = 1 : le cas |z| = 1\, en 4 lignes.\n2. 5 min - Info : pourquoi le tri
+  rapide est quadratique sur un tableau trie\, la recurrence et sa soluti
+ on.\n3. 5 min - Carnet : refais l'erreur notee mardi (J+2).\n\nSi un poi
+ nt ne sort pas ce soir\, tu ne le revois pas maintenant : tu le notes\, 
+ et il ouvre la seance de demain.
+BEGIN:VALARM
+TRIGGER:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Rappel du soir - se retester sans notes (15 min)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3e06398dfa1c3a27ce0a7b8dbe7f3a9e@fuf-romain
+DTSTAMP:20261012T010000Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Paris:20261016T214500
+DTEND;TZID=Europe/Paris:20261016T220000
+SUMMARY:Rappel du soir - se retester sans notes (15 min)
+DESCRIPTION:RAPPEL DU SOIR - 15 min\, sans notes\nSe retester a distance 
+ de la seance\, c'est ce qui fait tenir un resultat jusqu'en mai. C'est c
+ ourt expres.\n\n1. 5 min - Le plan des deux exercices de l'oral blanc\, 
+ en 4 lignes chacun.\n2. 5 min - Anglais : une phrase juste avec must\, u
+ ne avec can't\, une avec mustn't\, une avec don't have to.\n3. 5 min - C
+ arnet : refais l'erreur notee mercredi (J+2).\n\nSi un point ne sort pas
+  ce soir\, tu ne le revois pas maintenant : tu le notes\, et il ouvre la
+  seance de demain.
+BEGIN:VALARM
+TRIGGER:PT0S
+ACTION:DISPLAY
+DESCRIPTION:Rappel du soir - se retester sans notes (15 min)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b1d1cd1d434094bfea89601310977cf6@fuf-romain
+DTSTAMP:20261012T010000Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Paris:20261026T140000
+DTEND;TZID=Europe/Paris:20261026T155000
+SUMMARY:Rattrapage - Maths : ch. 9 (III)\, la limite d'une suite (seances
+  du 08 et du 10/10)
+DESCRIPTION:RATTRAPAGE - les seances du 08/10 et du 10/10\, reunies.\nPRO
+ FOND - Deschamps ch. 9\, section III 'Limite d'une suite reelle'\, p. 31
+ 7-322 : la section qui manquait au chapitre.\nFin de seance = 5 resultat
+ s reecrits livre ferme + 2 exercices + 1 oral.\n\n20 min - LECTURE CHRON
+ OMETREE p. 317-322. Liste les enonces encadres.\n\n35 min - LIVRE FERME\
+ n  R1. La definition de 'u(n) tend vers l'\, quantificateurs dans le bon
+  ordre. Puis sa NEGATION\, ecrite proprement : c'est la que les candidat
+ s tombent.\n  R2. Unicite de la limite\, par l'absurde\, avec epsilon = 
+ |l - l'| / 3. Question d'examinateur : si la definition est ecrite avec 
+ |u(n) - l| <= epsilon\, pourquoi epsilon = |l - l'| / 2 ne suffit-il pas
+  ? Et avec une inegalite stricte ?\n  R3. Toute suite convergente est bo
+ rnee.\n  R4. Passage a la limite dans les inegalites LARGES. Puis le con
+ tre-exemple pour les strictes : u(n) = 1/n est > 0\, et sa limite ne l'e
+ st pas.\n  R5. La definition de 'u(n) tend vers + l'infini'.\n\n40 min -
+  DEUX EXERCICES\, 20 min max chacun\n  E1. En revenant a la definition\,
+  montrer que u(n) = (2n + 1) / (n + 3) tend vers 2. Exhibe le N explicit
+ ement\, en fonction d'epsilon.\n  E2. Une suite d'entiers relatifs conve
+ rge. Montrer qu'elle est constante a partir d'un certain rang. Indice : 
+ epsilon = 1/3\, et demande-toi pourquoi pas 1/2.\n\n5 min - CLOTURE\, un
+ e seule tentative : debout\, R2.\n\n10 min - CARNET.\n\nMETHODE\nLecture
+  chronometree\, livre ferme au signal. Un exercice se cherche 20 min max
+ imum \; passe ce delai\, corrige\, comprends\, et refais-le de zero a J+
+ 2. Avant la premiere ligne d'un exercice\, ecris 'OUTIL :' et le resulta
+ t que tu comptes utiliser.\nDeux controles sur chaque preuve : chaque hy
+ pothese a-t-elle servi ? Ai-je ecrit quelque chose qui contredit ce que 
+ je sais deja ?
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Rattrapage - Maths : ch. 9 (III)\, la limite d'une suite (sea
+ nces du 08 et du 10/10)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d451be30611529c2fb4f0e337e2f2ecd@fuf-romain
+DTSTAMP:20261012T010000Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Paris:20261027T140000
+DTEND;TZID=Europe/Paris:20261027T160000
+SUMMARY:Rattrapage - Info : oral blanc recursivite (seance du 08/10)
+DESCRIPTION:RATTRAPAGE - l'oral blanc d'info du 08/10\, qui reprenait dej
+ a des questions du 01/10.\nORAL BLANC D'INFO - 2 h\, debout\, a voix hau
+ te. Tout doit etre DIT : ce qui est seulement ecrit n'existe pas pour l'
+ examinateur.\n\n15 min - Q1. L'exponentiation rapide recursive : algorit
+ hme\, terminaison\, correction\, complexite.\n\n20 min - Q2. T est un ta
+ bleau STRICTEMENT croissant de n entiers. Existe-t-il i tel que T[i] = i
+  ?\n  Montre que g(i) = T[i] - i est croissante\, deduis-en un algorithm
+ e en O(log n)\, puis dis pourquoi 'strictement' est indispensable\, avec
+  un tableau qui casse la methode.\n\n20 min - Q3. Fibonacci recursif nai
+ f. Montre que le nombre d'appels A(n) verifie A(n) = A(n-1) + A(n-2) + 1
+ \, puis que A(n) >= 2^floor(n/2) : le nombre d'appels est exponentiel. D
+ onne ensuite une version en O(n).\n\n15 min - Q4. Deux valeurs les plus 
+ proches dans une liste de n reels : l'algorithme naif et sa complexite\,
+  puis avec un tri prealable. Pourquoi suffit-il alors de comparer des vo
+ isins ?\n\n20 min - Q5. Tours de Hanoi a l'oral : la recurrence et sa re
+ solution. Question d'examinateur : peut-on faire moins de 2^n - 1 deplac
+ ements ? Indice : au moment ou le plus grand disque bouge\, ou sont les 
+ n - 1 autres ?\n\n15 min - BILAN : trois observations. Le moment ou tu t
+ 'es tu\, un tic de langage\, une etape ecrite sans etre dite.\n\n15 min 
+ - Marge et carnet.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Rattrapage - Info : oral blanc recursivite (seance du 08/10)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7556423f1c170b5a93ef5031b91e6fec@fuf-romain
+DTSTAMP:20261012T010000Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Paris:20261028T140000
+DTEND;TZID=Europe/Paris:20261028T153000
+SUMMARY:Rattrapage - Francais : le resume (1)\, inventaire et premier res
+ ume (seance du 09/10)
+DESCRIPTION:RATTRAPAGE - la seance du 09/10\, elle-meme reportee du 02/10
+ .\n\nCE QUI CHANGE EN FRANCAIS\, a partir d'aujourd'hui\nDeux chantiers\
+ , et seulement deux :\n  - L'EXERCICE. Le jury le dit : il 'ne s'improvi
+ se pas'. On l'entraine au format reel\, chronometre\, enregistre.\n  - L
+ E CORPUS. Uniquement des oeuvres que tu as lues ou vues. Moins nombreuse
+ s\, mais tenues.\n\nFORMAT DE L'EPREUVE (rapports du jury FUF 2020-2025)
+  : 45 min de preparation sur un texte d'une bonne page (litterature\, ph
+ ilosophie\, esthetique\, sciences humaines\, de l'Antiquite a aujourd'hu
+ i). Puis 30 min : resume en 2-3 min \; expose d'une douzaine de minutes 
+ (introduction avec problematique et plan\, trois parties qui progressent
+ \, breve conclusion\, un exemple culturel precis et maitrise par partie)
+  \; entretien d'une quinzaine de minutes.\nREGLE DU CORPUS : aucune oeuv
+ re citee sans l'avoir lue ou vue. Le jury l'ecrit\, et l'entretien le ve
+ rifie.\n\nCONTRAT DU JOUR\nFin de seance = ton inventaire honnete + un r
+ esume ecrit en entier\, dit debout en 2 a 3 min\, enregistre et passe a 
+ la grille.\n\n15 min - INVENTAIRE HONNETE\nListe ce que tu as REELLEMENT
+  lu ou vu\, en entier ou le passage precis : livres\, poemes\, films\, s
+ eries\, tableaux\, pieces\, expositions\, concerts. Cinq cases par ligne
+  : titre\, auteur\, date\, un detail precis que tu saurais raconter\, 'j
+ e tiens 2 min dessus' oui ou non.\nMarque d'une croix les oeuvres que le
+  jury dit voir revenir tous les ans : 1984\, Le Meilleur des mondes\, Ca
+ ndide\, L'Etranger\, Germinal\, Rhinoceros\, Bel-Ami\, Guernica\, la sci
+ ence-fiction\, les mangas\, l'heroic fantasy. Il ne les accepte que si t
+ u les connais PARFAITEMENT.\nLes lignes a 'oui' sans croix forment ton v
+ rai corpus de depart. Tes fiches sur Camus n'y entrent que si tu as lu l
+ es textes.\n\n45 min - PREMIER RESUME\, SUR UN AUTEUR DE CONCOURS\nTexte
+  : Baudelaire\, la lettre-dedicace 'A Arsene Houssaye'\, en tete du Sple
+ en de Paris (Petits poemes en prose). Une page\, sur Wikisource. Le Sple
+ en de Paris figurait parmi les textes donnes en 2024.\n  1. Lis-la deux 
+ fois. A la deuxieme\, marque dans la marge chaque articulation : ton res
+ ume les garde toutes\, dans l'ordre.\n  2. Redige le resume EN ENTIER au
+  brouillon\, comme le jour J. Le jury conseille de le rediger integralem
+ ent\, et tu as le droit de le lire\, 'avec le ton'.\n  3. Debout\, chron
+ ometre\, enregistre-toi. Cible : entre 2 et 3 min.\n\nLA GRILLE - chaque
+  'non' va au carnet\n  - Enonciation : Baudelaire ecrit 'je' a un ami\, 
+ ton resume garde ce 'je'. Deux interdits explicites du jury : commencer 
+ par 'ce texte parle de'\, et passer a la troisieme personne ('Baudelaire
+  explique que') quand l'auteur parle en son nom.\n  - Aucun jugement\, a
+ ucun commentaire personnel.\n  - Reformulation forte : aucune phrase du 
+ texte recopiee.\n  - Toutes les articulations\, dans l'ordre.\n  - Entre
+  2 et 3 min. Le jury deplore les resumes expedies en moins d'une minute 
+ : 'trop de candidats'\, ecrivait-il en 2024.\n\n20 min - APERCU DE L'EXP
+ OSE\, sans le faire\nLe sujet se choisit sur un aspect MAJEUR du texte\,
+  a partir d'une de ses phrases. 'Le texte n'est pas un pretexte.'\nChois
+ is ta phrase. Ecris une problematique en une question\, puis trois titre
+ s de parties qui PROGRESSENT\, pas trois exemples juxtaposes.\nPas d'exe
+ mples aujourd'hui. Pour chaque partie\, regarde seulement si ton inventa
+ ire contient une oeuvre qui la nourrirait. Une case vide\, c'est ton pro
+ chain chantier de corpus.\n\n10 min - CARNET\nLa duree de ton resume\, l
+ e nombre de 'non' a la grille\, et les mots familiers entendus a la reec
+ oute. Le jury cite 'au final'\, 'positionner'\, 'au jour d'aujourd'hui'\
+ , 'ceci dit'\, 'solutionner'\, et les anglicismes.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Rattrapage - Francais : le resume (1)\, inventaire et premier
+  resume (seance du 09/10)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7875e661df3062d54d4a4b28aeb850fc@fuf-romain
+DTSTAMP:20261012T010000Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Paris:20261028T154000
+DTEND;TZID=Europe/Paris:20261028T163000
+SUMMARY:Rattrapage - Anglais : futur et hypothese (seance du 09/10)
+DESCRIPTION:RATTRAPAGE - la seance du 09/10\, elle-meme reportee du 02/10
+ .\n\nFutur et hypothese. Coefficient 3.\n\nCONTRAT DU JOUR\nFin de seanc
+ e = deux minutes d'anglais parle enregistrees\, reecoutees\, et le compt
+ e exact de tes fautes de futur et de conditionnel.\n\n15 min - LES REGLE
+ S\, EN PAIRES : une phrase juste et une phrase fausse par regle. C'est l
+ e contraste qui fixe la regle.\n  1. Will = decision prise sur le moment
+ \, ou prediction. Be going to = intention deja formee\, ou indice presen
+ t. Present continu = arrangement deja fixe : 'I'm meeting my tutor tomor
+ row' quand le rendez-vous est pris.\n  2. Jamais de will apres if ou whe
+ n dans la subordonnee : 'When I arrive in Bristol\, I will call you'\, j
+ amais 'When I will arrive'. C'est LA faute du francophone\, calquee sur 
+ 'quand j'arriverai'.\n  3. Hypothese sur le present : if + preterit\, wo
+ uld. 'If I had more time\, I would read more.' Jamais 'if I would have'.
+ \n  4. Irreel du passe : if + past perfect\, would have + participe. 'If
+  I had known\, I would have applied earlier.'\n\n25 min - PRODUCTION. C'
+ est le coeur de la seance.\nSujet : 'Your semester in Bristol: what you 
+ expect\, what you have planned\, and what you would do differently if yo
+ u could start your degree again.' Il force les quatre regles.\nDeux minu
+ tes a voix haute\, sans t'arreter pour te corriger. ENREGISTRE-TOI.\nRee
+ coute et COMPTE : fautes de futur\, fautes de conditionnel. Ce nombre es
+ t ta note du jour.\n\n10 min - REFAIRE : les memes deux minutes\, une se
+ ule fois\, en corrigeant ce que tu as entendu. L'ecart entre les deux pr
+ ises est ce que tu as reellement appris aujourd'hui.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Rattrapage - Anglais : futur et hypothese (seance du 09/10)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:77af795fb937d1350fc20a1f9b629597@fuf-romain
+DTSTAMP:20261012T010000Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Paris:20261029T140000
+DTEND;TZID=Europe/Paris:20261029T151000
+SUMMARY:Rattrapage - Culture generale : qu'est-ce qu'un ingenieur ? (sean
+ ce du 08/10)
+DESCRIPTION:RATTRAPAGE - la seance du 08/10.\n\nQu'est-ce qu'un ingenieur
+  ? Science\, technique\, societe. Coefficient 4.\nLe sujet le plus proch
+ e de l'X elle-meme : il servira aussi a l'entretien de motivation.\n\nCO
+ NTRAT DU JOUR\nFin de seance = une fiche en cinq blocs + un expose de 10
+  min tenu debout\, sans notes\, enregistre.\n\n35 min - LA FICHE\, cinq 
+ blocs\, pas un de plus\n  1. LES DISTINCTIONS\, une phrase chacune : sci
+ ence (comprendre)\, technique (faire)\, technologie (une technique fonde
+ e sur la science)\, ingenierie (concevoir sous contraintes : cout\, secu
+ rite\, delais\, normes).\n  2. L'INGENIEUR EN FRANCE : la creation de l'
+ Ecole polytechnique en 1794\, sous le nom d'Ecole centrale des travaux p
+ ublics\, et ce que l'X dit former aujourd'hui. Verifie chaque date dans 
+ une source avant de l'ecrire.\n  3. DEUX THESES OPPOSEES. La technique e
+ st neutre\, tout depend de l'usage. Ou bien elle ne l'est pas : elle imp
+ ose ses propres fins. Cherche ce que soutient Jacques Ellul (La Techniqu
+ e ou l'enjeu du siecle\, 1954) et resume-le en deux phrases.\n  4. LA RE
+ SPONSABILITE. Hans Jonas\, Le Principe responsabilite (1979)\, et son im
+ peratif : 'Agis de facon que les effets de ton action soient compatibles
+  avec la permanence d'une vie authentiquement humaine sur terre.' Puis l
+ e principe de precaution\, inscrit dans la Charte de l'environnement de 
+ 2005.\n  5. UN CAS. Challenger\, 1986 : des joints dont la defaillance p
+ ar temps froid etait connue\, et une decision de lancement. Feynman conc
+ lut son annexe au rapport d'enquete : 'For a successful technology\, rea
+ lity must take precedence over public relations\, for nature cannot be f
+ ooled.' Puis un cas a toi : ton stage a l'Inria\, et la question de ce q
+ u'on choisit d'optimiser.\n\nREGLE : tu cites une idee au niveau ou tu l
+ a connais. 'Jonas soutient que...' oui. 'Au chapitre tant de son livre..
+ .' seulement si tu l'as lu.\n\n15 min - PREPARATION\, montre en main\n  
+ Sujet : 'L'ingenieur doit-il se demander a quoi servira ce qu'il constru
+ it ?'\n\n10 min - EXPOSE debout\, sans notes\, chronometre\, ENREGISTRE.
+  Exigence : un exemple pris dans ton propre domaine.\n\n10 min - REECOUT
+ E ET CARNET : ce que tu n'as pas su DIRE\, pas ce que tu n'as pas su lir
+ e.\n\nPreparation et expose sont raccourcis ici : la seance vise le cont
+ enu. Le format complet viendra dans les seances de repetition.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Rattrapage - Culture generale : qu'est-ce qu'un ingenieur ? (
+ seance du 08/10)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:249788ed0fe92b37667686db20f377e5@fuf-romain
+DTSTAMP:20261012T010000Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Paris:20261030T140000
+DTEND;TZID=Europe/Paris:20261030T154000
+SUMMARY:Rattrapage - Maths : outil ch. 4 (II-IV)\, binome\, pivot\, trigo
+ nometrie (seances du 09 et du 10/10)
+DESCRIPTION:RATTRAPAGE - les seances du 09/10 et du 10/10\, reunies.\nOUT
+ IL - Deschamps ch. 4 : section II 'Coefficients binomiaux\, formule du b
+ inome' (p. 116-118)\, III 'Petits systemes lineaires\, methode du pivot'
+  (p. 119-123)\, IV 'Trigonometrie' (p. 124-140). Rien a redemontrer : de
+ s calculs justes du premier coup.\nFin de seance = 9 calculs justes. Cha
+ que faute au carnet\, avec sa cause.\n\n10 min - SURVOL des sections II 
+ et III.\n\n45 min - QUATRE CALCULS\, livre ferme\n  B1. Formule de Pasca
+ l : une preuve par le calcul\, une preuve par le denombrement.\n  B2. su
+ m(k = 0 a n) binom(n\, k) 2^k.\n  B3. La somme des binom(n\, k) pour k p
+ air\, n >= 1. Combine (1 + 1)^n et (1 - 1)^n.\n  B4. Resoudre par le piv
+ ot\, en discutant selon le reel m :\n      x + y + z = 1 \; x + 2y + 3z 
+ = 2 \; x + 4y + m z = 3.\n\n5 min - PAUSE\n\n10 min - SURVOL de la secti
+ on IV.\n\n30 min - CINQ CALCULS\, livre ferme\n  T1. cos(a + b) et sin(a
+  + b) de tete \; en deduire cos(2a)\, puis cos^2(a) en fonction de cos(2
+ a).\n  T2. Resoudre cos x = sin(2x) sur R.\n  T3. Lineariser cos^3(x).\n
+   T4. tan(a + b) en fonction de tan a et tan b\, avec les conditions d'e
+ xistence.\n  T5. cos p + cos q en produit.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Rattrapage - Maths : outil ch. 4 (II-IV)\, binome\, pivot\, t
+ rigonometrie (seances du 09 et du 10/10)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f8c47bb65202b1b170e7c31120125443@fuf-romain
+DTSTAMP:20261012T010000Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Paris:20261031T100000
+DTEND;TZID=Europe/Paris:20261031T110000
+SUMMARY:Rattrapage - Maths : oral blanc format jury\, deux exercices (sea
+ nce du 02/10\, reportee au 09/10)
+DESCRIPTION:RATTRAPAGE - l'oral blanc du 02/10\, reporte au 09/10.\nFORMA
+ T DU JURY FUF : deux exercices tires de deux parties distinctes du progr
+ amme\, environ 25 min chacun\, debout\, a voix haute\, sans preparation.
+  Tu parles pendant que tu cherches. Ne lis chaque enonce qu'au top du ch
+ rono.\n\n25 min - EXERCICE 1\n  Soit f definie sur R par f(x) = x / (1 +
+  |x|).\n  1. Montrer que f est strictement croissante et impaire.\n  2. 
+ Montrer que f est une bijection de R sur ]-1\, 1[ et expliciter sa recip
+ roque.\n  3. f est-elle derivable en 0 ? Et f^-1 ?\n  Question d'examina
+ teur a anticiper : comment prouves-tu la surjectivite SANS le theoreme d
+ es valeurs intermediaires ?\n\n5 min - Trois observations sur ta prestat
+ ion\, ecrites.\n\n25 min - EXERCICE 2\n  Pour n >= 1\, calculer S = sum(
+ k = 0 a n) k binom(n\, k).\n  Deux methodes exigees : (a) la relation k 
+ binom(n\, k) = n binom(n - 1\, k - 1)\, a justifier \; (b) deriver x -> 
+ (1 + x)^n.\n  Relance possible : et sum(k = 0 a n) k^2 binom(n\, k) ?\n\
+ n5 min - Trois observations de plus : le moment exact ou tu t'es tu \; u
+ n tic de langage \; une etape ecrite sans etre dite \; ton temps reel su
+ r chaque exercice.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Rattrapage - Maths : oral blanc format jury\, deux exercices 
+ (seance du 02/10\, reportee au 09/10)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6bb51f605c077f393f4146f703ebe0ab@fuf-romain
+DTSTAMP:20261012T010000Z
+SEQUENCE:0
+DTSTART;TZID=Europe/Paris:20261031T111000
+DTEND;TZID=Europe/Paris:20261031T114000
+SUMMARY:Rattrapage - Carnet : les cinq lignes en attente depuis le 07/10
+DESCRIPTION:RATTRAPAGE - les lignes du carnet qui devaient etre refaites 
+ entre le 08 et le 10/10. Livre ferme\, sans tes notes.\n\n1. Refaire en 
+ entier l'exercice f(x) = x^3 + x : bijection de R sur R\, derivabilite d
+ e la reciproque\, calcul de (f^-1)'(2).\n2. Redemontrer que R est archim
+ edien a partir de la borne superieure.\n3. Reecrire la preuve de la dens
+ ite de Q dans R en n'employant que des implications\, chacune justifiee.
+ \n4. Reecrire en trois lignes u(n) - l = a^n (u(0) - l) pour une suite a
+ rithmetico-geometrique.\n5. Dire debout\, a voix haute : la correction d
+ e l'exponentiation rapide\, la terminaison de la dichotomie recursive\, 
+ et la propriete P(n) des tours de Hanoi avec sa recurrence.
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:Rattrapage - Carnet : les cinq lignes en attente depuis le 07
+ /10
 END:VALARM
 END:VEVENT
 END:VCALENDAR
