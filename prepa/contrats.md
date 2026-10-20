@@ -1183,3 +1183,301 @@ CARNET - lignes ajoutees : ___ ; erreurs refaites a J+2 : ___.
 RATTRAPAGE - les seances du 08 au 11/10 sont au calendrier, l'apres-midi du 26 au 31/10 (10 h 30). Rien a faire avant. Une seance de cette semaine qui saute s'ajoute a la liste : dis-le-moi ce soir, je la mets a jour.
 
 ENGAGEMENTS - ceux des trois semaines qui viennent, avec leurs dates. Je deplace les seances autour, au lieu de les perdre.
+
+@@ 2026-10-19 c099229c81acbc15e93447bb5a119adc@fuf-romain
+!titre: THEME MATHS : profond ch. 9 (VIII, cloture), ch. 10 (debut I) | outil ch. 5 (I-III)
+SEMAINE : profond ch. 9 Nombres reels, suites (VIII en entier, cloture), ch. 10 Limites et continuite (debut I) | outil ch. 5 Nombres complexes (I a III)
+
+La semaine du 16 au 18/10 n'a pas eu lieu (blocus, DS de proba). On ne saute pas le debut de la section VIII : la semaine reprend la ou tu es, a charge egale. Ce qui glisse (le debut du ch. 6 en outil) rejoint la liste de rattrapage.
+
+PROFOND : lire la section, la reconstruire livre ferme, 2-3 exercices, un oral ; le chapitre se clot quand tu l'as enseigne 20 min a voix haute.
+OUTIL : survol, puis 6 a 8 calculs courts ; rien a redemontrer.
+
+@@ 2026-10-19 e46e6a23b1f0851cc8004bb194f353e5@fuf-romain
+!titre: Maths - non faite (absorbee par la semaine)
+NON FAITE (lundi 19/10). Son contenu est absorbe par la semaine : rien a rattraper.
+
+@@ 2026-10-19 57768c0886ad50ee4d5f871c48948af4@fuf-romain
+!titre: Info mineure - non faite (cours decale a mercredi)
+NON FAITE (lundi 19/10). Le cours sur les gloutons passe mercredi 10h50, a la place des exercices ; jeudi reunit exercices et oral blanc.
+
+@@ 2026-10-20 fa663437c6fb21ef92b94ff0b2dda298@fuf-romain
+!titre: Maths - Profond ch. 9 (VIII, debut) : suites recurrentes
+THEME DE LA SEMAINE : profond ch. 9 (VIII, cloture), ch. 10 (debut I) | outil ch. 5 (I a III). La semaine repart de la ou tu es : le debut de la section VIII et les complexes du 16-17/10 passent avant la suite.
+
+PROFOND - Deschamps ch. 9, section VIII 'Etude de suites, suites recurrentes', p. 335-345.
+Fin de seance = 2 resultats reecrits + Fibonacci + 1 oral.
+
+11h00-11h20 LECTURE CHRONOMETREE p. 335-345. Liste les enonces encadres.
+
+11h20-11h50 LIVRE FERME
+  R1. u(n+2) = a u(n+1) + b u(n). Si r^2 = a r + b a deux racines reelles distinctes r1 et r2, toute solution s'ecrit u(n) = lambda r1^n + mu r2^n. Montre que ces suites sont solutions, que lambda et mu se calent sur u(0) et u(1), puis conclus par recurrence double. Enonce sans preuve le cas de la racine double et celui des racines complexes.
+  R2. u(n+1) = f(u(n)), I intervalle stable par f. (a) f continue et u(n) -> l dans I : f(l) = l. (b) f croissante : u monotone, sens donne par u(1) - u(0). (c) f decroissante : que dire de u(2n) et u(2n+1) ?
+
+11h50-12h10 EXERCICE, 20 min max
+  F(0) = 0, F(1) = 1, F(n+2) = F(n+1) + F(n). Exprimer F(n) en fonction de n, puis montrer que F(n+1) / F(n) -> (1 + racine(5)) / 2.
+
+12h10-12h15 CLOTURE : debout, 5 min, R1.
+12h15-12h20 CARNET.
+
+@@ 2026-10-20 f54c74f45dfbea186ae30a780a9717b8@fuf-romain
+L'expose (1) : de la phrase du texte a la problematique et au plan. Deux textes courts, la meme demarche.
+Fin de seance = deux introductions redigees, deux plans detailles, une introduction dite debout en 2 min, enregistree.
+
+5 min - LA DEMARCHE : un aspect MAJEUR du texte, choisi a partir d'une de ses phrases ; une problematique en une question ; trois parties qui PROGRESSENT ; un exemple de ton corpus par partie. 'Le texte n'est pas un pretexte.'
+
+35 min - TEXTE A. Pascal, Pensees, le fragment du 'roseau pensant' (Lafuma 200, Brunschvicg 347), sur Wikisource.
+  1. Lis-le deux fois. Choisis LA phrase dont part ton expose.
+  2. Ecris l'introduction en entier : amorce, phrase citee, problematique, annonce du plan.
+  3. Plan detaille en trois parties, deux sous-parties chacune.
+  4. Un exemple de ton corpus par partie, uniquement des oeuvres lues ou vues. Une case vide est un chantier de corpus, pas un echec.
+
+35 min - TEXTE B. Montaigne, Essais, livre I, chapitre 26 'De l'institution des enfants', le passage sur la tete 'bien faite' plutot que 'bien pleine'. Meme demarche.
+
+10 min - DEBOUT : l'introduction du texte A en 2 min, enregistree. A la reecoute, chaque mot familier va au carnet.
+
+5 min - CARNET : les cases vides du corpus, et les mots familiers.
+
+FORMAT DE L'EPREUVE (rapports du jury FUF 2020-2025) : 45 min de preparation sur un texte d'une bonne page (litterature, philosophie, esthetique, sciences humaines, de l'Antiquite a aujourd'hui). Puis 30 min : resume en 2-3 min ; expose d'une douzaine de minutes (introduction avec problematique et plan, trois parties qui progressent, breve conclusion, un exemple culturel precis et maitrise par partie) ; entretien d'une quinzaine de minutes.
+REGLE DU CORPUS : aucune oeuvre citee sans l'avoir lue ou vue. Le jury l'ecrit, et l'entretien le verifie.
+
+@@ 2026-10-20 d9c83050e18164a3d3bc84aa63418fb6@fuf-romain
+!titre: Maths - Outil ch. 5 (I) : nombres complexes
+THEME DE LA SEMAINE : profond ch. 9 (VIII, cloture), ch. 10 (debut I) | outil ch. 5 (I a III). La semaine repart de la ou tu es : le debut de la section VIII et les complexes du 16-17/10 passent avant la suite.
+
+OUTIL - Deschamps ch. 5, section I 'L'ensemble des nombres complexes', p. 159-174. Rien a redemontrer.
+Fin de seance = 7 calculs justes. Chaque faute au carnet avec sa cause.
+
+15h40-15h50 SURVOL p. 159-174.
+
+15h50-16h40 SEPT CALCULS, livre ferme
+  C1. Module et argument de 1 + i et de 1 - i racine(3). En deduire (1 + i)^10 sous forme algebrique.
+  C2. L'inegalite triangulaire dans C et son cas d'egalite, enonces exactement.
+  C3. Pour t dans ]-pi, pi[, factoriser 1 + e^(it) par l'angle moitie ; module et un argument.
+  C4. Lineariser sin^3(x).
+  C5. cos(3x) en fonction de cos(x), par Moivre.
+  C6. Pour x non multiple de 2 pi, la somme des cos(kx), k de 0 a n.
+  C7. Resoudre e^z = 1 + i.
+
+A ne regarder qu'apres : (1 + i)^10 = 32 i ; C6 = cos(nx/2) sin((n+1)x/2) / sin(x/2).
+
+@@ 2026-10-21 1f3c1a0643b5fecf9855811853a4cd9d@fuf-romain
+!titre: Maths - Profond ch. 9 (VIII, fin) : etudier une suite recurrente
+THEME DE LA SEMAINE : profond ch. 9 (VIII, cloture), ch. 10 (debut I) | outil ch. 5 (I a III). La semaine repart de la ou tu es : le debut de la section VIII et les complexes du 16-17/10 passent avant la suite.
+
+PROFOND - Deschamps ch. 9, section VIII, p. 346-356.
+Fin de seance = 1 methode reecrite + 1 exercice + 1 oral.
+
+08h00-08h15 LECTURE CHRONOMETREE p. 346-356.
+
+08h15-08h25 LIVRE FERME
+  R3. La methode d'etude de u(n+1) = f(u(n)), en quatre etapes ecrites : intervalle stable, monotonie, bornes, limite parmi les points fixes. Dis a quelle etape sert chaque hypothese sur f.
+
+08h25-08h45 EXERCICE, 20 min max
+  u(0) = 0 et u(n+1) = racine(2 + u(n)). Montrer que 0 <= u(n) <= 2 pour tout n, que u est croissante, puis trouver sa limite.
+
+08h45-08h50 CLOTURE : debout, l'exercice en 3 min.
+
+@@ 2026-10-21 0245f5c4960cbac84fea6db5b3badc93@fuf-romain
+!titre: Info mineure - Algorithmes gloutons (cours)
+SEMAINE 6 - Algorithmes gloutons : le cours, decale de lundi. Beury ch. 8, p. 97-102.
+Fin de seance = 2 gloutons ecrits, un contre-exemple, une preuve d'optimalite.
+
+10h50-11h05 LECTURE CHRONOMETREE Beury ch. 8.
+
+11h05-11h25 RENDU DE MONNAIE
+  1. Ecris l'algorithme glouton : a chaque etape, la plus grande piece qui ne depasse pas le reste.
+  2. Avec les pieces {1, 3, 4}, rends 6 : compare le glouton et l'optimum. Conclusion ?
+
+11h25-11h45 SELECTION D'ACTIVITES. n activites [d(i), f(i)[, une seule salle, le plus d'activites possible.
+  1. Le glouton qui prend l'activite qui FINIT le plus tot, puis recommence parmi les compatibles. Ecris-le, et donne sa complexite.
+  2. Montre qu'il est optimal par echange : une solution optimale peut toujours commencer par l'activite qui finit le plus tot.
+  3. Pourquoi 'la plus courte d'abord' ne marche pas ? Un contre-exemple a 3 activites.
+
+11h45-11h50 CARNET.
+
+@@ 2026-10-21 698c51e5a63f5d1370ca19efa497cb82@fuf-romain
+!titre: Maths - Exercices ch. 9 (VIII) + outil ch. 5 (II)
+THEME DE LA SEMAINE : profond ch. 9 (VIII, cloture), ch. 10 (debut I) | outil ch. 5 (I a III). La semaine repart de la ou tu es : le debut de la section VIII et les complexes du 16-17/10 passent avant la suite.
+
+Fin de seance = 2 exercices + 4 calculs de complexes justes.
+
+15h40-16h00 E1, 20 min max. u(0) > 0 et u(n+1) = u(n) / (1 + u(n)). Calculer 1/u(n+1) - 1/u(n), en deduire u(n) explicitement, puis sa limite.
+
+16h00-16h15 E2, 15 min max. u(0) = 0, u(1) = 1, u(n+2) = u(n+1) + 2 u(n). Expliciter u(n).
+
+16h15-16h45 OUTIL ch. 5, section II 'Resolution d'equations dans C', p. 175-180. Survol 5 min, puis :
+  C8. Racines carrees de 3 - 4i, methode algebrique.
+  C9. Resoudre z^2 - 3z + 3 + i = 0.
+  C10. Resoudre z^3 = 8i, solutions sous forme algebrique.
+  C11. Somme, puis produit, des racines n-iemes de l'unite.
+
+16h45-16h50 CARNET.
+
+A ne regarder qu'apres : E2 donne u(n) = (2^n - (-1)^n) / 3 ; C8 +/-(2 - i) ; C9 1 + i et 2 - i ; C10 racine(3) + i, -racine(3) + i, -2i.
+
+@@ 2026-10-22 8941291bc86e3ffbca7d726f9fcc10ec@fuf-romain
+!titre: Maths - Cloture du ch. 9 : l'enseigner
+THEME DE LA SEMAINE : profond ch. 9 (VIII, cloture), ch. 10 (debut I) | outil ch. 5 (I a III). La semaine repart de la ou tu es : le debut de la section VIII et les complexes du 16-17/10 passent avant la suite.
+
+Fin de seance = plan de memoire + cours de 20 min donne debout, enregistre + 1 exercice.
+
+08h55-09h00 PLAN DE MEMOIRE : les sections IV a VIII en une ligne chacune, avec leur resultat phare.
+
+09h00-09h20 ENSEIGNE, debout, sans notes, ENREGISTRE : operations sur les limites, encadrement, limite monotone, adjacentes, Bolzano-Weierstrass, suites complexes, suites recurrentes. Trois preuves dites en entier, au choix.
+
+09h20-09h35 EXERCICE, 15 min max. Montrer qu'une suite croissante dont une suite extraite converge est elle-meme convergente.
+
+09h35-09h40 CARNET : la ou tu t'es tu en enseignant. La section III reste au rattrapage du 26/10.
+
+@@ 2026-10-22 9b97fdd0895514c5c0b5d7911e92116d@fuf-romain
+!titre: Info mineure - Algorithmes gloutons (exercices + oral blanc)
+SEMAINE 6 - Algorithmes gloutons : exercices puis oral blanc. Enonces autosuffisants.
+Tout ce qui est seulement ecrit n'existe pas pour l'examinateur : la seconde heure se fait debout.
+
+09h50-10h10 E1. Sac a dos fractionnaire : objets de poids p(i) et de valeur v(i), capacite C, on peut prendre une fraction d'objet. Glouton par v(i)/p(i) decroissant : l'ecrire, sa complexite, et pourquoi il est optimal.
+10h10-10h30 E2. Meme probleme sans fraction (0/1). Montre que le meme glouton echoue, sur un exemple a 3 objets.
+10h30-10h40 Pause, bilan des deux exercices.
+
+10h40-11h40 ORAL BLANC, debout, 50 min, puis 10 min de bilan
+  Q1. Qu'est-ce qu'un algorithme glouton ? Comment prouve-t-on qu'il est optimal ?
+  Q2. Rendu de monnaie : le glouton est-il optimal ? Contre-exemple, et un systeme ou il l'est.
+  Q3. Selection d'activites : quel critere, preuve par echange, complexite.
+  Q4. Glouton ou programmation dynamique : quand l'un, quand l'autre ? Le sac a dos 0/1 comme exemple.
+  BILAN : trois observations. Le moment ou tu t'es tu, un tic de langage, une etape ecrite sans etre dite.
+
+11h40-11h50 CARNET.
+
+@@ 2026-10-22 fab893e76980bd917d6508a7f3e26455@fuf-romain
+Climat : mecanismes, chiffres, controverses. Coefficient 4.
+Fin de seance = une fiche en cinq blocs, chiffres sources + un expose de 10 min tenu debout, enregistre.
+
+35 min - LA FICHE, chaque chiffre verifie dans le resume pour decideurs du 6e rapport du GIEC (AR6, 2021-2023), avec sa source :
+  1. LE MECANISME : l'effet de serre en trois phrases, le role du CO2 et de la vapeur d'eau, ce qu'est une retroaction.
+  2. TROIS ORDRES DE GRANDEUR : la concentration de CO2 avant l'ere industrielle et aujourd'hui, le rechauffement observe depuis 1850-1900, la part attribuee aux activites humaines.
+  3. LES MODELES : ce qu'est une projection par scenario, et ce que signifie une fourchette de sensibilite climatique.
+  4. LES ACCORDS : l'accord de Paris (2015), son objectif en degres, ce qu'est un budget carbone.
+  5. UNE CONTROVERSE HONNETE : une question ou les incertitudes sont reelles (nuages, points de bascule, ou autre), sans confondre incertitude et doute sur le fond.
+
+15 min - PREPARATION, montre en main. Sujet : 'Peut-on faire confiance aux modeles climatiques ?'
+
+10 min - EXPOSE debout, sans notes, chronometre, ENREGISTRE. Exigence : un ordre de grandeur juste par partie, et un lien avec ton experience du calcul haute performance a l'Inria.
+
+10 min - REECOUTE ET CARNET : ce que tu n'as pas su DIRE.
+
+10 min - MARGE.
+
+REGLE : un chiffre que tu n'as pas verifie ne va pas sur la fiche.
+
+@@ 2026-10-23 42567cb25f7071ef6ce1a23143323292@fuf-romain
+Voix passive et causatif. Coefficient 3, et le semestre a Bristol.
+Fin de seance = deux minutes enregistrees, reecoutees, et le compte de tes fautes de passif, prise 1 et prise 2.
+
+15 min - LES REGLES, EN PAIRES : une phrase juste et une phrase fausse par regle.
+  1. Le passif a tous les temps : be au temps voulu + participe passe. 'The results were published', 'The paper is being reviewed', 'The code has been tested'.
+  2. Le double passif des verbes d'opinion : 'He is said to be brilliant', 'The theory is believed to have been proved'. Jamais 'It is said him to be'.
+  3. Le causatif : have something done (on fait faire), get something done (plus familier, idee d'effort). 'I had my bike repaired.' Jamais 'I made repair my bike'.
+  4. Le passif des verbes a deux complements : 'I was given a grant', plus naturel que 'A grant was given to me'.
+
+25 min - PRODUCTION. Sujet : 'Describe a scientific discovery: how it was made, how it was received, and what has been done with it since.' Deux minutes a voix haute, ENREGISTRE-TOI. Reecoute et COMPTE tes fautes de passif et de causatif.
+
+10 min - REFAIRE : les memes deux minutes, une seule fois, en corrigeant.
+
+@@ 2026-10-23 fe35c9308387356c18278eaa1a8bc9a2@fuf-romain
+!titre: Maths - Oral blanc format jury (2 exercices) + outil ch. 5 (III)
+THEME DE LA SEMAINE : profond ch. 9 (VIII, cloture), ch. 10 (debut I) | outil ch. 5 (I a III). La semaine repart de la ou tu es : le debut de la section VIII et les complexes du 16-17/10 passent avant la suite.
+
+C'est l'oral blanc du 16/10, qui n'a pas eu lieu. Aucun oral blanc de maths n'a encore ete fait au format du jury : c'est la priorite de la semaine.
+FORMAT DU JURY FUF : deux exercices de deux parties distinctes du programme, environ 25 min chacun, debout, a voix haute, sans preparation. Ne lis chaque enonce qu'au top du chrono.
+
+14h00-14h25 EXERCICE 1
+  Soit u(0) dans ]0, 1[ et u(n+1) = u(n) - u(n)^2.
+  1. Montrer que (u(n)) converge et determiner sa limite.
+  2. Montrer que 1/u(n+1) - 1/u(n) -> 1.
+  3. En deduire que n u(n) -> 1. Tu peux admettre le lemme de Cesaro : si a(n) -> l, alors (a(1) + ... + a(n)) / n -> l.
+  Relance d'examinateur : demontrez le lemme de Cesaro.
+
+14h25-14h30 Trois observations, ecrites.
+
+14h30-14h55 EXERCICE 2
+  1. Montrer que pour tout x > 0 : x - x^2/2 <= ln(1 + x) <= x.
+  2. En deduire la limite de P(n) = (1 + 1/n^2) (1 + 2/n^2) ... (1 + n/n^2).
+  Relance : et avec n^3 a la place de n^2 ?
+
+14h55-15h00 Trois observations de plus.
+
+15h00-15h50 OUTIL ch. 5, section III 'Applications geometriques', p. 181-188. Survol 10 min, puis :
+  G1. A, B, C d'affixes a, b, c distinctes : condition sur (c - a) / (b - a) pour l'alignement, puis pour ABC rectangle en A.
+  G2. L'ecriture complexe de la rotation de centre w et d'angle theta. Image de 2 + i par la rotation de centre i et d'angle pi/2.
+  G3. Ecriture complexe d'une similitude directe ; ses elements caracteristiques pour z' = (1 + i) z + 1.
+  G4. Determiner l'ensemble des z tels que |z - 1| = |z + i|.
+
+15h50-16h00 CARNET + temps reel de chaque exercice. L'ecart avec 25 min est ce qu'il te reste a gagner.
+
+@@ 2026-10-23 5baa0931fb08cf50e7c8787794fa11f1@fuf-romain
+Corpus (2) : La Boetie, Discours de la servitude volontaire, premiere moitie. Edition en francais modernise.
+Fin de seance = premiere moitie lue + la these en deux phrases + trois citations recopiees exactement + 2 min dites debout.
+
+60 min - LECTURE, crayon en main :
+  - la these, en une phrase ;
+  - les causes de la servitude dans l'ordre ou La Boetie les avance ;
+  - les images qui tiennent en une phrase ;
+  - trois passages courts a apprendre mot pour mot, recopies exactement avec leur reference.
+
+15 min - LA FICHE, commencee : idees et themes majeurs ; citations a memoriser mot pour mot ; contexte auteur et dates (verifies). Les deux autres sections viendront avec la seconde moitie.
+
+10 min - DEBOUT, enregistre : 2 min sur la these de La Boetie, comme un exemple d'expose.
+
+5 min - CARNET.
+
+FORMAT DE L'EPREUVE (rapports du jury FUF 2020-2025) : 45 min de preparation sur un texte d'une bonne page (litterature, philosophie, esthetique, sciences humaines, de l'Antiquite a aujourd'hui). Puis 30 min : resume en 2-3 min ; expose d'une douzaine de minutes (introduction avec problematique et plan, trois parties qui progressent, breve conclusion, un exemple culturel precis et maitrise par partie) ; entretien d'une quinzaine de minutes.
+REGLE DU CORPUS : aucune oeuvre citee sans l'avoir lue ou vue. Le jury l'ecrit, et l'entretien le verifie.
+
+@@ 2026-10-24 53733cae71680a1eb3f44f2fa7d7158d@fuf-romain
+!titre: Maths - Profond ch. 10 (I, debut) : limite d'une fonction en un point
+THEME DE LA SEMAINE : profond ch. 9 (VIII, cloture), ch. 10 (debut I) | outil ch. 5 (I a III). La semaine repart de la ou tu es : le debut de la section VIII et les complexes du 16-17/10 passent avant la suite.
+
+PROFOND - Deschamps ch. 10, section I 'L'aspect ponctuel : limites, continuite', p. 372-388 : la premiere moitie aujourd'hui.
+Fin de seance = 3 resultats reecrits + 2 exercices + le compte de la semaine.
+
+10h00-10h15 REPRISE : les lignes du carnet de la semaine.
+
+10h15-10h35 LECTURE CHRONOMETREE p. 372-380.
+
+10h35-11h05 LIVRE FERME
+  R1. La definition de 'f(x) tend vers l quand x tend vers a', a point de I ou extremite de I, avec epsilon et eta. Puis sa negation.
+  R2. Caracterisation sequentielle : f(x) -> l en a si et seulement si, pour toute suite (x(n)) de I qui tend vers a, f(x(n)) -> l. Les deux sens ; le reciproque par contraposee, avec eta = 1/(n+1).
+  R3. f est continue en a si et seulement si f(x) -> f(a) en a, avec a dans I.
+
+11h05-11h15 PAUSE
+
+11h15-11h35 E1. Montrer que x -> sin(1/x) n'a pas de limite en 0, avec deux suites.
+11h35-11h50 E2. Montrer que x sin(1/x) -> 0 en 0.
+
+11h50-12h05 CLOTURE : debout, R2 en 5 min.
+
+12h05-12h20 LE COMPTE, ecrit, pour demain :
+  ch. 9 : VIII debut, VIII fin, cloture -> ___ / 3
+  ch. 5 : I, II, III -> ___ / 3
+  oral blanc fait : oui / non ; temps reels ___ et ___ min
+  ch. 10 I debut : oui / non
+
+METHODE
+Lecture chronometree, livre ferme au signal. Un exercice se cherche 20 min maximum ; passe ce delai, corrige, comprends, et refais-le de zero a J+2. Avant la premiere ligne d'un exercice, ecris 'OUTIL :' et le resultat que tu comptes utiliser.
+Deux controles sur chaque preuve : chaque hypothese a-t-elle servi ? Ai-je ecrit quelque chose qui contredit ce que je sais deja ?
+
+@@ 2026-10-25 b938950a15a9afe67550d036dfa196a1@fuf-romain
+LE COMPTE DE LA SEMAINE - ecris les chiffres, ne les estime pas.
+
+MATHS
+  ch. 9 : VIII debut, VIII fin, cloture -> ___ / 3
+  ch. 5 (outil) : I, II, III -> ___ / 3
+  oral blanc a deux exercices : oui / non ; temps reels ___ et ___ min
+  ch. 10 I debut : oui / non
+INFO - gloutons : cours fait oui / non ; questions tenues a l'oral blanc ___ / 4.
+CULTURE G - expose climat enregistre : oui / non.
+FRANCAIS - deux introductions et plans : ___ / 2 ; La Boetie, premiere moitie lue : oui / non.
+ANGLAIS - fautes de passif : prise 1 ___, prise 2 ___.
+CARNET - rappels coches dans l'app cette semaine : ___ ; rates : ___.
+
+TOUSSAINT : la liste du rattrapage est dans le document du projet. Dis-moi ce soir comment tu veux la repartir : je construis la semaine du 26/10 dessus.
