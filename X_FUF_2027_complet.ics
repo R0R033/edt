@@ -3746,24 +3746,21 @@ DESCRIPTION:LE COMPTE DE LA SEMAINE - ecris les chiffres\, ne les estime
  6/10 dessus.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:VACANCES DE TOUSSAINT - le plan le matin\, le rattrapage l'apres-
- midi
+SUMMARY:VACANCES DE TOUSSAINT - 10 h de revision\, 2 h chaque matin
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261102
 DTSTAMP:20260809T120000Z
 UID:412ce753c010dddf893e46055a32b0a5@fuf-romain
-SEQUENCE:5
-DESCRIPTION:Le matin\, 2 h : les sections du plan\, comme une semaine nor
- male. L'apres-midi : le rattrapage des seances du 08 au 11/10\, une ou d
- eux seances par jour\, deja inscrites au calendrier. Sport maintenu.\n\n
- RATTRAPAGE (10 h 30 en tout\, en plus des 11 h du plan)\n  lun 26 : math
- s\, ch. 9 III\, la limite d'une suite (1 h 50)\n  mar 27 : info\, oral b
- lanc recursivite (2 h)\n  mer 28 : francais\, le resume (1) (1 h 30) \; 
- anglais\, futur et hypothese (50 min)\n  jeu 29 : culture generale\, l'i
- ngenieur (1 h 10)\n  ven 30 : maths\, outil ch. 4 II-IV (1 h 40)\n  sam 
- 31 : maths\, oral blanc a deux exercices (1 h) \; carnet en attente (30 
- min)\n\nUne seance de l'automne qui saute s'ajoute a cette liste : le bi
- lan du dimanche la tient a jour.
+SEQUENCE:6
+DESCRIPTION:Nouveau rythme : 10 h de revision par semaine. Cette semaine\
+ , 2 h chaque matin du lundi au vendredi \; apres-midi libres. Sport main
+ tenu.\n\nlun. 26 : maths\, ch. 9 III\, la limite d'une suite\nmar. 27 : 
+ maths\, ch. 9 VIII\, suites recurrentes\, par Fibonacci\nmer. 28 : info\
+ , oral blanc recursivite\njeu. 29 : maths\, premier oral blanc a deux ex
+ ercices + fin de la section VIII\nven. 30 : francais\, le resume (1) + l
+ es cinq lignes du carnet en attente\n\nLa liste de rattrapage est fondue
+  dans le nouveau plan : rien d'autre a rattraper cette semaine.\nA parti
+ r du 2/11\, le calendrier sera reconstruit sur 10 h par semaine.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -3778,19 +3775,39 @@ DESCRIPTION:1000 m + planche 50 m + coups de bras par 25 m.\n\nReperes at
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Maths - vacances : carnet\, puis sections de la semaine (2 h)
+SUMMARY:Maths - Profond ch. 9 (III) : la limite d'une suite (2 h)
 DTSTART;TZID=Europe/Paris:20261026T080000
 DTEND;TZID=Europe/Paris:20261026T100000
 DTSTAMP:20260809T120000Z
 UID:5fe7f744ad95425c0e75b060f1ed1f02@fuf-romain
-SEQUENCE:22
-DESCRIPTION:SEMAINE : profond ch. 10 Limites et continuite (fin I\, II\, 
- debut III) | outil ch. 6 Fonctions usuelles (fin)\, ch. 7 Primitives et 
- integrales (debut)\n\n30 min de carnet au plus\, puis les sections de la
-  semaine. Pendant les vacances le plan avance : c'est une semaine pleine
-  du compteur.\n\nReflexes du jour : un resultat demontre A VOIX HAUTE\, 
- debout\, chronometre. Revision espacee J+1 / J+7 / J+30. Toute erreur va
-  au carnet.
+SEQUENCE:23
+DESCRIPTION:SEMAINE DE LA TOUSSAINT - 10 h de revision : 2 h chaque matin
+ \, du lundi au vendredi. Apres-midi libres.\n\nPROFOND - Deschamps ch. 9
+ \, section III 'Limite d'une suite reelle'\, p. 317-322 : la section qui
+  manquait au chapitre.\nFin de seance = 5 resultats reecrits livre ferme
+  + 2 exercices + 1 oral.\n\n20 min - LECTURE CHRONOMETREE p. 317-322. Li
+ ste les enonces encadres.\n\n35 min - LIVRE FERME\n  R1. La definition d
+ e 'u(n) tend vers l'\, quantificateurs dans le bon ordre. Puis sa NEGATI
+ ON\, ecrite proprement : c'est la que les candidats tombent.\n  R2. Unic
+ ite de la limite\, par l'absurde\, avec epsilon = |l - l'| / 3. Question
+  d'examinateur : si la definition est ecrite avec |u(n) - l| <= epsilon\
+ , pourquoi epsilon = |l - l'| / 2 ne suffit-il pas ? Et avec une inegali
+ te stricte ?\n  R3. Toute suite convergente est bornee.\n  R4. Passage a
+  la limite dans les inegalites LARGES. Puis le contre-exemple pour les s
+ trictes : u(n) = 1/n est > 0\, et sa limite ne l'est pas.\n  R5. La defi
+ nition de 'u(n) tend vers + l'infini'.\n\n40 min - DEUX EXERCICES\, 20 m
+ in max chacun\n  E1. En revenant a la definition\, montrer que u(n) = (2
+ n + 1) / (n + 3) tend vers 2. Exhibe le N explicitement\, en fonction d'
+ epsilon.\n  E2. Une suite d'entiers relatifs converge. Montrer qu'elle e
+ st constante a partir d'un certain rang. Indice : epsilon = 1/3\, et dem
+ ande-toi pourquoi pas 1/2.\n\n5 min - CLOTURE\, une seule tentative : de
+ bout\, R2.\n\n10 min - CARNET.\n\nMETHODE\nLecture chronometree\, livre 
+ ferme au signal. Un exercice se cherche 20 min maximum \; passe ce delai
+ \, corrige\, comprends\, et refais-le de zero a J+2. Avant la premiere l
+ igne d'un exercice\, ecris 'OUTIL :' et le resultat que tu comptes utili
+ ser.\nDeux controles sur chaque preuve : chaque hypothese a-t-elle servi
+  ? Ai-je ecrit quelque chose qui contredit ce que je sais deja ?\n\nLes 
+ 10 dernieres minutes sont de la marge.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Course a pied
@@ -3808,19 +3825,35 @@ DESCRIPTION:SEANCE 1000 m - allure specifique (phase 2)\n\nTON ALLURE DE
  n\nRetour au calme : 8 min facile.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Maths - vacances : carnet\, puis sections de la semaine (2 h)
+SUMMARY:Maths - Profond ch. 9 (VIII\, debut) : suites recurrentes\, par F
+ ibonacci (2 h)
 DTSTART;TZID=Europe/Paris:20261027T080000
 DTEND;TZID=Europe/Paris:20261027T100000
 DTSTAMP:20260809T120000Z
 UID:395092d37e4f584086166d267dd52cfe@fuf-romain
-SEQUENCE:22
-DESCRIPTION:SEMAINE : profond ch. 10 Limites et continuite (fin I\, II\, 
- debut III) | outil ch. 6 Fonctions usuelles (fin)\, ch. 7 Primitives et 
- integrales (debut)\n\n30 min de carnet au plus\, puis les sections de la
-  semaine. Pendant les vacances le plan avance : c'est une semaine pleine
-  du compteur.\n\nReflexes du jour : un resultat demontre A VOIX HAUTE\, 
- debout\, chronometre. Revision espacee J+1 / J+7 / J+30. Toute erreur va
-  au carnet.
+SEQUENCE:23
+DESCRIPTION:SEMAINE DE LA TOUSSAINT - 10 h de revision : 2 h chaque matin
+ \, du lundi au vendredi. Apres-midi libres.\n\nPROFOND - Deschamps ch. 9
+ \, section VIII 'Etude de suites\, suites recurrentes'\, p. 335-345. Cet
+ te fois par le concret : Fibonacci d'abord\, le cas general ensuite.\nFi
+ n de seance = Fibonacci resolu + R1 et R2 reecrits + 1 oral.\n\n20 min -
+  LECTURE CHRONOMETREE p. 335-345. Liste les enonces encadres.\n\n20 min 
+ - FIBONACCI A LA MAIN. F(0) = 0\, F(1) = 1\, F(n+2) = F(n+1) + F(n).\n  
+ 1. Cherche les suites de la forme r^n qui verifient la relation : tu doi
+ s trouver r^2 = r + 1\, donc deux valeurs de r.\n  2. Verifie que toute 
+ combinaison lambda r1^n + mu r2^n la verifie aussi.\n  3. Choisis lambda
+  et mu pour avoir F(0) = 0 et F(1) = 1. Puis montre que F(n+1) / F(n) ->
+  (1 + racine(5)) / 2.\n\n20 min - R1\, LE CAS GENERAL\, livre ferme. La 
+ meme demarche pour u(n+2) = a u(n+1) + b u(n) : equation caracteristique
+  r^2 = a r + b\, deux racines reelles distinctes\, puis la recurrence do
+ uble qui montre que TOUTE solution est de cette forme. Enonce sans preuv
+ e le cas de la racine double et celui des racines complexes.\n\n10 min -
+  PAUSE\n\n20 min - u(0) = 0 et u(n+1) = racine(2 + u(n)). Calcule u(1)\,
+  u(2)\, u(3)\, devine\, puis prouve : 0 <= u(n) <= 2\, u croissante\, et
+  sa limite.\n\n15 min - R2\, livre ferme : la methode que tu viens d'app
+ liquer\, ecrite en general pour u(n+1) = f(u(n)) : intervalle stable\, m
+ onotonie si f est croissante\, limite parmi les points fixes si f est co
+ ntinue.\n\n5 min - CLOTURE : debout\, R1 en 5 min.\n\n10 min - CARNET.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -3863,19 +3896,32 @@ DESCRIPTION:SEANCE NATATION - VITESSE ET NAGE PURE (mardi) - bassin de 50
  45 : tu es pile dans le creneau\, ne traine pas au vestiaire.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Maths - vacances : carnet\, puis sections de la semaine (2 h)
+SUMMARY:Info mineure - Oral blanc recursivite (2 h)
 DTSTART;TZID=Europe/Paris:20261028T080000
 DTEND;TZID=Europe/Paris:20261028T100000
 DTSTAMP:20260809T120000Z
 UID:6c86b6d1f7106fe1e9ab8bcf942d0034@fuf-romain
-SEQUENCE:22
-DESCRIPTION:SEMAINE : profond ch. 10 Limites et continuite (fin I\, II\, 
- debut III) | outil ch. 6 Fonctions usuelles (fin)\, ch. 7 Primitives et 
- integrales (debut)\n\n30 min de carnet au plus\, puis les sections de la
-  semaine. Pendant les vacances le plan avance : c'est une semaine pleine
-  du compteur.\n\nReflexes du jour : un resultat demontre A VOIX HAUTE\, 
- debout\, chronometre. Revision espacee J+1 / J+7 / J+30. Toute erreur va
-  au carnet.
+SEQUENCE:23
+DESCRIPTION:SEMAINE DE LA TOUSSAINT - 10 h de revision : 2 h chaque matin
+ \, du lundi au vendredi. Apres-midi libres.\n\nORAL BLANC D'INFO - 2 h\,
+  debout\, a voix haute. Tout doit etre DIT : ce qui est seulement ecrit 
+ n'existe pas pour l'examinateur.\n\n15 min - Q1. L'exponentiation rapide
+  recursive : algorithme\, terminaison\, correction\, complexite.\n\n20 m
+ in - Q2. T est un tableau STRICTEMENT croissant de n entiers. Existe-t-i
+ l i tel que T[i] = i ?\n  Montre que g(i) = T[i] - i est croissante\, de
+ duis-en un algorithme en O(log n)\, puis dis pourquoi 'strictement' est 
+ indispensable\, avec un tableau qui casse la methode.\n\n20 min - Q3. Fi
+ bonacci recursif naif. Montre que le nombre d'appels A(n) verifie A(n) =
+  A(n-1) + A(n-2) + 1\, puis que A(n) >= 2^floor(n/2) : le nombre d'appel
+ s est exponentiel. Donne ensuite une version en O(n).\n\n15 min - Q4. De
+ ux valeurs les plus proches dans une liste de n reels : l'algorithme nai
+ f et sa complexite\, puis avec un tri prealable. Pourquoi suffit-il alor
+ s de comparer des voisins ?\n\n20 min - Q5. Tours de Hanoi a l'oral : la
+  recurrence et sa resolution. Question d'examinateur : peut-on faire moi
+ ns de 2^n - 1 deplacements ? Indice : au moment ou le plus grand disque 
+ bouge\, ou sont les n - 1 autres ?\n\n15 min - BILAN : trois observation
+ s. Le moment ou tu t'es tu\, un tic de langage\, une etape ecrite sans e
+ tre dite.\n\n15 min - Marge et carnet.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Course a pied
@@ -3904,50 +3950,104 @@ DESCRIPTION:SEANCE 100 m - vitesse (phase 2)\n\nTON REPERE : 13"32 (11 pt
  hete-les en janvier et cours avec au moins six fois avant mai.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Maths - vacances : carnet\, puis sections de la semaine (2 h)
+SUMMARY:Maths - Oral blanc format jury (2 exercices) + ch. 9 (VIII\, fin)
+  (2 h)
 DTSTART;TZID=Europe/Paris:20261029T085500
 DTEND;TZID=Europe/Paris:20261029T105500
 DTSTAMP:20260809T120000Z
 UID:edcc2fe566aaf1a57a0e20048c1bc27c@fuf-romain
-SEQUENCE:22
-DESCRIPTION:SEMAINE : profond ch. 10 Limites et continuite (fin I\, II\, 
- debut III) | outil ch. 6 Fonctions usuelles (fin)\, ch. 7 Primitives et 
- integrales (debut)\n\n30 min de carnet au plus\, puis les sections de la
-  semaine. Pendant les vacances le plan avance : c'est une semaine pleine
-  du compteur.\n\nReflexes du jour : un resultat demontre A VOIX HAUTE\, 
- debout\, chronometre. Revision espacee J+1 / J+7 / J+30. Toute erreur va
-  au carnet.
+SEQUENCE:23
+DESCRIPTION:SEMAINE DE LA TOUSSAINT - 10 h de revision : 2 h chaque matin
+ \, du lundi au vendredi. Apres-midi libres.\n\nLe premier oral blanc de 
+ maths au format du jury : il a saute trois fois. C'est la seance de la s
+ emaine qui compte le plus.\nFORMAT DU JURY FUF : deux exercices de deux 
+ parties distinctes du programme\, environ 25 min chacun\, debout\, a voi
+ x haute\, sans preparation. Tu parles pendant que tu cherches. Ne lis ch
+ aque enonce qu'au top du chrono.\n\n25 min - EXERCICE 1\n  Soit u(0) dan
+ s ]0\, 1[ et u(n+1) = u(n) - u(n)^2.\n  1. Montrer que (u(n)) converge e
+ t determiner sa limite.\n  2. Montrer que 1/u(n+1) - 1/u(n) -> 1.\n  3. 
+ En deduire que n u(n) -> 1. Tu peux admettre le lemme de Cesaro : si a(n
+ ) -> l\, alors (a(1) + ... + a(n)) / n -> l.\n  Relance d'examinateur : 
+ demontrez le lemme de Cesaro.\n\n5 min - Trois observations\, ecrites.\n
+ \n25 min - EXERCICE 2\n  1. Montrer que pour tout x > 0 : x - x^2/2 <= l
+ n(1 + x) <= x.\n  2. En deduire la limite de P(n) = (1 + 1/n^2) (1 + 2/n
+ ^2) ... (1 + n/n^2).\n  Relance : et avec n^3 a la place de n^2 ?\n\n5 m
+ in - Trois observations de plus\, et ton temps reel sur chaque exercice.
+  L'ecart avec 25 min est ce qu'il te reste a gagner.\n\n10 min - PAUSE\n
+ \n15 min - LECTURE p. 346-356\, la fin de la section VIII.\n\n20 min - E
+ XERCICE\, 20 min max : u(0) > 0 et u(n+1) = u(n) / (1 + u(n)). Calculer 
+ 1/u(n+1) - 1/u(n)\, en deduire u(n) explicitement\, puis sa limite.\n\n1
+ 0 min - CARNET.\n\n5 min - MARGE.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Maths - oral blanc du soir
-DTSTART;TZID=Europe/Paris:20261029T110500
-DTEND;TZID=Europe/Paris:20261029T120500
-DTSTAMP:20260809T120000Z
-UID:4de2141007ea3d77533a277599af7c37@fuf-romain
-SEQUENCE:22
-DESCRIPTION:SEMAINE : profond ch. 10 Limites et continuite (fin I\, II\, 
- debut III) | outil ch. 6 Fonctions usuelles (fin)\, ch. 7 Primitives et 
- integrales (debut)\n\nORAL BLANC\, format du jury FUF : deux exercices t
- ires de deux parties distinctes du programme\, environ 25 min chacun\, d
- ebout\, a voix haute\, sans preparation. Le jury valorise le fait d'avoi
- r des idees plus que de terminer l'exercice.\n\nReflexes du jour : un re
- sultat demontre A VOIX HAUTE\, debout\, chronometre. Revision espacee J+
- 1 / J+7 / J+30. Toute erreur va au carnet.
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Maths - vacances : carnet\, puis sections de la semaine (2 h)
+SUMMARY:Francais - Le resume (1) + carnet en attente (2 h)
 DTSTART;TZID=Europe/Paris:20261030T080000
 DTEND;TZID=Europe/Paris:20261030T100000
 DTSTAMP:20260809T120000Z
 UID:6d091712f8fc5d4ae93348b9fbc2b412@fuf-romain
-SEQUENCE:22
-DESCRIPTION:SEMAINE : profond ch. 10 Limites et continuite (fin I\, II\, 
- debut III) | outil ch. 6 Fonctions usuelles (fin)\, ch. 7 Primitives et 
- integrales (debut)\n\n30 min de carnet au plus\, puis les sections de la
-  semaine. Pendant les vacances le plan avance : c'est une semaine pleine
-  du compteur.\n\nReflexes du jour : un resultat demontre A VOIX HAUTE\, 
- debout\, chronometre. Revision espacee J+1 / J+7 / J+30. Toute erreur va
-  au carnet.
+SEQUENCE:23
+DESCRIPTION:SEMAINE DE LA TOUSSAINT - 10 h de revision : 2 h chaque matin
+ \, du lundi au vendredi. Apres-midi libres.\n\nCE QUI CHANGE EN FRANCAIS
+ \, a partir d'aujourd'hui\nDeux chantiers\, et seulement deux :\n  - L'E
+ XERCICE. Le jury le dit : il 'ne s'improvise pas'. On l'entraine au form
+ at reel\, chronometre\, enregistre.\n  - LE CORPUS. Uniquement des oeuvr
+ es que tu as lues ou vues. Moins nombreuses\, mais tenues.\n\nFORMAT DE 
+ L'EPREUVE (rapports du jury FUF 2020-2025) : 45 min de preparation sur u
+ n texte d'une bonne page (litterature\, philosophie\, esthetique\, scien
+ ces humaines\, de l'Antiquite a aujourd'hui). Puis 30 min : resume en 2-
+ 3 min \; expose d'une douzaine de minutes (introduction avec problematiq
+ ue et plan\, trois parties qui progressent\, breve conclusion\, un exemp
+ le culturel precis et maitrise par partie) \; entretien d'une quinzaine 
+ de minutes.\nREGLE DU CORPUS : aucune oeuvre citee sans l'avoir lue ou v
+ ue. Le jury l'ecrit\, et l'entretien le verifie.\n\nCONTRAT DU JOUR\nFin
+  de seance = ton inventaire honnete + un resume ecrit en entier\, dit de
+ bout en 2 a 3 min\, enregistre et passe a la grille.\n\n15 min - INVENTA
+ IRE HONNETE\nListe ce que tu as REELLEMENT lu ou vu\, en entier ou le pa
+ ssage precis : livres\, poemes\, films\, series\, tableaux\, pieces\, ex
+ positions\, concerts. Cinq cases par ligne : titre\, auteur\, date\, un 
+ detail precis que tu saurais raconter\, 'je tiens 2 min dessus' oui ou n
+ on.\nMarque d'une croix les oeuvres que le jury dit voir revenir tous le
+ s ans : 1984\, Le Meilleur des mondes\, Candide\, L'Etranger\, Germinal\
+ , Rhinoceros\, Bel-Ami\, Guernica\, la science-fiction\, les mangas\, l'
+ heroic fantasy. Il ne les accepte que si tu les connais PARFAITEMENT.\nL
+ es lignes a 'oui' sans croix forment ton vrai corpus de depart. Tes fich
+ es sur Camus n'y entrent que si tu as lu les textes.\n\n45 min - PREMIER
+  RESUME\, SUR UN AUTEUR DE CONCOURS\nTexte : Baudelaire\, la lettre-dedi
+ cace 'A Arsene Houssaye'\, en tete du Spleen de Paris (Petits poemes en 
+ prose). Une page\, sur Wikisource. Le Spleen de Paris figurait parmi les
+  textes donnes en 2024.\n  1. Lis-la deux fois. A la deuxieme\, marque d
+ ans la marge chaque articulation : ton resume les garde toutes\, dans l'
+ ordre.\n  2. Redige le resume EN ENTIER au brouillon\, comme le jour J. 
+ Le jury conseille de le rediger integralement\, et tu as le droit de le 
+ lire\, 'avec le ton'.\n  3. Debout\, chronometre\, enregistre-toi. Cible
+  : entre 2 et 3 min.\n\nLA GRILLE - chaque 'non' va au carnet\n  - Enonc
+ iation : Baudelaire ecrit 'je' a un ami\, ton resume garde ce 'je'. Deux
+  interdits explicites du jury : commencer par 'ce texte parle de'\, et p
+ asser a la troisieme personne ('Baudelaire explique que') quand l'auteur
+  parle en son nom.\n  - Aucun jugement\, aucun commentaire personnel.\n 
+  - Reformulation forte : aucune phrase du texte recopiee.\n  - Toutes le
+ s articulations\, dans l'ordre.\n  - Entre 2 et 3 min. Le jury deplore l
+ es resumes expedies en moins d'une minute : 'trop de candidats'\, ecriva
+ it-il en 2024.\n\n20 min - APERCU DE L'EXPOSE\, sans le faire\nLe sujet 
+ se choisit sur un aspect MAJEUR du texte\, a partir d'une de ses phrases
+ . 'Le texte n'est pas un pretexte.'\nChoisis ta phrase. Ecris une proble
+ matique en une question\, puis trois titres de parties qui PROGRESSENT\,
+  pas trois exemples juxtaposes.\nPas d'exemples aujourd'hui. Pour chaque
+  partie\, regarde seulement si ton inventaire contient une oeuvre qui la
+  nourrirait. Une case vide\, c'est ton prochain chantier de corpus.\n\n1
+ 0 min - CARNET\nLa duree de ton resume\, le nombre de 'non' a la grille\
+ , et les mots familiers entendus a la reecoute. Le jury cite 'au final'\
+ , 'positionner'\, 'au jour d'aujourd'hui'\, 'ceci dit'\, 'solutionner'\,
+  et les anglicismes.\n\n30 min - CARNET EN ATTENTE\, livre ferme\, apres
+  le francais :\n1. Refaire en entier l'exercice f(x) = x^3 + x : bijecti
+ on de R sur R\, derivabilite de la reciproque\, calcul de (f^-1)'(2).\n2
+ . Redemontrer que R est archimedien a partir de la borne superieure.\n3.
+  Reecrire la preuve de la densite de Q dans R en n'employant que des imp
+ lications\, chacune justifiee.\n4. Reecrire en trois lignes u(n) - l = a
+ ^n (u(0) - l) pour une suite arithmetico-geometrique.\n5. Dire debout\, 
+ a voix haute : la correction de l'exponentiation rapide\, la terminaison
+  de la dichotomie recursive\, et la propriete P(n) des tours de Hanoi av
+ ec sa recurrence.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Course a pied
@@ -15310,319 +15410,6 @@ BEGIN:VALARM
 TRIGGER:PT0S
 ACTION:DISPLAY
 DESCRIPTION:Rappel du soir - se retester sans notes (15 min)
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:b1d1cd1d434094bfea89601310977cf6@fuf-romain
-DTSTAMP:20261012T010000Z
-SEQUENCE:0
-DTSTART;TZID=Europe/Paris:20261026T140000
-DTEND;TZID=Europe/Paris:20261026T155000
-SUMMARY:Rattrapage - Maths : ch. 9 (III)\, la limite d'une suite (seances
-  du 08 et du 10/10)
-DESCRIPTION:RATTRAPAGE - les seances du 08/10 et du 10/10\, reunies.\nPRO
- FOND - Deschamps ch. 9\, section III 'Limite d'une suite reelle'\, p. 31
- 7-322 : la section qui manquait au chapitre.\nFin de seance = 5 resultat
- s reecrits livre ferme + 2 exercices + 1 oral.\n\n20 min - LECTURE CHRON
- OMETREE p. 317-322. Liste les enonces encadres.\n\n35 min - LIVRE FERME\
- n  R1. La definition de 'u(n) tend vers l'\, quantificateurs dans le bon
-  ordre. Puis sa NEGATION\, ecrite proprement : c'est la que les candidat
- s tombent.\n  R2. Unicite de la limite\, par l'absurde\, avec epsilon = 
- |l - l'| / 3. Question d'examinateur : si la definition est ecrite avec 
- |u(n) - l| <= epsilon\, pourquoi epsilon = |l - l'| / 2 ne suffit-il pas
-  ? Et avec une inegalite stricte ?\n  R3. Toute suite convergente est bo
- rnee.\n  R4. Passage a la limite dans les inegalites LARGES. Puis le con
- tre-exemple pour les strictes : u(n) = 1/n est > 0\, et sa limite ne l'e
- st pas.\n  R5. La definition de 'u(n) tend vers + l'infini'.\n\n40 min -
-  DEUX EXERCICES\, 20 min max chacun\n  E1. En revenant a la definition\,
-  montrer que u(n) = (2n + 1) / (n + 3) tend vers 2. Exhibe le N explicit
- ement\, en fonction d'epsilon.\n  E2. Une suite d'entiers relatifs conve
- rge. Montrer qu'elle est constante a partir d'un certain rang. Indice : 
- epsilon = 1/3\, et demande-toi pourquoi pas 1/2.\n\n5 min - CLOTURE\, un
- e seule tentative : debout\, R2.\n\n10 min - CARNET.\n\nMETHODE\nLecture
-  chronometree\, livre ferme au signal. Un exercice se cherche 20 min max
- imum \; passe ce delai\, corrige\, comprends\, et refais-le de zero a J+
- 2. Avant la premiere ligne d'un exercice\, ecris 'OUTIL :' et le resulta
- t que tu comptes utiliser.\nDeux controles sur chaque preuve : chaque hy
- pothese a-t-elle servi ? Ai-je ecrit quelque chose qui contredit ce que 
- je sais deja ?
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Rattrapage - Maths : ch. 9 (III)\, la limite d'une suite (sea
- nces du 08 et du 10/10)
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:d451be30611529c2fb4f0e337e2f2ecd@fuf-romain
-DTSTAMP:20261012T010000Z
-SEQUENCE:0
-DTSTART;TZID=Europe/Paris:20261027T140000
-DTEND;TZID=Europe/Paris:20261027T160000
-SUMMARY:Rattrapage - Info : oral blanc recursivite (seance du 08/10)
-DESCRIPTION:RATTRAPAGE - l'oral blanc d'info du 08/10\, qui reprenait dej
- a des questions du 01/10.\nORAL BLANC D'INFO - 2 h\, debout\, a voix hau
- te. Tout doit etre DIT : ce qui est seulement ecrit n'existe pas pour l'
- examinateur.\n\n15 min - Q1. L'exponentiation rapide recursive : algorit
- hme\, terminaison\, correction\, complexite.\n\n20 min - Q2. T est un ta
- bleau STRICTEMENT croissant de n entiers. Existe-t-il i tel que T[i] = i
-  ?\n  Montre que g(i) = T[i] - i est croissante\, deduis-en un algorithm
- e en O(log n)\, puis dis pourquoi 'strictement' est indispensable\, avec
-  un tableau qui casse la methode.\n\n20 min - Q3. Fibonacci recursif nai
- f. Montre que le nombre d'appels A(n) verifie A(n) = A(n-1) + A(n-2) + 1
- \, puis que A(n) >= 2^floor(n/2) : le nombre d'appels est exponentiel. D
- onne ensuite une version en O(n).\n\n15 min - Q4. Deux valeurs les plus 
- proches dans une liste de n reels : l'algorithme naif et sa complexite\,
-  puis avec un tri prealable. Pourquoi suffit-il alors de comparer des vo
- isins ?\n\n20 min - Q5. Tours de Hanoi a l'oral : la recurrence et sa re
- solution. Question d'examinateur : peut-on faire moins de 2^n - 1 deplac
- ements ? Indice : au moment ou le plus grand disque bouge\, ou sont les 
- n - 1 autres ?\n\n15 min - BILAN : trois observations. Le moment ou tu t
- 'es tu\, un tic de langage\, une etape ecrite sans etre dite.\n\n15 min 
- - Marge et carnet.
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Rattrapage - Info : oral blanc recursivite (seance du 08/10)
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:7556423f1c170b5a93ef5031b91e6fec@fuf-romain
-DTSTAMP:20261012T010000Z
-SEQUENCE:0
-DTSTART;TZID=Europe/Paris:20261028T140000
-DTEND;TZID=Europe/Paris:20261028T153000
-SUMMARY:Rattrapage - Francais : le resume (1)\, inventaire et premier res
- ume (seance du 09/10)
-DESCRIPTION:RATTRAPAGE - la seance du 09/10\, elle-meme reportee du 02/10
- .\n\nCE QUI CHANGE EN FRANCAIS\, a partir d'aujourd'hui\nDeux chantiers\
- , et seulement deux :\n  - L'EXERCICE. Le jury le dit : il 'ne s'improvi
- se pas'. On l'entraine au format reel\, chronometre\, enregistre.\n  - L
- E CORPUS. Uniquement des oeuvres que tu as lues ou vues. Moins nombreuse
- s\, mais tenues.\n\nFORMAT DE L'EPREUVE (rapports du jury FUF 2020-2025)
-  : 45 min de preparation sur un texte d'une bonne page (litterature\, ph
- ilosophie\, esthetique\, sciences humaines\, de l'Antiquite a aujourd'hu
- i). Puis 30 min : resume en 2-3 min \; expose d'une douzaine de minutes 
- (introduction avec problematique et plan\, trois parties qui progressent
- \, breve conclusion\, un exemple culturel precis et maitrise par partie)
-  \; entretien d'une quinzaine de minutes.\nREGLE DU CORPUS : aucune oeuv
- re citee sans l'avoir lue ou vue. Le jury l'ecrit\, et l'entretien le ve
- rifie.\n\nCONTRAT DU JOUR\nFin de seance = ton inventaire honnete + un r
- esume ecrit en entier\, dit debout en 2 a 3 min\, enregistre et passe a 
- la grille.\n\n15 min - INVENTAIRE HONNETE\nListe ce que tu as REELLEMENT
-  lu ou vu\, en entier ou le passage precis : livres\, poemes\, films\, s
- eries\, tableaux\, pieces\, expositions\, concerts. Cinq cases par ligne
-  : titre\, auteur\, date\, un detail precis que tu saurais raconter\, 'j
- e tiens 2 min dessus' oui ou non.\nMarque d'une croix les oeuvres que le
-  jury dit voir revenir tous les ans : 1984\, Le Meilleur des mondes\, Ca
- ndide\, L'Etranger\, Germinal\, Rhinoceros\, Bel-Ami\, Guernica\, la sci
- ence-fiction\, les mangas\, l'heroic fantasy. Il ne les accepte que si t
- u les connais PARFAITEMENT.\nLes lignes a 'oui' sans croix forment ton v
- rai corpus de depart. Tes fiches sur Camus n'y entrent que si tu as lu l
- es textes.\n\n45 min - PREMIER RESUME\, SUR UN AUTEUR DE CONCOURS\nTexte
-  : Baudelaire\, la lettre-dedicace 'A Arsene Houssaye'\, en tete du Sple
- en de Paris (Petits poemes en prose). Une page\, sur Wikisource. Le Sple
- en de Paris figurait parmi les textes donnes en 2024.\n  1. Lis-la deux 
- fois. A la deuxieme\, marque dans la marge chaque articulation : ton res
- ume les garde toutes\, dans l'ordre.\n  2. Redige le resume EN ENTIER au
-  brouillon\, comme le jour J. Le jury conseille de le rediger integralem
- ent\, et tu as le droit de le lire\, 'avec le ton'.\n  3. Debout\, chron
- ometre\, enregistre-toi. Cible : entre 2 et 3 min.\n\nLA GRILLE - chaque
-  'non' va au carnet\n  - Enonciation : Baudelaire ecrit 'je' a un ami\, 
- ton resume garde ce 'je'. Deux interdits explicites du jury : commencer 
- par 'ce texte parle de'\, et passer a la troisieme personne ('Baudelaire
-  explique que') quand l'auteur parle en son nom.\n  - Aucun jugement\, a
- ucun commentaire personnel.\n  - Reformulation forte : aucune phrase du 
- texte recopiee.\n  - Toutes les articulations\, dans l'ordre.\n  - Entre
-  2 et 3 min. Le jury deplore les resumes expedies en moins d'une minute 
- : 'trop de candidats'\, ecrivait-il en 2024.\n\n20 min - APERCU DE L'EXP
- OSE\, sans le faire\nLe sujet se choisit sur un aspect MAJEUR du texte\,
-  a partir d'une de ses phrases. 'Le texte n'est pas un pretexte.'\nChois
- is ta phrase. Ecris une problematique en une question\, puis trois titre
- s de parties qui PROGRESSENT\, pas trois exemples juxtaposes.\nPas d'exe
- mples aujourd'hui. Pour chaque partie\, regarde seulement si ton inventa
- ire contient une oeuvre qui la nourrirait. Une case vide\, c'est ton pro
- chain chantier de corpus.\n\n10 min - CARNET\nLa duree de ton resume\, l
- e nombre de 'non' a la grille\, et les mots familiers entendus a la reec
- oute. Le jury cite 'au final'\, 'positionner'\, 'au jour d'aujourd'hui'\
- , 'ceci dit'\, 'solutionner'\, et les anglicismes.
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Rattrapage - Francais : le resume (1)\, inventaire et premier
-  resume (seance du 09/10)
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:7875e661df3062d54d4a4b28aeb850fc@fuf-romain
-DTSTAMP:20261012T010000Z
-SEQUENCE:0
-DTSTART;TZID=Europe/Paris:20261028T154000
-DTEND;TZID=Europe/Paris:20261028T163000
-SUMMARY:Rattrapage - Anglais : futur et hypothese (seance du 09/10)
-DESCRIPTION:RATTRAPAGE - la seance du 09/10\, elle-meme reportee du 02/10
- .\n\nFutur et hypothese. Coefficient 3.\n\nCONTRAT DU JOUR\nFin de seanc
- e = deux minutes d'anglais parle enregistrees\, reecoutees\, et le compt
- e exact de tes fautes de futur et de conditionnel.\n\n15 min - LES REGLE
- S\, EN PAIRES : une phrase juste et une phrase fausse par regle. C'est l
- e contraste qui fixe la regle.\n  1. Will = decision prise sur le moment
- \, ou prediction. Be going to = intention deja formee\, ou indice presen
- t. Present continu = arrangement deja fixe : 'I'm meeting my tutor tomor
- row' quand le rendez-vous est pris.\n  2. Jamais de will apres if ou whe
- n dans la subordonnee : 'When I arrive in Bristol\, I will call you'\, j
- amais 'When I will arrive'. C'est LA faute du francophone\, calquee sur 
- 'quand j'arriverai'.\n  3. Hypothese sur le present : if + preterit\, wo
- uld. 'If I had more time\, I would read more.' Jamais 'if I would have'.
- \n  4. Irreel du passe : if + past perfect\, would have + participe. 'If
-  I had known\, I would have applied earlier.'\n\n25 min - PRODUCTION. C'
- est le coeur de la seance.\nSujet : 'Your semester in Bristol: what you 
- expect\, what you have planned\, and what you would do differently if yo
- u could start your degree again.' Il force les quatre regles.\nDeux minu
- tes a voix haute\, sans t'arreter pour te corriger. ENREGISTRE-TOI.\nRee
- coute et COMPTE : fautes de futur\, fautes de conditionnel. Ce nombre es
- t ta note du jour.\n\n10 min - REFAIRE : les memes deux minutes\, une se
- ule fois\, en corrigeant ce que tu as entendu. L'ecart entre les deux pr
- ises est ce que tu as reellement appris aujourd'hui.
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Rattrapage - Anglais : futur et hypothese (seance du 09/10)
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:77af795fb937d1350fc20a1f9b629597@fuf-romain
-DTSTAMP:20261012T010000Z
-SEQUENCE:0
-DTSTART;TZID=Europe/Paris:20261029T140000
-DTEND;TZID=Europe/Paris:20261029T151000
-SUMMARY:Rattrapage - Culture generale : qu'est-ce qu'un ingenieur ? (sean
- ce du 08/10)
-DESCRIPTION:RATTRAPAGE - la seance du 08/10.\n\nQu'est-ce qu'un ingenieur
-  ? Science\, technique\, societe. Coefficient 4.\nLe sujet le plus proch
- e de l'X elle-meme : il servira aussi a l'entretien de motivation.\n\nCO
- NTRAT DU JOUR\nFin de seance = une fiche en cinq blocs + un expose de 10
-  min tenu debout\, sans notes\, enregistre.\n\n35 min - LA FICHE\, cinq 
- blocs\, pas un de plus\n  1. LES DISTINCTIONS\, une phrase chacune : sci
- ence (comprendre)\, technique (faire)\, technologie (une technique fonde
- e sur la science)\, ingenierie (concevoir sous contraintes : cout\, secu
- rite\, delais\, normes).\n  2. L'INGENIEUR EN FRANCE : la creation de l'
- Ecole polytechnique en 1794\, sous le nom d'Ecole centrale des travaux p
- ublics\, et ce que l'X dit former aujourd'hui. Verifie chaque date dans 
- une source avant de l'ecrire.\n  3. DEUX THESES OPPOSEES. La technique e
- st neutre\, tout depend de l'usage. Ou bien elle ne l'est pas : elle imp
- ose ses propres fins. Cherche ce que soutient Jacques Ellul (La Techniqu
- e ou l'enjeu du siecle\, 1954) et resume-le en deux phrases.\n  4. LA RE
- SPONSABILITE. Hans Jonas\, Le Principe responsabilite (1979)\, et son im
- peratif : 'Agis de facon que les effets de ton action soient compatibles
-  avec la permanence d'une vie authentiquement humaine sur terre.' Puis l
- e principe de precaution\, inscrit dans la Charte de l'environnement de 
- 2005.\n  5. UN CAS. Challenger\, 1986 : des joints dont la defaillance p
- ar temps froid etait connue\, et une decision de lancement. Feynman conc
- lut son annexe au rapport d'enquete : 'For a successful technology\, rea
- lity must take precedence over public relations\, for nature cannot be f
- ooled.' Puis un cas a toi : ton stage a l'Inria\, et la question de ce q
- u'on choisit d'optimiser.\n\nREGLE : tu cites une idee au niveau ou tu l
- a connais. 'Jonas soutient que...' oui. 'Au chapitre tant de son livre..
- .' seulement si tu l'as lu.\n\n15 min - PREPARATION\, montre en main\n  
- Sujet : 'L'ingenieur doit-il se demander a quoi servira ce qu'il constru
- it ?'\n\n10 min - EXPOSE debout\, sans notes\, chronometre\, ENREGISTRE.
-  Exigence : un exemple pris dans ton propre domaine.\n\n10 min - REECOUT
- E ET CARNET : ce que tu n'as pas su DIRE\, pas ce que tu n'as pas su lir
- e.\n\nPreparation et expose sont raccourcis ici : la seance vise le cont
- enu. Le format complet viendra dans les seances de repetition.
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Rattrapage - Culture generale : qu'est-ce qu'un ingenieur ? (
- seance du 08/10)
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:249788ed0fe92b37667686db20f377e5@fuf-romain
-DTSTAMP:20261012T010000Z
-SEQUENCE:0
-DTSTART;TZID=Europe/Paris:20261030T140000
-DTEND;TZID=Europe/Paris:20261030T154000
-SUMMARY:Rattrapage - Maths : outil ch. 4 (II-IV)\, binome\, pivot\, trigo
- nometrie (seances du 09 et du 10/10)
-DESCRIPTION:RATTRAPAGE - les seances du 09/10 et du 10/10\, reunies.\nOUT
- IL - Deschamps ch. 4 : section II 'Coefficients binomiaux\, formule du b
- inome' (p. 116-118)\, III 'Petits systemes lineaires\, methode du pivot'
-  (p. 119-123)\, IV 'Trigonometrie' (p. 124-140). Rien a redemontrer : de
- s calculs justes du premier coup.\nFin de seance = 9 calculs justes. Cha
- que faute au carnet\, avec sa cause.\n\n10 min - SURVOL des sections II 
- et III.\n\n45 min - QUATRE CALCULS\, livre ferme\n  B1. Formule de Pasca
- l : une preuve par le calcul\, une preuve par le denombrement.\n  B2. su
- m(k = 0 a n) binom(n\, k) 2^k.\n  B3. La somme des binom(n\, k) pour k p
- air\, n >= 1. Combine (1 + 1)^n et (1 - 1)^n.\n  B4. Resoudre par le piv
- ot\, en discutant selon le reel m :\n      x + y + z = 1 \; x + 2y + 3z 
- = 2 \; x + 4y + m z = 3.\n\n5 min - PAUSE\n\n10 min - SURVOL de la secti
- on IV.\n\n30 min - CINQ CALCULS\, livre ferme\n  T1. cos(a + b) et sin(a
-  + b) de tete \; en deduire cos(2a)\, puis cos^2(a) en fonction de cos(2
- a).\n  T2. Resoudre cos x = sin(2x) sur R.\n  T3. Lineariser cos^3(x).\n
-   T4. tan(a + b) en fonction de tan a et tan b\, avec les conditions d'e
- xistence.\n  T5. cos p + cos q en produit.
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Rattrapage - Maths : outil ch. 4 (II-IV)\, binome\, pivot\, t
- rigonometrie (seances du 09 et du 10/10)
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:f8c47bb65202b1b170e7c31120125443@fuf-romain
-DTSTAMP:20261012T010000Z
-SEQUENCE:0
-DTSTART;TZID=Europe/Paris:20261031T100000
-DTEND;TZID=Europe/Paris:20261031T110000
-SUMMARY:Rattrapage - Maths : oral blanc format jury\, deux exercices (sea
- nce du 02/10\, reportee au 09/10)
-DESCRIPTION:RATTRAPAGE - l'oral blanc du 02/10\, reporte au 09/10.\nFORMA
- T DU JURY FUF : deux exercices tires de deux parties distinctes du progr
- amme\, environ 25 min chacun\, debout\, a voix haute\, sans preparation.
-  Tu parles pendant que tu cherches. Ne lis chaque enonce qu'au top du ch
- rono.\n\n25 min - EXERCICE 1\n  Soit f definie sur R par f(x) = x / (1 +
-  |x|).\n  1. Montrer que f est strictement croissante et impaire.\n  2. 
- Montrer que f est une bijection de R sur ]-1\, 1[ et expliciter sa recip
- roque.\n  3. f est-elle derivable en 0 ? Et f^-1 ?\n  Question d'examina
- teur a anticiper : comment prouves-tu la surjectivite SANS le theoreme d
- es valeurs intermediaires ?\n\n5 min - Trois observations sur ta prestat
- ion\, ecrites.\n\n25 min - EXERCICE 2\n  Pour n >= 1\, calculer S = sum(
- k = 0 a n) k binom(n\, k).\n  Deux methodes exigees : (a) la relation k 
- binom(n\, k) = n binom(n - 1\, k - 1)\, a justifier \; (b) deriver x -> 
- (1 + x)^n.\n  Relance possible : et sum(k = 0 a n) k^2 binom(n\, k) ?\n\
- n5 min - Trois observations de plus : le moment exact ou tu t'es tu \; u
- n tic de langage \; une etape ecrite sans etre dite \; ton temps reel su
- r chaque exercice.
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Rattrapage - Maths : oral blanc format jury\, deux exercices 
- (seance du 02/10\, reportee au 09/10)
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:6bb51f605c077f393f4146f703ebe0ab@fuf-romain
-DTSTAMP:20261012T010000Z
-SEQUENCE:0
-DTSTART;TZID=Europe/Paris:20261031T111000
-DTEND;TZID=Europe/Paris:20261031T114000
-SUMMARY:Rattrapage - Carnet : les cinq lignes en attente depuis le 07/10
-DESCRIPTION:RATTRAPAGE - les lignes du carnet qui devaient etre refaites 
- entre le 08 et le 10/10. Livre ferme\, sans tes notes.\n\n1. Refaire en 
- entier l'exercice f(x) = x^3 + x : bijection de R sur R\, derivabilite d
- e la reciproque\, calcul de (f^-1)'(2).\n2. Redemontrer que R est archim
- edien a partir de la borne superieure.\n3. Reecrire la preuve de la dens
- ite de Q dans R en n'employant que des implications\, chacune justifiee.
- \n4. Reecrire en trois lignes u(n) - l = a^n (u(0) - l) pour une suite a
- rithmetico-geometrique.\n5. Dire debout\, a voix haute : la correction d
- e l'exponentiation rapide\, la terminaison de la dichotomie recursive\, 
- et la propriete P(n) des tours de Hanoi avec sa recurrence.
-BEGIN:VALARM
-TRIGGER:-PT15M
-ACTION:DISPLAY
-DESCRIPTION:Rattrapage - Carnet : les cinq lignes en attente depuis le 07
- /10
 END:VALARM
 END:VEVENT
 END:VCALENDAR
