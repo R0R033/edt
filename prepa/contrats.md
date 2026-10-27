@@ -1481,3 +1481,161 @@ ANGLAIS - fautes de passif : prise 1 ___, prise 2 ___.
 CARNET - rappels coches dans l'app cette semaine : ___ ; rates : ___.
 
 TOUSSAINT : la liste du rattrapage est dans le document du projet. Dis-moi ce soir comment tu veux la repartir : je construis la semaine du 26/10 dessus.
+
+@@ 2026-10-26 5fe7f744ad95425c0e75b060f1ed1f02@fuf-romain
+!titre: Maths - Profond ch. 9 (III) : la limite d'une suite (2 h)
+SEMAINE DE LA TOUSSAINT - 10 h de revision : 2 h chaque matin, du lundi au vendredi. Apres-midi libres.
+
+PROFOND - Deschamps ch. 9, section III 'Limite d'une suite reelle', p. 317-322 : la section qui manquait au chapitre.
+Fin de seance = 5 resultats reecrits livre ferme + 2 exercices + 1 oral.
+
+20 min - LECTURE CHRONOMETREE p. 317-322. Liste les enonces encadres.
+
+35 min - LIVRE FERME
+  R1. La definition de 'u(n) tend vers l', quantificateurs dans le bon ordre. Puis sa NEGATION, ecrite proprement : c'est la que les candidats tombent.
+  R2. Unicite de la limite, par l'absurde, avec epsilon = |l - l'| / 3. Question d'examinateur : si la definition est ecrite avec |u(n) - l| <= epsilon, pourquoi epsilon = |l - l'| / 2 ne suffit-il pas ? Et avec une inegalite stricte ?
+  R3. Toute suite convergente est bornee.
+  R4. Passage a la limite dans les inegalites LARGES. Puis le contre-exemple pour les strictes : u(n) = 1/n est > 0, et sa limite ne l'est pas.
+  R5. La definition de 'u(n) tend vers + l'infini'.
+
+40 min - DEUX EXERCICES, 20 min max chacun
+  E1. En revenant a la definition, montrer que u(n) = (2n + 1) / (n + 3) tend vers 2. Exhibe le N explicitement, en fonction d'epsilon.
+  E2. Une suite d'entiers relatifs converge. Montrer qu'elle est constante a partir d'un certain rang. Indice : epsilon = 1/3, et demande-toi pourquoi pas 1/2.
+
+5 min - CLOTURE, une seule tentative : debout, R2.
+
+10 min - CARNET.
+
+METHODE
+Lecture chronometree, livre ferme au signal. Un exercice se cherche 20 min maximum ; passe ce delai, corrige, comprends, et refais-le de zero a J+2. Avant la premiere ligne d'un exercice, ecris 'OUTIL :' et le resultat que tu comptes utiliser.
+Deux controles sur chaque preuve : chaque hypothese a-t-elle servi ? Ai-je ecrit quelque chose qui contredit ce que je sais deja ?
+
+Les 10 dernieres minutes sont de la marge.
+
+@@ 2026-10-27 395092d37e4f584086166d267dd52cfe@fuf-romain
+!titre: Maths - Profond ch. 9 (VIII, debut) : suites recurrentes, par Fibonacci (2 h)
+SEMAINE DE LA TOUSSAINT - 10 h de revision : 2 h chaque matin, du lundi au vendredi. Apres-midi libres.
+
+PROFOND - Deschamps ch. 9, section VIII 'Etude de suites, suites recurrentes', p. 335-345. Cette fois par le concret : Fibonacci d'abord, le cas general ensuite.
+Fin de seance = Fibonacci resolu + R1 et R2 reecrits + 1 oral.
+
+20 min - LECTURE CHRONOMETREE p. 335-345. Liste les enonces encadres.
+
+20 min - FIBONACCI A LA MAIN. F(0) = 0, F(1) = 1, F(n+2) = F(n+1) + F(n).
+  1. Cherche les suites de la forme r^n qui verifient la relation : tu dois trouver r^2 = r + 1, donc deux valeurs de r.
+  2. Verifie que toute combinaison lambda r1^n + mu r2^n la verifie aussi.
+  3. Choisis lambda et mu pour avoir F(0) = 0 et F(1) = 1. Puis montre que F(n+1) / F(n) -> (1 + racine(5)) / 2.
+
+20 min - R1, LE CAS GENERAL, livre ferme. La meme demarche pour u(n+2) = a u(n+1) + b u(n) : equation caracteristique r^2 = a r + b, deux racines reelles distinctes, puis la recurrence double qui montre que TOUTE solution est de cette forme. Enonce sans preuve le cas de la racine double et celui des racines complexes.
+
+10 min - PAUSE
+
+20 min - u(0) = 0 et u(n+1) = racine(2 + u(n)). Calcule u(1), u(2), u(3), devine, puis prouve : 0 <= u(n) <= 2, u croissante, et sa limite.
+
+15 min - R2, livre ferme : la methode que tu viens d'appliquer, ecrite en general pour u(n+1) = f(u(n)) : intervalle stable, monotonie si f est croissante, limite parmi les points fixes si f est continue.
+
+5 min - CLOTURE : debout, R1 en 5 min.
+
+10 min - CARNET.
+
+@@ 2026-10-28 6c86b6d1f7106fe1e9ab8bcf942d0034@fuf-romain
+!titre: Info mineure - Oral blanc recursivite (2 h)
+SEMAINE DE LA TOUSSAINT - 10 h de revision : 2 h chaque matin, du lundi au vendredi. Apres-midi libres.
+
+ORAL BLANC D'INFO - 2 h, debout, a voix haute. Tout doit etre DIT : ce qui est seulement ecrit n'existe pas pour l'examinateur.
+
+15 min - Q1. L'exponentiation rapide recursive : algorithme, terminaison, correction, complexite.
+
+20 min - Q2. T est un tableau STRICTEMENT croissant de n entiers. Existe-t-il i tel que T[i] = i ?
+  Montre que g(i) = T[i] - i est croissante, deduis-en un algorithme en O(log n), puis dis pourquoi 'strictement' est indispensable, avec un tableau qui casse la methode.
+
+20 min - Q3. Fibonacci recursif naif. Montre que le nombre d'appels A(n) verifie A(n) = A(n-1) + A(n-2) + 1, puis que A(n) >= 2^floor(n/2) : le nombre d'appels est exponentiel. Donne ensuite une version en O(n).
+
+15 min - Q4. Deux valeurs les plus proches dans une liste de n reels : l'algorithme naif et sa complexite, puis avec un tri prealable. Pourquoi suffit-il alors de comparer des voisins ?
+
+20 min - Q5. Tours de Hanoi a l'oral : la recurrence et sa resolution. Question d'examinateur : peut-on faire moins de 2^n - 1 deplacements ? Indice : au moment ou le plus grand disque bouge, ou sont les n - 1 autres ?
+
+15 min - BILAN : trois observations. Le moment ou tu t'es tu, un tic de langage, une etape ecrite sans etre dite.
+
+15 min - Marge et carnet.
+
+@@ 2026-10-29 edcc2fe566aaf1a57a0e20048c1bc27c@fuf-romain
+!titre: Maths - Oral blanc format jury (2 exercices) + ch. 9 (VIII, fin) (2 h)
+SEMAINE DE LA TOUSSAINT - 10 h de revision : 2 h chaque matin, du lundi au vendredi. Apres-midi libres.
+
+Le premier oral blanc de maths au format du jury : il a saute trois fois. C'est la seance de la semaine qui compte le plus.
+FORMAT DU JURY FUF : deux exercices de deux parties distinctes du programme, environ 25 min chacun, debout, a voix haute, sans preparation. Tu parles pendant que tu cherches. Ne lis chaque enonce qu'au top du chrono.
+
+25 min - EXERCICE 1
+  Soit u(0) dans ]0, 1[ et u(n+1) = u(n) - u(n)^2.
+  1. Montrer que (u(n)) converge et determiner sa limite.
+  2. Montrer que 1/u(n+1) - 1/u(n) -> 1.
+  3. En deduire que n u(n) -> 1. Tu peux admettre le lemme de Cesaro : si a(n) -> l, alors (a(1) + ... + a(n)) / n -> l.
+  Relance d'examinateur : demontrez le lemme de Cesaro.
+
+5 min - Trois observations, ecrites.
+
+25 min - EXERCICE 2
+  1. Montrer que pour tout x > 0 : x - x^2/2 <= ln(1 + x) <= x.
+  2. En deduire la limite de P(n) = (1 + 1/n^2) (1 + 2/n^2) ... (1 + n/n^2).
+  Relance : et avec n^3 a la place de n^2 ?
+
+5 min - Trois observations de plus, et ton temps reel sur chaque exercice. L'ecart avec 25 min est ce qu'il te reste a gagner.
+
+10 min - PAUSE
+
+15 min - LECTURE p. 346-356, la fin de la section VIII.
+
+20 min - EXERCICE, 20 min max : u(0) > 0 et u(n+1) = u(n) / (1 + u(n)). Calculer 1/u(n+1) - 1/u(n), en deduire u(n) explicitement, puis sa limite.
+
+10 min - CARNET.
+
+5 min - MARGE.
+
+@@ 2026-10-30 6d091712f8fc5d4ae93348b9fbc2b412@fuf-romain
+!titre: Francais - Le resume (1) + carnet en attente (2 h)
+SEMAINE DE LA TOUSSAINT - 10 h de revision : 2 h chaque matin, du lundi au vendredi. Apres-midi libres.
+
+CE QUI CHANGE EN FRANCAIS, a partir d'aujourd'hui
+Deux chantiers, et seulement deux :
+  - L'EXERCICE. Le jury le dit : il 'ne s'improvise pas'. On l'entraine au format reel, chronometre, enregistre.
+  - LE CORPUS. Uniquement des oeuvres que tu as lues ou vues. Moins nombreuses, mais tenues.
+
+FORMAT DE L'EPREUVE (rapports du jury FUF 2020-2025) : 45 min de preparation sur un texte d'une bonne page (litterature, philosophie, esthetique, sciences humaines, de l'Antiquite a aujourd'hui). Puis 30 min : resume en 2-3 min ; expose d'une douzaine de minutes (introduction avec problematique et plan, trois parties qui progressent, breve conclusion, un exemple culturel precis et maitrise par partie) ; entretien d'une quinzaine de minutes.
+REGLE DU CORPUS : aucune oeuvre citee sans l'avoir lue ou vue. Le jury l'ecrit, et l'entretien le verifie.
+
+CONTRAT DU JOUR
+Fin de seance = ton inventaire honnete + un resume ecrit en entier, dit debout en 2 a 3 min, enregistre et passe a la grille.
+
+15 min - INVENTAIRE HONNETE
+Liste ce que tu as REELLEMENT lu ou vu, en entier ou le passage precis : livres, poemes, films, series, tableaux, pieces, expositions, concerts. Cinq cases par ligne : titre, auteur, date, un detail precis que tu saurais raconter, 'je tiens 2 min dessus' oui ou non.
+Marque d'une croix les oeuvres que le jury dit voir revenir tous les ans : 1984, Le Meilleur des mondes, Candide, L'Etranger, Germinal, Rhinoceros, Bel-Ami, Guernica, la science-fiction, les mangas, l'heroic fantasy. Il ne les accepte que si tu les connais PARFAITEMENT.
+Les lignes a 'oui' sans croix forment ton vrai corpus de depart. Tes fiches sur Camus n'y entrent que si tu as lu les textes.
+
+45 min - PREMIER RESUME, SUR UN AUTEUR DE CONCOURS
+Texte : Baudelaire, la lettre-dedicace 'A Arsene Houssaye', en tete du Spleen de Paris (Petits poemes en prose). Une page, sur Wikisource. Le Spleen de Paris figurait parmi les textes donnes en 2024.
+  1. Lis-la deux fois. A la deuxieme, marque dans la marge chaque articulation : ton resume les garde toutes, dans l'ordre.
+  2. Redige le resume EN ENTIER au brouillon, comme le jour J. Le jury conseille de le rediger integralement, et tu as le droit de le lire, 'avec le ton'.
+  3. Debout, chronometre, enregistre-toi. Cible : entre 2 et 3 min.
+
+LA GRILLE - chaque 'non' va au carnet
+  - Enonciation : Baudelaire ecrit 'je' a un ami, ton resume garde ce 'je'. Deux interdits explicites du jury : commencer par 'ce texte parle de', et passer a la troisieme personne ('Baudelaire explique que') quand l'auteur parle en son nom.
+  - Aucun jugement, aucun commentaire personnel.
+  - Reformulation forte : aucune phrase du texte recopiee.
+  - Toutes les articulations, dans l'ordre.
+  - Entre 2 et 3 min. Le jury deplore les resumes expedies en moins d'une minute : 'trop de candidats', ecrivait-il en 2024.
+
+20 min - APERCU DE L'EXPOSE, sans le faire
+Le sujet se choisit sur un aspect MAJEUR du texte, a partir d'une de ses phrases. 'Le texte n'est pas un pretexte.'
+Choisis ta phrase. Ecris une problematique en une question, puis trois titres de parties qui PROGRESSENT, pas trois exemples juxtaposes.
+Pas d'exemples aujourd'hui. Pour chaque partie, regarde seulement si ton inventaire contient une oeuvre qui la nourrirait. Une case vide, c'est ton prochain chantier de corpus.
+
+10 min - CARNET
+La duree de ton resume, le nombre de 'non' a la grille, et les mots familiers entendus a la reecoute. Le jury cite 'au final', 'positionner', 'au jour d'aujourd'hui', 'ceci dit', 'solutionner', et les anglicismes.
+
+30 min - CARNET EN ATTENTE, livre ferme, apres le francais :
+1. Refaire en entier l'exercice f(x) = x^3 + x : bijection de R sur R, derivabilite de la reciproque, calcul de (f^-1)'(2).
+2. Redemontrer que R est archimedien a partir de la borne superieure.
+3. Reecrire la preuve de la densite de Q dans R en n'employant que des implications, chacune justifiee.
+4. Reecrire en trois lignes u(n) - l = a^n (u(0) - l) pour une suite arithmetico-geometrique.
+5. Dire debout, a voix haute : la correction de l'exponentiation rapide, la terminaison de la dichotomie recursive, et la propriete P(n) des tours de Hanoi avec sa recurrence.
