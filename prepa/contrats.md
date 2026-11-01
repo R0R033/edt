@@ -1639,3 +1639,139 @@ La duree de ton resume, le nombre de 'non' a la grille, et les mots familiers en
 3. Reecrire la preuve de la densite de Q dans R en n'employant que des implications, chacune justifiee.
 4. Reecrire en trois lignes u(n) - l = a^n (u(0) - l) pour une suite arithmetico-geometrique.
 5. Dire debout, a voix haute : la correction de l'exponentiation rapide, la terminaison de la dichotomie recursive, et la propriete P(n) des tours de Hanoi avec sa recurrence.
+
+@@ 2026-11-02 f9d97f33bb82f6d06d518cff066cc2ee@fuf-romain
+!titre: Maths - Profond ch. 9 (III, 1) : la limite d'une suite, la definition
+THEME DE LA SEMAINE : ch. 9 (III, VIII, cloture) + le premier oral blanc. Premiere semaine du plan a 10 h.
+
+PROFOND - Deschamps ch. 9, section III 'Limite d'une suite reelle', p. 317-322 : la definition, avant tout le reste.
+Fin de seance = 3 resultats reecrits livre ferme + 1 oral.
+
+08h00-08h20 LECTURE CHRONOMETREE p. 317-322. Liste les enonces encadres.
+
+08h20-08h50 LIVRE FERME
+  R1. La definition de 'u(n) tend vers l', quantificateurs dans le bon ordre. Puis sa NEGATION, ecrite proprement.
+  R2. Unicite de la limite, par l'absurde, avec epsilon = |l - l'| / 3. Question d'examinateur : avec |u(n) - l| <= epsilon dans la definition, pourquoi epsilon = |l - l'| / 2 ne suffit-il pas ?
+  R3. Toute suite convergente est bornee.
+
+08h50-09h00 CLOTURE, une seule tentative : debout, R2 en 5 min.
+
+09h00-09h10 CARNET.
+
+METHODE
+Livre ferme au signal. Un exercice se cherche 20 min maximum ; passe ce delai, corrige, comprends, et refais-le de zero a J+2. Avant la premiere ligne d'un exercice, ecris 'OUTIL :' et le resultat que tu comptes utiliser.
+JAMAIS ZERO : les jours sans seance, 20 min minimum (une ligne du carnet + un oral debout de 5 min). C'est ce qui compte pour tes jours d'affilee.
+
+@@ 2026-11-02 45c15edf6b25782c22cce44888f2206f@fuf-romain
+!titre: Info mineure - Representation des nombres (cours)
+SEMAINE 7 - Representation des nombres. Pas de chapitre dans le Beury : tes cours de L1-L2 et ce contrat suffisent.
+Fin de seance = 5 reponses justifiees, la derniere dite debout.
+
+09h20-09h30 BASES. Ecrire 2026 en binaire, puis en hexadecimal, sans calculatrice. Puis l'inverse : 0x7EA en decimal.
+
+09h30-09h45 COMPLEMENT A DEUX sur n bits.
+  1. La plage des entiers representables, et pourquoi elle n'est pas symetrique.
+  2. -5 sur 8 bits.
+  3. Que donne 127 + 1 sur 8 bits, et pourquoi ?
+
+09h45-10h00 FLOTTANTS (double precision) : ce que codent le signe, l'exposant et la mantisse. Pourquoi 0.1 + 0.2 == 0.3 est faux en Python ? Quelle regle en tirer pour comparer deux flottants ?
+
+10h00-10h10 Ecrire en Python une fonction qui renvoie la liste des bits d'un entier naturel n, par divisions successives par 2. Terminaison, correction, complexite en fonction de n.
+
+10h10-10h20 MISE EN CONDITION, une seule tentative : debout, 3 min, le complement a deux comme a un examinateur. Puis carnet.
+
+@@ 2026-11-03 acb84913079ad370b34d0ac85a35af91@fuf-romain
+!titre: Maths - Profond ch. 9 (III, 2) : inegalites, limite infinie, deux exercices
+THEME DE LA SEMAINE : ch. 9 (III, VIII, cloture) + le premier oral blanc. Premiere semaine du plan a 10 h.
+
+Fin de seance = 2 resultats reecrits + 2 exercices + 1 oral.
+
+09h40-09h55 LIVRE FERME
+  R4. Passage a la limite dans les inegalites LARGES. Puis le contre-exemple pour les strictes : u(n) = 1/n est > 0, sa limite ne l'est pas.
+  R5. La definition de 'u(n) tend vers + l'infini', puis sa negation.
+
+09h55-10h15 E1, 20 min max. En revenant a la definition, montrer que (2n + 1) / (n + 3) -> 2. Exhibe le N explicitement, en fonction d'epsilon.
+
+10h15-10h35 E2, 20 min max. Une suite d'entiers relatifs converge. Montrer qu'elle est constante a partir d'un certain rang.
+
+10h35-10h45 CLOTURE : debout, E2 en 5 min.
+
+10h45-10h50 CARNET.
+
+@@ 2026-11-04 9c93b49d990aa9edc814d5c38ed55eea@fuf-romain
+!titre: Maths - Profond ch. 9 (VIII) : suites recurrentes, par Fibonacci
+THEME DE LA SEMAINE : ch. 9 (III, VIII, cloture) + le premier oral blanc. Premiere semaine du plan a 10 h.
+
+PROFOND - Deschamps ch. 9, section VIII, p. 335-345. Par le concret : Fibonacci d'abord, le cas general ensuite.
+Fin de seance = Fibonacci resolu + le cas general + 1 exercice.
+
+11h10-11h20 SURVOL p. 335-345.
+
+11h20-11h40 FIBONACCI A LA MAIN. F(0) = 0, F(1) = 1, F(n+2) = F(n+1) + F(n).
+  1. Cherche les suites de la forme r^n qui verifient la relation : tu dois trouver r^2 = r + 1, donc deux valeurs de r.
+  2. Verifie que toute combinaison lambda r1^n + mu r2^n la verifie aussi.
+  3. Choisis lambda et mu pour avoir F(0) = 0 et F(1) = 1.
+
+11h40-12h00 LE CAS GENERAL, livre ferme : u(n+2) = a u(n+1) + b u(n), equation caracteristique r^2 = a r + b, deux racines reelles distinctes, et la recurrence double qui montre que TOUTE solution est de cette forme.
+
+12h00-12h15 u(0) = 0 et u(n+1) = racine(2 + u(n)). Calcule u(1), u(2), u(3), devine, puis prouve : 0 <= u(n) <= 2, u croissante, et sa limite.
+
+12h15-12h20 CARNET.
+
+@@ 2026-11-04 e69d78f301fdf7bcda7192b549eaa035@fuf-romain
+!titre: Info mineure - Representation des nombres (exercices)
+SEMAINE 7 - Representation des nombres : exercices. Enonces autosuffisants.
+Fin de seance = 4 exercices cherches 15 min chacun, puis une question tiree au hasard, dite debout.
+
+17h10-17h25 E1. Sur 8 bits : representer -1, -128 et 127. Montrer que l'oppose de x s'obtient en inversant les bits puis en ajoutant 1, a partir de l'ecriture 2^8 - x.
+
+17h25-17h40 E2. Ecrire la conversion inverse, de la liste des bits vers l'entier, par la methode de Horner. Nombre d'operations en fonction du nombre de bits.
+
+17h40-17h55 E3. Ajouter dix fois 0.1 en Python donne-t-il 1.0 ? Explique le resultat, puis ecris une comparaison avec une tolerance relative.
+
+17h55-18h10 E4. Montrer qu'il faut exactement floor(log2(n)) + 1 bits pour ecrire n >= 1 en binaire.
+
+18h10-18h20 MISE EN CONDITION : une des quatre questions, tiree au hasard, debout, 5 min. Puis carnet.
+
+@@ 2026-11-06 e484c9faf1bba812ae430b4894940796@fuf-romain
+!titre: Maths - Premier oral blanc (2 exercices) + cloture du ch. 9
+THEME DE LA SEMAINE : ch. 9 (III, VIII, cloture) + le premier oral blanc. Premiere semaine du plan a 10 h.
+
+LE PREMIER ORAL BLANC DE MATHS AU FORMAT DU JURY. Il a ete prevu cinq fois depuis le 02/10. C'est la seance de la semaine qui compte le plus : elle te dit ou tu en es vraiment.
+FORMAT DU JURY FUF : deux exercices de deux parties distinctes du programme, environ 25 min chacun, debout, a voix haute, sans preparation. Ne lis chaque enonce qu'au top du chrono.
+
+15h40-16h05 EXERCICE 1
+  Soit u(0) dans ]0, 1[ et u(n+1) = u(n) - u(n)^2.
+  1. Montrer que (u(n)) converge et determiner sa limite.
+  2. Montrer que 1/u(n+1) - 1/u(n) -> 1.
+  3. En deduire que n u(n) -> 1. Tu peux admettre le lemme de Cesaro : si a(n) -> l, alors (a(1) + ... + a(n)) / n -> l.
+  Relance d'examinateur : demontrez le lemme de Cesaro.
+
+16h05-16h10 Trois observations, ecrites.
+
+16h10-16h35 EXERCICE 2
+  1. Montrer que pour tout x > 0 : x - x^2/2 <= ln(1 + x) <= x.
+  2. En deduire la limite de P(n) = (1 + 1/n^2) (1 + 2/n^2) ... (1 + n/n^2).
+  Relance : et avec n^3 a la place de n^2 ?
+
+16h35-16h40 Trois observations de plus, et ton temps reel sur chaque exercice.
+
+16h40-16h50 PAUSE
+
+16h50-17h10 CLOTURE DU CH. 9 : enseigne le chapitre, debout, 20 min, sans notes, ENREGISTRE. Trois preuves dites en entier, au choix.
+
+17h10-17h30 EXERCICE, 20 min max : u(0) > 0 et u(n+1) = u(n) / (1 + u(n)). Calculer 1/u(n+1) - 1/u(n), en deduire u(n), puis sa limite.
+
+17h30-17h40 CARNET, et les deux temps de l'oral blanc dans ton tracker.
+
+@@ 2026-11-08 c7f8ec44f9e547ee98f93bc1827ce2c2@fuf-romain
+LE COMPTE DE LA PREMIERE SEMAINE A 10 H - ecris les chiffres, ne les estime pas.
+
+HEURES FAITES : ___ sur 10 (ton tracker les additionne).
+JOURS D'AFFILEE a 20 min minimum : ___.
+MATHS - ch. 9 : III (definition), III (exercices), VIII, cloture -> ___ / 4 ; premier oral blanc : oui / non, temps ___ et ___ min.
+INFO - representation des nombres : reponses justifiees ___ / 9.
+FRANCAIS - premier resume : duree ___ min ___ s ; 'non' a la grille : ___.
+CARNET - lignes refaites : ___.
+
+Envoie-moi ces chiffres ce soir : je construis la semaine du 9/11 dessus.
