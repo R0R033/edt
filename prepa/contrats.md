@@ -326,6 +326,30 @@ Fin de seance = 6 calculs justes. Chaque faute va au carnet avec sa cause : indi
 
 A ne regarder qu'apres : S2 = n / (n + 1) ; S4 = (n + 1) / (2n) ; S5 = n (n + 1) (n + 2) / 6.
 
+@@ 2026-09-28 18c72e6bc0532d66e4fea37347571573@fuf-romain
+SEMAINE 3 - Recherche et dichotomie. Beury ch. 4, p. 51-58. Le rattrapage de la semaine Python est integre ici.
+Fin de seance = la dichotomie reprise au propre + 4 algorithmes ecrits en vrai Python et testes, chacun avec sa specification et sa complexite justifiee.
+
+17h10-17h25 REPRISE DE LA CORRECTION DE DIMANCHE, 15 min max, livre ferme
+  - Le variant est UN entier naturel qui decroit strictement a chaque tour : fin - debut + 1, la taille de la tranche. 'Les indices debut et fin' n'est pas un variant.
+  - L'invariant : si v est dans T, alors v est dans T[debut..fin].
+  - La correction partielle se lit a la SORTIE de la boucle : ou bien T[m] = v et on renvoie m ; ou bien la tranche est vide, et l'invariant donne 'v n'est pas dans T'. 'On finira par tomber sur T[m] = v' n'est pas une preuve.
+  - Au pire (v absent), la taille est au moins divisee par 2 a chaque tour : au plus floor(log2 n) + 1 tours. C'est un ordre de grandeur parce qu'on compte des tours de boucle, a une constante pres. Et le pire cas ne depend pas de v : c'est le maximum sur toutes les entrees de taille n.
+
+17h25-17h50 LECTURE CHRONOMETREE Beury ch. 4, p. 51-58.
+
+17h50-18h30 QUATRE ALGORITHMES EN VRAI PYTHON, 10 min chacun. Pour chacun : precondition, postcondition, complexite au pire justifiee en une phrase.
+  A1. Maximum d'une liste non vide ET son indice, en un seul parcours.
+  A2. Second maximum en un seul parcours. Decide ce que tu renvoies pour [5, 5, 3] et ecris-le dans la specification.
+  A3. Nombre d'occurrences de chaque element, avec un dictionnaire. Puis la meme chose avec une liste de couples (element, compte) a la place du dictionnaire : quelle complexite, et pourquoi ?
+  A4. Exponentiation rapide : son invariant, et pourquoi O(log n) multiplications.
+
+18h30-18h40 CLOTURE : debout, 5 min, la preuve complete de la dichotomie, dite. Puis carnet.
+
+LE RATTRAPAGE PYTHON est dans A1 a A4 : les fondamentaux du langage s'ecrivent en vrai Python (listes, boucles, fonctions, dictionnaires). Le jury prefere le raisonnement a la syntaxe : la specification et la complexite comptent plus que le code.
+
+Socle officiel : programme d'informatique commune MP PC PSI PT (2021), plus le programme que tu declares.
+
 @@ 2026-09-29 dcd7a674adb05b82b870c9fb33d8aefc@fuf-romain
 !titre: Maths - Profond ch. 3 (II) : fonctions reelles de la variable reelle
 THEME DE LA SEMAINE : profond ch. 3 (sections II a IV, cloture samedi) | outil ch. 4 (sections I a III)
@@ -409,6 +433,21 @@ METHODE
 Lecture chronometree, livre ferme au signal. Un exercice se cherche 20 min maximum ; passe ce delai, corrige, comprends, et refais-le de zero a J+2. Avant la premiere ligne d'un exercice, ecris 'OUTIL :' et le resultat que tu comptes utiliser.
 Deux controles sur chaque preuve : chaque hypothese a-t-elle servi ? Ai-je ecrit quelque chose qui contredit ce que je sais deja ?
 
+@@ 2026-10-01 81e729abce0493eb18d0596c1aea0fb0@fuf-romain
+ORAL BLANC D'INFO - format jour J, debout, a voix haute. 50 min de questions, 10 min de bilan.
+Tout doit etre DIT : ce qui est seulement ecrit n'existe pas pour l'examinateur.
+
+11h20-11h35 Q1. La recherche dichotomique de bout en bout : specification, algorithme, terminaison par le variant, correction par l'invariant, complexite au pire. Sans notes.
+
+11h35-11h55 Q2. T est un tableau STRICTEMENT croissant de n entiers, indices de 0 a n-1. Existe-t-il i tel que T[i] = i ?
+  a. Montrer que g(i) = T[i] - i est croissante au sens large. C'est ici que servent 'strictement' ET 'entiers'.
+  b. En deduire un algorithme en O(log n), avec son invariant.
+  c. Question d'examinateur : pourquoi 'strictement' ? Donne un tableau croissant au sens large qui met ta methode en defaut.
+
+11h55-12h10 Q3. Deux valeurs les plus proches dans une liste de n reels. L'algorithme naif et sa complexite. Puis l'amelioration par un tri prealable : pourquoi suffit-il alors de comparer des voisins ? Quelle complexite totale ?
+
+12h10-12h20 BILAN : trois observations. Le moment ou tu t'es tu, un tic de langage, une etape ecrite sans etre dite.
+
 @@ 2026-10-02 1af70f9607aee0dd1c9f49df6cf147ef@fuf-romain
 !titre: Maths - Oral blanc format jury (2 exercices) + outil ch. 4 (II-III)
 THEME DE LA SEMAINE : profond ch. 3 (sections II a IV, cloture samedi) | outil ch. 4 (sections I a III)
@@ -440,82 +479,6 @@ FORMAT DU JURY FUF : deux exercices tires de deux parties distinctes du programm
   Critere : 4 resultats justes. Chaque faute au carnet avec sa cause.
 
 LES SIX OBSERVATIONS : le moment exact ou tu t'es tu ; un tic de langage ; une etape ecrite sans etre dite ; ton temps reel sur chaque exercice. Le jury annonce deux exercices en 50 min : l'ecart entre ton temps et 25 min est ce qu'il te reste a gagner.
-
-@@ 2026-10-03 d51198d372f67224b817ce51b7783909@fuf-romain
-!titre: Maths - Cloture du ch. 3 : l'enseigner, puis deux exercices
-THEME DE LA SEMAINE : profond ch. 3 (sections II a IV, cloture samedi) | outil ch. 4 (sections I a III)
-
-CLOTURE DU CHAPITRE 3. Un chapitre est fini quand tu l'as enseigne a voix haute, pas quand tu as lu sa derniere page.
-Fin de seance = plan de memoire + cours de 20 min donne debout + 2 exercices + le compte des sections.
-
-10h00-10h15 REPRISE, 15 min max : carnet de la semaine.
-
-10h15-10h20 PLAN DE MEMOIRE : les 4 sections du ch. 3 en 4 lignes, chacune avec son resultat phare.
-
-10h20-10h45 ENSEIGNE, debout, 20 min, sans notes. Impose-toi 3 theoremes avec leurs hypotheses exactes, 1 exemple et 2 contre-exemples : derivee positive sans croissance sur R*, fonction injective non monotone.
-
-10h45-10h55 LA OU TU AS HESITE : reprends ce point seul, puis reenseigne-le une fois.
-
-10h55-11h05 PAUSE
-
-11h05-11h25 EXERCICE 1, 20 min max
-  Montrer que ln x <= x - 1 pour tout x > 0, avec egalite si et seulement si x = 1.
-  En deduire, pour a1, ..., an > 0 de moyenne arithmetique m : a1 a2 ... an <= m^n. Indice : applique l'inegalite a chaque ai / m, puis somme.
-
-11h25-11h45 EXERCICE 2, 20 min max
-  Soit f(x) = x^3 + x sur R. Montrer que f est une bijection de R sur R, que f^-1 est derivable sur R, et calculer (f^-1)'(2).
-  Pour la surjectivite, tu peux invoquer le theoreme de la bijection : dis precisement ce qu'il demande.
-
-11h45-12h10 LE COMPTE, ecrit :
-  sections du ch. 3 faites / prevues : ___ / 4 (II, III, IV, cloture)
-  sections du ch. 4 faites / prevues : ___ / 3 (I, II, III)
-  resultats redemontrables livre ferme : ___ ; exercices cherches : ___ ; oraux debout : ___
-Ces chiffres ouvrent le bilan de dimanche.
-
-12h10-12h20 Marge.
-
-METHODE
-Lecture chronometree, livre ferme au signal. Un exercice se cherche 20 min maximum ; passe ce delai, corrige, comprends, et refais-le de zero a J+2. Avant la premiere ligne d'un exercice, ecris 'OUTIL :' et le resultat que tu comptes utiliser.
-Deux controles sur chaque preuve : chaque hypothese a-t-elle servi ? Ai-je ecrit quelque chose qui contredit ce que je sais deja ?
-
-@@ 2026-09-28 18c72e6bc0532d66e4fea37347571573@fuf-romain
-SEMAINE 3 - Recherche et dichotomie. Beury ch. 4, p. 51-58. Le rattrapage de la semaine Python est integre ici.
-Fin de seance = la dichotomie reprise au propre + 4 algorithmes ecrits en vrai Python et testes, chacun avec sa specification et sa complexite justifiee.
-
-17h10-17h25 REPRISE DE LA CORRECTION DE DIMANCHE, 15 min max, livre ferme
-  - Le variant est UN entier naturel qui decroit strictement a chaque tour : fin - debut + 1, la taille de la tranche. 'Les indices debut et fin' n'est pas un variant.
-  - L'invariant : si v est dans T, alors v est dans T[debut..fin].
-  - La correction partielle se lit a la SORTIE de la boucle : ou bien T[m] = v et on renvoie m ; ou bien la tranche est vide, et l'invariant donne 'v n'est pas dans T'. 'On finira par tomber sur T[m] = v' n'est pas une preuve.
-  - Au pire (v absent), la taille est au moins divisee par 2 a chaque tour : au plus floor(log2 n) + 1 tours. C'est un ordre de grandeur parce qu'on compte des tours de boucle, a une constante pres. Et le pire cas ne depend pas de v : c'est le maximum sur toutes les entrees de taille n.
-
-17h25-17h50 LECTURE CHRONOMETREE Beury ch. 4, p. 51-58.
-
-17h50-18h30 QUATRE ALGORITHMES EN VRAI PYTHON, 10 min chacun. Pour chacun : precondition, postcondition, complexite au pire justifiee en une phrase.
-  A1. Maximum d'une liste non vide ET son indice, en un seul parcours.
-  A2. Second maximum en un seul parcours. Decide ce que tu renvoies pour [5, 5, 3] et ecris-le dans la specification.
-  A3. Nombre d'occurrences de chaque element, avec un dictionnaire. Puis la meme chose avec une liste de couples (element, compte) a la place du dictionnaire : quelle complexite, et pourquoi ?
-  A4. Exponentiation rapide : son invariant, et pourquoi O(log n) multiplications.
-
-18h30-18h40 CLOTURE : debout, 5 min, la preuve complete de la dichotomie, dite. Puis carnet.
-
-LE RATTRAPAGE PYTHON est dans A1 a A4 : les fondamentaux du langage s'ecrivent en vrai Python (listes, boucles, fonctions, dictionnaires). Le jury prefere le raisonnement a la syntaxe : la specification et la complexite comptent plus que le code.
-
-Socle officiel : programme d'informatique commune MP PC PSI PT (2021), plus le programme que tu declares.
-
-@@ 2026-10-01 81e729abce0493eb18d0596c1aea0fb0@fuf-romain
-ORAL BLANC D'INFO - format jour J, debout, a voix haute. 50 min de questions, 10 min de bilan.
-Tout doit etre DIT : ce qui est seulement ecrit n'existe pas pour l'examinateur.
-
-11h20-11h35 Q1. La recherche dichotomique de bout en bout : specification, algorithme, terminaison par le variant, correction par l'invariant, complexite au pire. Sans notes.
-
-11h35-11h55 Q2. T est un tableau STRICTEMENT croissant de n entiers, indices de 0 a n-1. Existe-t-il i tel que T[i] = i ?
-  a. Montrer que g(i) = T[i] - i est croissante au sens large. C'est ici que servent 'strictement' ET 'entiers'.
-  b. En deduire un algorithme en O(log n), avec son invariant.
-  c. Question d'examinateur : pourquoi 'strictement' ? Donne un tableau croissant au sens large qui met ta methode en defaut.
-
-11h55-12h10 Q3. Deux valeurs les plus proches dans une liste de n reels. L'algorithme naif et sa complexite. Puis l'amelioration par un tri prealable : pourquoi suffit-il alors de comparer des voisins ? Quelle complexite totale ?
-
-12h10-12h20 BILAN : trois observations. Le moment ou tu t'es tu, un tic de langage, une etape ecrite sans etre dite.
 
 @@ 2026-10-02 e1a2d74976ca75a44c2fe1de6cfeadae@fuf-romain
 Futur et hypothese. Coefficient 3.
@@ -574,6 +537,43 @@ Pas d'exemples aujourd'hui. Pour chaque partie, regarde seulement si ton inventa
 
 10 min - CARNET
 La duree de ton resume, le nombre de 'non' a la grille, et les mots familiers entendus a la reecoute. Le jury cite 'au final', 'positionner', 'au jour d'aujourd'hui', 'ceci dit', 'solutionner', et les anglicismes.
+
+@@ 2026-10-03 d51198d372f67224b817ce51b7783909@fuf-romain
+!titre: Maths - Cloture du ch. 3 : l'enseigner, puis deux exercices
+THEME DE LA SEMAINE : profond ch. 3 (sections II a IV, cloture samedi) | outil ch. 4 (sections I a III)
+
+CLOTURE DU CHAPITRE 3. Un chapitre est fini quand tu l'as enseigne a voix haute, pas quand tu as lu sa derniere page.
+Fin de seance = plan de memoire + cours de 20 min donne debout + 2 exercices + le compte des sections.
+
+10h00-10h15 REPRISE, 15 min max : carnet de la semaine.
+
+10h15-10h20 PLAN DE MEMOIRE : les 4 sections du ch. 3 en 4 lignes, chacune avec son resultat phare.
+
+10h20-10h45 ENSEIGNE, debout, 20 min, sans notes. Impose-toi 3 theoremes avec leurs hypotheses exactes, 1 exemple et 2 contre-exemples : derivee positive sans croissance sur R*, fonction injective non monotone.
+
+10h45-10h55 LA OU TU AS HESITE : reprends ce point seul, puis reenseigne-le une fois.
+
+10h55-11h05 PAUSE
+
+11h05-11h25 EXERCICE 1, 20 min max
+  Montrer que ln x <= x - 1 pour tout x > 0, avec egalite si et seulement si x = 1.
+  En deduire, pour a1, ..., an > 0 de moyenne arithmetique m : a1 a2 ... an <= m^n. Indice : applique l'inegalite a chaque ai / m, puis somme.
+
+11h25-11h45 EXERCICE 2, 20 min max
+  Soit f(x) = x^3 + x sur R. Montrer que f est une bijection de R sur R, que f^-1 est derivable sur R, et calculer (f^-1)'(2).
+  Pour la surjectivite, tu peux invoquer le theoreme de la bijection : dis precisement ce qu'il demande.
+
+11h45-12h10 LE COMPTE, ecrit :
+  sections du ch. 3 faites / prevues : ___ / 4 (II, III, IV, cloture)
+  sections du ch. 4 faites / prevues : ___ / 3 (I, II, III)
+  resultats redemontrables livre ferme : ___ ; exercices cherches : ___ ; oraux debout : ___
+Ces chiffres ouvrent le bilan de dimanche.
+
+12h10-12h20 Marge.
+
+METHODE
+Lecture chronometree, livre ferme au signal. Un exercice se cherche 20 min maximum ; passe ce delai, corrige, comprends, et refais-le de zero a J+2. Avant la premiere ligne d'un exercice, ecris 'OUTIL :' et le resultat que tu comptes utiliser.
+Deux controles sur chaque preuve : chaque hypothese a-t-elle servi ? Ai-je ecrit quelque chose qui contredit ce que je sais deja ?
 
 @@ 2026-10-04 475df1e728b11319a2c742398aa72cd7@fuf-romain
 LE COMPTE DE LA SEMAINE - ecris les chiffres, ne les estime pas.
@@ -1775,3 +1775,898 @@ FRANCAIS - premier resume : duree ___ min ___ s ; 'non' a la grille : ___.
 CARNET - lignes refaites : ___.
 
 Envoie-moi ces chiffres ce soir : je construis la semaine du 9/11 dessus.
+
+@@ 2026-11-09 105e4be35ee20fd8ca2dd1e37c57c3e3@fuf-romain
+!titre: Info mineure - Piles, files, deques, dictionnaires (cours + oral)
+PILES, FILES, DEQUES, DICTIONNAIRES - cours puis oral au format du jury.
+Fin de seance = cours reconstruit + 2 problemes cherches debout + 1 passage de 5 min.
+
+17h10-17h35 COURS. Beury ch. 6 : 10 min de lecture, puis 15 min livre ferme.
+  Ecris de memoire : les operations d'une pile, d'une file, d'une deque et leur cout ; le principe d'une table de hachage (fonction de hachage, collisions) ; le cout d'un acces a un dictionnaire, en moyenne et au pire.
+
+17h35-17h40 QUESTIONS RAPIDES, une minute chacune, a voix haute.
+  1. Pile vide ; empiler 1, empiler 2, depiler, empiler 3, depiler, depiler. Quelles valeurs sortent, dans quel ordre ?
+  2. Pourquoi une liste modifiable ne peut-elle pas servir de cle de dictionnaire ?
+  3. Acces a une cle d'un dictionnaire : cout moyen, cout au pire, et d'ou vient la difference ?
+
+17h40-17h55 PROBLEME 1 (15 min). Mots bien parentheses.
+  Un mot sur l'alphabet ( ) [ ] est bien parenthese s'il est vide, ou de la forme (u) ou [u] avec u bien parenthese, ou de la forme uv avec u et v bien parentheses.
+  1. Decris un algorithme qui decide en temps lineaire si un mot est bien parenthese, a l'aide d'une pile.
+  2. Enonce l'invariant de boucle : que contient la pile apres la lecture des k premieres lettres ?
+  3. Complexite en temps et en espace.
+  Relance : avec trois sortes de parentheses, qu'est-ce qui change ?
+
+17h55-18h20 PROBLEME 2 (25 min). Une file avec deux piles.
+  On simule une file avec deux piles E et S. Enfiler x : empiler x sur E. Defiler : si S est vide, depiler un a un tous les elements de E en les empilant sur S ; puis depiler S.
+  1. Montre que defiler renvoie toujours l'element le plus ancien encore present. Ecris l'invariant qui relie le contenu de S, celui de E et l'ordre d'arrivee.
+  2. Un defilement peut couter n transferts. Montre pourtant que toute suite de m operations, a partir d'une file vide, coute au plus 4m operations de pile.
+  Relance : et si, apres chaque defilement, on remettait tout le contenu de S dans E ?
+
+18h20-18h25 CLOTURE, une seule tentative : debout, 5 min, l'invariant du probleme 1 et sa preuve.
+
+18h25-18h40 CARNET + PDF.
+
+FORMAT DU JURY (rapport 2025, mineure informatique) : 50 min sans preparation, au tableau. Quelques questions rapides, puis deux problemes : le premier verifie le niveau minimal, le second est nouveau. Aucun langage impose : decris l'algorithme en francais, puis en pseudo-code ; du code seulement si l'enonce le demande. Ce qui est note : le raisonnement plus que le resultat, des preuves rigoureuses (recurrence, absurde, invariant), des maths discretes.
+REGLES : debout, a voix haute, chronometre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en une phrase, le pseudo-code, la preuve (variant, invariant), la complexite. Utilise tout le tableau ou une grande feuille, n'efface rien d'utile. Bloque au bout du temps : passe a la suite et note au carnet.
+Programme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
+
+@@ 2026-11-09 c33579285ac54ecb362896e690703725@fuf-romain
+!titre: Maths - Profond ch. 10 (I, 1) : la limite d'une fonction
+THEME DE LA SEMAINE : ch. 10 Limites et continuite (debut) + outil ch. 4 (binome, pivot) + l'oral blanc de vendredi.
+
+PROFOND - Deschamps ch. 10, section I 'L'aspect ponctuel : limites, continuite', p. 372-388. Lundi : la definition et la caracterisation sequentielle. Mardi : le reste de la section.
+Fin de seance = 2 resultats reecrits livre ferme + 1 exercice.
+
+08h00-08h20 LECTURE CHRONOMETREE, de la p. 372 jusqu'a la caracterisation sequentielle de la limite, incluse. Liste les enonces encadres.
+
+08h20-08h35 LIVRE FERME
+  R1. La definition de 'f(x) tend vers l quand x tend vers a' (a et l reels), avec epsilon et eta, quantificateurs dans le bon ordre. Puis celle de 'f(x) tend vers + l'infini quand x tend vers + l'infini'.
+  R2. La caracterisation sequentielle : f(x) -> l quand x -> a si et seulement si, pour toute suite (u(n)) d'elements du domaine de f qui tend vers a, f(u(n)) -> l. L'enonce seulement : la preuve est pour mardi.
+
+08h35-08h50 E1, 15 min max. Montrer que x -> sin(1/x) n'a pas de limite en 0.
+Avant la premiere ligne, ecris 'OUTIL :' et le resultat que tu comptes utiliser.
+
+@@ 2026-11-10 df5003dadd36bebe0f73d01fd234ffe3@fuf-romain
+!titre: Maths - Profond ch. 10 (I, 2) + outil ch. 4 (II-III) : binome, pivot
+THEME DE LA SEMAINE : ch. 10 Limites et continuite (debut) + outil ch. 4 (binome, pivot) + l'oral blanc de vendredi.
+
+Fin de seance = 2 resultats reecrits + 2 exercices + 4 calculs justes + 1 oral.
+
+09h40-10h05 LECTURE, ch. 10 section I, de la caracterisation sequentielle a la fin de la section (p. 388) : limites et ordre, limite monotone, continuite en un point, prolongement par continuite.
+
+10h05-10h20 LIVRE FERME
+  R3. Le theoreme de la limite monotone pour une fonction croissante sur ]a, b[ : ce qui se passe en b, selon qu'elle est majoree ou non.
+  R4. La continuite en a, puis le prolongement par continuite : les definitions.
+
+10h20-10h40 E2, 20 min max. f(x) = x sin(1/x) sur R*. Montrer que f se prolonge par continuite en 0.
+
+10h40-11h00 E3, 20 min max. f : R -> R est continue en 0 et verifie f(2x) = f(x) pour tout reel x. Montrer que f est constante.
+
+11h00-11h10 PAUSE
+
+11h10-11h55 OUTIL - ch. 4, sections II et III, p. 116-123. Survol 15 min, puis livre ferme, 4 calculs :
+  T1. La formule du binome. En deduire la somme des C(n, k), puis celle des (-1)^k C(n, k), pour k de 0 a n.
+  T2. La formule de Pascal C(n, k) + C(n, k + 1) = C(n + 1, k + 1), par le calcul.
+  T3. La somme des k C(n, k) pour k de 0 a n, par deux methodes : deriver (1 + x)^n, ou utiliser k C(n, k) = n C(n - 1, k - 1).
+  T4. Resoudre par la methode du pivot : x + y + z = 6 ; 2x - y + z = 3 ; x + 2y - z = 2.
+  Critere : 4 justes. Chaque faute au carnet, avec sa cause.
+
+11h55-12h10 MISE EN CONDITION, une seule tentative, pas de rattrapage : debout, chronometre, 5 min. Demontre le sens direct de R2 : si f(x) -> l quand x -> a et si u(n) -> a, alors f(u(n)) -> l.
+
+12h10-12h20 CARNET.
+
+A ne regarder qu'apres : T3 donne n 2^(n-1) ; T4 donne (x, y, z) = (1, 2, 3).
+
+@@ 2026-11-12 101aac8775234d38fdcef23ac4f45428@fuf-romain
+!titre: Info mineure - Oral blanc : piles, files, deques, dictionnaires
+ORAL BLANC D'INFO - piles, files, deques, dictionnaires. La seance d'info la plus importante de la semaine.
+Fin de seance = un oral de 50 min enregistre + 3 observations + le probleme le moins reussi refait au propre.
+
+09h50-10h40 ORAL BLANC, 50 min, debout, chronometre. Enregistre-toi avec le dictaphone du telephone. Ne lis chaque partie qu'au top.
+  QUESTIONS RAPIDES (5 min)
+  1. Une pile dans un tableau de taille fixe N avec un indice de sommet : les operations, et ce qui se passe quand le tableau est plein.
+  2. Une table de hachage a m cases contient n cles : qu'est-ce que le taux de remplissage, et pourquoi gouverne-t-il le cout moyen ?
+  3. Quelles operations une deque fait-elle en temps constant ?
+  PROBLEME 1 (15 min). Notation postfixe. Dans l'expression 3 4 + 2 *, chaque operateur s'applique aux deux valeurs qui le precedent : elle vaut 14.
+  1. Decris un algorithme qui evalue une expression postfixe avec une pile.
+  2. Invariant : que contient la pile apres chaque symbole lu ? Deduis-en la correction.
+  3. Comment detecter une expression mal formee ?
+  PROBLEME 2 (25 min). Le plus proche plus grand a gauche.
+  T est un tableau de n entiers. Pour chaque i, on veut g(i), le plus grand indice j < i tel que T[j] > T[i], ou -1 s'il n'y en a pas.
+  1. Un algorithme naif et sa complexite.
+  2. Un algorithme en O(n) qui parcourt T de gauche a droite en gardant une pile d'indices. Enonce l'invariant de la pile.
+  3. Montre que le nombre total de depilements est au plus n, et deduis-en la complexite.
+  Relance : pour chaque jour i d'une serie de cours de bourse T, combien de jours consecutifs, finissant au jour i, ont un cours inferieur ou egal a T[i] ?
+  5 min de marge.
+
+10h40-10h50 PAUSE.
+
+10h50-11h05 ECOUTE les 15 premieres minutes de l'enregistrement. Ecris 3 observations : tes silences, tes phrases vagues, ce que tu as ecrit sans le dire.
+
+11h05-11h35 AU PROPRE : refais de zero le probleme le moins reussi, preuve redigee.
+
+11h35-11h50 CARNET + PDF.
+
+FORMAT DU JURY (rapport 2025, mineure informatique) : 50 min sans preparation, au tableau. Quelques questions rapides, puis deux problemes : le premier verifie le niveau minimal, le second est nouveau. Aucun langage impose : decris l'algorithme en francais, puis en pseudo-code ; du code seulement si l'enonce le demande. Ce qui est note : le raisonnement plus que le resultat, des preuves rigoureuses (recurrence, absurde, invariant), des maths discretes.
+REGLES : debout, a voix haute, chronometre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en une phrase, le pseudo-code, la preuve (variant, invariant), la complexite. Utilise tout le tableau ou une grande feuille, n'efface rien d'utile. Bloque au bout du temps : passe a la suite et note au carnet.
+Programme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
+
+@@ 2026-11-13 3a5edb2e8805ce9ca52c2c76764ce9a4@fuf-romain
+!titre: Maths - Oral blanc 2 : deux exercices, format du jury
+THEME DE LA SEMAINE : ch. 10 Limites et continuite (debut) + outil ch. 4 (binome, pivot) + l'oral blanc de vendredi.
+
+DEUXIEME ORAL BLANC DE MATHS. Le premier s'est fait a l'ecrit : celui-ci se fait DEBOUT, A VOIX HAUTE, ENREGISTRE, sans notes. C'est le format de l'epreuve.
+FORMAT DU JURY FUF : deux exercices de deux parties distinctes du programme, environ 25 min chacun, sans preparation. Ne lis chaque enonce qu'au top du chrono.
+
+14h00-14h25 EXERCICE 1
+  Soit f : R -> R continue telle que f(x + y) = f(x) + f(y) pour tous reels x et y.
+  1. Calculer f(0), puis montrer que f(n x) = n f(x) pour tout entier naturel n et tout reel x.
+  2. En deduire f(r) pour r rationnel, en fonction de r et de f(1).
+  3. Conclure : f(x) = f(1) x pour tout reel x.
+  Relance d'examinateur : la continuite en 0 seule suffit-elle ?
+
+14h25-14h30 Trois observations, ecrites.
+
+14h30-14h55 EXERCICE 2
+  1. En developpant de deux facons (1 + x)^(2n), montrer que la somme des C(n, k)^2, pour k de 0 a n, vaut C(2n, n).
+  2. Relance d'examinateur : calculer la somme des (-1)^k C(n, k)^2, pour k de 0 a n.
+
+14h55-15h00 Trois observations de plus, et ton temps reel sur chaque exercice.
+
+15h00-15h10 PAUSE
+
+15h10-15h40 CORRECTION. Compare avec la fin de ce contrat, puis reecris proprement ce qui n'est pas passe.
+
+15h40-15h55 REECOUTE de l'enregistrement : le moment exact ou tu t'es tu ; un tic de langage ; une etape ecrite sans etre dite ; une affirmation dite sans justification.
+
+15h55-16h00 CARNET, et les deux temps de l'oral blanc dans le compteur.
+
+A ne regarder qu'apres.
+  Ex. 1 : x = y = 0 donne f(0) = 0 ; recurrence sur n pour f(n x) = n f(x) ; f(-x) = -f(x), donc f(n) = n f(1) pour n dans Z. Pour r = p/q : q f(p/q) = f(p) = p f(1). Pour x reel : une suite de rationnels r(n) -> x (densite de Q), puis la caracterisation sequentielle de la continuite : f(x) = lim f(r(n)) = lim r(n) f(1) = x f(1). Relance : oui, car f(x + h) - f(x) = f(h) -> f(0) = 0 quand h -> 0, donc f est continue en tout point.
+  Ex. 2 : dans (1 + x)^n (1 + x)^n, le coefficient de x^n est la somme des C(n, k) C(n, n - k), c'est-a-dire la somme des C(n, k)^2 ; dans (1 + x)^(2n), c'est C(2n, n). Deux polynomes egaux ont les memes coefficients. Relance : (1 - x)^n (1 + x)^n = (1 - x^2)^n ; le coefficient de x^n vaut 0 si n est impair, (-1)^(n/2) C(n, n/2) si n est pair.
+
+@@ 2026-11-15 4d6a7cd7787cf972e624a990f4d7bec4@fuf-romain
+LE COMPTE DE LA SEMAINE - ecris les chiffres, ne les estime pas. Ton compteur les additionne (onglet FUF).
+
+HEURES FAITES : ___ sur 10 h 20.
+JOURS D'AFFILEE a 20 min minimum : ___.
+MATHS - ch. 10 section I : R1 a R4 reecrits ___ / 4 ; E1 a E3 ___ / 3 ; T1 a T4 ___ / 4 ; oral blanc 2 debout et enregistre : oui / non, temps ___ et ___ min.
+INFO - piles, files, deques, dictionnaires : problemes resolus ___ ; oral blanc du 12/11 : oui / non.
+ANGLAIS - fautes de futur et de conditionnel : ___ a la premiere prise, ___ a la seconde.
+CARNET - reprises faites ___ ; ratees ___.
+
+15 min - CARNET : relis toutes les lignes ratees de la semaine, sans les refaire. Pour chacune, une phrase : ce qui manquait.
+
+Deux 'non' deux semaines de suite : applique l'ordre de sacrifice (culture, puis francais, puis ADS, puis info - jamais les maths ni le sport).
+Puis envoie-moi ces chiffres : je construis la semaine du 16/11 dessus.
+
+@@ 2026-11-16 a3469657b5428d4d8cb616cbfac501b3@fuf-romain
+!titre: Info mineure - Graphes : vocabulaire et parcours (cours + oral)
+GRAPHES : VOCABULAIRE ET PARCOURS - cours puis oral au format du jury.
+
+11h10-11h30 COURS. Beury ch. 11 : 8 min de lecture, puis livre ferme.
+  Ecris de memoire : matrice et listes d'adjacence (espace, test d'une arete, enumeration des voisins) ; parcours en largeur avec une file, en profondeur avec une pile ou en recursif ; leur complexite.
+
+11h30-11h35 QUESTIONS RAPIDES.
+  1. Graphe non oriente a m aretes : que vaut la somme des degres ? Pourquoi ?
+  2. Parcours en largeur avec des listes d'adjacence : quelle structure, quelle complexite ?
+  3. Avec une matrice d'adjacence, combien coute l'enumeration des voisins d'un sommet ?
+
+11h35-11h50 PROBLEME 1 (15 min). Composantes connexes.
+  1. Decris un algorithme qui compte les composantes connexes d'un graphe non oriente donne par listes d'adjacence.
+  2. Montre qu'un parcours lance depuis s visite exactement les sommets accessibles depuis s.
+  3. Complexite.
+
+11h50-12h10 PROBLEME 2 (20 min). Graphes bipartis.
+  Un graphe non oriente est biparti si l'on peut colorier ses sommets en deux couleurs sans qu'aucune arete ne relie deux sommets de meme couleur.
+  1. Montre qu'un graphe qui contient un cycle de longueur impaire n'est pas biparti.
+  2. Propose un algorithme en O(n + m), fonde sur un parcours en largeur, qui decide si un graphe connexe est biparti.
+  3. Si l'algorithme ne trouve aucun conflit, montre que sa coloration est valide.
+  Relance : s'il trouve une arete entre deux sommets de meme couleur, exhibe un cycle impair.
+
+12h10-12h15 CLOTURE, une seule tentative : debout, 5 min, la question 1 du probleme 2.
+
+12h15-12h20 CARNET.
+
+FORMAT DU JURY (rapport 2025, mineure informatique) : 50 min sans preparation, au tableau. Quelques questions rapides, puis deux problemes : le premier verifie le niveau minimal, le second est nouveau. Aucun langage impose : decris l'algorithme en francais, puis en pseudo-code ; du code seulement si l'enonce le demande. Ce qui est note : le raisonnement plus que le resultat, des preuves rigoureuses (recurrence, absurde, invariant), des maths discretes.
+REGLES : debout, a voix haute, chronometre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en une phrase, le pseudo-code, la preuve (variant, invariant), la complexite. Utilise tout le tableau ou une grande feuille, n'efface rien d'utile. Bloque au bout du temps : passe a la suite et note au carnet.
+Programme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
+
+@@ 2026-11-18 3dc41b0618b9c3d2b6e25ad11794351d@fuf-romain
+!titre: Info mineure - Graphes (oral, format du jury)
+GRAPHES - exercices au format du jury.
+
+15h40-15h45 QUESTIONS RAPIDES.
+  1. Un arbre a n sommets : combien d'aretes ?
+  2. Qu'est-ce qu'un ordre topologique d'un graphe oriente ? Existe-t-il toujours ?
+  3. Un graphe non oriente connexe a n sommets a-t-il forcement au moins n - 1 aretes ?
+
+15h45-16h00 PROBLEME 1 (15 min). Detection de cycle.
+  1. Decris un algorithme qui decide si un graphe non oriente contient un cycle, a l'aide d'un parcours.
+  2. Justifie-le : pourquoi rencontrer un sommet deja visite, autre que le pere, revele-t-il un cycle ? Et reciproquement ?
+  3. Complexite.
+  Relance : pourquoi ce critere ne suffit-il pas pour un graphe oriente ?
+
+16h00-16h25 PROBLEME 2 (25 min). Ordre topologique.
+  G est un graphe oriente fini sans circuit.
+  1. Montre que G possede un sommet de degre entrant nul.
+  2. Deduis-en un algorithme qui produit un ordre topologique en O(n + m), avec un tableau des degres entrants et une file.
+  3. Prouve sa correction. Que renvoie-t-il si G contient un circuit ?
+  Relance : combien d'ordres topologiques pour un graphe a n sommets sans aucun arc ? Et pour un chemin a n sommets ?
+
+16h25-16h30 CLOTURE, une seule tentative : debout, 5 min, la question 1 du probleme 2.
+
+16h30-16h45 AU PROPRE : redige la preuve du probleme 2.
+
+16h45-16h50 CARNET.
+
+FORMAT DU JURY (rapport 2025, mineure informatique) : 50 min sans preparation, au tableau. Quelques questions rapides, puis deux problemes : le premier verifie le niveau minimal, le second est nouveau. Aucun langage impose : decris l'algorithme en francais, puis en pseudo-code ; du code seulement si l'enonce le demande. Ce qui est note : le raisonnement plus que le resultat, des preuves rigoureuses (recurrence, absurde, invariant), des maths discretes.
+REGLES : debout, a voix haute, chronometre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en une phrase, le pseudo-code, la preuve (variant, invariant), la complexite. Utilise tout le tableau ou une grande feuille, n'efface rien d'utile. Bloque au bout du temps : passe a la suite et note au carnet.
+Programme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
+
+@@ 2026-11-23 0fbd69ee7ea17471cd9065cf7aec4639@fuf-romain
+!titre: Info mineure - Plus courts chemins : Dijkstra (cours + oral)
+PLUS COURTS CHEMINS : DIJKSTRA - cours puis oral au format du jury.
+
+11h10-11h30 COURS. Beury ch. 12 : 8 min de lecture, puis livre ferme.
+  Ecris de memoire : l'algorithme de Dijkstra, son invariant, pourquoi les poids doivent etre positifs, sa complexite avec un tableau et avec une file de priorite, la reconstruction d'un chemin par les predecesseurs.
+
+11h30-11h35 QUESTIONS RAPIDES.
+  1. Quand tous les arcs ont le meme poids, quel algorithme plus simple suffit ?
+  2. Un sous-chemin d'un plus court chemin est-il un plus court chemin ? Pourquoi ?
+  3. Un contre-exemple a trois sommets ou Dijkstra se trompe avec un poids negatif.
+
+11h35-11h50 PROBLEME 1 (15 min). Graphe oriente sur a, b, c, d, e : a->b (4), a->c (1), c->b (2), b->d (1), c->d (5), d->e (3).
+  1. Deroule Dijkstra depuis a : ordre de traitement des sommets et distances finales.
+  2. Enonce l'invariant et prouve-le au moment ou un sommet est traite.
+
+11h50-12h10 PROBLEME 2 (20 min). Le chemin le plus large.
+  Chaque arc a une capacite c > 0. La capacite d'un chemin est le minimum des capacites de ses arcs. On cherche, depuis s, la capacite maximale d'un chemin vers chaque sommet.
+  1. Adapte Dijkstra a ce probleme : que deviennent la somme et le choix du minimum ?
+  2. Enonce et prouve l'invariant adapte.
+  Relance : chaque arc fonctionne maintenant avec une probabilite p dans ]0, 1], et un chemin fonctionne avec le produit des probabilites de ses arcs. Comment trouver le chemin le plus fiable avec Dijkstra tel quel ?
+
+12h10-12h15 CLOTURE, une seule tentative : debout, 5 min, l'invariant de Dijkstra et sa preuve.
+
+12h15-12h20 CARNET.
+
+FORMAT DU JURY (rapport 2025, mineure informatique) : 50 min sans preparation, au tableau. Quelques questions rapides, puis deux problemes : le premier verifie le niveau minimal, le second est nouveau. Aucun langage impose : decris l'algorithme en francais, puis en pseudo-code ; du code seulement si l'enonce le demande. Ce qui est note : le raisonnement plus que le resultat, des preuves rigoureuses (recurrence, absurde, invariant), des maths discretes.
+REGLES : debout, a voix haute, chronometre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en une phrase, le pseudo-code, la preuve (variant, invariant), la complexite. Utilise tout le tableau ou une grande feuille, n'efface rien d'utile. Bloque au bout du temps : passe a la suite et note au carnet.
+Programme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
+
+@@ 2026-11-25 5a95a8cb076844460bef890d52a23e92@fuf-romain
+!titre: Info mineure - Plus courts chemins (oral, format du jury)
+PLUS COURTS CHEMINS - exercices au format du jury.
+
+10h50-10h55 QUESTIONS RAPIDES.
+  1. Complexite de Dijkstra avec un simple tableau, puis avec une file de priorite.
+  2. Si l'on arrete Dijkstra des que la cible est traitee, la distance obtenue est-elle juste ?
+  3. Comment retrouver le chemin lui-meme, et pas seulement sa longueur ?
+
+10h55-11h10 PROBLEME 1 (15 min). Labyrinthe.
+  Une grille n x n de cases libres ou murees. On passe d'une case libre a une case libre voisine (haut, bas, gauche, droite) en une etape.
+  1. Modelise par un graphe : combien de sommets, combien d'aretes au plus ?
+  2. Quel algorithme donne le plus petit nombre d'etapes entre deux cases ? Complexite en fonction de n.
+  Relance : traverser certaines cases coute 2 etapes au lieu d'une. Que changes-tu ?
+
+11h10-11h35 PROBLEME 2 (25 min). Compter les plus courts chemins.
+  Graphe non oriente, toutes les aretes de longueur 1, sommet de depart s. On note d(v) la distance de s a v et N(v) le nombre de plus courts chemins de s a v.
+  1. Montre que N(v) est la somme des N(u) sur les voisins u de v tels que d(u) = d(v) - 1.
+  2. Adapte le parcours en largeur pour calculer tous les N(v) en O(n + m). Prouve-le par recurrence sur la distance.
+  Relance : dans une grille sans murs de a lignes et b colonnes, combien de plus courts chemins relient deux coins opposes ?
+
+11h35-11h40 CLOTURE, une seule tentative : debout, 5 min, la question 1 du probleme 2.
+
+11h40-11h50 CARNET.
+
+FORMAT DU JURY (rapport 2025, mineure informatique) : 50 min sans preparation, au tableau. Quelques questions rapides, puis deux problemes : le premier verifie le niveau minimal, le second est nouveau. Aucun langage impose : decris l'algorithme en francais, puis en pseudo-code ; du code seulement si l'enonce le demande. Ce qui est note : le raisonnement plus que le resultat, des preuves rigoureuses (recurrence, absurde, invariant), des maths discretes.
+REGLES : debout, a voix haute, chronometre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en une phrase, le pseudo-code, la preuve (variant, invariant), la complexite. Utilise tout le tableau ou une grande feuille, n'efface rien d'utile. Bloque au bout du temps : passe a la suite et note au carnet.
+Programme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
+
+@@ 2026-11-30 37d983d51b28075785da9a5cfa98d602@fuf-romain
+!titre: Info mineure - Programmation dynamique (cours + oral)
+PROGRAMMATION DYNAMIQUE - cours puis oral au format du jury.
+
+17h10-17h35 COURS. Beury ch. 13 : 10 min de lecture, puis livre ferme.
+  Ecris de memoire : sous-problemes et recurrence, memoisation contre calcul ascendant, comparaison avec un algorithme glouton, un exemple traite en entier.
+
+17h35-17h40 QUESTIONS RAPIDES.
+  1. Quelle difference entre diviser pour regner et programmation dynamique ?
+  2. Pourquoi le calcul recursif naif de Fibonacci fait-il un nombre exponentiel d'appels ? Et avec memoisation ?
+  3. Pieces de 1, 3 et 4, somme 6 : que donne l'algorithme glouton ? Est-ce optimal ?
+
+17h40-17h55 PROBLEME 1 (15 min). Rendu de monnaie.
+  Pieces de valeurs 1 = v1 < v2 < ... < vk, somme S. On note m(s) le nombre minimal de pieces pour faire s.
+  1. Ecris la recurrence sur m(s) et prouve-la.
+  2. Decris le calcul ascendant et donne sa complexite en temps et en espace.
+  Relance : comment retrouver les pieces utilisees ?
+
+17h55-18h20 PROBLEME 2 (25 min). Plus longue sous-suite croissante.
+  T est un tableau de n entiers. L(i) est la longueur de la plus longue sous-suite strictement croissante de T qui se termine en i.
+  1. Etablis une recurrence sur L(i) et prouve-la.
+  2. Deduis-en un algorithme en O(n^2) pour la longueur maximale, puis la reconstruction d'une telle sous-suite.
+  Relance : montre que toute suite de n^2 + 1 reels distincts contient une sous-suite strictement croissante ou strictement decroissante de longueur n + 1.
+
+18h20-18h25 CLOTURE, une seule tentative : debout, 5 min, la recurrence du probleme 1 et sa preuve.
+
+18h25-18h40 CARNET + PDF.
+
+FORMAT DU JURY (rapport 2025, mineure informatique) : 50 min sans preparation, au tableau. Quelques questions rapides, puis deux problemes : le premier verifie le niveau minimal, le second est nouveau. Aucun langage impose : decris l'algorithme en francais, puis en pseudo-code ; du code seulement si l'enonce le demande. Ce qui est note : le raisonnement plus que le resultat, des preuves rigoureuses (recurrence, absurde, invariant), des maths discretes.
+REGLES : debout, a voix haute, chronometre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en une phrase, le pseudo-code, la preuve (variant, invariant), la complexite. Utilise tout le tableau ou une grande feuille, n'efface rien d'utile. Bloque au bout du temps : passe a la suite et note au carnet.
+Programme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
+
+@@ 2026-12-02 24e9ad5eec1b555c04fe33742be93a6f@fuf-romain
+!titre: Info mineure - Programmation dynamique (oral, format du jury)
+PROGRAMMATION DYNAMIQUE - exercices au format du jury.
+
+14h30-14h35 QUESTIONS RAPIDES.
+  1. Qu'est-ce que la propriete de sous-structure optimale ?
+  2. Le rendu de monnaie ascendant utilise un tableau de taille S + 1. Pourrait-on se contenter de moins ?
+  3. Memoisation : ou ranger les resultats deja calcules, et a quel cout ?
+
+14h35-14h50 PROBLEME 1 (15 min). Chemins dans une grille.
+  Grille de n lignes et p colonnes, certaines cases interdites. On va du coin haut gauche au coin bas droit en ne se deplacant que vers la droite ou vers le bas.
+  1. Recurrence sur le nombre de chemins qui arrivent en (i, j), algorithme en O(np), preuve.
+  Relance : sans case interdite, quelle formule close ? Prouve-la.
+
+14h50-15h15 PROBLEME 2 (25 min). Distance d'edition.
+  La distance d'edition entre deux mots u et v est le nombre minimal d'insertions, suppressions et substitutions d'une lettre pour passer de u a v. On note D(i, j) la distance entre les i premieres lettres de u et les j premieres lettres de v.
+  1. Que valent D(i, 0) et D(0, j) ? Etablis une recurrence sur D(i, j) en raisonnant sur la derniere operation.
+  2. Algorithme en O(np) pour des mots de longueurs n et p. En espace, peut-on descendre a O(p) ?
+  Relance : la distance d'edition verifie-t-elle l'inegalite triangulaire ?
+
+15h15-15h20 CLOTURE, une seule tentative : debout, 5 min, la recurrence du probleme 2.
+
+15h20-15h30 CARNET.
+
+FORMAT DU JURY (rapport 2025, mineure informatique) : 50 min sans preparation, au tableau. Quelques questions rapides, puis deux problemes : le premier verifie le niveau minimal, le second est nouveau. Aucun langage impose : decris l'algorithme en francais, puis en pseudo-code ; du code seulement si l'enonce le demande. Ce qui est note : le raisonnement plus que le resultat, des preuves rigoureuses (recurrence, absurde, invariant), des maths discretes.
+REGLES : debout, a voix haute, chronometre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en une phrase, le pseudo-code, la preuve (variant, invariant), la complexite. Utilise tout le tableau ou une grande feuille, n'efface rien d'utile. Bloque au bout du temps : passe a la suite et note au carnet.
+Programme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
+
+@@ 2027-01-12 f15b2fed6e57770b7c92a129418d5556@fuf-romain
+!titre: Info mineure - Bases de donnees et SQL (cours + oral)
+Premier contact avec ce theme : cours d'abord, puis l'oral.
+Fin de seance = cours reconstruit + un oral de 50 min + le probleme le moins reussi refait au propre.
+
+14h00-14h40 COURS. Beury ch. 15 : 15 min de lecture, puis 25 min livre ferme. Ecris de memoire : relation, attribut, cle primaire, cle etrangere ; SELECT, FROM, WHERE ; jointure ; COUNT, SUM, AVG, MIN, MAX ; GROUP BY, HAVING, ORDER BY, LIMIT ; requetes imbriquees ; UNION, INTERSECT, EXCEPT.
+
+14h40-15h30 ORAL, 50 min, debout, chronometre. Ne lis chaque partie qu'au top.
+  QUESTIONS RAPIDES (5 min)
+  1. Cle primaire, cle etrangere : definitions et un exemple.
+  2. WHERE et HAVING : quelle difference ?
+  3. Une jointure entre une table de n lignes et une table de p lignes : combien de lignes au plus ?
+  PROBLEME 1 (15 min). Schema : Eleve(id, nom, promo), Cours(id, intitule, ects), Note(id_eleve, id_cours, valeur).
+  Ecris les requetes qui donnent :
+  1. les noms des eleves de la promo 2027 ;
+  2. pour chaque intitule de cours, la moyenne des notes ;
+  3. les noms des eleves qui ont au moins une note inferieure a 10, sans doublon ;
+  4. les intitules des cours dont la moyenne depasse 12.
+  PROBLEME 2 (25 min). Meme schema.
+  1. Les noms des eleves qui n'ont aucune note.
+  2. Le nom de l'eleve, ou des eleves, de meilleure moyenne.
+  3. Pourquoi prendre (id_eleve, id_cours) comme cle primaire de Note ? Quelle hypothese sur les notes cela impose-t-il ?
+  Relance : un eleve peut desormais repasser un cours plusieurs fois. Comment modifies-tu le schema, et quelle requete donne sa meilleure note dans chaque cours ?
+  5 min de marge.
+
+15h30-15h50 AU PROPRE : refais de zero le probleme le moins reussi, preuve redigee.
+
+15h50-16h00 CARNET.
+
+Trame Bristol provisoire : si ton emploi du temps deplace ce creneau, garde la sequence, pas l'heure.
+
+FORMAT DU JURY (rapport 2025, mineure informatique) : 50 min sans preparation, au tableau. Quelques questions rapides, puis deux problemes : le premier verifie le niveau minimal, le second est nouveau. Aucun langage impose : decris l'algorithme en francais, puis en pseudo-code ; du code seulement si l'enonce le demande. Ce qui est note : le raisonnement plus que le resultat, des preuves rigoureuses (recurrence, absurde, invariant), des maths discretes.
+REGLES : debout, a voix haute, chronometre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en une phrase, le pseudo-code, la preuve (variant, invariant), la complexite. Utilise tout le tableau ou une grande feuille, n'efface rien d'utile. Bloque au bout du temps : passe a la suite et note au carnet.
+Programme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
+
+@@ 2027-01-19 df25d6525e4e1b659c23c3bdf32fe141@fuf-romain
+!titre: Info mineure - IA et jeux (cours + oral)
+Premier contact avec ce theme : cours d'abord, puis l'oral.
+Fin de seance = cours reconstruit + un oral de 50 min + le probleme le moins reussi refait au propre.
+
+14h00-14h40 COURS. Beury ch. 14 : 15 min de lecture, puis 25 min livre ferme. Ecris de memoire : k plus proches voisins (distance, vote, choix de k) ; k-moyennes (affectation, recalcul des centres, inertie) ; jeux a deux joueurs sur un graphe, positions gagnantes, attracteur, min-max avec une heuristique.
+
+14h40-15h30 ORAL, 50 min, debout, chronometre. Ne lis chaque partie qu'au top.
+  QUESTIONS RAPIDES (5 min)
+  1. k plus proches voisins : entree, sortie, et cout naif d'une prediction avec n points d'apprentissage en dimension d.
+  2. Que se passe-t-il si k = 1 ? Si k = n ?
+  3. Dans min-max, que represente la valeur d'une position ?
+  PROBLEME 1 (15 min). Jeu de Nim a un tas de n allumettes. Chacun a son tour retire 1, 2 ou 3 allumettes ; celui qui prend la derniere gagne.
+  1. Determine les positions perdantes pour le joueur qui doit jouer, et prouve-le par recurrence.
+  2. Decris la strategie gagnante.
+  Relance : et si l'on ne peut retirer que 1, 3 ou 4 allumettes ?
+  PROBLEME 2 (25 min). Attracteur.
+  Un jeu se joue sur un graphe oriente fini dont les sommets sont partages entre le joueur A et le joueur B : le proprietaire du sommet courant choisit l'arc suivant. A gagne si la partie atteint un ensemble F de sommets. On pose X0 = F, puis X(k+1) = X(k) union les sommets de A qui ont au moins un successeur dans X(k), union les sommets de B qui ont au moins un successeur et dont tous les successeurs sont dans X(k).
+  1. Montre que la suite (X(k)) est croissante et finit par etre constante. Sa limite est l'attracteur de F.
+  2. Montre que A a une strategie gagnante depuis tout sommet de l'attracteur.
+  3. Complexite d'un calcul naif.
+  Relance : relie ce calcul aux positions gagnantes du probleme 1.
+  5 min de marge.
+
+15h30-15h50 AU PROPRE : refais de zero le probleme le moins reussi, preuve redigee.
+
+15h50-16h00 CARNET.
+
+Trame Bristol provisoire : si ton emploi du temps deplace ce creneau, garde la sequence, pas l'heure.
+
+FORMAT DU JURY (rapport 2025, mineure informatique) : 50 min sans preparation, au tableau. Quelques questions rapides, puis deux problemes : le premier verifie le niveau minimal, le second est nouveau. Aucun langage impose : decris l'algorithme en francais, puis en pseudo-code ; du code seulement si l'enonce le demande. Ce qui est note : le raisonnement plus que le resultat, des preuves rigoureuses (recurrence, absurde, invariant), des maths discretes.
+REGLES : debout, a voix haute, chronometre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en une phrase, le pseudo-code, la preuve (variant, invariant), la complexite. Utilise tout le tableau ou une grande feuille, n'efface rien d'utile. Bloque au bout du temps : passe a la suite et note au carnet.
+Programme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
+
+@@ 2027-01-26 e8da486fc9ec6e17acdeef8c26d601c9@fuf-romain
+!titre: Info mineure - Tableaux : algorithmes elementaires (oral blanc)
+Ce creneau remplace l'annexe Python : le jury n'impose aucun langage et releve des lacunes sur le socle, parfois meme sur le programme du bac.
+
+Fin de seance = un oral de 50 min enregistre + 3 observations + le probleme le moins reussi refait au propre.
+
+14h00-14h50 ORAL BLANC, 50 min, debout, chronometre. Enregistre-toi avec le dictaphone du telephone. Ne lis chaque partie qu'au top.
+  QUESTIONS RAPIDES (5 min)
+  1. Le maximum de n nombres : combien de comparaisons ? Peut-on en faire moins de n - 1 ?
+  2. Inverser un tableau sur place : l'algorithme et son invariant.
+  3. Recherche d'une valeur dans un tableau non trie : nombre de comparaisons au pire, et en moyenne si la valeur est presente a une position uniforme.
+  PROBLEME 1 (15 min). Deux sommes. T est un tableau trie de n entiers et s un entier.
+  1. Decris un algorithme en O(n), a deux indices, qui decide s'il existe i < j avec T[i] + T[j] = s.
+  2. Enonce l'invariant (aucune paire hors de l'intervalle courant ne convient) et prouve-le.
+  Relance : et trois sommes, T[i] + T[j] + T[k] = s ?
+  PROBLEME 2 (25 min). Sous-tableau de somme maximale. T est un tableau de n entiers relatifs. On cherche le maximum de T[i] + ... + T[j] pour i <= j.
+  1. Un algorithme en O(n^2) a l'aide des sommes prefixes.
+  2. On note M(j) la plus grande somme d'un sous-tableau qui se termine en j. Etablis M(j) = max(T[j], M(j-1) + T[j]), deduis-en un algorithme en O(n) et prouve-le.
+  Relance : montre que tout tableau de n entiers contient un sous-tableau non vide de termes consecutifs dont la somme est divisible par n.
+  5 min de marge.
+
+14h50-15h00 PAUSE.
+
+15h00-15h15 ECOUTE les 15 premieres minutes de l'enregistrement. Ecris 3 observations : tes silences, tes phrases vagues, ce que tu as ecrit sans le dire.
+
+15h15-15h45 AU PROPRE : refais de zero le probleme le moins reussi, preuve redigee.
+
+15h45-16h00 CARNET + PDF.
+
+Trame Bristol provisoire : si ton emploi du temps deplace ce creneau, garde la sequence, pas l'heure.
+
+FORMAT DU JURY (rapport 2025, mineure informatique) : 50 min sans preparation, au tableau. Quelques questions rapides, puis deux problemes : le premier verifie le niveau minimal, le second est nouveau. Aucun langage impose : decris l'algorithme en francais, puis en pseudo-code ; du code seulement si l'enonce le demande. Ce qui est note : le raisonnement plus que le resultat, des preuves rigoureuses (recurrence, absurde, invariant), des maths discretes.
+REGLES : debout, a voix haute, chronometre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en une phrase, le pseudo-code, la preuve (variant, invariant), la complexite. Utilise tout le tableau ou une grande feuille, n'efface rien d'utile. Bloque au bout du temps : passe a la suite et note au carnet.
+Programme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
+
+@@ 2027-02-02 4c55fb47d1682ab18d96132fe37075d5@fuf-romain
+!titre: Info mineure - Specification, terminaison, correction, complexite (oral blanc)
+Fin de seance = un oral de 50 min enregistre + 3 observations + le probleme le moins reussi refait au propre.
+
+14h00-14h50 ORAL BLANC, 50 min, debout, chronometre. Enregistre-toi avec le dictaphone du telephone. Ne lis chaque partie qu'au top.
+  QUESTIONS RAPIDES (5 min)
+  1. Correction partielle et correction totale : quelle difference ?
+  2. Qu'est-ce qu'un variant de boucle ? Un invariant de boucle ?
+  3. f(n) = 3n^2 + n log n : quel ordre de grandeur, et que signifie precisement f(n) = O(n^2) ?
+  PROBLEME 1 (15 min). Algorithme d'Euclide. Tant que b est non nul, on remplace (a, b) par (b, a mod b) ; on renvoie a.
+  1. Terminaison : donne un variant.
+  2. Correction : montre que pgcd(a, b) = pgcd(b, a mod b) et deduis-en l'invariant.
+  3. Montre que, deux iterations plus tard, b a au moins ete divise par 2. Deduis-en une complexite en O(log b).
+  PROBLEME 2 (25 min). Exponentiation rapide. Pour calculer x^n, on part de (r, b, e) = (1, x, n) ; tant que e > 0 : si e est impair, r prend la valeur r * b ; puis b prend la valeur b * b et e la valeur e // 2 ; on renvoie r.
+  1. Prouve terminaison et correction a l'aide de l'invariant r * b^e = x^n.
+  2. Nombre exact de multiplications en fonction de l'ecriture binaire de n.
+  Relance : calcule x^15 avec 5 multiplications seulement. L'algorithme en fait combien ?
+  5 min de marge.
+
+14h50-15h00 PAUSE.
+
+15h00-15h15 ECOUTE les 15 premieres minutes de l'enregistrement. Ecris 3 observations : tes silences, tes phrases vagues, ce que tu as ecrit sans le dire.
+
+15h15-15h45 AU PROPRE : refais de zero le probleme le moins reussi, preuve redigee.
+
+15h45-16h00 CARNET + PDF.
+
+Trame Bristol provisoire : si ton emploi du temps deplace ce creneau, garde la sequence, pas l'heure.
+
+FORMAT DU JURY (rapport 2025, mineure informatique) : 50 min sans preparation, au tableau. Quelques questions rapides, puis deux problemes : le premier verifie le niveau minimal, le second est nouveau. Aucun langage impose : decris l'algorithme en francais, puis en pseudo-code ; du code seulement si l'enonce le demande. Ce qui est note : le raisonnement plus que le resultat, des preuves rigoureuses (recurrence, absurde, invariant), des maths discretes.
+REGLES : debout, a voix haute, chronometre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en une phrase, le pseudo-code, la preuve (variant, invariant), la complexite. Utilise tout le tableau ou une grande feuille, n'efface rien d'utile. Bloque au bout du temps : passe a la suite et note au carnet.
+Programme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
+
+@@ 2027-02-09 8a7fb60f6e1e2181f35d0053da4beb0a@fuf-romain
+!titre: Info mineure - Recherche et dichotomie (oral blanc)
+Fin de seance = un oral de 50 min enregistre + 3 observations + le probleme le moins reussi refait au propre.
+
+14h00-14h50 ORAL BLANC, 50 min, debout, chronometre. Enregistre-toi avec le dictaphone du telephone. Ne lis chaque partie qu'au top.
+  QUESTIONS RAPIDES (5 min)
+  1. La recherche dichotomique : precondition et complexite.
+  2. Combien de comparaisons au plus pour un tableau de 1000 elements ?
+  3. Le variant de boucle de la recherche dichotomique ?
+  PROBLEME 1 (15 min). Premiere position. T est un tableau trie de n entiers et x un entier.
+  1. Decris par dichotomie le calcul du plus petit indice i tel que T[i] >= x, et n s'il n'y en a pas.
+  2. Enonce un invariant precis sur les bornes, prouve terminaison et correction.
+  3. Complexite.
+  Relance : deduis-en le nombre d'occurrences de x en O(log n).
+  PROBLEME 2 (25 min). Pic. T est un tableau de n entiers distincts. Un pic est un indice i tel que T[i] est plus grand que ses voisins (un seul voisin aux bords).
+  1. Montre qu'un pic existe toujours.
+  2. Propose un algorithme en O(log n). Enonce l'invariant qui garantit qu'il reste un pic dans l'intervalle courant.
+  3. Prouve-le.
+  Relance : calcule la racine carree entiere d'un entier N en O(log N) operations, sans fonction racine.
+  5 min de marge.
+
+14h50-15h00 PAUSE.
+
+15h00-15h15 ECOUTE les 15 premieres minutes de l'enregistrement. Ecris 3 observations : tes silences, tes phrases vagues, ce que tu as ecrit sans le dire.
+
+15h15-15h45 AU PROPRE : refais de zero le probleme le moins reussi, preuve redigee.
+
+15h45-16h00 CARNET + PDF.
+
+Trame Bristol provisoire : si ton emploi du temps deplace ce creneau, garde la sequence, pas l'heure.
+
+FORMAT DU JURY (rapport 2025, mineure informatique) : 50 min sans preparation, au tableau. Quelques questions rapides, puis deux problemes : le premier verifie le niveau minimal, le second est nouveau. Aucun langage impose : decris l'algorithme en francais, puis en pseudo-code ; du code seulement si l'enonce le demande. Ce qui est note : le raisonnement plus que le resultat, des preuves rigoureuses (recurrence, absurde, invariant), des maths discretes.
+REGLES : debout, a voix haute, chronometre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en une phrase, le pseudo-code, la preuve (variant, invariant), la complexite. Utilise tout le tableau ou une grande feuille, n'efface rien d'utile. Bloque au bout du temps : passe a la suite et note au carnet.
+Programme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
+
+@@ 2027-02-16 1f0cb845d40c2d3566f321e79658b7db@fuf-romain
+!titre: Info mineure - Recursivite (oral blanc)
+Fin de seance = un oral de 50 min enregistre + 3 observations + le probleme le moins reussi refait au propre.
+
+14h00-14h50 ORAL BLANC, 50 min, debout, chronometre. Enregistre-toi avec le dictaphone du telephone. Ne lis chaque partie qu'au top.
+  QUESTIONS RAPIDES (5 min)
+  1. Comment prouve-t-on la terminaison d'une fonction recursive ?
+  2. Tours de Hanoi : combien de deplacements pour n disques ?
+  3. Que se passe-t-il pour une recursion de profondeur un million ?
+  PROBLEME 1 (15 min). Tours de Hanoi.
+  1. Decris l'algorithme recursif.
+  2. Prouve par recurrence qu'il effectue 2^n - 1 deplacements.
+  Relance : prouve qu'aucune methode ne peut en faire moins.
+  PROBLEME 2 (25 min). Mots sans deux 1 consecutifs.
+  1. Decris une fonction recursive qui enumere tous les mots binaires de longueur n. Combien d'appels ?
+  2. Modifie-la pour n'enumerer que les mots sans deux 1 consecutifs.
+  3. Soit f(n) leur nombre. Montre que f(n) = f(n-1) + f(n-2) pour n >= 3, avec f(1) = 2 et f(2) = 3.
+  Relance : le cout de la generation est-il proportionnel a f(n) ? Pourquoi ?
+  5 min de marge.
+
+14h50-15h00 PAUSE.
+
+15h00-15h15 ECOUTE les 15 premieres minutes de l'enregistrement. Ecris 3 observations : tes silences, tes phrases vagues, ce que tu as ecrit sans le dire.
+
+15h15-15h45 AU PROPRE : refais de zero le probleme le moins reussi, preuve redigee.
+
+15h45-16h00 CARNET + PDF.
+
+Trame Bristol provisoire : si ton emploi du temps deplace ce creneau, garde la sequence, pas l'heure.
+
+FORMAT DU JURY (rapport 2025, mineure informatique) : 50 min sans preparation, au tableau. Quelques questions rapides, puis deux problemes : le premier verifie le niveau minimal, le second est nouveau. Aucun langage impose : decris l'algorithme en francais, puis en pseudo-code ; du code seulement si l'enonce le demande. Ce qui est note : le raisonnement plus que le resultat, des preuves rigoureuses (recurrence, absurde, invariant), des maths discretes.
+REGLES : debout, a voix haute, chronometre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en une phrase, le pseudo-code, la preuve (variant, invariant), la complexite. Utilise tout le tableau ou une grande feuille, n'efface rien d'utile. Bloque au bout du temps : passe a la suite et note au carnet.
+Programme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
+
+@@ 2027-02-23 672ad97d1e65a25e4f3ac6157b6550c5@fuf-romain
+!titre: Info mineure - Tris (oral blanc)
+Fin de seance = un oral de 50 min enregistre + 3 observations + le probleme le moins reussi refait au propre.
+
+14h00-14h50 ORAL BLANC, 50 min, debout, chronometre. Enregistre-toi avec le dictaphone du telephone. Ne lis chaque partie qu'au top.
+  QUESTIONS RAPIDES (5 min)
+  1. Qu'est-ce qu'un tri stable ? Le tri par insertion l'est-il ?
+  2. Pourquoi tout tri par comparaisons fait-il, au pire, de l'ordre de n log n comparaisons ? L'idee seulement.
+  3. Tri fusion : complexite en temps et en espace.
+  PROBLEME 1 (15 min). Tri par insertion.
+  1. L'algorithme et son invariant.
+  2. Une inversion de T est un couple i < j avec T[i] > T[j]. Montre que le nombre de decalages effectues par le tri par insertion est egal au nombre d'inversions.
+  3. Deduis-en le pire et le meilleur cas.
+  PROBLEME 2 (25 min). Compter les inversions en O(n log n).
+  1. On coupe T en deux moities G et D. Montre que inv(T) = inv(G) + inv(D) + le nombre de couples (x dans G, y dans D) avec x > y.
+  2. Montre qu'on peut compter ces couples croises pendant la fusion de G et D triees.
+  3. Recurrence de complexite et solution.
+  Relance : quel est le nombre moyen d'inversions d'une permutation de n elements tiree uniformement ?
+  5 min de marge.
+
+14h50-15h00 PAUSE.
+
+15h00-15h15 ECOUTE les 15 premieres minutes de l'enregistrement. Ecris 3 observations : tes silences, tes phrases vagues, ce que tu as ecrit sans le dire.
+
+15h15-15h45 AU PROPRE : refais de zero le probleme le moins reussi, preuve redigee.
+
+15h45-16h00 CARNET + PDF.
+
+Trame Bristol provisoire : si ton emploi du temps deplace ce creneau, garde la sequence, pas l'heure.
+
+FORMAT DU JURY (rapport 2025, mineure informatique) : 50 min sans preparation, au tableau. Quelques questions rapides, puis deux problemes : le premier verifie le niveau minimal, le second est nouveau. Aucun langage impose : decris l'algorithme en francais, puis en pseudo-code ; du code seulement si l'enonce le demande. Ce qui est note : le raisonnement plus que le resultat, des preuves rigoureuses (recurrence, absurde, invariant), des maths discretes.
+REGLES : debout, a voix haute, chronometre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en une phrase, le pseudo-code, la preuve (variant, invariant), la complexite. Utilise tout le tableau ou une grande feuille, n'efface rien d'utile. Bloque au bout du temps : passe a la suite et note au carnet.
+Programme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
+
+@@ 2027-03-02 4fb602b53e53656629e1d115f0377d8b@fuf-romain
+!titre: Info mineure - Algorithmes gloutons (oral blanc)
+Fin de seance = un oral de 50 min enregistre + 3 observations + le probleme le moins reussi refait au propre.
+
+14h00-14h50 ORAL BLANC, 50 min, debout, chronometre. Enregistre-toi avec le dictaphone du telephone. Ne lis chaque partie qu'au top.
+  QUESTIONS RAPIDES (5 min)
+  1. Qu'est-ce qu'un algorithme glouton ? Que faut-il prouver pour l'utiliser ?
+  2. Pieces de 1, 3 et 4, somme 6 : le glouton est-il optimal ?
+  3. Un probleme ou le glouton est optimal, sans preuve.
+  PROBLEME 1 (15 min). Selection d'activites. On a n intervalles [d_i, f_i[ et l'on veut le plus grand nombre d'intervalles deux a deux disjoints. Glouton : trier par fin croissante, prendre chaque intervalle compatible avec le dernier pris.
+  1. Prouve l'optimalite par un argument d'echange.
+  2. Complexite.
+  Relance : montre que trier par debut croissant, ou par duree croissante, ne marche pas.
+  PROBLEME 2 (25 min). Salles de reunion. n reunions [d_i, f_i[ doivent etre placees dans des salles ; deux reunions de la meme salle ne se chevauchent pas. On note p le plus grand nombre de reunions en cours a un meme instant.
+  1. Montre qu'il faut au moins p salles.
+  2. Glouton : on traite les reunions par debut croissant, chacune dans une salle libre s'il y en a une, sinon dans une nouvelle salle. Montre qu'il utilise exactement p salles.
+  3. Complexite.
+  Relance : relie p a un probleme de coloration de graphe.
+  5 min de marge.
+
+14h50-15h00 PAUSE.
+
+15h00-15h15 ECOUTE les 15 premieres minutes de l'enregistrement. Ecris 3 observations : tes silences, tes phrases vagues, ce que tu as ecrit sans le dire.
+
+15h15-15h45 AU PROPRE : refais de zero le probleme le moins reussi, preuve redigee.
+
+15h45-16h00 CARNET + PDF.
+
+Trame Bristol provisoire : si ton emploi du temps deplace ce creneau, garde la sequence, pas l'heure.
+
+FORMAT DU JURY (rapport 2025, mineure informatique) : 50 min sans preparation, au tableau. Quelques questions rapides, puis deux problemes : le premier verifie le niveau minimal, le second est nouveau. Aucun langage impose : decris l'algorithme en francais, puis en pseudo-code ; du code seulement si l'enonce le demande. Ce qui est note : le raisonnement plus que le resultat, des preuves rigoureuses (recurrence, absurde, invariant), des maths discretes.
+REGLES : debout, a voix haute, chronometre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en une phrase, le pseudo-code, la preuve (variant, invariant), la complexite. Utilise tout le tableau ou une grande feuille, n'efface rien d'utile. Bloque au bout du temps : passe a la suite et note au carnet.
+Programme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
+
+@@ 2027-03-09 0706002b56567ae12424555e377ca23e@fuf-romain
+!titre: Info mineure - Representation des nombres (oral blanc)
+Fin de seance = un oral de 50 min enregistre + 3 observations + le probleme le moins reussi refait au propre.
+
+14h00-14h50 ORAL BLANC, 50 min, debout, chronometre. Enregistre-toi avec le dictaphone du telephone. Ne lis chaque partie qu'au top.
+  QUESTIONS RAPIDES (5 min)
+  1. Sur 8 bits en complement a deux : -1, -128 et 127.
+  2. 0,1 a-t-il une ecriture binaire finie ?
+  3. Combien de bits faut-il pour ecrire n >= 1 ?
+  PROBLEME 1 (15 min). Horner. P(x) = a0 + a1 x + ... + ad x^d.
+  1. Decris l'evaluation de P(x) par la methode de Horner, en d multiplications.
+  2. Prouve-la par un invariant.
+  3. Applique-la a la conversion d'une liste de bits, poids fort en tete, vers l'entier.
+  PROBLEME 2 (25 min). Addition binaire.
+  1. Decris l'addition de deux entiers naturels donnes par leurs listes de bits, poids faible en tete, avec une retenue. Prouve sa correction par un invariant sur les k premiers bits.
+  2. En complement a deux sur n bits, montre que l'addition de deux entiers de signes contraires ne deborde jamais.
+  3. Caracterise le debordement a l'aide des bits de signe des operandes et du resultat.
+  Relance : pourquoi l'oppose de -128 vaut-il -128 sur 8 bits ?
+  5 min de marge.
+
+14h50-15h00 PAUSE.
+
+15h00-15h15 ECOUTE les 15 premieres minutes de l'enregistrement. Ecris 3 observations : tes silences, tes phrases vagues, ce que tu as ecrit sans le dire.
+
+15h15-15h45 AU PROPRE : refais de zero le probleme le moins reussi, preuve redigee.
+
+15h45-16h00 CARNET + PDF.
+
+Trame Bristol provisoire : si ton emploi du temps deplace ce creneau, garde la sequence, pas l'heure.
+
+FORMAT DU JURY (rapport 2025, mineure informatique) : 50 min sans preparation, au tableau. Quelques questions rapides, puis deux problemes : le premier verifie le niveau minimal, le second est nouveau. Aucun langage impose : decris l'algorithme en francais, puis en pseudo-code ; du code seulement si l'enonce le demande. Ce qui est note : le raisonnement plus que le resultat, des preuves rigoureuses (recurrence, absurde, invariant), des maths discretes.
+REGLES : debout, a voix haute, chronometre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en une phrase, le pseudo-code, la preuve (variant, invariant), la complexite. Utilise tout le tableau ou une grande feuille, n'efface rien d'utile. Bloque au bout du temps : passe a la suite et note au carnet.
+Programme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
+
+@@ 2027-03-16 54f0855688266801dc5c742d3e38c1e2@fuf-romain
+!titre: Info mineure - Piles, files, deques, dictionnaires (oral blanc)
+Fin de seance = un oral de 50 min enregistre + 3 observations + le probleme le moins reussi refait au propre.
+
+14h00-14h50 ORAL BLANC, 50 min, debout, chronometre. Enregistre-toi avec le dictaphone du telephone. Ne lis chaque partie qu'au top.
+  QUESTIONS RAPIDES (5 min)
+  1. File simulee avec deux piles : cout amorti d'une operation ?
+  2. Collision dans une table de hachage : comment la gere-t-on ?
+  3. Compter les occurrences des n elements d'un tableau avec un dictionnaire : cout ?
+  PROBLEME 1 (15 min). Deux sommes sans tri. T est un tableau non trie de n entiers et s un entier.
+  1. Decide en temps moyen O(n), avec un dictionnaire, s'il existe i different de j avec T[i] + T[j] = s.
+  2. Justifie par l'invariant du parcours.
+  3. Compare avec la methode tri puis deux indices : temps, espace, cas defavorables.
+  PROBLEME 2 (25 min). Maximum glissant. T est un tableau de n entiers et k <= n. On veut le maximum de chaque fenetre T[i..i+k-1].
+  1. Algorithme naif et complexite.
+  2. Algorithme en O(n) avec une deque d'indices dont les valeurs sont decroissantes. Enonce l'invariant.
+  3. Prouve la complexite par un argument amorti.
+  Relance : comment obtenir en meme temps le minimum de chaque fenetre ?
+  5 min de marge.
+
+14h50-15h00 PAUSE.
+
+15h00-15h15 ECOUTE les 15 premieres minutes de l'enregistrement. Ecris 3 observations : tes silences, tes phrases vagues, ce que tu as ecrit sans le dire.
+
+15h15-15h45 AU PROPRE : refais de zero le probleme le moins reussi, preuve redigee.
+
+15h45-16h00 CARNET + PDF.
+
+Trame Bristol provisoire : si ton emploi du temps deplace ce creneau, garde la sequence, pas l'heure.
+
+FORMAT DU JURY (rapport 2025, mineure informatique) : 50 min sans preparation, au tableau. Quelques questions rapides, puis deux problemes : le premier verifie le niveau minimal, le second est nouveau. Aucun langage impose : decris l'algorithme en francais, puis en pseudo-code ; du code seulement si l'enonce le demande. Ce qui est note : le raisonnement plus que le resultat, des preuves rigoureuses (recurrence, absurde, invariant), des maths discretes.
+REGLES : debout, a voix haute, chronometre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en une phrase, le pseudo-code, la preuve (variant, invariant), la complexite. Utilise tout le tableau ou une grande feuille, n'efface rien d'utile. Bloque au bout du temps : passe a la suite et note au carnet.
+Programme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
+
+@@ 2027-03-23 4bf50d5515c495701de0a83ec095a6bc@fuf-romain
+!titre: Info mineure - Graphes (oral blanc)
+Fin de seance = un oral de 50 min enregistre + 3 observations + le probleme le moins reussi refait au propre.
+
+14h00-14h50 ORAL BLANC, 50 min, debout, chronometre. Enregistre-toi avec le dictaphone du telephone. Ne lis chaque partie qu'au top.
+  QUESTIONS RAPIDES (5 min)
+  1. Lemme des poignees de main. Pourquoi le nombre de sommets de degre impair est-il pair ?
+  2. Un graphe connexe a n sommets a au moins n - 1 aretes : l'idee de la preuve.
+  3. Parcours en largeur ou en profondeur : lequel donne les distances en nombre d'aretes ?
+  PROBLEME 1 (15 min). Arbres.
+  1. Montre qu'un graphe connexe a n sommets et n - 1 aretes est sans cycle.
+  2. Decris un algorithme en O(n + m) qui decide si un graphe est un arbre.
+  Relance : combien d'aretes faut-il retirer a un graphe connexe a n sommets et m aretes pour obtenir un arbre ?
+  PROBLEME 2 (25 min). Cycles euleriens. Un cycle eulerien passe exactement une fois par chaque arete.
+  1. Montre qu'un graphe connexe qui admet un cycle eulerien a tous ses degres pairs.
+  2. On admet la reciproque. Decris un algorithme en O(n + m) qui decide si un graphe admet un cycle eulerien.
+  3. Et un chemin eulerien non ferme ?
+  Relance : prouve la reciproque quand tous les degres valent 2.
+  5 min de marge.
+
+14h50-15h00 PAUSE.
+
+15h00-15h15 ECOUTE les 15 premieres minutes de l'enregistrement. Ecris 3 observations : tes silences, tes phrases vagues, ce que tu as ecrit sans le dire.
+
+15h15-15h45 AU PROPRE : refais de zero le probleme le moins reussi, preuve redigee.
+
+15h45-16h00 CARNET + PDF.
+
+Trame Bristol provisoire : si ton emploi du temps deplace ce creneau, garde la sequence, pas l'heure.
+
+FORMAT DU JURY (rapport 2025, mineure informatique) : 50 min sans preparation, au tableau. Quelques questions rapides, puis deux problemes : le premier verifie le niveau minimal, le second est nouveau. Aucun langage impose : decris l'algorithme en francais, puis en pseudo-code ; du code seulement si l'enonce le demande. Ce qui est note : le raisonnement plus que le resultat, des preuves rigoureuses (recurrence, absurde, invariant), des maths discretes.
+REGLES : debout, a voix haute, chronometre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en une phrase, le pseudo-code, la preuve (variant, invariant), la complexite. Utilise tout le tableau ou une grande feuille, n'efface rien d'utile. Bloque au bout du temps : passe a la suite et note au carnet.
+Programme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
+
+@@ 2027-03-30 21dabc2a7a9a38b820756c601b9267b9@fuf-romain
+!titre: Info mineure - Plus courts chemins (oral blanc)
+Fin de seance = un oral de 50 min enregistre + 3 observations + le probleme le moins reussi refait au propre.
+
+14h00-14h50 ORAL BLANC, 50 min, debout, chronometre. Enregistre-toi avec le dictaphone du telephone. Ne lis chaque partie qu'au top.
+  QUESTIONS RAPIDES (5 min)
+  1. L'invariant de Dijkstra.
+  2. Pourquoi l'algorithme echoue-t-il avec des poids negatifs ?
+  3. Complexite avec un tas, avec un tableau : laquelle choisir pour un graphe dense ?
+  PROBLEME 1 (15 min). Graphe non oriente sur s, a, b, c, t : s-a (2), s-b (5), a-b (1), a-c (4), b-c (1), c-t (3), b-t (6).
+  1. Deroule Dijkstra depuis s : ordre de traitement, distances, predecesseurs.
+  2. Donne un plus court chemin de s a t.
+  PROBLEME 2 (25 min). Poids 0 ou 1. Tous les arcs ont un poids 0 ou 1.
+  1. Montre qu'on peut adapter le parcours en largeur avec une deque : un voisin atteint par un arc de poids 0 est place en tete, par un arc de poids 1 en queue.
+  2. Enonce l'invariant de la deque (distances dans l'ordre, au plus deux valeurs consecutives) et prouve la correction.
+  3. Complexite.
+  Relance : quel probleme de labyrinthe se ramene a ce cas ?
+  5 min de marge.
+
+14h50-15h00 PAUSE.
+
+15h00-15h15 ECOUTE les 15 premieres minutes de l'enregistrement. Ecris 3 observations : tes silences, tes phrases vagues, ce que tu as ecrit sans le dire.
+
+15h15-15h45 AU PROPRE : refais de zero le probleme le moins reussi, preuve redigee.
+
+15h45-16h00 CARNET + PDF.
+
+Trame Bristol provisoire : si ton emploi du temps deplace ce creneau, garde la sequence, pas l'heure.
+
+FORMAT DU JURY (rapport 2025, mineure informatique) : 50 min sans preparation, au tableau. Quelques questions rapides, puis deux problemes : le premier verifie le niveau minimal, le second est nouveau. Aucun langage impose : decris l'algorithme en francais, puis en pseudo-code ; du code seulement si l'enonce le demande. Ce qui est note : le raisonnement plus que le resultat, des preuves rigoureuses (recurrence, absurde, invariant), des maths discretes.
+REGLES : debout, a voix haute, chronometre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en une phrase, le pseudo-code, la preuve (variant, invariant), la complexite. Utilise tout le tableau ou une grande feuille, n'efface rien d'utile. Bloque au bout du temps : passe a la suite et note au carnet.
+Programme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
+
+@@ 2027-04-06 b94052c7d86df4b10d1199b7533debe6@fuf-romain
+!titre: Info mineure - Programmation dynamique (oral blanc)
+Fin de seance = un oral de 50 min enregistre + 3 observations + le probleme le moins reussi refait au propre.
+
+14h00-14h50 ORAL BLANC, 50 min, debout, chronometre. Enregistre-toi avec le dictaphone du telephone. Ne lis chaque partie qu'au top.
+  QUESTIONS RAPIDES (5 min)
+  1. Memoisation ou calcul ascendant : avantages de chacun.
+  2. Sac a dos 0/1 : la complexite O(nW) est-elle polynomiale en la taille de l'entree ?
+  3. Glouton par rapport valeur sur poids pour le sac a dos 0/1 : un contre-exemple.
+  PROBLEME 1 (15 min). Sac a dos 0/1. n objets de poids p_i et de valeurs v_i entiers, capacite W.
+  1. Recurrence sur V(i, w), meilleure valeur avec les i premiers objets et la capacite w. Prouve-la.
+  2. Algorithme et complexite.
+  Relance : retrouver les objets choisis.
+  PROBLEME 2 (25 min). Plus longue sous-sequence commune. u et v sont deux mots de longueurs n et p ; une sous-sequence s'obtient en effacant des lettres.
+  1. Recurrence sur L(i, j), longueur d'une plus longue sous-sequence commune aux prefixes de longueurs i et j. Prouve-la.
+  2. Algorithme en O(np) et reconstruction d'une sous-sequence commune maximale.
+  Relance : relie L(n, p) au nombre minimal d'insertions et de suppressions pour passer de u a v.
+  5 min de marge.
+
+14h50-15h00 PAUSE.
+
+15h00-15h15 ECOUTE les 15 premieres minutes de l'enregistrement. Ecris 3 observations : tes silences, tes phrases vagues, ce que tu as ecrit sans le dire.
+
+15h15-15h45 AU PROPRE : refais de zero le probleme le moins reussi, preuve redigee.
+
+15h45-16h00 CARNET + PDF.
+
+Trame Bristol provisoire : si ton emploi du temps deplace ce creneau, garde la sequence, pas l'heure.
+
+FORMAT DU JURY (rapport 2025, mineure informatique) : 50 min sans preparation, au tableau. Quelques questions rapides, puis deux problemes : le premier verifie le niveau minimal, le second est nouveau. Aucun langage impose : decris l'algorithme en francais, puis en pseudo-code ; du code seulement si l'enonce le demande. Ce qui est note : le raisonnement plus que le resultat, des preuves rigoureuses (recurrence, absurde, invariant), des maths discretes.
+REGLES : debout, a voix haute, chronometre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en une phrase, le pseudo-code, la preuve (variant, invariant), la complexite. Utilise tout le tableau ou une grande feuille, n'efface rien d'utile. Bloque au bout du temps : passe a la suite et note au carnet.
+Programme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
+
+@@ 2027-04-13 7e313c004e078b9555f47da3b837ec3f@fuf-romain
+!titre: Info mineure - Bases de donnees et SQL (oral blanc)
+Fin de seance = un oral de 50 min enregistre + 3 observations + le probleme le moins reussi refait au propre.
+
+14h00-14h50 ORAL BLANC, 50 min, debout, chronometre. Enregistre-toi avec le dictaphone du telephone. Ne lis chaque partie qu'au top.
+  QUESTIONS RAPIDES (5 min)
+  1. Qu'est-ce qu'une jointure ?
+  2. Dans quel ordre s'appliquent WHERE, GROUP BY et HAVING ?
+  3. Quand faut-il une cle primaire composee ?
+  PROBLEME 1 (15 min). Schema : Aeroport(code, ville, pays), Vol(num, depart, arrivee, compagnie), depart et arrivee etant des codes d'aeroport.
+  Ecris les requetes qui donnent :
+  1. les numeros des vols au depart d'une ville nommee Paris ;
+  2. le nombre de vols par compagnie ;
+  3. les compagnies qui ont plus de 10 vols ;
+  4. les codes des aeroports relies a BOD dans les deux sens.
+  PROBLEME 2 (25 min). La table Vol vue comme un graphe.
+  1. Ecris une requete qui donne les couples (x, z) d'aeroports relies par une correspondance : un vol de x vers y, puis un vol de y vers z.
+  2. Si Vol a m lignes, combien de lignes au plus renvoie cette requete ? La borne peut-elle etre atteinte ?
+  3. Comment obtenir les couples relies en au plus trois vols ?
+  Relance : une seule requete du programme peut-elle donner les couples relies par un nombre quelconque de vols ? Qu'est-ce qui l'empeche ?
+  5 min de marge.
+
+14h50-15h00 PAUSE.
+
+15h00-15h15 ECOUTE les 15 premieres minutes de l'enregistrement. Ecris 3 observations : tes silences, tes phrases vagues, ce que tu as ecrit sans le dire.
+
+15h15-15h45 AU PROPRE : refais de zero le probleme le moins reussi, preuve redigee.
+
+15h45-16h00 CARNET + PDF.
+
+Trame Bristol provisoire : si ton emploi du temps deplace ce creneau, garde la sequence, pas l'heure.
+
+FORMAT DU JURY (rapport 2025, mineure informatique) : 50 min sans preparation, au tableau. Quelques questions rapides, puis deux problemes : le premier verifie le niveau minimal, le second est nouveau. Aucun langage impose : decris l'algorithme en francais, puis en pseudo-code ; du code seulement si l'enonce le demande. Ce qui est note : le raisonnement plus que le resultat, des preuves rigoureuses (recurrence, absurde, invariant), des maths discretes.
+REGLES : debout, a voix haute, chronometre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en une phrase, le pseudo-code, la preuve (variant, invariant), la complexite. Utilise tout le tableau ou une grande feuille, n'efface rien d'utile. Bloque au bout du temps : passe a la suite et note au carnet.
+Programme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
+
+@@ 2027-04-20 342be9b866c6b18c60c978a0550f6d9e@fuf-romain
+!titre: Info mineure - IA et jeux (oral blanc)
+Fin de seance = un oral de 50 min enregistre + 3 observations + le probleme le moins reussi refait au propre.
+
+14h00-14h50 ORAL BLANC, 50 min, debout, chronometre. Enregistre-toi avec le dictaphone du telephone. Ne lis chaque partie qu'au top.
+  QUESTIONS RAPIDES (5 min)
+  1. k plus proches voisins : role de k, et pourquoi normaliser les attributs ?
+  2. k-moyennes : que fait chacune des deux etapes ?
+  3. Min-max a profondeur limitee : a quoi sert l'heuristique ?
+  PROBLEME 1 (15 min). Min-max. La racine est a MAX ; elle a trois fils a MIN, dont les feuilles valent (3, 12, 8), (2, 4, 6) et (14, 5, 2).
+  1. Calcule la valeur de la racine et le coup choisi.
+  2. Montre par recurrence sur la profondeur que la valeur min-max est le gain que MAX peut se garantir.
+  Relance : quelles feuilles n'ont pas besoin d'etre examinees ?
+  PROBLEME 2 (25 min). k-moyennes.
+  1. Montre que, pour des points x1, ..., xm, la somme des carres des distances a un point c est minimale quand c est leur centre de gravite.
+  2. Deduis-en que chaque etape de l'algorithme fait decroitre l'inertie, puis que l'algorithme termine.
+  3. Montre sur un exemple a quatre points que le resultat depend de l'initialisation.
+  Relance : l'algorithme peut-il boucler indefiniment ? A quelle condition ?
+  5 min de marge.
+
+14h50-15h00 PAUSE.
+
+15h00-15h15 ECOUTE les 15 premieres minutes de l'enregistrement. Ecris 3 observations : tes silences, tes phrases vagues, ce que tu as ecrit sans le dire.
+
+15h15-15h45 AU PROPRE : refais de zero le probleme le moins reussi, preuve redigee.
+
+15h45-16h00 CARNET + PDF.
+
+Trame Bristol provisoire : si ton emploi du temps deplace ce creneau, garde la sequence, pas l'heure.
+
+FORMAT DU JURY (rapport 2025, mineure informatique) : 50 min sans preparation, au tableau. Quelques questions rapides, puis deux problemes : le premier verifie le niveau minimal, le second est nouveau. Aucun langage impose : decris l'algorithme en francais, puis en pseudo-code ; du code seulement si l'enonce le demande. Ce qui est note : le raisonnement plus que le resultat, des preuves rigoureuses (recurrence, absurde, invariant), des maths discretes.
+REGLES : debout, a voix haute, chronometre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en une phrase, le pseudo-code, la preuve (variant, invariant), la complexite. Utilise tout le tableau ou une grande feuille, n'efface rien d'utile. Bloque au bout du temps : passe a la suite et note au carnet.
+Programme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
+
+@@ 2027-04-27 66cf274606bff3fb0d8129c0cd3f1854@fuf-romain
+!titre: Info mineure - Oral blanc final, themes melanges
+Derniere seance d'info avant les oraux : un oral complet sur des themes melanges, comme le jour J.
+
+Fin de seance = un oral de 50 min enregistre + 3 observations + le probleme le moins reussi refait au propre.
+
+14h00-14h50 ORAL BLANC, 50 min, debout, chronometre. Enregistre-toi avec le dictaphone du telephone. Ne lis chaque partie qu'au top.
+  QUESTIONS RAPIDES (5 min)
+  1. -5 sur 8 bits en complement a deux.
+  2. Cout moyen et cout au pire d'un acces a un dictionnaire.
+  3. Parcours en largeur : structure et complexite.
+  PROBLEME 1 (15 min). Plus petit entier absent. T contient n entiers naturels.
+  1. Montre que le plus petit entier naturel absent de T est au plus n.
+  2. Deduis-en un algorithme en O(n) avec un tableau de n + 1 booleens. Prouve-le.
+  Relance : en espace supplementaire constant, si l'on a le droit de modifier T.
+  PROBLEME 2 (25 min). Element majoritaire. Un element de T (n elements) est majoritaire s'il apparait strictement plus de n/2 fois.
+  1. Un algorithme en O(n log n).
+  2. On parcourt T en gardant un candidat et un compteur : si le compteur est nul, l'element courant devient candidat avec le compteur 1 ; sinon on incremente le compteur si l'element courant est egal au candidat, on le decremente sinon. Montre que, si un element majoritaire existe, c'est le candidat final.
+  3. Complexite en temps et en espace.
+  Relance : et si l'on ne sait pas s'il existe un element majoritaire ?
+  5 min de marge.
+
+14h50-15h00 PAUSE.
+
+15h00-15h15 ECOUTE les 15 premieres minutes de l'enregistrement. Ecris 3 observations : tes silences, tes phrases vagues, ce que tu as ecrit sans le dire.
+
+15h15-15h45 AU PROPRE : refais de zero le probleme le moins reussi, preuve redigee.
+
+15h45-16h00 CARNET + PDF.
+
+Trame Bristol provisoire : si ton emploi du temps deplace ce creneau, garde la sequence, pas l'heure.
+
+FORMAT DU JURY (rapport 2025, mineure informatique) : 50 min sans preparation, au tableau. Quelques questions rapides, puis deux problemes : le premier verifie le niveau minimal, le second est nouveau. Aucun langage impose : decris l'algorithme en francais, puis en pseudo-code ; du code seulement si l'enonce le demande. Ce qui est note : le raisonnement plus que le resultat, des preuves rigoureuses (recurrence, absurde, invariant), des maths discretes.
+REGLES : debout, a voix haute, chronometre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en une phrase, le pseudo-code, la preuve (variant, invariant), la complexite. Utilise tout le tableau ou une grande feuille, n'efface rien d'utile. Bloque au bout du temps : passe a la suite et note au carnet.
+Programme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
