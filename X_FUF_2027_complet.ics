@@ -4869,86 +4869,102 @@ DESCRIPTION:LE COMPTE DE LA SEMAINE - ecris les chiffres\, ne les estime
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:THEME MATHS : ch. 10 Limites et continuite (fin) + ch. 11 Derivat
- ion (debut) | outil : ch. 4 Calculs algebriques (fin) + ch. 5 Nombres co
- mplexes (debut)
+ ion (debut) | outil : ch. 4 Calculs algebriques\, IV trigonometrie
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261121
 DTSTAMP:20260809T120000Z
 UID:b13c3264b05bd00757614483430339b9@fuf-romain
-SEQUENCE:16
+SEQUENCE:17
 DESCRIPTION:SEMAINE : ch. 10 Limites et continuite (fin) + ch. 11 Derivat
- ion (debut) | outil : ch. 4 Calculs algebriques (binome\, pivot\, trigon
- ometrie) (fin) + ch. 5 Nombres complexes (debut)\n\nPLAN A 10 H PAR SEMA
- INE (decide le 25/10\, demarre le 02/11) : le socle d'abord.\n- Deschamp
- s : les chapitres du socle en version allegee (les theoremes centraux et
-  un exercice par section)\, l'algebre lineaire (ch. 22-24) en outil.\n- 
- Gozard : l'annexe de la notice et les faiblesses nommees par le jury (re
- duction\, euclidien\, series entieres\, integrales\, Fourier\, Cauchy-Li
- pschitz\, extremums\, integrales multiples\, probabilites\, groupes en d
- ernier).\n- Un oral blanc de maths par semaine\, au format du jury.\nJAM
- AIS ZERO : 20 min minimum chaque jour\, meme sans seance. C'est ce qui c
- ompte pour tes jours d'affilee.
+ ion (debut) | outil : ch. 4 Calculs algebriques\, section IV trigonometr
+ ie | oral blanc 3 vendredi. Le debut du ch. 5 (nombres complexes) passe 
+ a la semaine du 23/11.\n\nPLAN A 10 H PAR SEMAINE (decide le 25/10\, dem
+ arre le 02/11) : le socle d'abord.\n- Deschamps : les chapitres du socle
+  en version allegee (les theoremes centraux et un exercice par section)\
+ , l'algebre lineaire (ch. 22-24) en outil.\n- Gozard : l'annexe de la no
+ tice et les faiblesses nommees par le jury (reduction\, euclidien\, seri
+ es entieres\, integrales\, Fourier\, Cauchy-Lipschitz\, extremums\, inte
+ grales multiples\, probabilites\, groupes en dernier).\n- Un oral blanc 
+ de maths par semaine\, au format du jury.\nJAMAIS ZERO : 20 min minimum 
+ chaque jour\, meme sans seance. C'est ce qui compte pour tes jours d'aff
+ ilee.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Maths - sections de la semaine\, version socle
+SUMMARY:Maths - Profond ch. 10 (II\, 1) : les valeurs intermediaires
 DTSTART;TZID=Europe/Paris:20261116T080000
 DTEND;TZID=Europe/Paris:20261116T085000
 DTSTAMP:20260809T120000Z
 UID:442617fb3108db5392fb89a00cd114ca@fuf-romain
-SEQUENCE:23
-DESCRIPTION:SEMAINE : ch. 10 Limites et continuite (fin) + ch. 11 Derivat
- ion (debut) | outil : ch. 4 Calculs algebriques (binome\, pivot\, trigon
- ometrie) (fin) + ch. 5 Nombres complexes (debut)\n\nSECTIONS DE LA SEMAI
- NE\, version socle : lis la section\, reconstruis livre ferme les theore
- mes centraux (pas tous)\, fais un exercice\, puis un oral debout de 5 mi
- n. Le contrat detaille est publie dans la semaine.\nAvant la premiere li
- gne d'un exercice\, ecris 'OUTIL :' et le resultat que tu comptes utilis
- er.
+SEQUENCE:24
+DESCRIPTION:THEME DE LA SEMAINE : ch. 10 Limites et continuite (fin) + de
+ but du ch. 11 Derivation + outil ch. 4 (trigonometrie) + l'oral blanc de
+  vendredi.\n\nPROFOND - Deschamps ch. 10\, section II 'L'aspect global :
+  fonctions continues sur un intervalle'\, p. 389-396. Lundi : le theorem
+ e des valeurs intermediaires. Mardi : le reste de la section\, la preuve
+  du TVI\, et la section III en survol.\nFin de seance = 2 resultats reec
+ rits livre ferme + 1 exercice + 1 oral.\n\n08h00-08h15 LECTURE CHRONOMET
+ REE\, de la p. 389 jusqu'au theoreme des valeurs intermediaires et a son
+  corollaire sur l'image d'un intervalle\, inclus. Liste les enonces enca
+ dres.\n\n08h15-08h25 LIVRE FERME\n  R5. Le theoreme des valeurs intermed
+ iaires\, avec toutes ses hypotheses.\n  R6. L'image d'un intervalle par 
+ une fonction continue est un intervalle. Ecris d'abord la caracterisatio
+ n des intervalles de R : une partie I de R est un intervalle si et seule
+ ment si\, pour tous x <= y dans I\, [x\, y] est inclus dans I.\n\n08h25-
+ 08h40 E4\, 15 min max. f : [0\, 1] -> [0\, 1] est continue. Montrer que 
+ f a un point fixe.\nAvant la premiere ligne\, ecris 'OUTIL :' et le resu
+ ltat que tu comptes utiliser.\n\n08h40-08h47 MISE EN CONDITION\, une seu
+ le tentative\, pas de rattrapage : debout\, chronometre\, 5 min. Montre 
+ qu'une fonction continue sur un intervalle\, qui ne s'annule pas\, garde
+  un signe constant.\n\n08h47-08h50 CARNET : au plus deux lignes aujourd'
+ hui\, et seulement une definition ou un theoreme du cours.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Info mineure - Graphes : vocabulaire et parcours (cours + oral)
-DTSTART;TZID=Europe/Paris:20261116T111000
-DTEND;TZID=Europe/Paris:20261116T122000
+DTSTART;TZID=Europe/Paris:20261117T140000
+DTEND;TZID=Europe/Paris:20261117T151000
 DTSTAMP:20260809T120000Z
 UID:a3469657b5428d4d8cb616cbfac501b3@fuf-romain
-SEQUENCE:23
-DESCRIPTION:GRAPHES : VOCABULAIRE ET PARCOURS - cours puis oral au format
-  du jury.\n\n11h10-11h30 COURS. Beury ch. 11 : 8 min de lecture\, puis l
- ivre ferme.\n  Ecris de memoire : matrice et listes d'adjacence (espace\
- , test d'une arete\, enumeration des voisins) \; parcours en largeur ave
- c une file\, en profondeur avec une pile ou en recursif \; leur complexi
- te.\n\n11h30-11h35 QUESTIONS RAPIDES.\n  1. Graphe non oriente a m arete
- s : que vaut la somme des degres ? Pourquoi ?\n  2. Parcours en largeur 
- avec des listes d'adjacence : quelle structure\, quelle complexite ?\n  
- 3. Avec une matrice d'adjacence\, combien coute l'enumeration des voisin
- s d'un sommet ?\n\n11h35-11h50 PROBLEME 1 (15 min). Composantes connexes
- .\n  1. Decris un algorithme qui compte les composantes connexes d'un gr
- aphe non oriente donne par listes d'adjacence.\n  2. Montre qu'un parcou
- rs lance depuis s visite exactement les sommets accessibles depuis s.\n 
-  3. Complexite.\n\n11h50-12h10 PROBLEME 2 (20 min). Graphes bipartis.\n 
-  Un graphe non oriente est biparti si l'on peut colorier ses sommets en 
- deux couleurs sans qu'aucune arete ne relie deux sommets de meme couleur
- .\n  1. Montre qu'un graphe qui contient un cycle de longueur impaire n'
- est pas biparti.\n  2. Propose un algorithme en O(n + m)\, fonde sur un 
- parcours en largeur\, qui decide si un graphe connexe est biparti.\n  3.
-  Si l'algorithme ne trouve aucun conflit\, montre que sa coloration est 
- valide.\n  Relance : s'il trouve une arete entre deux sommets de meme co
- uleur\, exhibe un cycle impair.\n\n12h10-12h15 CLOTURE\, une seule tenta
- tive : debout\, 5 min\, la question 1 du probleme 2.\n\n12h15-12h20 CARN
- ET.\n\nFORMAT DU JURY (rapport 2025\, mineure informatique) : 50 min san
- s preparation\, au tableau. Quelques questions rapides\, puis deux probl
- emes : le premier verifie le niveau minimal\, le second est nouveau. Auc
- un langage impose : decris l'algorithme en francais\, puis en pseudo-cod
- e \; du code seulement si l'enonce le demande. Ce qui est note : le rais
- onnement plus que le resultat\, des preuves rigoureuses (recurrence\, ab
- surde\, invariant)\, des maths discretes.\nREGLES : debout\, a voix haut
- e\, chronometre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithm
- e : l'idee en une phrase\, le pseudo-code\, la preuve (variant\, invaria
- nt)\, la complexite. Utilise tout le tableau ou une grande feuille\, n'e
- fface rien d'utile. Bloque au bout du temps : passe a la suite et note a
- u carnet.\nProgramme : ta L1-L2 ou le socle commun d'informatique MP PC 
- PT PSI.
+SEQUENCE:24
+DESCRIPTION:DEPLACEE du lundi 11h10 au mardi 14h : ton cours de Projet Da
+ ta occupe desormais le lundi a 11h. Elle te sert aussi de revision pour 
+ ton DS de graphes de mercredi.\n\nGRAPHES : VOCABULAIRE ET PARCOURS - co
+ urs puis oral au format du jury.\n\n14h00-14h20 COURS. Beury ch. 11 : 8 
+ min de lecture\, puis livre ferme.\n  Ecris de memoire : matrice et list
+ es d'adjacence (espace\, test d'une arete\, enumeration des voisins) \; 
+ parcours en largeur avec une file\, en profondeur avec une pile ou en re
+ cursif \; leur complexite.\n\n14h20-14h25 QUESTIONS RAPIDES.\n  1. Graph
+ e non oriente a m aretes : que vaut la somme des degres ? Pourquoi ?\n  
+ 2. Parcours en largeur avec des listes d'adjacence : quelle structure\, 
+ quelle complexite ?\n  3. Avec une matrice d'adjacence\, combien coute l
+ 'enumeration des voisins d'un sommet ?\n\n14h25-14h40 PROBLEME 1 (15 min
+ ). Composantes connexes.\n  1. Decris un algorithme qui compte les compo
+ santes connexes d'un graphe non oriente donne par listes d'adjacence.\n 
+  2. Montre qu'un parcours lance depuis s visite exactement les sommets a
+ ccessibles depuis s.\n  3. Complexite.\n\n14h40-15h00 PROBLEME 2 (20 min
+ ). Graphes bipartis.\n  Un graphe non oriente est biparti si l'on peut c
+ olorier ses sommets en deux couleurs sans qu'aucune arete ne relie deux 
+ sommets de meme couleur.\n  1. Montre qu'un graphe qui contient un cycle
+  de longueur impaire n'est pas biparti.\n  2. Propose un algorithme en O
+ (n + m)\, fonde sur un parcours en largeur\, qui decide si un graphe con
+ nexe est biparti.\n  3. Si l'algorithme ne trouve aucun conflit\, montre
+  que sa coloration est valide.\n  Relance : s'il trouve une arete entre 
+ deux sommets de meme couleur\, exhibe un cycle impair.\n\n15h00-15h05 CL
+ OTURE\, une seule tentative : debout\, 5 min\, la question 1 du probleme
+  2.\n\n15h05-15h10 CARNET : au plus deux lignes aujourd'hui\, et seuleme
+ nt une definition ou un theoreme du cours.\n\nFORMAT DU JURY (rapport 20
+ 25\, mineure informatique) : 50 min sans preparation\, au tableau. Quelq
+ ues questions rapides\, puis deux problemes : le premier verifie le nive
+ au minimal\, le second est nouveau. Aucun langage impose : decris l'algo
+ rithme en francais\, puis en pseudo-code \; du code seulement si l'enonc
+ e le demande. Ce qui est note : le raisonnement plus que le resultat\, d
+ es preuves rigoureuses (recurrence\, absurde\, invariant)\, des maths di
+ scretes.\nREGLES : debout\, a voix haute\, chronometre. Lis tout l'enonc
+ e avant d'ecrire. Pour chaque algorithme : l'idee en une phrase\, le pse
+ udo-code\, la preuve (variant\, invariant)\, la complexite. Utilise tout
+  le tableau ou une grande feuille\, n'efface rien d'utile. Bloque au bou
+ t du temps : passe a la suite.\nProgramme : ta L1-L2 ou le socle commun 
+ d'informatique MP PC PT PSI.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Travail L3
@@ -4979,28 +4995,51 @@ DESCRIPTION:SEANCE 1000 m - allure specifique (phase 2)\n\nTON ALLURE DE
  n\nRetour au calme : 8 min facile.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Maths - sections de la semaine\, version socle
+SUMMARY:Maths - Profond ch. 10 (II\, 2 et III) + outil ch. 4 (IV) : trigo
+ nometrie
 DTSTART;TZID=Europe/Paris:20261117T094000
 DTEND;TZID=Europe/Paris:20261117T122000
 DTSTAMP:20260809T120000Z
 UID:8ef537c5df768f55f7ee8f930c1ff6e5@fuf-romain
-SEQUENCE:23
-DESCRIPTION:SEMAINE : ch. 10 Limites et continuite (fin) + ch. 11 Derivat
- ion (debut) | outil : ch. 4 Calculs algebriques (binome\, pivot\, trigon
- ometrie) (fin) + ch. 5 Nombres complexes (debut)\n\nSECTIONS DE LA SEMAI
- NE\, version socle : lis la section\, reconstruis livre ferme les theore
- mes centraux (pas tous)\, fais un exercice\, puis un oral debout de 5 mi
- n. Le contrat detaille est publie dans la semaine.\nAvant la premiere li
- gne d'un exercice\, ecris 'OUTIL :' et le resultat que tu comptes utilis
- er.
+SEQUENCE:24
+DESCRIPTION:THEME DE LA SEMAINE : ch. 10 Limites et continuite (fin) + de
+ but du ch. 11 Derivation + outil ch. 4 (trigonometrie) + l'oral blanc de
+  vendredi.\n\nFin de seance = 2 resultats reecrits + 1 exercice + 4 calc
+ uls justes + 1 oral.\n\n09h40-10h05 LECTURE\, ch. 10 section II\, du the
+ oreme des bornes atteintes a la fin de la section (p. 396). Puis la sect
+ ion III (fonctions a valeurs complexes\, p. 397-407) en survol de 10 min
+ .\n\n10h05-10h25 LIVRE FERME\n  R7. La preuve du theoreme des valeurs in
+ termediaires par dichotomie : les deux suites\, pourquoi elles sont adja
+ centes\, et pourquoi leur limite commune c verifie f(c) = 0. Cite par le
+ ur nom les resultats que tu utilises.\n  R8. Le theoreme des bornes atte
+ intes. Puis le theoreme de la bijection : une fonction continue et stric
+ tement monotone sur un intervalle I realise une bijection de I sur l'int
+ ervalle f(I)\, et sa reciproque est continue\, strictement monotone\, de
+  meme sens.\n\n10h25-10h45 E5\, 20 min max. f : R -> R est continue\, et
+  f(x) tend vers + l'infini quand x tend vers + l'infini et quand x tend 
+ vers - l'infini. Montrer que f admet un minimum sur R.\nAvant la premier
+ e ligne\, ecris 'OUTIL :' et le resultat que tu comptes utiliser.\n\n10h
+ 45-10h55 PAUSE\n\n10h55-11h50 OUTIL - ch. 4\, section IV 'Trigonometrie'
+ \, p. 124-140. Survol 20 min\, puis livre ferme\, 4 calculs :\n  T5. Les
+  formules de cos(a + b) et de sin(a + b). Puis cos(2a) de trois facons\,
+  et sin(2a).\n  T6. La valeur exacte de cos(pi/12)\, a partir de pi/12 =
+  pi/3 - pi/4.\n  T7. Transformer cos p + cos q en produit\, en partant d
+ e cos(a + b) + cos(a - b).\n  T8. Resoudre dans R : cos(3x) = cos(x).\n 
+  Critere : 4 justes.\n\n11h50-12h00 MISE EN CONDITION\, une seule tentat
+ ive\, pas de rattrapage : debout\, chronometre\, 5 min. Montre que tout 
+ polynome a coefficients reels de degre impair admet une racine reelle.\n
+ \n12h00-12h10 CARNET : au plus deux lignes aujourd'hui\, et seulement un
+ e definition ou un theoreme du cours.\n\n12h10-12h20 Marge.\n\nA ne rega
+ rder qu'apres : T6 donne (racine(6) + racine(2)) / 4 \; T8 donne les ree
+ ls de la forme k pi / 2\, k entier relatif.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Travail L3
-DTSTART;TZID=Europe/Paris:20261117T140000
-DTEND;TZID=Europe/Paris:20261117T153000
+DTSTART;TZID=Europe/Paris:20261117T152000
+DTEND;TZID=Europe/Paris:20261117T165000
 DTSTAMP:20260809T120000Z
 UID:86cd4bfa077177432214e9bfcb30c5b5@fuf-romain
-SEQUENCE:20
+SEQUENCE:21
 DESCRIPTION:Preparer les TD a venir\, avancer le Projet Data\, refaire le
  s exercices non compris.\n\nRappel de priorite : tes notes du S1 sont le
  s DERNIERES notes francaises que le jury verra sur ton dossier\, puisque
@@ -5048,33 +5087,32 @@ DESCRIPTION:SEANCE NATATION - VITESSE ET NAGE PURE (mardi) - bassin de 50
  45 : tu es pile dans le creneau\, ne traine pas au vestiaire.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Maths - sections de la semaine\, version socle
+SUMMARY:Maths - Profond ch. 11 (I) : la derivee
 DTSTART;TZID=Europe/Paris:20261118T094000
 DTEND;TZID=Europe/Paris:20261118T105000
 DTSTAMP:20260809T120000Z
 UID:d2e08138f5e939023ff86cc351292353@fuf-romain
-SEQUENCE:23
-DESCRIPTION:SEMAINE : ch. 10 Limites et continuite (fin) + ch. 11 Derivat
- ion (debut) | outil : ch. 4 Calculs algebriques (binome\, pivot\, trigon
- ometrie) (fin) + ch. 5 Nombres complexes (debut)\n\nSECTIONS DE LA SEMAI
- NE\, version socle : lis la section\, reconstruis livre ferme les theore
- mes centraux (pas tous)\, fais un exercice\, puis un oral debout de 5 mi
- n. Le contrat detaille est publie dans la semaine.\nAvant la premiere li
- gne d'un exercice\, ecris 'OUTIL :' et le resultat que tu comptes utilis
- er.
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Travail L3
-DTSTART;TZID=Europe/Paris:20261118T110000
-DTEND;TZID=Europe/Paris:20261118T122000
-DTSTAMP:20260809T120000Z
-UID:7b6403dbd86fbd83e7c17b538900856c@fuf-romain
-SEQUENCE:20
-DESCRIPTION:Preparer les TD a venir\, avancer le Projet Data\, refaire le
- s exercices non compris.\n\nRappel de priorite : tes notes du S1 sont le
- s DERNIERES notes francaises que le jury verra sur ton dossier\, puisque
-  ton S2 sera a Bristol. Si un cours reclame ton attention\, il passe ava
- nt la prep concours.
+SEQUENCE:24
+DESCRIPTION:THEME DE LA SEMAINE : ch. 10 Limites et continuite (fin) + de
+ but du ch. 11 Derivation + outil ch. 4 (trigonometrie) + l'oral blanc de
+  vendredi.\n\nPROFOND - Deschamps ch. 11 'Derivation'\, section I 'Deriv
+ ee'\, p. 422-427. La section II (Rolle\, accroissements finis) est pour 
+ la semaine prochaine.\nTon DS de graphes commence a 11h : la seance s'ar
+ rete a 10h50\, sans debordement.\nFin de seance = 2 resultats reecrits +
+  1 exercice + 1 oral.\n\n09h40-10h00 LECTURE\, ch. 11 section I\, p. 422
+ -427. Liste les enonces encadres.\n\n10h00-10h12 LIVRE FERME\n  R9. La d
+ efinition de 'f est derivable en a'\, par le taux d'accroissement. Puis 
+ la preuve de : f derivable en a implique f continue en a.\n  R10. La der
+ ivee d'une reciproque : les hypotheses exactes\, puis la formule de (f^(
+ -1))'(f(a)).\n\n10h12-10h37 E6\, 25 min max. f(x) = x^2 sin(1/x) pour x 
+ non nul\, et f(0) = 0. Montrer que f est derivable sur R\, puis que f' n
+ 'est pas continue en 0.\nAvant la premiere ligne\, ecris 'OUTIL :' et le
+  resultat que tu comptes utiliser.\n\n10h37-10h45 MISE EN CONDITION\, un
+ e seule tentative\, pas de rattrapage : debout\, chronometre\, 5 min. Ca
+ lcule la derivee de arctan a partir de celle de tan\, en verifiant les h
+ ypotheses de R10.\n\n10h45-10h50 CARNET : au plus deux lignes\, et seule
+ ment une definition ou un theoreme du cours. Sinon ce soir\, apres le DS
+ .
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Info mineure - Graphes (oral\, format du jury)
@@ -5082,7 +5120,7 @@ DTSTART;TZID=Europe/Paris:20261118T154000
 DTEND;TZID=Europe/Paris:20261118T165000
 DTSTAMP:20260809T120000Z
 UID:3dc41b0618b9c3d2b6e25ad11794351d@fuf-romain
-SEQUENCE:23
+SEQUENCE:24
 DESCRIPTION:GRAPHES - exercices au format du jury.\n\n15h40-15h45 QUESTIO
  NS RAPIDES.\n  1. Un arbre a n sommets : combien d'aretes ?\n  2. Qu'est
  -ce qu'un ordre topologique d'un graphe oriente ? Existe-t-il toujours ?
@@ -5101,19 +5139,20 @@ DESCRIPTION:GRAPHES - exercices au format du jury.\n\n15h40-15h45 QUESTIO
  ologiques pour un graphe a n sommets sans aucun arc ? Et pour un chemin 
  a n sommets ?\n\n16h25-16h30 CLOTURE\, une seule tentative : debout\, 5 
  min\, la question 1 du probleme 2.\n\n16h30-16h45 AU PROPRE : redige la 
- preuve du probleme 2.\n\n16h45-16h50 CARNET.\n\nFORMAT DU JURY (rapport 
- 2025\, mineure informatique) : 50 min sans preparation\, au tableau. Que
- lques questions rapides\, puis deux problemes : le premier verifie le ni
- veau minimal\, le second est nouveau. Aucun langage impose : decris l'al
- gorithme en francais\, puis en pseudo-code \; du code seulement si l'eno
- nce le demande. Ce qui est note : le raisonnement plus que le resultat\,
-  des preuves rigoureuses (recurrence\, absurde\, invariant)\, des maths 
- discretes.\nREGLES : debout\, a voix haute\, chronometre. Lis tout l'eno
- nce avant d'ecrire. Pour chaque algorithme : l'idee en une phrase\, le p
- seudo-code\, la preuve (variant\, invariant)\, la complexite. Utilise to
- ut le tableau ou une grande feuille\, n'efface rien d'utile. Bloque au b
- out du temps : passe a la suite et note au carnet.\nProgramme : ta L1-L2
-  ou le socle commun d'informatique MP PC PT PSI.
+ preuve du probleme 2.\n\n16h45-16h50 CARNET : au plus deux lignes aujour
+ d'hui\, et seulement une definition ou un theoreme du cours.\n\nFORMAT D
+ U JURY (rapport 2025\, mineure informatique) : 50 min sans preparation\,
+  au tableau. Quelques questions rapides\, puis deux problemes : le premi
+ er verifie le niveau minimal\, le second est nouveau. Aucun langage impo
+ se : decris l'algorithme en francais\, puis en pseudo-code \; du code se
+ ulement si l'enonce le demande. Ce qui est note : le raisonnement plus q
+ ue le resultat\, des preuves rigoureuses (recurrence\, absurde\, invaria
+ nt)\, des maths discretes.\nREGLES : debout\, a voix haute\, chronometre
+ . Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en u
+ ne phrase\, le pseudo-code\, la preuve (variant\, invariant)\, la comple
+ xite. Utilise tout le tableau ou une grande feuille\, n'efface rien d'ut
+ ile. Bloque au bout du temps : passe a la suite.\nProgramme : ta L1-L2 o
+ u le socle commun d'informatique MP PC PT PSI.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:REPOS PROTEGE - ne rien planifier
@@ -5164,64 +5203,87 @@ DESCRIPTION:Preparer les TD a venir\, avancer le Projet Data\, refaire le
  nt la prep concours.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Maths - Oral blanc a deux exercices\, format du jury
+SUMMARY:Maths - Oral blanc 3 : deux exercices\, format du jury
 DTSTART;TZID=Europe/Paris:20261120T150000
 DTEND;TZID=Europe/Paris:20261120T170000
 DTSTAMP:20260809T120000Z
 UID:14c1cf4177a76277a5fbc0f723d5b26b@fuf-romain
-SEQUENCE:23
-DESCRIPTION:SEMAINE : ch. 10 Limites et continuite (fin) + ch. 11 Derivat
- ion (debut) | outil : ch. 4 Calculs algebriques (binome\, pivot\, trigon
- ometrie) (fin) + ch. 5 Nombres complexes (debut)\n\nORAL BLANC\, format 
- du jury FUF : deux exercices de deux parties distinctes du programme\, e
- nviron 25 min chacun\, debout\, a voix haute\, sans preparation. Les eno
- nces sont dans le contrat de la semaine : ne les lis qu'au top du chrono
- .\nApres : trois observations par exercice\, et ton temps reel. L'ecart 
- avec 25 min est ce qu'il te reste a gagner.
+SEQUENCE:24
+DESCRIPTION:THEME DE LA SEMAINE : ch. 10 Limites et continuite (fin) + de
+ but du ch. 11 Derivation + outil ch. 4 (trigonometrie) + l'oral blanc de
+  vendredi.\n\nTROISIEME ORAL BLANC DE MATHS : DEBOUT\, A VOIX HAUTE\, EN
+ REGISTRE\, sans notes. C'est le format de l'epreuve.\nFORMAT DU JURY FUF
+  : deux exercices de deux parties distinctes du programme\, environ 25 m
+ in chacun\, sans preparation. Ne lis chaque enonce qu'au top du chrono.\
+ n\n15h00-15h25 EXERCICE 1\n  Soit f : [0\, 1] -> R continue telle que f(
+ 0) = f(1).\n  1. Montrer qu'il existe c dans [0\, 1/2] tel que f(c + 1/2
+ ) = f(c).\n  2. Soit n un entier\, n >= 1. Montrer qu'il existe c dans [
+ 0\, 1 - 1/n] tel que f(c + 1/n) = f(c).\n  Relance d'examinateur : avec 
+ f(x) = sin^2(5 pi x / 2) - x\, verifier que f(0) = f(1)\, puis que l'equ
+ ation f(c + 2/5) = f(c) n'a aucune solution. Que conclure ?\n\n15h25-15h
+ 30 Trois observations\, ecrites.\n\n15h30-15h55 EXERCICE 2\n  Soit n un 
+ entier naturel et x un reel qui n'est pas un multiple de 2 pi.\n  1. Cal
+ culer A(n) = somme des cos(kx) et B(n) = somme des sin(kx)\, pour k de 0
+  a n.\n  2. Relance d'examinateur : montrer que la suite (A(n)) est born
+ ee\, et en deduire la limite de A(n)/n.\n\n15h55-16h00 Trois observation
+ s de plus\, et ton temps reel sur chaque exercice.\n\n16h00-16h10 PAUSE\
+ n\n16h10-16h40 CORRECTION. Compare avec la fin de ce contrat\, puis reec
+ ris proprement ce qui n'est pas passe.\n\n16h40-16h55 REECOUTE de l'enre
+ gistrement : le moment exact ou tu t'es tu \; un tic de langage \; une e
+ tape ecrite sans etre dite \; une affirmation dite sans justification.\n
+ \n16h55-17h00 CARNET (definitions et theoremes du cours seulement)\, et 
+ les deux temps de l'oral blanc dans le compteur.\n\nA ne regarder qu'apr
+ es.\n  Ex. 1 : g(x) = f(x + 1/2) - f(x) est continue sur [0\, 1/2]\, et 
+ g(0) + g(1/2) = f(1) - f(0) = 0 : g(0) et g(1/2) sont de signes opposes\
+ , ou l'un des deux est nul\, et le TVI donne c. Pour 1/n : g(x) = f(x + 
+ 1/n) - f(x) sur [0\, 1 - 1/n] \; la somme des g(k/n)\, pour k de 0 a n -
+  1\, vaut f(1) - f(0) = 0\, donc les g(k/n) ne sont pas tous strictement
+  du meme signe\, et le TVI entre deux d'entre eux donne c. Relance : sin
+ ^2 est pi-periodique\, donc f(x + 2/5) - f(x) = -2/5 pour tout x. Seules
+  les longueurs 1/n sont garanties.\n  Ex. 2 : 2 sin(x/2) cos(kx) = sin((
+ k + 1/2)x) - sin((k - 1/2)x)\, et la somme telescope : A(n) = sin((n + 1
+ )x/2) cos(nx/2) / sin(x/2). De meme\, B(n) = sin((n + 1)x/2) sin(nx/2) /
+  sin(x/2). Autre methode : la somme geometrique des e^(ikx)\, puis parti
+ es reelle et imaginaire. Relance : |A(n)| <= 1 / |sin(x/2)|\, donc A(n)/
+ n tend vers 0.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Francais - Corpus (1) : deux tableaux\, regardes en detail
+SUMMARY:Francais - Corpus : Goya\, Tres de Mayo\, regarde en detail
 DTSTART;TZID=Europe/Paris:20261120T171000
 DTEND;TZID=Europe/Paris:20261120T184000
 DTSTAMP:20260809T120000Z
 UID:5c9905ed1c56231c7ef3b1b6b03ac3cf@fuf-romain
-SEQUENCE:24
-DESCRIPTION:Deux tableaux\, pas un de plus\, regardes en detail. Le jury 
+SEQUENCE:25
+DESCRIPTION:Un seul tableau\, celui de ton corpus : Goya\, Tres de Mayo. 
+ Regarde en detail\, il doit pouvoir porter une partie d'expose. Le jury 
  : 'des connaissances precises en peinture (classique et moderne) sont au
- ssi tres appreciees'.\nLe premier resume (seance du 09/10) est au rattra
- page de la Toussaint \; cette seance n'en depend pas.\n\nCONTRAT DU JOUR
- \nFin de seance = deux fiches-munitions + un oral de 2 min enregistre su
- r le Goya\, tenu comme un exemple d'expose.\n\n10 min - LE SECOND TABLEA
- U. Hors de la liste des oeuvres trop attendues\, dont Guernica fait part
- ie. Deux pistes : Manet\, L'Execution de Maximilien (version de la Kunst
- halle de Mannheim\, 1868-1869)\, qui reprend la composition de Goya et o
- uvre une comparaison \; ou un tableau que tu as vu en vrai. Un seul.\n\n
- 30 min - GOYA\, Tres de Mayo\, sur le site du Prado : l'image en haute d
- efinition et la notice du musee.\n  1. Ce qu'on voit\, precisement : hui
- t details\, de gauche a droite\, verifiables sur l'image.\n  2. La date 
- et le contexte\, verifies sur la notice : l'evenement\, et l'annee ou Go
- ya le peint.\n  3. Ce que le tableau PROUVE\, en une phrase. Pas ce qu'i
- l 'represente' : ce qu'il permet d'affirmer dans un expose.\n\n25 min - 
- LE SECOND\, les memes trois etapes\, sur le site du musee qui le conserv
- e. Puis une phrase de comparaison avec le Goya.\n\n15 min - LES DEUX FIC
- HES-MUNITIONS\, en cinq sections : idees et themes majeurs \; formules a
-  retenir mot pour mot (titre exact\, date\, lieu de conservation\, et ta
-  phrase de l'etape 3) \; applications en dissertation (trois sujets ou i
- l sert) \; contexte et dates \; categories thematiques.\n\n10 min - ORAL
- \, debout\, sans notes\, enregistre : 2 min sur le Goya\, comme un exemp
- le place dans une partie d'expose. Le detail\, ce qu'il prouve\, l'idee 
- qu'il soutient. A la reecoute\, chaque date hesitante va au carnet.\n\nP
- our la fiche : Baudelaire consacre a Goya une strophe des 'Phares'\, dan
- s Les Fleurs du mal. Deux pieces de ton corpus se repondent \; note-le\,
-  sans plus.\n\nFORMAT DE L'EPREUVE (rapports du jury FUF 2020-2025) : 45
-  min de preparation sur un texte d'une bonne page (litterature\, philoso
- phie\, esthetique\, sciences humaines\, de l'Antiquite a aujourd'hui). P
- uis 30 min : resume en 2-3 min \; expose d'une douzaine de minutes (intr
- oduction avec problematique et plan\, trois parties qui progressent\, br
- eve conclusion\, un exemple culturel precis et maitrise par partie) \; e
- ntretien d'une quinzaine de minutes.\nREGLE DU CORPUS : aucune oeuvre ci
- tee sans l'avoir lue ou vue. Le jury l'ecrit\, et l'entretien le verifie
- .
+ ssi tres appreciees'.\n\nCONTRAT DU JOUR\nFin de seance = une fiche-muni
+ tion + un oral de 2 min enregistre\, tenu comme un exemple d'expose.\n\n
+ 10 min - L'IMAGE ET LA NOTICE : le Tres de Mayo sur le site du Prado\, e
+ n haute definition\, et la notice du musee.\n\n30 min - CE QU'ON VOIT\n 
+  1. Huit details\, de gauche a droite\, verifiables sur l'image.\n  2. L
+ a date et le contexte\, verifies sur la notice : l'evenement\, et l'anne
+ e ou Goya le peint.\n  3. Ce que le tableau PROUVE\, en une phrase. Pas 
+ ce qu'il 'represente' : ce qu'il permet d'affirmer dans un expose.\n\n15
+  min - TROIS SUJETS D'EXPOSE ou il sert. Pour chacun\, la phrase qui le 
+ fait entrer dans l'argument.\n\n15 min - LA FICHE-MUNITION\, en cinq sec
+ tions : idees et themes majeurs \; formules a retenir mot pour mot (titr
+ e exact\, date\, lieu de conservation\, et ta phrase de l'etape 3) \; ap
+ plications en dissertation (tes trois sujets) \; contexte et dates \; ca
+ tegories thematiques.\n\n10 min - ORAL\, debout\, sans notes\, enregistr
+ e : 2 min sur le Goya\, comme un exemple place dans une partie d'expose.
+  Le detail\, ce qu'il prouve\, l'idee qu'il soutient.\n\n10 min - REECOU
+ TE : chaque date ou detail hesitant se corrige sur la fiche.\n\nPour la 
+ fiche : Baudelaire consacre a Goya une strophe des 'Phares'\, dans Les F
+ leurs du mal. Deux pieces de ton corpus se repondent \; note-le\, sans p
+ lus.\n\nFORMAT DE L'EPREUVE (rapports du jury FUF 2020-2025) : 45 min de
+  preparation sur un texte d'une bonne page (litterature\, philosophie\, 
+ esthetique\, sciences humaines\, de l'Antiquite a aujourd'hui). Puis 30 
+ min : resume en 2-3 min \; expose d'une douzaine de minutes (introductio
+ n avec problematique et plan\, trois parties qui progressent\, breve con
+ clusion\, un exemple culturel precis et maitrise par partie) \; entretie
+ n d'une quinzaine de minutes.\nREGLE DU CORPUS : aucune oeuvre citee san
+ s l'avoir lue ou vue. Le jury l'ecrit\, et l'entretien le verifie.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Travail L3
@@ -5257,12 +5319,21 @@ DTSTART;TZID=Europe/Paris:20261122T180000
 DTEND;TZID=Europe/Paris:20261122T183000
 DTSTAMP:20260809T120000Z
 UID:d123bed789358ce06fc9d92bf7d0932c@fuf-romain
-SEQUENCE:4
-DESCRIPTION:Trois questions : oral quotidien fait 5 fois ? chapitre-cible
-  tenu ? carnet relu et erreurs retravaillees ? Trois oui = tu es a jour.
- \n\nDeux 'non' deux semaines de suite : applique l'ordre de sacrifice (c
- ulture\, puis francais\, puis ADS\, puis info - jamais les maths ni le s
- port).
+SEQUENCE:5
+DESCRIPTION:LE COMPTE DE LA SEMAINE - ecris les chiffres\, ne les estime 
+ pas. Ton compteur les additionne (onglet FUF).\n\nHEURES FAITES : ___ su
+ r 11 h.\nJOURS D'AFFILEE a 20 min minimum : ___.\nMATHS - ch. 10 section
+  II : R5 a R8 reecrits ___ / 4 \; E4 et E5 ___ / 2 \; T5 a T8 ___ / 4 \;
+  ch. 11 section I : R9 et R10 ___ / 2\, E6 ___ / 1 \; oral blanc 3 debou
+ t et enregistre : oui / non\, temps ___ et ___ min.\nINFO - graphes : pr
+ oblemes resolus ___ / 4.\nFRANCAIS - fiche du Goya : oui / non \; oral d
+ e 2 min enregistre : oui / non.\nCARNET - tentatives faites ___ \; ratee
+ s ___ \; encore en retard ___.\n\n15 min - CARNET : relis les lignes rat
+ ees de la semaine\, sans les refaire. Pour chacune\, une phrase : ce qui
+  manquait.\n\nDeux 'non' deux semaines de suite : applique l'ordre de sa
+ crifice (culture\, puis francais\, puis ADS\, puis info - jamais les mat
+ hs ni le sport).\nPuis envoie-moi ces chiffres : je construis la semaine
+  du 23/11 dessus.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:THEME MATHS : ch. 11 Derivation (fin) | outil : ch. 5 Nombres com
@@ -5302,47 +5373,49 @@ DESCRIPTION:SEMAINE : ch. 11 Derivation (fin) | outil : ch. 5 Nombres com
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Info mineure - Plus courts chemins : Dijkstra (cours + oral)
-DTSTART;TZID=Europe/Paris:20261123T111000
-DTEND;TZID=Europe/Paris:20261123T122000
+DTSTART;TZID=Europe/Paris:20261124T140000
+DTEND;TZID=Europe/Paris:20261124T151000
 DTSTAMP:20260809T120000Z
 UID:0fbd69ee7ea17471cd9065cf7aec4639@fuf-romain
-SEQUENCE:23
-DESCRIPTION:PLUS COURTS CHEMINS : DIJKSTRA - cours puis oral au format du
-  jury.\n\n11h10-11h30 COURS. Beury ch. 12 : 8 min de lecture\, puis livr
- e ferme.\n  Ecris de memoire : l'algorithme de Dijkstra\, son invariant\
- , pourquoi les poids doivent etre positifs\, sa complexite avec un table
- au et avec une file de priorite\, la reconstruction d'un chemin par les 
- predecesseurs.\n\n11h30-11h35 QUESTIONS RAPIDES.\n  1. Quand tous les ar
- cs ont le meme poids\, quel algorithme plus simple suffit ?\n  2. Un sou
- s-chemin d'un plus court chemin est-il un plus court chemin ? Pourquoi ?
- \n  3. Un contre-exemple a trois sommets ou Dijkstra se trompe avec un p
- oids negatif.\n\n11h35-11h50 PROBLEME 1 (15 min). Graphe oriente sur a\,
-  b\, c\, d\, e : a->b (4)\, a->c (1)\, c->b (2)\, b->d (1)\, c->d (5)\, 
- d->e (3).\n  1. Deroule Dijkstra depuis a : ordre de traitement des somm
- ets et distances finales.\n  2. Enonce l'invariant et prouve-le au momen
- t ou un sommet est traite.\n\n11h50-12h10 PROBLEME 2 (20 min). Le chemin
-  le plus large.\n  Chaque arc a une capacite c > 0. La capacite d'un che
- min est le minimum des capacites de ses arcs. On cherche\, depuis s\, la
-  capacite maximale d'un chemin vers chaque sommet.\n  1. Adapte Dijkstra
-  a ce probleme : que deviennent la somme et le choix du minimum ?\n  2. 
- Enonce et prouve l'invariant adapte.\n  Relance : chaque arc fonctionne 
- maintenant avec une probabilite p dans ]0\, 1]\, et un chemin fonctionne
-  avec le produit des probabilites de ses arcs. Comment trouver le chemin
-  le plus fiable avec Dijkstra tel quel ?\n\n12h10-12h15 CLOTURE\, une se
- ule tentative : debout\, 5 min\, l'invariant de Dijkstra et sa preuve.\n
- \n12h15-12h20 CARNET.\n\nFORMAT DU JURY (rapport 2025\, mineure informat
- ique) : 50 min sans preparation\, au tableau. Quelques questions rapides
- \, puis deux problemes : le premier verifie le niveau minimal\, le secon
- d est nouveau. Aucun langage impose : decris l'algorithme en francais\, 
- puis en pseudo-code \; du code seulement si l'enonce le demande. Ce qui 
- est note : le raisonnement plus que le resultat\, des preuves rigoureuse
- s (recurrence\, absurde\, invariant)\, des maths discretes.\nREGLES : de
- bout\, a voix haute\, chronometre. Lis tout l'enonce avant d'ecrire. Pou
- r chaque algorithme : l'idee en une phrase\, le pseudo-code\, la preuve 
- (variant\, invariant)\, la complexite. Utilise tout le tableau ou une gr
- ande feuille\, n'efface rien d'utile. Bloque au bout du temps : passe a 
- la suite et note au carnet.\nProgramme : ta L1-L2 ou le socle commun d'i
- nformatique MP PC PT PSI.
+SEQUENCE:24
+DESCRIPTION:DEPLACEE du lundi 11h10 au mardi 14h : ton cours de Projet Da
+ ta occupe desormais le lundi a 11h.\n\nPLUS COURTS CHEMINS : DIJKSTRA - 
+ cours puis oral au format du jury.\n\n14h00-14h20 COURS. Beury ch. 12 : 
+ 8 min de lecture\, puis livre ferme.\n  Ecris de memoire : l'algorithme 
+ de Dijkstra\, son invariant\, pourquoi les poids doivent etre positifs\,
+  sa complexite avec un tableau et avec une file de priorite\, la reconst
+ ruction d'un chemin par les predecesseurs.\n\n14h20-14h25 QUESTIONS RAPI
+ DES.\n  1. Quand tous les arcs ont le meme poids\, quel algorithme plus 
+ simple suffit ?\n  2. Un sous-chemin d'un plus court chemin est-il un pl
+ us court chemin ? Pourquoi ?\n  3. Un contre-exemple a trois sommets ou 
+ Dijkstra se trompe avec un poids negatif.\n\n14h25-14h40 PROBLEME 1 (15 
+ min). Graphe oriente sur a\, b\, c\, d\, e : a->b (4)\, a->c (1)\, c->b 
+ (2)\, b->d (1)\, c->d (5)\, d->e (3).\n  1. Deroule Dijkstra depuis a : 
+ ordre de traitement des sommets et distances finales.\n  2. Enonce l'inv
+ ariant et prouve-le au moment ou un sommet est traite.\n\n14h40-15h00 PR
+ OBLEME 2 (20 min). Le chemin le plus large.\n  Chaque arc a une capacite
+  c > 0. La capacite d'un chemin est le minimum des capacites de ses arcs
+ . On cherche\, depuis s\, la capacite maximale d'un chemin vers chaque s
+ ommet.\n  1. Adapte Dijkstra a ce probleme : que deviennent la somme et 
+ le choix du minimum ?\n  2. Enonce et prouve l'invariant adapte.\n  Rela
+ nce : chaque arc fonctionne maintenant avec une probabilite p dans ]0\, 
+ 1]\, et un chemin fonctionne avec le produit des probabilites de ses arc
+ s. Comment trouver le chemin le plus fiable avec Dijkstra tel quel ?\n\n
+ 15h00-15h05 CLOTURE\, une seule tentative : debout\, 5 min\, l'invariant
+  de Dijkstra et sa preuve.\n\n15h05-15h10 CARNET : au plus deux lignes a
+ ujourd'hui\, et seulement une definition ou un theoreme du cours.\n\nFOR
+ MAT DU JURY (rapport 2025\, mineure informatique) : 50 min sans preparat
+ ion\, au tableau. Quelques questions rapides\, puis deux problemes : le 
+ premier verifie le niveau minimal\, le second est nouveau. Aucun langage
+  impose : decris l'algorithme en francais\, puis en pseudo-code \; du co
+ de seulement si l'enonce le demande. Ce qui est note : le raisonnement p
+ lus que le resultat\, des preuves rigoureuses (recurrence\, absurde\, in
+ variant)\, des maths discretes.\nREGLES : debout\, a voix haute\, chrono
+ metre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee
+  en une phrase\, le pseudo-code\, la preuve (variant\, invariant)\, la c
+ omplexite. Utilise tout le tableau ou une grande feuille\, n'efface rien
+  d'utile. Bloque au bout du temps : passe a la suite.\nProgramme : ta L1
+ -L2 ou le socle commun d'informatique MP PC PT PSI.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Travail L3
@@ -5389,11 +5462,11 @@ DESCRIPTION:SEMAINE : ch. 11 Derivation (fin) | outil : ch. 5 Nombres com
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Travail L3
-DTSTART;TZID=Europe/Paris:20261124T140000
-DTEND;TZID=Europe/Paris:20261124T153000
+DTSTART;TZID=Europe/Paris:20261124T152000
+DTEND;TZID=Europe/Paris:20261124T165000
 DTSTAMP:20260809T120000Z
 UID:faa01f808c5c22119febcb4952459c0b@fuf-romain
-SEQUENCE:20
+SEQUENCE:21
 DESCRIPTION:Preparer les TD a venir\, avancer le Projet Data\, refaire le
  s exercices non compris.\n\nRappel de priorite : tes notes du S1 sont le
  s DERNIERES notes francaises que le jury verra sur ton dossier\, puisque
@@ -5474,7 +5547,7 @@ DTSTART;TZID=Europe/Paris:20261125T105000
 DTEND;TZID=Europe/Paris:20261125T115000
 DTSTAMP:20260809T120000Z
 UID:5a95a8cb076844460bef890d52a23e92@fuf-romain
-SEQUENCE:23
+SEQUENCE:24
 DESCRIPTION:PLUS COURTS CHEMINS - exercices au format du jury.\n\n10h50-1
  0h55 QUESTIONS RAPIDES.\n  1. Complexite de Dijkstra avec un simple tabl
  eau\, puis avec une file de priorite.\n  2. Si l'on arrete Dijkstra des 
@@ -5495,19 +5568,20 @@ DESCRIPTION:PLUS COURTS CHEMINS - exercices au format du jury.\n\n10h50-1
  ve-le par recurrence sur la distance.\n  Relance : dans une grille sans 
  murs de a lignes et b colonnes\, combien de plus courts chemins relient 
  deux coins opposes ?\n\n11h35-11h40 CLOTURE\, une seule tentative : debo
- ut\, 5 min\, la question 1 du probleme 2.\n\n11h40-11h50 CARNET.\n\nFORM
- AT DU JURY (rapport 2025\, mineure informatique) : 50 min sans preparati
- on\, au tableau. Quelques questions rapides\, puis deux problemes : le p
- remier verifie le niveau minimal\, le second est nouveau. Aucun langage 
- impose : decris l'algorithme en francais\, puis en pseudo-code \; du cod
- e seulement si l'enonce le demande. Ce qui est note : le raisonnement pl
- us que le resultat\, des preuves rigoureuses (recurrence\, absurde\, inv
- ariant)\, des maths discretes.\nREGLES : debout\, a voix haute\, chronom
- etre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee 
- en une phrase\, le pseudo-code\, la preuve (variant\, invariant)\, la co
- mplexite. Utilise tout le tableau ou une grande feuille\, n'efface rien 
- d'utile. Bloque au bout du temps : passe a la suite et note au carnet.\n
- Programme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
+ ut\, 5 min\, la question 1 du probleme 2.\n\n11h40-11h50 CARNET : au plu
+ s deux lignes aujourd'hui\, et seulement une definition ou un theoreme d
+ u cours.\n\nFORMAT DU JURY (rapport 2025\, mineure informatique) : 50 mi
+ n sans preparation\, au tableau. Quelques questions rapides\, puis deux 
+ problemes : le premier verifie le niveau minimal\, le second est nouveau
+ . Aucun langage impose : decris l'algorithme en francais\, puis en pseud
+ o-code \; du code seulement si l'enonce le demande. Ce qui est note : le
+  raisonnement plus que le resultat\, des preuves rigoureuses (recurrence
+ \, absurde\, invariant)\, des maths discretes.\nREGLES : debout\, a voix
+  haute\, chronometre. Lis tout l'enonce avant d'ecrire. Pour chaque algo
+ rithme : l'idee en une phrase\, le pseudo-code\, la preuve (variant\, in
+ variant)\, la complexite. Utilise tout le tableau ou une grande feuille\
+ , n'efface rien d'utile. Bloque au bout du temps : passe a la suite.\nPr
+ ogramme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:REPOS PROTEGE - ne rien planifier
@@ -5551,7 +5625,7 @@ DTSTART;TZID=Europe/Paris:20261126T171000
 DTEND;TZID=Europe/Paris:20261126T183000
 DTSTAMP:20260809T120000Z
 UID:36d7f338a23513a9262495b2a4fa47f9@fuf-romain
-SEQUENCE:22
+SEQUENCE:23
 DESCRIPTION:Qu'est-ce qu'un ingenieur ? Science\, technique\, societe. Co
  efficient 4.\nLe sujet le plus proche de l'X elle-meme : il servira auss
  i a l'entretien de motivation.\n\nCONTRAT DU JOUR\nFin de seance = une f
@@ -5581,10 +5655,10 @@ DESCRIPTION:Qu'est-ce qu'un ingenieur ? Science\, technique\, societe. Co
  n - PREPARATION\, montre en main\n  Sujet : 'L'ingenieur doit-il se dema
  nder a quoi servira ce qu'il construit ?'\n\n10 min - EXPOSE debout\, sa
  ns notes\, chronometre\, ENREGISTRE. Exigence : un exemple pris dans ton
-  propre domaine.\n\n10 min - REECOUTE ET CARNET : ce que tu n'as pas su 
- DIRE\, pas ce que tu n'as pas su lire.\n\nPreparation et expose sont rac
- courcis ici : la seance vise le contenu. Le format complet viendra dans 
- les seances de repetition.
+  propre domaine.\n\n10 min - REECOUTE : ce que tu n'as pas su DIRE\, pas
+  ce que tu n'as pas su lire. Corrige-le sur ta fiche\, pas au carnet.\n\
+ nPreparation et expose sont raccourcis ici : la seance vise le contenu. 
+ Le format complet viendra dans les seances de repetition.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Maths - Oral blanc a deux exercices\, format du jury
@@ -5684,7 +5758,7 @@ DTSTART;TZID=Europe/Paris:20261130T171000
 DTEND;TZID=Europe/Paris:20261130T184000
 DTSTAMP:20260809T120000Z
 UID:37d983d51b28075785da9a5cfa98d602@fuf-romain
-SEQUENCE:23
+SEQUENCE:24
 DESCRIPTION:PROGRAMMATION DYNAMIQUE - cours puis oral au format du jury.\
  n\n17h10-17h35 COURS. Beury ch. 13 : 10 min de lecture\, puis livre ferm
  e.\n  Ecris de memoire : sous-problemes et recurrence\, memoisation cont
@@ -5707,19 +5781,20 @@ DESCRIPTION:PROGRAMMATION DYNAMIQUE - cours puis oral au format du jury.\
  ute suite de n^2 + 1 reels distincts contient une sous-suite strictement
   croissante ou strictement decroissante de longueur n + 1.\n\n18h20-18h2
  5 CLOTURE\, une seule tentative : debout\, 5 min\, la recurrence du prob
- leme 1 et sa preuve.\n\n18h25-18h40 CARNET + PDF.\n\nFORMAT DU JURY (rap
- port 2025\, mineure informatique) : 50 min sans preparation\, au tableau
- . Quelques questions rapides\, puis deux problemes : le premier verifie 
- le niveau minimal\, le second est nouveau. Aucun langage impose : decris
-  l'algorithme en francais\, puis en pseudo-code \; du code seulement si 
- l'enonce le demande. Ce qui est note : le raisonnement plus que le resul
- tat\, des preuves rigoureuses (recurrence\, absurde\, invariant)\, des m
- aths discretes.\nREGLES : debout\, a voix haute\, chronometre. Lis tout 
- l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en une phrase\,
-  le pseudo-code\, la preuve (variant\, invariant)\, la complexite. Utili
- se tout le tableau ou une grande feuille\, n'efface rien d'utile. Bloque
-  au bout du temps : passe a la suite et note au carnet.\nProgramme : ta 
- L1-L2 ou le socle commun d'informatique MP PC PT PSI.
+ leme 1 et sa preuve.\n\n18h25-18h40 CARNET (au plus deux lignes\, et seu
+ lement une definition ou un theoreme du cours) + PDF.\n\nFORMAT DU JURY 
+ (rapport 2025\, mineure informatique) : 50 min sans preparation\, au tab
+ leau. Quelques questions rapides\, puis deux problemes : le premier veri
+ fie le niveau minimal\, le second est nouveau. Aucun langage impose : de
+ cris l'algorithme en francais\, puis en pseudo-code \; du code seulement
+  si l'enonce le demande. Ce qui est note : le raisonnement plus que le r
+ esultat\, des preuves rigoureuses (recurrence\, absurde\, invariant)\, d
+ es maths discretes.\nREGLES : debout\, a voix haute\, chronometre. Lis t
+ out l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en une phra
+ se\, le pseudo-code\, la preuve (variant\, invariant)\, la complexite. U
+ tilise tout le tableau ou une grande feuille\, n'efface rien d'utile. Bl
+ oque au bout du temps : passe a la suite.\nProgramme : ta L1-L2 ou le so
+ cle commun d'informatique MP PC PT PSI.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Travail L3
@@ -5851,7 +5926,7 @@ DTSTART;TZID=Europe/Paris:20261202T143000
 DTEND;TZID=Europe/Paris:20261202T153000
 DTSTAMP:20260809T120000Z
 UID:24e9ad5eec1b555c04fe33742be93a6f@fuf-romain
-SEQUENCE:24
+SEQUENCE:25
 DESCRIPTION:PROGRAMMATION DYNAMIQUE - exercices au format du jury.\n\n14h
  30-14h35 QUESTIONS RAPIDES.\n  1. Qu'est-ce que la propriete de sous-str
  ucture optimale ?\n  2. Le rendu de monnaie ascendant utilise un tableau
@@ -5872,19 +5947,20 @@ DESCRIPTION:PROGRAMMATION DYNAMIQUE - exercices au format du jury.\n\n14h
  space\, peut-on descendre a O(p) ?\n  Relance : la distance d'edition ve
  rifie-t-elle l'inegalite triangulaire ?\n\n15h15-15h20 CLOTURE\, une seu
  le tentative : debout\, 5 min\, la recurrence du probleme 2.\n\n15h20-15
- h30 CARNET.\n\nFORMAT DU JURY (rapport 2025\, mineure informatique) : 50
-  min sans preparation\, au tableau. Quelques questions rapides\, puis de
- ux problemes : le premier verifie le niveau minimal\, le second est nouv
- eau. Aucun langage impose : decris l'algorithme en francais\, puis en ps
- eudo-code \; du code seulement si l'enonce le demande. Ce qui est note :
-  le raisonnement plus que le resultat\, des preuves rigoureuses (recurre
- nce\, absurde\, invariant)\, des maths discretes.\nREGLES : debout\, a v
- oix haute\, chronometre. Lis tout l'enonce avant d'ecrire. Pour chaque a
- lgorithme : l'idee en une phrase\, le pseudo-code\, la preuve (variant\,
-  invariant)\, la complexite. Utilise tout le tableau ou une grande feuil
- le\, n'efface rien d'utile. Bloque au bout du temps : passe a la suite e
- t note au carnet.\nProgramme : ta L1-L2 ou le socle commun d'informatiqu
- e MP PC PT PSI.
+ h30 CARNET : au plus deux lignes aujourd'hui\, et seulement une definiti
+ on ou un theoreme du cours.\n\nFORMAT DU JURY (rapport 2025\, mineure in
+ formatique) : 50 min sans preparation\, au tableau. Quelques questions r
+ apides\, puis deux problemes : le premier verifie le niveau minimal\, le
+  second est nouveau. Aucun langage impose : decris l'algorithme en franc
+ ais\, puis en pseudo-code \; du code seulement si l'enonce le demande. C
+ e qui est note : le raisonnement plus que le resultat\, des preuves rigo
+ ureuses (recurrence\, absurde\, invariant)\, des maths discretes.\nREGLE
+ S : debout\, a voix haute\, chronometre. Lis tout l'enonce avant d'ecrir
+ e. Pour chaque algorithme : l'idee en une phrase\, le pseudo-code\, la p
+ reuve (variant\, invariant)\, la complexite. Utilise tout le tableau ou 
+ une grande feuille\, n'efface rien d'utile. Bloque au bout du temps : pa
+ sse a la suite.\nProgramme : ta L1-L2 ou le socle commun d'informatique 
+ MP PC PT PSI.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:REPOS PROTEGE - ne rien planifier
@@ -5957,7 +6033,7 @@ DTSTART;TZID=Europe/Paris:20261204T160000
 DTEND;TZID=Europe/Paris:20261204T171000
 DTSTAMP:20260809T120000Z
 UID:c8b55f2074b1a053508775096dcab1e8@fuf-romain
-SEQUENCE:24
+SEQUENCE:25
 DESCRIPTION:L'expose (1) : de la phrase du texte a la problematique et au
   plan. Deux textes courts\, la meme demarche.\nFin de seance = deux intr
  oductions redigees\, deux plans detailles\, une introduction dite debout
@@ -5975,16 +6051,16 @@ DESCRIPTION:L'expose (1) : de la phrase du texte a la problematique et au
  \, chapitre 26 'De l'institution des enfants'\, le passage sur la tete '
  bien faite' plutot que 'bien pleine'. Meme demarche.\n\n10 min - DEBOUT 
  : l'introduction du texte A en 2 min\, enregistree. A la reecoute\, chaq
- ue mot familier va au carnet.\n\n5 min - CARNET : les cases vides du cor
- pus\, et les mots familiers.\n\nFORMAT DE L'EPREUVE (rapports du jury FU
- F 2020-2025) : 45 min de preparation sur un texte d'une bonne page (litt
- erature\, philosophie\, esthetique\, sciences humaines\, de l'Antiquite 
- a aujourd'hui). Puis 30 min : resume en 2-3 min \; expose d'une douzaine
-  de minutes (introduction avec problematique et plan\, trois parties qui
-  progressent\, breve conclusion\, un exemple culturel precis et maitrise
-  par partie) \; entretien d'une quinzaine de minutes.\nREGLE DU CORPUS :
-  aucune oeuvre citee sans l'avoir lue ou vue. Le jury l'ecrit\, et l'ent
- retien le verifie.
+ ue mot familier se corrige sur ta fiche.\n\n5 min - FICHE : les cases vi
+ des du corpus\, et les mots familiers.\n\nFORMAT DE L'EPREUVE (rapports 
+ du jury FUF 2020-2025) : 45 min de preparation sur un texte d'une bonne 
+ page (litterature\, philosophie\, esthetique\, sciences humaines\, de l'
+ Antiquite a aujourd'hui). Puis 30 min : resume en 2-3 min \; expose d'un
+ e douzaine de minutes (introduction avec problematique et plan\, trois p
+ arties qui progressent\, breve conclusion\, un exemple culturel precis e
+ t maitrise par partie) \; entretien d'une quinzaine de minutes.\nREGLE D
+ U CORPUS : aucune oeuvre citee sans l'avoir lue ou vue. Le jury l'ecrit\
+ , et l'entretien le verifie.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Course a pied
@@ -6022,10 +6098,11 @@ DTSTART;TZID=Europe/Paris:20261207T081500
 DTEND;TZID=Europe/Paris:20261207T084500
 DTSTAMP:20260809T120000Z
 UID:b4130917ce5b2a65c05ae3699ddd908f@fuf-romain
-SEQUENCE:4
+SEQUENCE:5
 DESCRIPTION:Reflexes du jour : un resultat demontre A VOIX HAUTE\, debout
- \, chronometre. Revision espacee J+1 / J+7 / J+30. Toute erreur va au ca
- rnet.
+ \, chronometre. Puis les tentatives du carnet prevues aujourd'hui (J+2\,
+  J+7\, J+30). Carnet : au plus deux lignes par jour\, et seulement une d
+ efinition ou un theoreme du cours.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Revisions partiels
@@ -6072,10 +6149,11 @@ DTSTART;TZID=Europe/Paris:20261208T081500
 DTEND;TZID=Europe/Paris:20261208T084500
 DTSTAMP:20260809T120000Z
 UID:ec8a747667477b29d4041281e3ac833c@fuf-romain
-SEQUENCE:4
+SEQUENCE:5
 DESCRIPTION:Reflexes du jour : un resultat demontre A VOIX HAUTE\, debout
- \, chronometre. Revision espacee J+1 / J+7 / J+30. Toute erreur va au ca
- rnet.
+ \, chronometre. Puis les tentatives du carnet prevues aujourd'hui (J+2\,
+  J+7\, J+30). Carnet : au plus deux lignes par jour\, et seulement une d
+ efinition ou un theoreme du cours.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Revisions partiels
@@ -6120,10 +6198,11 @@ DTSTART;TZID=Europe/Paris:20261209T081500
 DTEND;TZID=Europe/Paris:20261209T084500
 DTSTAMP:20260809T120000Z
 UID:262dbd6afc0e1c108757daa5f2c0b06b@fuf-romain
-SEQUENCE:4
+SEQUENCE:5
 DESCRIPTION:Reflexes du jour : un resultat demontre A VOIX HAUTE\, debout
- \, chronometre. Revision espacee J+1 / J+7 / J+30. Toute erreur va au ca
- rnet.
+ \, chronometre. Puis les tentatives du carnet prevues aujourd'hui (J+2\,
+  J+7\, J+30). Carnet : au plus deux lignes par jour\, et seulement une d
+ efinition ou un theoreme du cours.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Revisions partiels
@@ -6170,10 +6249,11 @@ DTSTART;TZID=Europe/Paris:20261210T085500
 DTEND;TZID=Europe/Paris:20261210T092500
 DTSTAMP:20260809T120000Z
 UID:d7f3112a83e3ce247bb8fbd40bf41055@fuf-romain
-SEQUENCE:14
+SEQUENCE:15
 DESCRIPTION:Reflexes du jour : un resultat demontre A VOIX HAUTE\, debout
- \, chronometre. Revision espacee J+1 / J+7 / J+30. Toute erreur va au ca
- rnet.
+ \, chronometre. Puis les tentatives du carnet prevues aujourd'hui (J+2\,
+  J+7\, J+30). Carnet : au plus deux lignes par jour\, et seulement une d
+ efinition ou un theoreme du cours.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Revisions partiels
@@ -6207,10 +6287,11 @@ DTSTART;TZID=Europe/Paris:20261211T081500
 DTEND;TZID=Europe/Paris:20261211T084500
 DTSTAMP:20260809T120000Z
 UID:74dde3f99c38e8702e4b6f30aa2b5289@fuf-romain
-SEQUENCE:4
+SEQUENCE:5
 DESCRIPTION:Reflexes du jour : un resultat demontre A VOIX HAUTE\, debout
- \, chronometre. Revision espacee J+1 / J+7 / J+30. Toute erreur va au ca
- rnet.
+ \, chronometre. Puis les tentatives du carnet prevues aujourd'hui (J+2\,
+  J+7\, J+30). Carnet : au plus deux lignes par jour\, et seulement une d
+ efinition ou un theoreme du cours.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Revisions partiels
@@ -6257,10 +6338,11 @@ DTSTART;TZID=Europe/Paris:20261212T081500
 DTEND;TZID=Europe/Paris:20261212T084500
 DTSTAMP:20260809T120000Z
 UID:483580549cd742d2bd6a53a08a08a84e@fuf-romain
-SEQUENCE:4
+SEQUENCE:5
 DESCRIPTION:Reflexes du jour : un resultat demontre A VOIX HAUTE\, debout
- \, chronometre. Revision espacee J+1 / J+7 / J+30. Toute erreur va au ca
- rnet.
+ \, chronometre. Puis les tentatives du carnet prevues aujourd'hui (J+2\,
+  J+7\, J+30). Carnet : au plus deux lignes par jour\, et seulement une d
+ efinition ou un theoreme du cours.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Revisions partiels
@@ -6294,10 +6376,11 @@ DTSTART;TZID=Europe/Paris:20261214T081500
 DTEND;TZID=Europe/Paris:20261214T084500
 DTSTAMP:20260809T120000Z
 UID:9710d98e55077ca7d05a72d457d718fc@fuf-romain
-SEQUENCE:4
+SEQUENCE:5
 DESCRIPTION:Reflexes du jour : un resultat demontre A VOIX HAUTE\, debout
- \, chronometre. Revision espacee J+1 / J+7 / J+30. Toute erreur va au ca
- rnet.
+ \, chronometre. Puis les tentatives du carnet prevues aujourd'hui (J+2\,
+  J+7\, J+30). Carnet : au plus deux lignes par jour\, et seulement une d
+ efinition ou un theoreme du cours.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Revisions partiels
@@ -6344,10 +6427,11 @@ DTSTART;TZID=Europe/Paris:20261215T081500
 DTEND;TZID=Europe/Paris:20261215T084500
 DTSTAMP:20260809T120000Z
 UID:a9e92c1af52a1c10cf4a3d798369abb7@fuf-romain
-SEQUENCE:4
+SEQUENCE:5
 DESCRIPTION:Reflexes du jour : un resultat demontre A VOIX HAUTE\, debout
- \, chronometre. Revision espacee J+1 / J+7 / J+30. Toute erreur va au ca
- rnet.
+ \, chronometre. Puis les tentatives du carnet prevues aujourd'hui (J+2\,
+  J+7\, J+30). Carnet : au plus deux lignes par jour\, et seulement une d
+ efinition ou un theoreme du cours.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Revisions partiels
@@ -6405,10 +6489,11 @@ DTSTART;TZID=Europe/Paris:20261216T081500
 DTEND;TZID=Europe/Paris:20261216T084500
 DTSTAMP:20260809T120000Z
 UID:eb8abc97f71f3c3a63263381d92b2757@fuf-romain
-SEQUENCE:4
+SEQUENCE:5
 DESCRIPTION:Reflexes du jour : un resultat demontre A VOIX HAUTE\, debout
- \, chronometre. Revision espacee J+1 / J+7 / J+30. Toute erreur va au ca
- rnet.
+ \, chronometre. Puis les tentatives du carnet prevues aujourd'hui (J+2\,
+  J+7\, J+30). Carnet : au plus deux lignes par jour\, et seulement une d
+ efinition ou un theoreme du cours.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Revisions partiels
@@ -6455,10 +6540,11 @@ DTSTART;TZID=Europe/Paris:20261217T085500
 DTEND;TZID=Europe/Paris:20261217T092500
 DTSTAMP:20260809T120000Z
 UID:873466144f4840826cd9136ee4617fb1@fuf-romain
-SEQUENCE:14
+SEQUENCE:15
 DESCRIPTION:Reflexes du jour : un resultat demontre A VOIX HAUTE\, debout
- \, chronometre. Revision espacee J+1 / J+7 / J+30. Toute erreur va au ca
- rnet.
+ \, chronometre. Puis les tentatives du carnet prevues aujourd'hui (J+2\,
+  J+7\, J+30). Carnet : au plus deux lignes par jour\, et seulement une d
+ efinition ou un theoreme du cours.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Revisions partiels
@@ -6492,10 +6578,11 @@ DTSTART;TZID=Europe/Paris:20261218T081500
 DTEND;TZID=Europe/Paris:20261218T084500
 DTSTAMP:20260809T120000Z
 UID:49ae586d709a1d8b0288a213ee19dca4@fuf-romain
-SEQUENCE:4
+SEQUENCE:5
 DESCRIPTION:Reflexes du jour : un resultat demontre A VOIX HAUTE\, debout
- \, chronometre. Revision espacee J+1 / J+7 / J+30. Toute erreur va au ca
- rnet.
+ \, chronometre. Puis les tentatives du carnet prevues aujourd'hui (J+2\,
+  J+7\, J+30). Carnet : au plus deux lignes par jour\, et seulement une d
+ efinition ou un theoreme du cours.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Revisions partiels
@@ -6553,10 +6640,11 @@ DTSTART;TZID=Europe/Paris:20261219T081500
 DTEND;TZID=Europe/Paris:20261219T084500
 DTSTAMP:20260809T120000Z
 UID:b56d9cc96afa435eda8b964697bea1c9@fuf-romain
-SEQUENCE:4
+SEQUENCE:5
 DESCRIPTION:Reflexes du jour : un resultat demontre A VOIX HAUTE\, debout
- \, chronometre. Revision espacee J+1 / J+7 / J+30. Toute erreur va au ca
- rnet.
+ \, chronometre. Puis les tentatives du carnet prevues aujourd'hui (J+2\,
+  J+7\, J+30). Carnet : au plus deux lignes par jour\, et seulement une d
+ efinition ou un theoreme du cours.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Revisions partiels
@@ -6631,7 +6719,7 @@ DTSTART;TZID=Europe/Paris:20261221T140000
 DTEND;TZID=Europe/Paris:20261221T150000
 DTSTAMP:20260809T120000Z
 UID:f211dc71c9f424ce9aef70ed4707399b@fuf-romain
-SEQUENCE:5
+SEQUENCE:6
 DESCRIPTION:Seance courte des vacances (1 h) : la lecture et la fiche\, p
  as l'oral complet.\n\nCorpus (2) : La Boetie\, Discours de la servitude 
  volontaire\, premiere moitie. Edition en francais modernise.\nFin de sea
@@ -6644,15 +6732,16 @@ DESCRIPTION:Seance courte des vacances (1 h) : la lecture et la fiche\, p
  : idees et themes majeurs \; citations a memoriser mot pour mot \; conte
  xte auteur et dates (verifies). Les deux autres sections viendront avec 
  la seconde moitie.\n\n10 min - DEBOUT\, enregistre : 2 min sur la these 
- de La Boetie\, comme un exemple d'expose.\n\n5 min - CARNET.\n\nFORMAT D
- E L'EPREUVE (rapports du jury FUF 2020-2025) : 45 min de preparation sur
-  un texte d'une bonne page (litterature\, philosophie\, esthetique\, sci
- ences humaines\, de l'Antiquite a aujourd'hui). Puis 30 min : resume en 
- 2-3 min \; expose d'une douzaine de minutes (introduction avec problemat
- ique et plan\, trois parties qui progressent\, breve conclusion\, un exe
- mple culturel precis et maitrise par partie) \; entretien d'une quinzain
- e de minutes.\nREGLE DU CORPUS : aucune oeuvre citee sans l'avoir lue ou
-  vue. Le jury l'ecrit\, et l'entretien le verifie.
+ de La Boetie\, comme un exemple d'expose.\n\n5 min - FICHE : corrige sur
+  ta fiche ce qui a hesite.\n\nFORMAT DE L'EPREUVE (rapports du jury FUF 
+ 2020-2025) : 45 min de preparation sur un texte d'une bonne page (litter
+ ature\, philosophie\, esthetique\, sciences humaines\, de l'Antiquite a 
+ aujourd'hui). Puis 30 min : resume en 2-3 min \; expose d'une douzaine d
+ e minutes (introduction avec problematique et plan\, trois parties qui p
+ rogressent\, breve conclusion\, un exemple culturel precis et maitrise p
+ ar partie) \; entretien d'une quinzaine de minutes.\nREGLE DU CORPUS : a
+ ucune oeuvre citee sans l'avoir lue ou vue. Le jury l'ecrit\, et l'entre
+ tien le verifie.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Course a pied
@@ -6709,7 +6798,7 @@ DTSTART;TZID=Europe/Paris:20261222T140000
 DTEND;TZID=Europe/Paris:20261222T150000
 DTSTAMP:20260809T120000Z
 UID:3335a9239aba46fe884ae08ffd306ad1@fuf-romain
-SEQUENCE:5
+SEQUENCE:6
 DESCRIPTION:Seance courte des vacances (1 h) : la lecture et la fiche\, p
  as l'oral complet.\n\nClimat : mecanismes\, chiffres\, controverses. Coe
  fficient 4.\nFin de seance = une fiche en cinq blocs\, chiffres sources 
@@ -6729,9 +6818,9 @@ DESCRIPTION:Seance courte des vacances (1 h) : la lecture et la fiche\, p
  t-on faire confiance aux modeles climatiques ?'\n\n10 min - EXPOSE debou
  t\, sans notes\, chronometre\, ENREGISTRE. Exigence : un ordre de grande
  ur juste par partie\, et un lien avec ton experience du calcul haute per
- formance a l'Inria.\n\n10 min - REECOUTE ET CARNET : ce que tu n'as pas 
- su DIRE.\n\n10 min - MARGE.\n\nREGLE : un chiffre que tu n'as pas verifi
- e ne va pas sur la fiche.
+ formance a l'Inria.\n\n10 min - REECOUTE : ce que tu n'as pas su DIRE. C
+ orrige-le sur ta fiche\, pas au carnet.\n\n10 min - MARGE.\n\nREGLE : un
+  chiffre que tu n'as pas verifie ne va pas sur la fiche.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -7075,7 +7164,7 @@ DTSTART;TZID=Europe/Paris:20270112T140000
 DTEND;TZID=Europe/Paris:20270112T160000
 DTSTAMP:20260809T120000Z
 UID:f15b2fed6e57770b7c92a129418d5556@fuf-romain
-SEQUENCE:23
+SEQUENCE:24
 DESCRIPTION:Premier contact avec ce theme : cours d'abord\, puis l'oral.\
  nFin de seance = cours reconstruit + un oral de 50 min + le probleme le 
  moins reussi refait au propre.\n\n14h00-14h40 COURS. Beury ch. 15 : 15 m
@@ -7100,21 +7189,22 @@ DESCRIPTION:Premier contact avec ce theme : cours d'abord\, puis l'oral.\
   : un eleve peut desormais repasser un cours plusieurs fois. Comment mod
  ifies-tu le schema\, et quelle requete donne sa meilleure note dans chaq
  ue cours ?\n  5 min de marge.\n\n15h30-15h50 AU PROPRE : refais de zero 
- le probleme le moins reussi\, preuve redigee.\n\n15h50-16h00 CARNET.\n\n
- Trame Bristol provisoire : si ton emploi du temps deplace ce creneau\, g
- arde la sequence\, pas l'heure.\n\nFORMAT DU JURY (rapport 2025\, mineur
- e informatique) : 50 min sans preparation\, au tableau. Quelques questio
- ns rapides\, puis deux problemes : le premier verifie le niveau minimal\
- , le second est nouveau. Aucun langage impose : decris l'algorithme en f
- rancais\, puis en pseudo-code \; du code seulement si l'enonce le demand
- e. Ce qui est note : le raisonnement plus que le resultat\, des preuves 
- rigoureuses (recurrence\, absurde\, invariant)\, des maths discretes.\nR
- EGLES : debout\, a voix haute\, chronometre. Lis tout l'enonce avant d'e
- crire. Pour chaque algorithme : l'idee en une phrase\, le pseudo-code\, 
- la preuve (variant\, invariant)\, la complexite. Utilise tout le tableau
-  ou une grande feuille\, n'efface rien d'utile. Bloque au bout du temps 
- : passe a la suite et note au carnet.\nProgramme : ta L1-L2 ou le socle 
- commun d'informatique MP PC PT PSI.
+ le probleme le moins reussi\, preuve redigee.\n\n15h50-16h00 CARNET : au
+  plus deux lignes aujourd'hui\, et seulement une definition ou un theore
+ me du cours.\n\nTrame Bristol provisoire : si ton emploi du temps deplac
+ e ce creneau\, garde la sequence\, pas l'heure.\n\nFORMAT DU JURY (rappo
+ rt 2025\, mineure informatique) : 50 min sans preparation\, au tableau. 
+ Quelques questions rapides\, puis deux problemes : le premier verifie le
+  niveau minimal\, le second est nouveau. Aucun langage impose : decris l
+ 'algorithme en francais\, puis en pseudo-code \; du code seulement si l'
+ enonce le demande. Ce qui est note : le raisonnement plus que le resulta
+ t\, des preuves rigoureuses (recurrence\, absurde\, invariant)\, des mat
+ hs discretes.\nREGLES : debout\, a voix haute\, chronometre. Lis tout l'
+ enonce avant d'ecrire. Pour chaque algorithme : l'idee en une phrase\, l
+ e pseudo-code\, la preuve (variant\, invariant)\, la complexite. Utilise
+  tout le tableau ou une grande feuille\, n'efface rien d'utile. Bloque a
+ u bout du temps : passe a la suite.\nProgramme : ta L1-L2 ou le socle co
+ mmun d'informatique MP PC PT PSI.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -7235,18 +7325,18 @@ DTSTART;TZID=Europe/Paris:20270116T100000
 DTEND;TZID=Europe/Paris:20270116T113000
 DTSTAMP:20260809T120000Z
 UID:d9b7f5c118fb0172a4d8e8fe54f9bbc9@fuf-romain
-SEQUENCE:23
+SEQUENCE:24
 DESCRIPTION:Format reel\, chronometre\, enregistre. Le texte est donne da
- ns le contrat de la semaine. Apres l'oral : reecoute\, grille\, carnet\,
-  et les trois questions d'entretien que tu aurais redoutees.\n\nFORMAT D
- E L'EPREUVE (rapports du jury FUF 2020-2025) : 45 min de preparation sur
-  un texte d'une bonne page (litterature\, philosophie\, esthetique\, sci
- ences humaines\, de l'Antiquite a aujourd'hui). Puis 30 min : resume en 
- 2-3 min \; expose d'une douzaine de minutes (introduction avec problemat
- ique et plan\, trois parties qui progressent\, breve conclusion\, un exe
- mple culturel precis et maitrise par partie) \; entretien d'une quinzain
- e de minutes.\nREGLE DU CORPUS : aucune oeuvre citee sans l'avoir lue ou
-  vue. Le jury l'ecrit\, et l'entretien le verifie.
+ ns le contrat de la semaine. Apres l'oral : reecoute\, grille\, correcti
+ ons sur tes fiches\, et les trois questions d'entretien que tu aurais re
+ doutees.\n\nFORMAT DE L'EPREUVE (rapports du jury FUF 2020-2025) : 45 mi
+ n de preparation sur un texte d'une bonne page (litterature\, philosophi
+ e\, esthetique\, sciences humaines\, de l'Antiquite a aujourd'hui). Puis
+  30 min : resume en 2-3 min \; expose d'une douzaine de minutes (introdu
+ ction avec problematique et plan\, trois parties qui progressent\, breve
+  conclusion\, un exemple culturel precis et maitrise par partie) \; entr
+ etien d'une quinzaine de minutes.\nREGLE DU CORPUS : aucune oeuvre citee
+  sans l'avoir lue ou vue. Le jury l'ecrit\, et l'entretien le verifie.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bilan hebdo + carnet d'erreurs
@@ -7315,7 +7405,7 @@ DTSTART;TZID=Europe/Paris:20270119T140000
 DTEND;TZID=Europe/Paris:20270119T160000
 DTSTAMP:20260809T120000Z
 UID:df25d6525e4e1b659c23c3bdf32fe141@fuf-romain
-SEQUENCE:23
+SEQUENCE:24
 DESCRIPTION:Premier contact avec ce theme : cours d'abord\, puis l'oral.\
  nFin de seance = cours reconstruit + un oral de 50 min + le probleme le 
  moins reussi refait au propre.\n\n14h00-14h40 COURS. Beury ch. 14 : 15 m
@@ -7344,21 +7434,22 @@ DESCRIPTION:Premier contact avec ce theme : cours d'abord\, puis l'oral.\
  agnante depuis tout sommet de l'attracteur.\n  3. Complexite d'un calcul
   naif.\n  Relance : relie ce calcul aux positions gagnantes du probleme 
  1.\n  5 min de marge.\n\n15h30-15h50 AU PROPRE : refais de zero le probl
- eme le moins reussi\, preuve redigee.\n\n15h50-16h00 CARNET.\n\nTrame Br
- istol provisoire : si ton emploi du temps deplace ce creneau\, garde la 
- sequence\, pas l'heure.\n\nFORMAT DU JURY (rapport 2025\, mineure inform
- atique) : 50 min sans preparation\, au tableau. Quelques questions rapid
- es\, puis deux problemes : le premier verifie le niveau minimal\, le sec
- ond est nouveau. Aucun langage impose : decris l'algorithme en francais\
- , puis en pseudo-code \; du code seulement si l'enonce le demande. Ce qu
- i est note : le raisonnement plus que le resultat\, des preuves rigoureu
- ses (recurrence\, absurde\, invariant)\, des maths discretes.\nREGLES : 
- debout\, a voix haute\, chronometre. Lis tout l'enonce avant d'ecrire. P
- our chaque algorithme : l'idee en une phrase\, le pseudo-code\, la preuv
- e (variant\, invariant)\, la complexite. Utilise tout le tableau ou une 
- grande feuille\, n'efface rien d'utile. Bloque au bout du temps : passe 
- a la suite et note au carnet.\nProgramme : ta L1-L2 ou le socle commun d
- 'informatique MP PC PT PSI.
+ eme le moins reussi\, preuve redigee.\n\n15h50-16h00 CARNET : au plus de
+ ux lignes aujourd'hui\, et seulement une definition ou un theoreme du co
+ urs.\n\nTrame Bristol provisoire : si ton emploi du temps deplace ce cre
+ neau\, garde la sequence\, pas l'heure.\n\nFORMAT DU JURY (rapport 2025\
+ , mineure informatique) : 50 min sans preparation\, au tableau. Quelques
+  questions rapides\, puis deux problemes : le premier verifie le niveau 
+ minimal\, le second est nouveau. Aucun langage impose : decris l'algorit
+ hme en francais\, puis en pseudo-code \; du code seulement si l'enonce l
+ e demande. Ce qui est note : le raisonnement plus que le resultat\, des 
+ preuves rigoureuses (recurrence\, absurde\, invariant)\, des maths discr
+ etes.\nREGLES : debout\, a voix haute\, chronometre. Lis tout l'enonce a
+ vant d'ecrire. Pour chaque algorithme : l'idee en une phrase\, le pseudo
+ -code\, la preuve (variant\, invariant)\, la complexite. Utilise tout le
+  tableau ou une grande feuille\, n'efface rien d'utile. Bloque au bout d
+ u temps : passe a la suite.\nProgramme : ta L1-L2 ou le socle commun d'i
+ nformatique MP PC PT PSI.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -7547,7 +7638,7 @@ DTSTART;TZID=Europe/Paris:20270126T140000
 DTEND;TZID=Europe/Paris:20270126T160000
 DTSTAMP:20260809T120000Z
 UID:e8da486fc9ec6e17acdeef8c26d601c9@fuf-romain
-SEQUENCE:23
+SEQUENCE:24
 DESCRIPTION:Ce creneau remplace l'annexe Python : le jury n'impose aucun 
  langage et releve des lacunes sur le socle\, parfois meme sur le program
  me du bac.\n\nFin de seance = un oral de 50 min enregistre + 3 observati
@@ -7574,21 +7665,22 @@ DESCRIPTION:Ce creneau remplace l'annexe Python : le jury n'impose aucun
  \n\n15h00-15h15 ECOUTE les 15 premieres minutes de l'enregistrement. Ecr
  is 3 observations : tes silences\, tes phrases vagues\, ce que tu as ecr
  it sans le dire.\n\n15h15-15h45 AU PROPRE : refais de zero le probleme l
- e moins reussi\, preuve redigee.\n\n15h45-16h00 CARNET + PDF.\n\nTrame B
- ristol provisoire : si ton emploi du temps deplace ce creneau\, garde la
-  sequence\, pas l'heure.\n\nFORMAT DU JURY (rapport 2025\, mineure infor
- matique) : 50 min sans preparation\, au tableau. Quelques questions rapi
- des\, puis deux problemes : le premier verifie le niveau minimal\, le se
- cond est nouveau. Aucun langage impose : decris l'algorithme en francais
- \, puis en pseudo-code \; du code seulement si l'enonce le demande. Ce q
- ui est note : le raisonnement plus que le resultat\, des preuves rigoure
- uses (recurrence\, absurde\, invariant)\, des maths discretes.\nREGLES :
-  debout\, a voix haute\, chronometre. Lis tout l'enonce avant d'ecrire. 
- Pour chaque algorithme : l'idee en une phrase\, le pseudo-code\, la preu
- ve (variant\, invariant)\, la complexite. Utilise tout le tableau ou une
-  grande feuille\, n'efface rien d'utile. Bloque au bout du temps : passe
-  a la suite et note au carnet.\nProgramme : ta L1-L2 ou le socle commun 
- d'informatique MP PC PT PSI.
+ e moins reussi\, preuve redigee.\n\n15h45-16h00 CARNET (au plus deux lig
+ nes\, et seulement une definition ou un theoreme du cours) + PDF.\n\nTra
+ me Bristol provisoire : si ton emploi du temps deplace ce creneau\, gard
+ e la sequence\, pas l'heure.\n\nFORMAT DU JURY (rapport 2025\, mineure i
+ nformatique) : 50 min sans preparation\, au tableau. Quelques questions 
+ rapides\, puis deux problemes : le premier verifie le niveau minimal\, l
+ e second est nouveau. Aucun langage impose : decris l'algorithme en fran
+ cais\, puis en pseudo-code \; du code seulement si l'enonce le demande. 
+ Ce qui est note : le raisonnement plus que le resultat\, des preuves rig
+ oureuses (recurrence\, absurde\, invariant)\, des maths discretes.\nREGL
+ ES : debout\, a voix haute\, chronometre. Lis tout l'enonce avant d'ecri
+ re. Pour chaque algorithme : l'idee en une phrase\, le pseudo-code\, la 
+ preuve (variant\, invariant)\, la complexite. Utilise tout le tableau ou
+  une grande feuille\, n'efface rien d'utile. Bloque au bout du temps : p
+ asse a la suite.\nProgramme : ta L1-L2 ou le socle commun d'informatique
+  MP PC PT PSI.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -7820,7 +7912,7 @@ DTSTART;TZID=Europe/Paris:20270202T140000
 DTEND;TZID=Europe/Paris:20270202T160000
 DTSTAMP:20260809T120000Z
 UID:4c55fb47d1682ab18d96132fe37075d5@fuf-romain
-SEQUENCE:23
+SEQUENCE:24
 DESCRIPTION:Fin de seance = un oral de 50 min enregistre + 3 observations
   + le probleme le moins reussi refait au propre.\n\n14h00-14h50 ORAL BLA
  NC\, 50 min\, debout\, chronometre. Enregistre-toi avec le dictaphone du
@@ -7844,21 +7936,21 @@ DESCRIPTION:Fin de seance = un oral de 50 min enregistre + 3 observations
  les 15 premieres minutes de l'enregistrement. Ecris 3 observations : tes
   silences\, tes phrases vagues\, ce que tu as ecrit sans le dire.\n\n15h
  15-15h45 AU PROPRE : refais de zero le probleme le moins reussi\, preuve
-  redigee.\n\n15h45-16h00 CARNET + PDF.\n\nTrame Bristol provisoire : si 
- ton emploi du temps deplace ce creneau\, garde la sequence\, pas l'heure
- .\n\nFORMAT DU JURY (rapport 2025\, mineure informatique) : 50 min sans 
- preparation\, au tableau. Quelques questions rapides\, puis deux problem
- es : le premier verifie le niveau minimal\, le second est nouveau. Aucun
-  langage impose : decris l'algorithme en francais\, puis en pseudo-code 
- \; du code seulement si l'enonce le demande. Ce qui est note : le raison
- nement plus que le resultat\, des preuves rigoureuses (recurrence\, absu
- rde\, invariant)\, des maths discretes.\nREGLES : debout\, a voix haute\
- , chronometre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme 
- : l'idee en une phrase\, le pseudo-code\, la preuve (variant\, invariant
- )\, la complexite. Utilise tout le tableau ou une grande feuille\, n'eff
- ace rien d'utile. Bloque au bout du temps : passe a la suite et note au 
- carnet.\nProgramme : ta L1-L2 ou le socle commun d'informatique MP PC PT
-  PSI.
+  redigee.\n\n15h45-16h00 CARNET (au plus deux lignes\, et seulement une 
+ definition ou un theoreme du cours) + PDF.\n\nTrame Bristol provisoire :
+  si ton emploi du temps deplace ce creneau\, garde la sequence\, pas l'h
+ eure.\n\nFORMAT DU JURY (rapport 2025\, mineure informatique) : 50 min s
+ ans preparation\, au tableau. Quelques questions rapides\, puis deux pro
+ blemes : le premier verifie le niveau minimal\, le second est nouveau. A
+ ucun langage impose : decris l'algorithme en francais\, puis en pseudo-c
+ ode \; du code seulement si l'enonce le demande. Ce qui est note : le ra
+ isonnement plus que le resultat\, des preuves rigoureuses (recurrence\, 
+ absurde\, invariant)\, des maths discretes.\nREGLES : debout\, a voix ha
+ ute\, chronometre. Lis tout l'enonce avant d'ecrire. Pour chaque algorit
+ hme : l'idee en une phrase\, le pseudo-code\, la preuve (variant\, invar
+ iant)\, la complexite. Utilise tout le tableau ou une grande feuille\, n
+ 'efface rien d'utile. Bloque au bout du temps : passe a la suite.\nProgr
+ amme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -8059,7 +8151,7 @@ DTSTART;TZID=Europe/Paris:20270209T140000
 DTEND;TZID=Europe/Paris:20270209T160000
 DTSTAMP:20260809T120000Z
 UID:8a7fb60f6e1e2181f35d0053da4beb0a@fuf-romain
-SEQUENCE:23
+SEQUENCE:24
 DESCRIPTION:Fin de seance = un oral de 50 min enregistre + 3 observations
   + le probleme le moins reussi refait au propre.\n\n14h00-14h50 ORAL BLA
  NC\, 50 min\, debout\, chronometre. Enregistre-toi avec le dictaphone du
@@ -8082,20 +8174,21 @@ DESCRIPTION:Fin de seance = un oral de 50 min enregistre + 3 observations
  emieres minutes de l'enregistrement. Ecris 3 observations : tes silences
  \, tes phrases vagues\, ce que tu as ecrit sans le dire.\n\n15h15-15h45 
  AU PROPRE : refais de zero le probleme le moins reussi\, preuve redigee.
- \n\n15h45-16h00 CARNET + PDF.\n\nTrame Bristol provisoire : si ton emplo
- i du temps deplace ce creneau\, garde la sequence\, pas l'heure.\n\nFORM
- AT DU JURY (rapport 2025\, mineure informatique) : 50 min sans preparati
- on\, au tableau. Quelques questions rapides\, puis deux problemes : le p
- remier verifie le niveau minimal\, le second est nouveau. Aucun langage 
- impose : decris l'algorithme en francais\, puis en pseudo-code \; du cod
- e seulement si l'enonce le demande. Ce qui est note : le raisonnement pl
- us que le resultat\, des preuves rigoureuses (recurrence\, absurde\, inv
- ariant)\, des maths discretes.\nREGLES : debout\, a voix haute\, chronom
- etre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee 
- en une phrase\, le pseudo-code\, la preuve (variant\, invariant)\, la co
- mplexite. Utilise tout le tableau ou une grande feuille\, n'efface rien 
- d'utile. Bloque au bout du temps : passe a la suite et note au carnet.\n
- Programme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
+ \n\n15h45-16h00 CARNET (au plus deux lignes\, et seulement une definitio
+ n ou un theoreme du cours) + PDF.\n\nTrame Bristol provisoire : si ton e
+ mploi du temps deplace ce creneau\, garde la sequence\, pas l'heure.\n\n
+ FORMAT DU JURY (rapport 2025\, mineure informatique) : 50 min sans prepa
+ ration\, au tableau. Quelques questions rapides\, puis deux problemes : 
+ le premier verifie le niveau minimal\, le second est nouveau. Aucun lang
+ age impose : decris l'algorithme en francais\, puis en pseudo-code \; du
+  code seulement si l'enonce le demande. Ce qui est note : le raisonnemen
+ t plus que le resultat\, des preuves rigoureuses (recurrence\, absurde\,
+  invariant)\, des maths discretes.\nREGLES : debout\, a voix haute\, chr
+ onometre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'i
+ dee en une phrase\, le pseudo-code\, la preuve (variant\, invariant)\, l
+ a complexite. Utilise tout le tableau ou une grande feuille\, n'efface r
+ ien d'utile. Bloque au bout du temps : passe a la suite.\nProgramme : ta
+  L1-L2 ou le socle commun d'informatique MP PC PT PSI.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -8285,7 +8378,7 @@ DTSTART;TZID=Europe/Paris:20270216T140000
 DTEND;TZID=Europe/Paris:20270216T160000
 DTSTAMP:20260809T120000Z
 UID:1f0cb845d40c2d3566f321e79658b7db@fuf-romain
-SEQUENCE:23
+SEQUENCE:24
 DESCRIPTION:Fin de seance = un oral de 50 min enregistre + 3 observations
   + le probleme le moins reussi refait au propre.\n\n14h00-14h50 ORAL BLA
  NC\, 50 min\, debout\, chronometre. Enregistre-toi avec le dictaphone du
@@ -8305,21 +8398,22 @@ DESCRIPTION:Fin de seance = un oral de 50 min enregistre + 3 observations
  5h00-15h15 ECOUTE les 15 premieres minutes de l'enregistrement. Ecris 3 
  observations : tes silences\, tes phrases vagues\, ce que tu as ecrit sa
  ns le dire.\n\n15h15-15h45 AU PROPRE : refais de zero le probleme le moi
- ns reussi\, preuve redigee.\n\n15h45-16h00 CARNET + PDF.\n\nTrame Bristo
- l provisoire : si ton emploi du temps deplace ce creneau\, garde la sequ
- ence\, pas l'heure.\n\nFORMAT DU JURY (rapport 2025\, mineure informatiq
- ue) : 50 min sans preparation\, au tableau. Quelques questions rapides\,
-  puis deux problemes : le premier verifie le niveau minimal\, le second 
- est nouveau. Aucun langage impose : decris l'algorithme en francais\, pu
- is en pseudo-code \; du code seulement si l'enonce le demande. Ce qui es
- t note : le raisonnement plus que le resultat\, des preuves rigoureuses 
- (recurrence\, absurde\, invariant)\, des maths discretes.\nREGLES : debo
- ut\, a voix haute\, chronometre. Lis tout l'enonce avant d'ecrire. Pour 
- chaque algorithme : l'idee en une phrase\, le pseudo-code\, la preuve (v
- ariant\, invariant)\, la complexite. Utilise tout le tableau ou une gran
- de feuille\, n'efface rien d'utile. Bloque au bout du temps : passe a la
-  suite et note au carnet.\nProgramme : ta L1-L2 ou le socle commun d'inf
- ormatique MP PC PT PSI.
+ ns reussi\, preuve redigee.\n\n15h45-16h00 CARNET (au plus deux lignes\,
+  et seulement une definition ou un theoreme du cours) + PDF.\n\nTrame Br
+ istol provisoire : si ton emploi du temps deplace ce creneau\, garde la 
+ sequence\, pas l'heure.\n\nFORMAT DU JURY (rapport 2025\, mineure inform
+ atique) : 50 min sans preparation\, au tableau. Quelques questions rapid
+ es\, puis deux problemes : le premier verifie le niveau minimal\, le sec
+ ond est nouveau. Aucun langage impose : decris l'algorithme en francais\
+ , puis en pseudo-code \; du code seulement si l'enonce le demande. Ce qu
+ i est note : le raisonnement plus que le resultat\, des preuves rigoureu
+ ses (recurrence\, absurde\, invariant)\, des maths discretes.\nREGLES : 
+ debout\, a voix haute\, chronometre. Lis tout l'enonce avant d'ecrire. P
+ our chaque algorithme : l'idee en une phrase\, le pseudo-code\, la preuv
+ e (variant\, invariant)\, la complexite. Utilise tout le tableau ou une 
+ grande feuille\, n'efface rien d'utile. Bloque au bout du temps : passe 
+ a la suite.\nProgramme : ta L1-L2 ou le socle commun d'informatique MP P
+ C PT PSI.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -8530,7 +8624,7 @@ DTSTART;TZID=Europe/Paris:20270223T140000
 DTEND;TZID=Europe/Paris:20270223T160000
 DTSTAMP:20260809T120000Z
 UID:672ad97d1e65a25e4f3ac6157b6550c5@fuf-romain
-SEQUENCE:23
+SEQUENCE:24
 DESCRIPTION:Fin de seance = un oral de 50 min enregistre + 3 observations
   + le probleme le moins reussi refait au propre.\n\n14h00-14h50 ORAL BLA
  NC\, 50 min\, debout\, chronometre. Enregistre-toi avec le dictaphone du
@@ -8552,21 +8646,22 @@ DESCRIPTION:Fin de seance = un oral de 50 min enregistre + 3 observations
  15h15 ECOUTE les 15 premieres minutes de l'enregistrement. Ecris 3 obser
  vations : tes silences\, tes phrases vagues\, ce que tu as ecrit sans le
   dire.\n\n15h15-15h45 AU PROPRE : refais de zero le probleme le moins re
- ussi\, preuve redigee.\n\n15h45-16h00 CARNET + PDF.\n\nTrame Bristol pro
- visoire : si ton emploi du temps deplace ce creneau\, garde la sequence\
- , pas l'heure.\n\nFORMAT DU JURY (rapport 2025\, mineure informatique) :
-  50 min sans preparation\, au tableau. Quelques questions rapides\, puis
-  deux problemes : le premier verifie le niveau minimal\, le second est n
- ouveau. Aucun langage impose : decris l'algorithme en francais\, puis en
-  pseudo-code \; du code seulement si l'enonce le demande. Ce qui est not
- e : le raisonnement plus que le resultat\, des preuves rigoureuses (recu
- rrence\, absurde\, invariant)\, des maths discretes.\nREGLES : debout\, 
- a voix haute\, chronometre. Lis tout l'enonce avant d'ecrire. Pour chaqu
- e algorithme : l'idee en une phrase\, le pseudo-code\, la preuve (varian
- t\, invariant)\, la complexite. Utilise tout le tableau ou une grande fe
- uille\, n'efface rien d'utile. Bloque au bout du temps : passe a la suit
- e et note au carnet.\nProgramme : ta L1-L2 ou le socle commun d'informat
- ique MP PC PT PSI.
+ ussi\, preuve redigee.\n\n15h45-16h00 CARNET (au plus deux lignes\, et s
+ eulement une definition ou un theoreme du cours) + PDF.\n\nTrame Bristol
+  provisoire : si ton emploi du temps deplace ce creneau\, garde la seque
+ nce\, pas l'heure.\n\nFORMAT DU JURY (rapport 2025\, mineure informatiqu
+ e) : 50 min sans preparation\, au tableau. Quelques questions rapides\, 
+ puis deux problemes : le premier verifie le niveau minimal\, le second e
+ st nouveau. Aucun langage impose : decris l'algorithme en francais\, pui
+ s en pseudo-code \; du code seulement si l'enonce le demande. Ce qui est
+  note : le raisonnement plus que le resultat\, des preuves rigoureuses (
+ recurrence\, absurde\, invariant)\, des maths discretes.\nREGLES : debou
+ t\, a voix haute\, chronometre. Lis tout l'enonce avant d'ecrire. Pour c
+ haque algorithme : l'idee en une phrase\, le pseudo-code\, la preuve (va
+ riant\, invariant)\, la complexite. Utilise tout le tableau ou une grand
+ e feuille\, n'efface rien d'utile. Bloque au bout du temps : passe a la 
+ suite.\nProgramme : ta L1-L2 ou le socle commun d'informatique MP PC PT 
+ PSI.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -8764,7 +8859,7 @@ DTSTART;TZID=Europe/Paris:20270302T140000
 DTEND;TZID=Europe/Paris:20270302T160000
 DTSTAMP:20260809T120000Z
 UID:4fb602b53e53656629e1d115f0377d8b@fuf-romain
-SEQUENCE:23
+SEQUENCE:24
 DESCRIPTION:Fin de seance = un oral de 50 min enregistre + 3 observations
   + le probleme le moins reussi refait au propre.\n\n14h00-14h50 ORAL BLA
  NC\, 50 min\, debout\, chronometre. Enregistre-toi avec le dictaphone du
@@ -8789,20 +8884,21 @@ DESCRIPTION:Fin de seance = un oral de 50 min enregistre + 3 observations
  ieres minutes de l'enregistrement. Ecris 3 observations : tes silences\,
   tes phrases vagues\, ce que tu as ecrit sans le dire.\n\n15h15-15h45 AU
   PROPRE : refais de zero le probleme le moins reussi\, preuve redigee.\n
- \n15h45-16h00 CARNET + PDF.\n\nTrame Bristol provisoire : si ton emploi 
- du temps deplace ce creneau\, garde la sequence\, pas l'heure.\n\nFORMAT
-  DU JURY (rapport 2025\, mineure informatique) : 50 min sans preparation
- \, au tableau. Quelques questions rapides\, puis deux problemes : le pre
- mier verifie le niveau minimal\, le second est nouveau. Aucun langage im
- pose : decris l'algorithme en francais\, puis en pseudo-code \; du code 
- seulement si l'enonce le demande. Ce qui est note : le raisonnement plus
-  que le resultat\, des preuves rigoureuses (recurrence\, absurde\, invar
- iant)\, des maths discretes.\nREGLES : debout\, a voix haute\, chronomet
- re. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en
-  une phrase\, le pseudo-code\, la preuve (variant\, invariant)\, la comp
- lexite. Utilise tout le tableau ou une grande feuille\, n'efface rien d'
- utile. Bloque au bout du temps : passe a la suite et note au carnet.\nPr
- ogramme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
+ \n15h45-16h00 CARNET (au plus deux lignes\, et seulement une definition 
+ ou un theoreme du cours) + PDF.\n\nTrame Bristol provisoire : si ton emp
+ loi du temps deplace ce creneau\, garde la sequence\, pas l'heure.\n\nFO
+ RMAT DU JURY (rapport 2025\, mineure informatique) : 50 min sans prepara
+ tion\, au tableau. Quelques questions rapides\, puis deux problemes : le
+  premier verifie le niveau minimal\, le second est nouveau. Aucun langag
+ e impose : decris l'algorithme en francais\, puis en pseudo-code \; du c
+ ode seulement si l'enonce le demande. Ce qui est note : le raisonnement 
+ plus que le resultat\, des preuves rigoureuses (recurrence\, absurde\, i
+ nvariant)\, des maths discretes.\nREGLES : debout\, a voix haute\, chron
+ ometre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'ide
+ e en une phrase\, le pseudo-code\, la preuve (variant\, invariant)\, la 
+ complexite. Utilise tout le tableau ou une grande feuille\, n'efface rie
+ n d'utile. Bloque au bout du temps : passe a la suite.\nProgramme : ta L
+ 1-L2 ou le socle commun d'informatique MP PC PT PSI.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -8990,7 +9086,7 @@ DTSTART;TZID=Europe/Paris:20270309T140000
 DTEND;TZID=Europe/Paris:20270309T160000
 DTSTAMP:20260809T120000Z
 UID:0706002b56567ae12424555e377ca23e@fuf-romain
-SEQUENCE:23
+SEQUENCE:24
 DESCRIPTION:Fin de seance = un oral de 50 min enregistre + 3 observations
   + le probleme le moins reussi refait au propre.\n\n14h00-14h50 ORAL BLA
  NC\, 50 min\, debout\, chronometre. Enregistre-toi avec le dictaphone du
@@ -9012,20 +9108,21 @@ DESCRIPTION:Fin de seance = un oral de 50 min enregistre + 3 observations
  eres minutes de l'enregistrement. Ecris 3 observations : tes silences\, 
  tes phrases vagues\, ce que tu as ecrit sans le dire.\n\n15h15-15h45 AU 
  PROPRE : refais de zero le probleme le moins reussi\, preuve redigee.\n\
- n15h45-16h00 CARNET + PDF.\n\nTrame Bristol provisoire : si ton emploi d
- u temps deplace ce creneau\, garde la sequence\, pas l'heure.\n\nFORMAT 
- DU JURY (rapport 2025\, mineure informatique) : 50 min sans preparation\
- , au tableau. Quelques questions rapides\, puis deux problemes : le prem
- ier verifie le niveau minimal\, le second est nouveau. Aucun langage imp
- ose : decris l'algorithme en francais\, puis en pseudo-code \; du code s
- eulement si l'enonce le demande. Ce qui est note : le raisonnement plus 
- que le resultat\, des preuves rigoureuses (recurrence\, absurde\, invari
- ant)\, des maths discretes.\nREGLES : debout\, a voix haute\, chronometr
- e. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en 
- une phrase\, le pseudo-code\, la preuve (variant\, invariant)\, la compl
- exite. Utilise tout le tableau ou une grande feuille\, n'efface rien d'u
- tile. Bloque au bout du temps : passe a la suite et note au carnet.\nPro
- gramme : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
+ n15h45-16h00 CARNET (au plus deux lignes\, et seulement une definition o
+ u un theoreme du cours) + PDF.\n\nTrame Bristol provisoire : si ton empl
+ oi du temps deplace ce creneau\, garde la sequence\, pas l'heure.\n\nFOR
+ MAT DU JURY (rapport 2025\, mineure informatique) : 50 min sans preparat
+ ion\, au tableau. Quelques questions rapides\, puis deux problemes : le 
+ premier verifie le niveau minimal\, le second est nouveau. Aucun langage
+  impose : decris l'algorithme en francais\, puis en pseudo-code \; du co
+ de seulement si l'enonce le demande. Ce qui est note : le raisonnement p
+ lus que le resultat\, des preuves rigoureuses (recurrence\, absurde\, in
+ variant)\, des maths discretes.\nREGLES : debout\, a voix haute\, chrono
+ metre. Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee
+  en une phrase\, le pseudo-code\, la preuve (variant\, invariant)\, la c
+ omplexite. Utilise tout le tableau ou une grande feuille\, n'efface rien
+  d'utile. Bloque au bout du temps : passe a la suite.\nProgramme : ta L1
+ -L2 ou le socle commun d'informatique MP PC PT PSI.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -9242,7 +9339,7 @@ DTSTART;TZID=Europe/Paris:20270316T140000
 DTEND;TZID=Europe/Paris:20270316T160000
 DTSTAMP:20260809T120000Z
 UID:54f0855688266801dc5c742d3e38c1e2@fuf-romain
-SEQUENCE:23
+SEQUENCE:24
 DESCRIPTION:Fin de seance = un oral de 50 min enregistre + 3 observations
   + le probleme le moins reussi refait au propre.\n\n14h00-14h50 ORAL BLA
  NC\, 50 min\, debout\, chronometre. Enregistre-toi avec le dictaphone du
@@ -9264,21 +9361,22 @@ DESCRIPTION:Fin de seance = un oral de 50 min enregistre + 3 observations
  \n\n15h00-15h15 ECOUTE les 15 premieres minutes de l'enregistrement. Ecr
  is 3 observations : tes silences\, tes phrases vagues\, ce que tu as ecr
  it sans le dire.\n\n15h15-15h45 AU PROPRE : refais de zero le probleme l
- e moins reussi\, preuve redigee.\n\n15h45-16h00 CARNET + PDF.\n\nTrame B
- ristol provisoire : si ton emploi du temps deplace ce creneau\, garde la
-  sequence\, pas l'heure.\n\nFORMAT DU JURY (rapport 2025\, mineure infor
- matique) : 50 min sans preparation\, au tableau. Quelques questions rapi
- des\, puis deux problemes : le premier verifie le niveau minimal\, le se
- cond est nouveau. Aucun langage impose : decris l'algorithme en francais
- \, puis en pseudo-code \; du code seulement si l'enonce le demande. Ce q
- ui est note : le raisonnement plus que le resultat\, des preuves rigoure
- uses (recurrence\, absurde\, invariant)\, des maths discretes.\nREGLES :
-  debout\, a voix haute\, chronometre. Lis tout l'enonce avant d'ecrire. 
- Pour chaque algorithme : l'idee en une phrase\, le pseudo-code\, la preu
- ve (variant\, invariant)\, la complexite. Utilise tout le tableau ou une
-  grande feuille\, n'efface rien d'utile. Bloque au bout du temps : passe
-  a la suite et note au carnet.\nProgramme : ta L1-L2 ou le socle commun 
- d'informatique MP PC PT PSI.
+ e moins reussi\, preuve redigee.\n\n15h45-16h00 CARNET (au plus deux lig
+ nes\, et seulement une definition ou un theoreme du cours) + PDF.\n\nTra
+ me Bristol provisoire : si ton emploi du temps deplace ce creneau\, gard
+ e la sequence\, pas l'heure.\n\nFORMAT DU JURY (rapport 2025\, mineure i
+ nformatique) : 50 min sans preparation\, au tableau. Quelques questions 
+ rapides\, puis deux problemes : le premier verifie le niveau minimal\, l
+ e second est nouveau. Aucun langage impose : decris l'algorithme en fran
+ cais\, puis en pseudo-code \; du code seulement si l'enonce le demande. 
+ Ce qui est note : le raisonnement plus que le resultat\, des preuves rig
+ oureuses (recurrence\, absurde\, invariant)\, des maths discretes.\nREGL
+ ES : debout\, a voix haute\, chronometre. Lis tout l'enonce avant d'ecri
+ re. Pour chaque algorithme : l'idee en une phrase\, le pseudo-code\, la 
+ preuve (variant\, invariant)\, la complexite. Utilise tout le tableau ou
+  une grande feuille\, n'efface rien d'utile. Bloque au bout du temps : p
+ asse a la suite.\nProgramme : ta L1-L2 ou le socle commun d'informatique
+  MP PC PT PSI.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -9476,7 +9574,7 @@ DTSTART;TZID=Europe/Paris:20270323T140000
 DTEND;TZID=Europe/Paris:20270323T160000
 DTSTAMP:20260809T120000Z
 UID:4bf50d5515c495701de0a83ec095a6bc@fuf-romain
-SEQUENCE:23
+SEQUENCE:24
 DESCRIPTION:Fin de seance = un oral de 50 min enregistre + 3 observations
   + le probleme le moins reussi refait au propre.\n\n14h00-14h50 ORAL BLA
  NC\, 50 min\, debout\, chronometre. Enregistre-toi avec le dictaphone du
@@ -9498,21 +9596,22 @@ DESCRIPTION:Fin de seance = un oral de 50 min enregistre + 3 observations
  -15h00 PAUSE.\n\n15h00-15h15 ECOUTE les 15 premieres minutes de l'enregi
  strement. Ecris 3 observations : tes silences\, tes phrases vagues\, ce 
  que tu as ecrit sans le dire.\n\n15h15-15h45 AU PROPRE : refais de zero 
- le probleme le moins reussi\, preuve redigee.\n\n15h45-16h00 CARNET + PD
- F.\n\nTrame Bristol provisoire : si ton emploi du temps deplace ce crene
- au\, garde la sequence\, pas l'heure.\n\nFORMAT DU JURY (rapport 2025\, 
- mineure informatique) : 50 min sans preparation\, au tableau. Quelques q
- uestions rapides\, puis deux problemes : le premier verifie le niveau mi
- nimal\, le second est nouveau. Aucun langage impose : decris l'algorithm
- e en francais\, puis en pseudo-code \; du code seulement si l'enonce le 
- demande. Ce qui est note : le raisonnement plus que le resultat\, des pr
- euves rigoureuses (recurrence\, absurde\, invariant)\, des maths discret
- es.\nREGLES : debout\, a voix haute\, chronometre. Lis tout l'enonce ava
- nt d'ecrire. Pour chaque algorithme : l'idee en une phrase\, le pseudo-c
- ode\, la preuve (variant\, invariant)\, la complexite. Utilise tout le t
- ableau ou une grande feuille\, n'efface rien d'utile. Bloque au bout du 
- temps : passe a la suite et note au carnet.\nProgramme : ta L1-L2 ou le 
- socle commun d'informatique MP PC PT PSI.
+ le probleme le moins reussi\, preuve redigee.\n\n15h45-16h00 CARNET (au 
+ plus deux lignes\, et seulement une definition ou un theoreme du cours) 
+ + PDF.\n\nTrame Bristol provisoire : si ton emploi du temps deplace ce c
+ reneau\, garde la sequence\, pas l'heure.\n\nFORMAT DU JURY (rapport 202
+ 5\, mineure informatique) : 50 min sans preparation\, au tableau. Quelqu
+ es questions rapides\, puis deux problemes : le premier verifie le nivea
+ u minimal\, le second est nouveau. Aucun langage impose : decris l'algor
+ ithme en francais\, puis en pseudo-code \; du code seulement si l'enonce
+  le demande. Ce qui est note : le raisonnement plus que le resultat\, de
+ s preuves rigoureuses (recurrence\, absurde\, invariant)\, des maths dis
+ cretes.\nREGLES : debout\, a voix haute\, chronometre. Lis tout l'enonce
+  avant d'ecrire. Pour chaque algorithme : l'idee en une phrase\, le pseu
+ do-code\, la preuve (variant\, invariant)\, la complexite. Utilise tout 
+ le tableau ou une grande feuille\, n'efface rien d'utile. Bloque au bout
+  du temps : passe a la suite.\nProgramme : ta L1-L2 ou le socle commun d
+ 'informatique MP PC PT PSI.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -9701,7 +9800,7 @@ DTSTART;TZID=Europe/Paris:20270330T140000
 DTEND;TZID=Europe/Paris:20270330T160000
 DTSTAMP:20260809T120000Z
 UID:21dabc2a7a9a38b820756c601b9267b9@fuf-romain
-SEQUENCE:23
+SEQUENCE:24
 DESCRIPTION:Fin de seance = un oral de 50 min enregistre + 3 observations
   + le probleme le moins reussi refait au propre.\n\n14h00-14h50 ORAL BLA
  NC\, 50 min\, debout\, chronometre. Enregistre-toi avec le dictaphone du
@@ -9722,21 +9821,22 @@ DESCRIPTION:Fin de seance = un oral de 50 min enregistre + 3 observations
  00-15h15 ECOUTE les 15 premieres minutes de l'enregistrement. Ecris 3 ob
  servations : tes silences\, tes phrases vagues\, ce que tu as ecrit sans
   le dire.\n\n15h15-15h45 AU PROPRE : refais de zero le probleme le moins
-  reussi\, preuve redigee.\n\n15h45-16h00 CARNET + PDF.\n\nTrame Bristol 
- provisoire : si ton emploi du temps deplace ce creneau\, garde la sequen
- ce\, pas l'heure.\n\nFORMAT DU JURY (rapport 2025\, mineure informatique
- ) : 50 min sans preparation\, au tableau. Quelques questions rapides\, p
- uis deux problemes : le premier verifie le niveau minimal\, le second es
- t nouveau. Aucun langage impose : decris l'algorithme en francais\, puis
-  en pseudo-code \; du code seulement si l'enonce le demande. Ce qui est 
- note : le raisonnement plus que le resultat\, des preuves rigoureuses (r
- ecurrence\, absurde\, invariant)\, des maths discretes.\nREGLES : debout
- \, a voix haute\, chronometre. Lis tout l'enonce avant d'ecrire. Pour ch
- aque algorithme : l'idee en une phrase\, le pseudo-code\, la preuve (var
- iant\, invariant)\, la complexite. Utilise tout le tableau ou une grande
-  feuille\, n'efface rien d'utile. Bloque au bout du temps : passe a la s
- uite et note au carnet.\nProgramme : ta L1-L2 ou le socle commun d'infor
- matique MP PC PT PSI.
+  reussi\, preuve redigee.\n\n15h45-16h00 CARNET (au plus deux lignes\, e
+ t seulement une definition ou un theoreme du cours) + PDF.\n\nTrame Bris
+ tol provisoire : si ton emploi du temps deplace ce creneau\, garde la se
+ quence\, pas l'heure.\n\nFORMAT DU JURY (rapport 2025\, mineure informat
+ ique) : 50 min sans preparation\, au tableau. Quelques questions rapides
+ \, puis deux problemes : le premier verifie le niveau minimal\, le secon
+ d est nouveau. Aucun langage impose : decris l'algorithme en francais\, 
+ puis en pseudo-code \; du code seulement si l'enonce le demande. Ce qui 
+ est note : le raisonnement plus que le resultat\, des preuves rigoureuse
+ s (recurrence\, absurde\, invariant)\, des maths discretes.\nREGLES : de
+ bout\, a voix haute\, chronometre. Lis tout l'enonce avant d'ecrire. Pou
+ r chaque algorithme : l'idee en une phrase\, le pseudo-code\, la preuve 
+ (variant\, invariant)\, la complexite. Utilise tout le tableau ou une gr
+ ande feuille\, n'efface rien d'utile. Bloque au bout du temps : passe a 
+ la suite.\nProgramme : ta L1-L2 ou le socle commun d'informatique MP PC 
+ PT PSI.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -9930,7 +10030,7 @@ DTSTART;TZID=Europe/Paris:20270406T140000
 DTEND;TZID=Europe/Paris:20270406T160000
 DTSTAMP:20260809T120000Z
 UID:b94052c7d86df4b10d1199b7533debe6@fuf-romain
-SEQUENCE:23
+SEQUENCE:24
 DESCRIPTION:Fin de seance = un oral de 50 min enregistre + 3 observations
   + le probleme le moins reussi refait au propre.\n\n14h00-14h50 ORAL BLA
  NC\, 50 min\, debout\, chronometre. Enregistre-toi avec le dictaphone du
@@ -9952,21 +10052,22 @@ DESCRIPTION:Fin de seance = un oral de 50 min enregistre + 3 observations
  h50-15h00 PAUSE.\n\n15h00-15h15 ECOUTE les 15 premieres minutes de l'enr
  egistrement. Ecris 3 observations : tes silences\, tes phrases vagues\, 
  ce que tu as ecrit sans le dire.\n\n15h15-15h45 AU PROPRE : refais de ze
- ro le probleme le moins reussi\, preuve redigee.\n\n15h45-16h00 CARNET +
-  PDF.\n\nTrame Bristol provisoire : si ton emploi du temps deplace ce cr
- eneau\, garde la sequence\, pas l'heure.\n\nFORMAT DU JURY (rapport 2025
- \, mineure informatique) : 50 min sans preparation\, au tableau. Quelque
- s questions rapides\, puis deux problemes : le premier verifie le niveau
-  minimal\, le second est nouveau. Aucun langage impose : decris l'algori
- thme en francais\, puis en pseudo-code \; du code seulement si l'enonce 
- le demande. Ce qui est note : le raisonnement plus que le resultat\, des
-  preuves rigoureuses (recurrence\, absurde\, invariant)\, des maths disc
- retes.\nREGLES : debout\, a voix haute\, chronometre. Lis tout l'enonce 
- avant d'ecrire. Pour chaque algorithme : l'idee en une phrase\, le pseud
- o-code\, la preuve (variant\, invariant)\, la complexite. Utilise tout l
- e tableau ou une grande feuille\, n'efface rien d'utile. Bloque au bout 
- du temps : passe a la suite et note au carnet.\nProgramme : ta L1-L2 ou 
- le socle commun d'informatique MP PC PT PSI.
+ ro le probleme le moins reussi\, preuve redigee.\n\n15h45-16h00 CARNET (
+ au plus deux lignes\, et seulement une definition ou un theoreme du cour
+ s) + PDF.\n\nTrame Bristol provisoire : si ton emploi du temps deplace c
+ e creneau\, garde la sequence\, pas l'heure.\n\nFORMAT DU JURY (rapport 
+ 2025\, mineure informatique) : 50 min sans preparation\, au tableau. Que
+ lques questions rapides\, puis deux problemes : le premier verifie le ni
+ veau minimal\, le second est nouveau. Aucun langage impose : decris l'al
+ gorithme en francais\, puis en pseudo-code \; du code seulement si l'eno
+ nce le demande. Ce qui est note : le raisonnement plus que le resultat\,
+  des preuves rigoureuses (recurrence\, absurde\, invariant)\, des maths 
+ discretes.\nREGLES : debout\, a voix haute\, chronometre. Lis tout l'eno
+ nce avant d'ecrire. Pour chaque algorithme : l'idee en une phrase\, le p
+ seudo-code\, la preuve (variant\, invariant)\, la complexite. Utilise to
+ ut le tableau ou une grande feuille\, n'efface rien d'utile. Bloque au b
+ out du temps : passe a la suite.\nProgramme : ta L1-L2 ou le socle commu
+ n d'informatique MP PC PT PSI.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -10165,7 +10266,7 @@ DTSTART;TZID=Europe/Paris:20270413T140000
 DTEND;TZID=Europe/Paris:20270413T160000
 DTSTAMP:20260809T120000Z
 UID:7e313c004e078b9555f47da3b837ec3f@fuf-romain
-SEQUENCE:23
+SEQUENCE:24
 DESCRIPTION:Fin de seance = un oral de 50 min enregistre + 3 observations
   + le probleme le moins reussi refait au propre.\n\n14h00-14h50 ORAL BLA
  NC\, 50 min\, debout\, chronometre. Enregistre-toi avec le dictaphone du
@@ -10189,20 +10290,21 @@ DESCRIPTION:Fin de seance = un oral de 50 min enregistre + 3 observations
  minutes de l'enregistrement. Ecris 3 observations : tes silences\, tes p
  hrases vagues\, ce que tu as ecrit sans le dire.\n\n15h15-15h45 AU PROPR
  E : refais de zero le probleme le moins reussi\, preuve redigee.\n\n15h4
- 5-16h00 CARNET + PDF.\n\nTrame Bristol provisoire : si ton emploi du tem
- ps deplace ce creneau\, garde la sequence\, pas l'heure.\n\nFORMAT DU JU
- RY (rapport 2025\, mineure informatique) : 50 min sans preparation\, au 
- tableau. Quelques questions rapides\, puis deux problemes : le premier v
- erifie le niveau minimal\, le second est nouveau. Aucun langage impose :
-  decris l'algorithme en francais\, puis en pseudo-code \; du code seulem
- ent si l'enonce le demande. Ce qui est note : le raisonnement plus que l
- e resultat\, des preuves rigoureuses (recurrence\, absurde\, invariant)\
- , des maths discretes.\nREGLES : debout\, a voix haute\, chronometre. Li
- s tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en une p
- hrase\, le pseudo-code\, la preuve (variant\, invariant)\, la complexite
- . Utilise tout le tableau ou une grande feuille\, n'efface rien d'utile.
-  Bloque au bout du temps : passe a la suite et note au carnet.\nProgramm
- e : ta L1-L2 ou le socle commun d'informatique MP PC PT PSI.
+ 5-16h00 CARNET (au plus deux lignes\, et seulement une definition ou un 
+ theoreme du cours) + PDF.\n\nTrame Bristol provisoire : si ton emploi du
+  temps deplace ce creneau\, garde la sequence\, pas l'heure.\n\nFORMAT D
+ U JURY (rapport 2025\, mineure informatique) : 50 min sans preparation\,
+  au tableau. Quelques questions rapides\, puis deux problemes : le premi
+ er verifie le niveau minimal\, le second est nouveau. Aucun langage impo
+ se : decris l'algorithme en francais\, puis en pseudo-code \; du code se
+ ulement si l'enonce le demande. Ce qui est note : le raisonnement plus q
+ ue le resultat\, des preuves rigoureuses (recurrence\, absurde\, invaria
+ nt)\, des maths discretes.\nREGLES : debout\, a voix haute\, chronometre
+ . Lis tout l'enonce avant d'ecrire. Pour chaque algorithme : l'idee en u
+ ne phrase\, le pseudo-code\, la preuve (variant\, invariant)\, la comple
+ xite. Utilise tout le tableau ou une grande feuille\, n'efface rien d'ut
+ ile. Bloque au bout du temps : passe a la suite.\nProgramme : ta L1-L2 o
+ u le socle commun d'informatique MP PC PT PSI.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -10414,7 +10516,7 @@ DTSTART;TZID=Europe/Paris:20270420T140000
 DTEND;TZID=Europe/Paris:20270420T160000
 DTSTAMP:20260809T120000Z
 UID:342be9b866c6b18c60c978a0550f6d9e@fuf-romain
-SEQUENCE:23
+SEQUENCE:24
 DESCRIPTION:Fin de seance = un oral de 50 min enregistre + 3 observations
   + le probleme le moins reussi refait au propre.\n\n14h00-14h50 ORAL BLA
  NC\, 50 min\, debout\, chronometre. Enregistre-toi avec le dictaphone du
@@ -10437,21 +10539,22 @@ DESCRIPTION:Fin de seance = un oral de 50 min enregistre + 3 observations
  n15h00-15h15 ECOUTE les 15 premieres minutes de l'enregistrement. Ecris 
  3 observations : tes silences\, tes phrases vagues\, ce que tu as ecrit 
  sans le dire.\n\n15h15-15h45 AU PROPRE : refais de zero le probleme le m
- oins reussi\, preuve redigee.\n\n15h45-16h00 CARNET + PDF.\n\nTrame Bris
- tol provisoire : si ton emploi du temps deplace ce creneau\, garde la se
- quence\, pas l'heure.\n\nFORMAT DU JURY (rapport 2025\, mineure informat
- ique) : 50 min sans preparation\, au tableau. Quelques questions rapides
- \, puis deux problemes : le premier verifie le niveau minimal\, le secon
- d est nouveau. Aucun langage impose : decris l'algorithme en francais\, 
- puis en pseudo-code \; du code seulement si l'enonce le demande. Ce qui 
- est note : le raisonnement plus que le resultat\, des preuves rigoureuse
- s (recurrence\, absurde\, invariant)\, des maths discretes.\nREGLES : de
- bout\, a voix haute\, chronometre. Lis tout l'enonce avant d'ecrire. Pou
- r chaque algorithme : l'idee en une phrase\, le pseudo-code\, la preuve 
- (variant\, invariant)\, la complexite. Utilise tout le tableau ou une gr
- ande feuille\, n'efface rien d'utile. Bloque au bout du temps : passe a 
- la suite et note au carnet.\nProgramme : ta L1-L2 ou le socle commun d'i
- nformatique MP PC PT PSI.
+ oins reussi\, preuve redigee.\n\n15h45-16h00 CARNET (au plus deux lignes
+ \, et seulement une definition ou un theoreme du cours) + PDF.\n\nTrame 
+ Bristol provisoire : si ton emploi du temps deplace ce creneau\, garde l
+ a sequence\, pas l'heure.\n\nFORMAT DU JURY (rapport 2025\, mineure info
+ rmatique) : 50 min sans preparation\, au tableau. Quelques questions rap
+ ides\, puis deux problemes : le premier verifie le niveau minimal\, le s
+ econd est nouveau. Aucun langage impose : decris l'algorithme en francai
+ s\, puis en pseudo-code \; du code seulement si l'enonce le demande. Ce 
+ qui est note : le raisonnement plus que le resultat\, des preuves rigour
+ euses (recurrence\, absurde\, invariant)\, des maths discretes.\nREGLES 
+ : debout\, a voix haute\, chronometre. Lis tout l'enonce avant d'ecrire.
+  Pour chaque algorithme : l'idee en une phrase\, le pseudo-code\, la pre
+ uve (variant\, invariant)\, la complexite. Utilise tout le tableau ou un
+ e grande feuille\, n'efface rien d'utile. Bloque au bout du temps : pass
+ e a la suite.\nProgramme : ta L1-L2 ou le socle commun d'informatique MP
+  PC PT PSI.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -10635,7 +10738,7 @@ DTSTART;TZID=Europe/Paris:20270427T140000
 DTEND;TZID=Europe/Paris:20270427T160000
 DTSTAMP:20260809T120000Z
 UID:66cf274606bff3fb0d8129c0cd3f1854@fuf-romain
-SEQUENCE:23
+SEQUENCE:24
 DESCRIPTION:Derniere seance d'info avant les oraux : un oral complet sur 
  des themes melanges\, comme le jour J.\n\nFin de seance = un oral de 50 
  min enregistre + 3 observations + le probleme le moins reussi refait au 
@@ -10660,21 +10763,22 @@ DESCRIPTION:Derniere seance d'info avant les oraux : un oral complet sur
  15h00-15h15 ECOUTE les 15 premieres minutes de l'enregistrement. Ecris 3
   observations : tes silences\, tes phrases vagues\, ce que tu as ecrit s
  ans le dire.\n\n15h15-15h45 AU PROPRE : refais de zero le probleme le mo
- ins reussi\, preuve redigee.\n\n15h45-16h00 CARNET + PDF.\n\nTrame Brist
- ol provisoire : si ton emploi du temps deplace ce creneau\, garde la seq
- uence\, pas l'heure.\n\nFORMAT DU JURY (rapport 2025\, mineure informati
- que) : 50 min sans preparation\, au tableau. Quelques questions rapides\
- , puis deux problemes : le premier verifie le niveau minimal\, le second
-  est nouveau. Aucun langage impose : decris l'algorithme en francais\, p
- uis en pseudo-code \; du code seulement si l'enonce le demande. Ce qui e
- st note : le raisonnement plus que le resultat\, des preuves rigoureuses
-  (recurrence\, absurde\, invariant)\, des maths discretes.\nREGLES : deb
- out\, a voix haute\, chronometre. Lis tout l'enonce avant d'ecrire. Pour
-  chaque algorithme : l'idee en une phrase\, le pseudo-code\, la preuve (
- variant\, invariant)\, la complexite. Utilise tout le tableau ou une gra
- nde feuille\, n'efface rien d'utile. Bloque au bout du temps : passe a l
- a suite et note au carnet.\nProgramme : ta L1-L2 ou le socle commun d'in
- formatique MP PC PT PSI.
+ ins reussi\, preuve redigee.\n\n15h45-16h00 CARNET (au plus deux lignes\
+ , et seulement une definition ou un theoreme du cours) + PDF.\n\nTrame B
+ ristol provisoire : si ton emploi du temps deplace ce creneau\, garde la
+  sequence\, pas l'heure.\n\nFORMAT DU JURY (rapport 2025\, mineure infor
+ matique) : 50 min sans preparation\, au tableau. Quelques questions rapi
+ des\, puis deux problemes : le premier verifie le niveau minimal\, le se
+ cond est nouveau. Aucun langage impose : decris l'algorithme en francais
+ \, puis en pseudo-code \; du code seulement si l'enonce le demande. Ce q
+ ui est note : le raisonnement plus que le resultat\, des preuves rigoure
+ uses (recurrence\, absurde\, invariant)\, des maths discretes.\nREGLES :
+  debout\, a voix haute\, chronometre. Lis tout l'enonce avant d'ecrire. 
+ Pour chaque algorithme : l'idee en une phrase\, le pseudo-code\, la preu
+ ve (variant\, invariant)\, la complexite. Utilise tout le tableau ou une
+  grande feuille\, n'efface rien d'utile. Bloque au bout du temps : passe
+  a la suite.\nProgramme : ta L1-L2 ou le socle commun d'informatique MP 
+ PC PT PSI.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
@@ -11092,23 +11196,35 @@ TRIGGER:-P7D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:DOSSIER - Telecharger les formulaires medicaux
+SEQUENCE:1
+SUMMARY:DOSSIER - Formulaires medicaux : pas avant le 5 janvier
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 DTSTAMP:20260809T120000Z
 UID:7f917379225aa56b862ccda1661c63f4@dossier-fuf
-DESCRIPTION:Deux documents distincts a recuperer sur le site du concours 
- :\n\n1. LE CERTIFICAT MEDICAL DE MODELE IMPOSE - a faire remplir par ton
-  medecin. Il atteste ton aptitude a subir dans leur totalite les epreuve
- s d'education physique et sportives. Tu l'apporteras a la consultation d
- e decembre.\n\n2. LE QUESTIONNAIRE DE SANTE prealable a l'engagement dan
- s les armees ou la gendarmerie nationale - a telecharger\, imprimer et r
- emplir toi-meme. Il est a apporter a la visite medicale de mai\, pas a d
- eposer au dossier.
+DESCRIPTION:RIEN A TELECHARGER CETTE SEMAINE.\n\n1. LE CERTIFICAT MEDICAL
+  DE L'X (piece CERTX) suit un 'modele impose a telecharger sur la platef
+ orme d'inscription' (notice GEI-UNIV 2027\, p. 14\, lue le 15/11). La pl
+ ateforme n'ouvre que le 5 janvier 2027 (p. 9) : la consultation prevue l
+ e 21/12 ne peut donc pas s'en servir. La question est dans ton brouillon
+  du 15/11 pour contact@geiuniv.com : envoie-le si ce n'est pas deja fait
+ .\n\n2. LE QUESTIONNAIRE DE SANTE prealable a l'engagement dans les arme
+ es ou la gendarmerie nationale : a remplir toi-meme et a apporter a la v
+ isite medicale de mai\, pas a deposer au dossier. A reverifier dans la n
+ otice FUF 2027 de l'X\, pas encore parue au 15/11.
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:DOSSIER - Telecharger les formulaires medicaux
+DESCRIPTION:RIEN A TELECHARGER CETTE SEMAINE.\n\n1. LE CERTIFICAT MEDICAL
+  DE L'X (piece CERTX) suit un 'modele impose a telecharger sur la platef
+ orme d'inscription' (notice GEI-UNIV 2027\, p. 14\, lue le 15/11). La pl
+ ateforme n'ouvre que le 5 janvier 2027 (p. 9) : la consultation prevue l
+ e 21/12 ne peut donc pas s'en servir. La question est dans ton brouillon
+  du 15/11 pour contact@geiuniv.com : envoie-le si ce n'est pas deja fait
+ .\n\n2. LE QUESTIONNAIRE DE SANTE prealable a l'engagement dans les arme
+ es ou la gendarmerie nationale : a remplir toi-meme et a apporter a la v
+ isite medicale de mai\, pas a deposer au dossier. A reverifier dans la n
+ otice FUF 2027 de l'X\, pas encore parue au 15/11.
 TRIGGER:-PT15H
 END:VALARM
 END:VEVENT
