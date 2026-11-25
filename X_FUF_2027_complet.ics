@@ -5689,19 +5689,23 @@ DESCRIPTION:Preparer les TD a venir\, avancer le Projet Data\, refaire le
  nt la prep concours.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Course a pied
+SUMMARY:Muscu - Haut du corps (puissance et gainage)
 DTSTART;TZID=Europe/Paris:20261127T203000
-DTEND;TZID=Europe/Paris:20261127T213000
-DTSTAMP:20260809T120000Z
+DTEND;TZID=Europe/Paris:20261127T214500
+DTSTAMP:20261125T210759Z
 UID:81d92f9a09f3f0e0f03e20c46c333072@fuf-romain
-SEQUENCE:4
-DESCRIPTION:SEANCE ENDURANCE (phase 2)\n\n40 a 45 min\, dont 2 x 8 min a 
- allure soutenue (environ 4'20 / km).\n\nTON ALLURE FACILE : 4'40 a 5'00 
- / km. Tu tiens 4'17 / km sur 4 km\, donc cours NETTEMENT plus lentement 
- ici : le footing facile doit rester facile\, c'est ce qui te permet d'en
- caisser les seances dures du lundi et du mercredi. Tu dois pouvoir parle
- r en courant.\n\nC'est la seance qui soutient tout le reste\, et la plus
-  facile a negliger.
+SEQUENCE:5
+DESCRIPTION:BLOC MUSCU du 27/11 au 9/01 : piste en pause\, une seule nata
+ tion par semaine (le jeudi\, bassin de 25 m comme a Palaiseau).\n\nSEMAI
+ NE 1 : cherche tes charges de travail\, sans aller a l'echec.\n\nSEANCE 
+ 4/4 - HAUT DU CORPS\, PUISSANCE ET GAINAGE\nEchauffement 10 min : rameur
+ \, epaules a l'elastique.\n- Developpe militaire debout (push press) : 4
+  x 5\n- Tirage vertical a la poulie haute\, prise large : 3 x 8\n- Dips 
+ (lestes si besoin) : 3 x 8\n- Pallof press\, puis releves de jambes susp
+ endu : 3 x 10 chacun\nRepos : 2 min.\n\nEFFORT : garde 2 repetitions en 
+ reserve (RPE 8).\nPROGRESSION : quand toutes les repetitions passent pro
+ prement\, +2\,5 a 5 kg la semaine suivante.\nSECURITE : arrete la seance
+  au moindre tiraillement aux ischio-jambiers ou aux mollets.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bilan hebdo + carnet d'erreurs
@@ -5810,19 +5814,24 @@ DESCRIPTION:Preparer les TD a venir\, avancer le Projet Data\, refaire le
  nt la prep concours.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Course a pied
+SUMMARY:Muscu - Bas du corps (force)
 DTSTART;TZID=Europe/Paris:20261130T203000
-DTEND;TZID=Europe/Paris:20261130T213000
-DTSTAMP:20260809T120000Z
+DTEND;TZID=Europe/Paris:20261130T214500
+DTSTAMP:20261125T210759Z
 UID:99e7c2bdd55ff593d68b64936cf7a23e@fuf-romain
-SEQUENCE:4
-DESCRIPTION:SEANCE 1000 m - allure specifique (phase 2)\n\nTON ALLURE DE 
- TRAVAIL : 43 s / 200 m  -  1'26 / 400 m  -  2'09 / 600 m\n(cible interme
- diaire 3'35 au 1000 m \; objectif final 3'25 = 12 pts)\n\nEchauffement :
-  12 min de footing facile + gammes + 3 lignes droites progressives.\n\nC
- orps de seance\, au choix :\n- 5 x 400 m en 1'26\, recup 1 min 30\n- ou 
- 3 x 600 m en 2'12\, recup 2 min 30\n- ou 8 x 200 m en 42 s\, recup 45 s\
- n\nRetour au calme : 8 min facile.
+SEQUENCE:5
+DESCRIPTION:BLOC MUSCU du 27/11 au 9/01 : piste en pause\, une seule nata
+ tion par semaine (le jeudi\, bassin de 25 m comme a Palaiseau).\n\nSEMAI
+ NE 1 : cherche tes charges de travail\, sans aller a l'echec.\n\nSEANCE 
+ 1/4 - BAS DU CORPS\, FORCE\nEchauffement 10 min : rameur ou velo\, mobil
+ ite hanches et chevilles\, 2 series legeres de squat.\n- Back squat : 4 
+ x 5\, montee en charge progressive\, repos 3 min\n- Souleve de terre rou
+ main : 3 x 6\, descente controlee\, montee explosive\, repos 2 min\n- Fe
+ ntes marchees avec halteres : 3 x 8 par jambe\, repos 2 min\n- Mollets d
+ ebout : 4 x 10\, repos 2 min\n\nEFFORT : garde 2 repetitions en reserve 
+ (RPE 8).\nPROGRESSION : quand toutes les repetitions passent proprement\
+ , +2\,5 a 5 kg la semaine suivante.\nSECURITE : arrete la seance au moin
+ dre tiraillement aux ischio-jambiers ou aux mollets.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Maths - sections de la semaine\, version socle
@@ -5853,44 +5862,25 @@ DESCRIPTION:Preparer les TD a venir\, avancer le Projet Data\, refaire le
  nt la prep concours.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
-DTSTART;TZID=Europe/Paris:20261201T170000
-DTEND;TZID=Europe/Paris:20261201T191500
-DTSTAMP:20260809T120000Z
+SUMMARY:Muscu - Haut du corps (poussee et tirage)
+DTSTART;TZID=Europe/Paris:20261201T173000
+DTEND;TZID=Europe/Paris:20261201T184500
+DTSTAMP:20261125T210759Z
 UID:c0eb418b8e98bf635ff8853ade86f9a0@fuf-romain
-SEQUENCE:20
-DESCRIPTION:SEANCE NATATION - VITESSE ET NAGE PURE (mardi) - bassin de 50
-  m - phase 2\nTotal : environ 1\,75 km.\n\nECHAUFFEMENT\n200 m crawl sou
- ple\n100 m planche\n\nCORPS DE SEANCE\n200 m palmes\n200 m : 100 m avec 
- planche puis 100 m sans planche\n200 m plaquettes\n200 m respiration 3 /
-  5 / 7 (nombre de mouvements entre deux respirations)\n100 m educatifs :
-  2 x 25 m rattrape (une main attend l'autre devant) + 2 x 25 m poings fe
- rmes (force l'appui sur l'avant-bras)\n4 x 50 m D'UNE TRAITE\, objectif 
- 43 s - recup 1 min 30\n50 m repos\n100 m battements planche\, soutenu\, 
- de plus en plus rapide vers la fin - chronometre\, cible 1'24\n\nRETOUR 
- AU CALME\n100 m tranquille\n\nCE QUE CETTE SEANCE MESURE : ta nage pure\
- , sans aucune aide du mur. C'est le chiffre honnete de ta technique et d
- e ton endurance de vitesse. Le jeudi te dira ce que le format de l'epreu
- ve y ajoute.\n\nTA PRIORITE : la planche. Ton 1'30 sur 50 m signale que 
- tes jambes coulent\, donc que tu traines.\n\nPOINTS TECHNIQUES\n- Corps 
- horizontal\, tete dans l'axe\, regard vers le fond. Une tete relevee fai
- t couler les jambes.\n- Coude haut\, avant-bras vertical sous l'eau.\n- 
- Le corps roule autour de son axe.\n- Sur 50 m : aucune respiration sur l
- es 15 premiers metres\, puis tous les 3 a 4 cycles.\n\nMATERIEL : palmes
-  et plaquettes. Les plaquettes abiment les epaules si tu forces avec une
-  mauvaise technique : commence petit\, sans chercher la vitesse.\n\nPisc
- ine Judaique Jean Boiteux\, bassin de 50 m. Ici\, un 50 m se nage D'UNE 
- SEULE TRAITE : pas de virage\, pas de coulee de relance. C'est donc ta N
- AGE PURE que tu mesures\, normalement 3 a 5 secondes plus lente que le j
- our J. L'ecart est normal\, ne t'en inquiete pas.\n\nHORAIRES : la pisci
- ne ferme a 19h le mardi\, bassins evacues 15 min avant. Verifie le jour 
- meme sur mapiscine.bordeaux.fr : les horaires changent pendant les vacan
- ces scolaires et la piscine ferme les jours feries.\n\nORGANISATION DU C
- RENEAU (2h15 en tout)\n30 min de trajet aller en trottinette\, 1h15 sur 
- place (vestiaire\, seance\, douche)\, 30 min de retour. Le bloc est bloq
- ue en entier dans ton agenda : ne planifie rien dedans.\n\nBASSIN 17h30-
- 18h45. La piscine ferme a 19h le mardi et les bassins sont evacues a 18h
- 45 : tu es pile dans le creneau\, ne traine pas au vestiaire.
+SEQUENCE:21
+DESCRIPTION:BLOC MUSCU du 27/11 au 9/01 : piste en pause\, une seule nata
+ tion par semaine (le jeudi\, bassin de 25 m comme a Palaiseau).\n\nSEMAI
+ NE 1 : cherche tes charges de travail\, sans aller a l'echec.\n\nCe cren
+ eau remplace la natation du mardi (bassin de 50 m) pendant le bloc. Ajou
+ te ton trajet si ta salle est loin.\n\nSEANCE 2/4 - HAUT DU CORPS\, POUS
+ SEE ET TIRAGE\nEchauffement 10 min : rameur\, epaules a l'elastique\, 2 
+ series legeres de tractions.\n- Tractions pronation (lestees si c'est fa
+ cile) : 4 x 6\n- Developpe couche barre : 4 x 6\n- Rowing barre buste pe
+ nche : 3 x 8\n- Planche lestee ou hollow hold : 3 x 45 s\nRepos : 2 min 
+ 30. Les tractions sont la cle pour le crawl.\n\nEFFORT : garde 2 repetit
+ ions en reserve (RPE 8).\nPROGRESSION : quand toutes les repetitions pas
+ sent proprement\, +2\,5 a 5 kg la semaine suivante.\nSECURITE : arrete l
+ a seance au moindre tiraillement aux ischio-jambiers ou aux mollets.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Maths - sections de la semaine\, version socle
@@ -5972,30 +5962,26 @@ SEQUENCE:4
 DESCRIPTION:C'est ce qui te fera tenir huit mois. Ne le remplis pas.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Course a pied
+SUMMARY:Muscu - Bas du corps (explosivite)
 DTSTART;TZID=Europe/Paris:20261202T203000
-DTEND;TZID=Europe/Paris:20261202T213000
-DTSTAMP:20260809T120000Z
+DTEND;TZID=Europe/Paris:20261202T214500
+DTSTAMP:20261125T210759Z
 UID:15a7e52880d259ce44da7658ff0b6d39@fuf-romain
-SEQUENCE:4
-DESCRIPTION:SEANCE 100 m - vitesse (phase 2)\n\nTON REPERE : 13"32 (11 pt
- s). CIBLE MAI : 12"90 (13 pts)\, soit 0\,4 seconde a gagner. C'est peu e
- n apparence\, mais la vitesse pure est la qualite la moins entrainable :
-  ces 4 dixiemes viendront surtout du depart\, du relachement et des poin
- tes.\n\nECHAUFFEMENT 15 MIN\, INCOMPRESSIBLE : 10 min de footing + gamme
- s (montees de genoux\, talons-fesses\, jambes tendues) + 4 accelerations
-  progressives sur 50 m\, la derniere a 90 %. C'est la seance ou l'on se 
- dechire un ischio-jambier.\n\nCorps de seance :\n- 6 x 60 m a 90-95 %\, 
- recup 3 min COMPLETES. Repere : ton 60 m lance vaut environ 8"3 aujourd'
- hui\, cible 8"0.\n- 6 x 20 m depart accroupi (le depart vaut plusieurs d
- ixiemes)\n- 2 x 80 m lance (30 m de mise en action + 50 m a vitesse maxi
- male)\n\nLES QUATRE POINTS QUI RAPPORTENT\n1. Depart : poussee progressi
- ve sur 20-30 m\, ne pas se redresser trop tot.\n2. Phase lancee : relach
- er la machoire et les epaules. Un sprinteur crispe est un sprinteur lent
- .\n3. Fin de course : personne n'accelere sur les 20 derniers metres\, i
- l s'agit de decelerer le moins possible. Garde la frequence.\n4. Les poi
- ntes : environ 1 seconde de gain\, soit plus que tout le reste reuni. Ac
- hete-les en janvier et cours avec au moins six fois avant mai.
+SEQUENCE:5
+DESCRIPTION:BLOC MUSCU du 27/11 au 9/01 : piste en pause\, une seule nata
+ tion par semaine (le jeudi\, bassin de 25 m comme a Palaiseau).\n\nSEMAI
+ NE 1 : cherche tes charges de travail\, sans aller a l'echec.\n\nSEANCE 
+ 3/4 - BAS DU CORPS\, EXPLOSIVITE (48 h apres la force du lundi)\nEchauff
+ ement 10 min\, puis 3 sauts legers.\n- Box jumps : 4 x 4\, reception sou
+ ple\, redescente en marchant\n- Trap bar deadlift ou squat saute leger :
+  4 x 4\, vitesse maximale a la montee\n- Hip thrust barre : 3 x 8\n- Nor
+ dic hamstring curl : 3 x 4\, en excentrique (protege les ischio-jambiers
+ )\nRepos : 2 a 3 min.\n\nLe programme d'origine la placait le jeudi : el
+ le passe le mercredi\, sur ton creneau de course\, pour laisser le jeudi
+  matin a la natation.\n\nEFFORT : garde 2 repetitions en reserve (RPE 8)
+ .\nPROGRESSION : quand toutes les repetitions passent proprement\, +2\,5
+  a 5 kg la semaine suivante.\nSECURITE : arrete la seance au moindre tir
+ aillement aux ischio-jambiers ou aux mollets.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CHECKPOINT 3
@@ -6063,19 +6049,23 @@ DESCRIPTION:L'expose (1) : de la phrase du texte a la problematique et au
  , et l'entretien le verifie.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Course a pied
+SUMMARY:Muscu - Haut du corps (puissance et gainage)
 DTSTART;TZID=Europe/Paris:20261204T203000
-DTEND;TZID=Europe/Paris:20261204T213000
-DTSTAMP:20260809T120000Z
+DTEND;TZID=Europe/Paris:20261204T214500
+DTSTAMP:20261125T210759Z
 UID:82e5e261e17af1683a5c6024023d513b@fuf-romain
-SEQUENCE:4
-DESCRIPTION:SEANCE ENDURANCE (phase 2)\n\n40 a 45 min\, dont 2 x 8 min a 
- allure soutenue (environ 4'20 / km).\n\nTON ALLURE FACILE : 4'40 a 5'00 
- / km. Tu tiens 4'17 / km sur 4 km\, donc cours NETTEMENT plus lentement 
- ici : le footing facile doit rester facile\, c'est ce qui te permet d'en
- caisser les seances dures du lundi et du mercredi. Tu dois pouvoir parle
- r en courant.\n\nC'est la seance qui soutient tout le reste\, et la plus
-  facile a negliger.
+SEQUENCE:5
+DESCRIPTION:BLOC MUSCU du 27/11 au 9/01 : piste en pause\, une seule nata
+ tion par semaine (le jeudi\, bassin de 25 m comme a Palaiseau).\n\nSEMAI
+ NE 1 : cherche tes charges de travail\, sans aller a l'echec.\n\nSEANCE 
+ 4/4 - HAUT DU CORPS\, PUISSANCE ET GAINAGE\nEchauffement 10 min : rameur
+ \, epaules a l'elastique.\n- Developpe militaire debout (push press) : 4
+  x 5\n- Tirage vertical a la poulie haute\, prise large : 3 x 8\n- Dips 
+ (lestes si besoin) : 3 x 8\n- Pallof press\, puis releves de jambes susp
+ endu : 3 x 10 chacun\nRepos : 2 min.\n\nEFFORT : garde 2 repetitions en 
+ reserve (RPE 8).\nPROGRESSION : quand toutes les repetitions passent pro
+ prement\, +2\,5 a 5 kg la semaine suivante.\nSECURITE : arrete la seance
+  au moindre tiraillement aux ischio-jambiers ou aux mollets.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:PARTIELS S1 - priorite absolue
@@ -6131,17 +6121,25 @@ DESCRIPTION:Preparer les TD a venir\, avancer le Projet Data\, refaire le
  nt la prep concours.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Course a pied
+SUMMARY:Muscu - Bas du corps (force)
 DTSTART;TZID=Europe/Paris:20261207T203000
-DTEND;TZID=Europe/Paris:20261207T213000
-DTSTAMP:20260809T120000Z
+DTEND;TZID=Europe/Paris:20261207T214500
+DTSTAMP:20261125T210759Z
 UID:c6384a8076543534698f267dc9653aad@fuf-romain
-SEQUENCE:4
-DESCRIPTION:MAINTENU MEME EN PERIODE D'EXAMENS : c'est ce qui te garde lu
- cide.\n\nSEANCE D'ENTRETIEN. Footing tranquille de 30 min a 4'50 / km en
- viron\, allure ou tu peux parler.\n\nAucun objectif de performance : cet
- te seance sert a te garder lucide pendant les revisions\, pas a progress
- er.
+SEQUENCE:5
+DESCRIPTION:BLOC MUSCU du 27/11 au 9/01 : piste en pause\, une seule nata
+ tion par semaine (le jeudi\, bassin de 25 m comme a Palaiseau).\n\nPARTI
+ ELS : charges a RPE 7\, aucun record. Si un examen tombe le lendemain ma
+ tin\, coupe la seance a 45 min.\n\nSEANCE 1/4 - BAS DU CORPS\, FORCE\nEc
+ hauffement 10 min : rameur ou velo\, mobilite hanches et chevilles\, 2 s
+ eries legeres de squat.\n- Back squat : 4 x 5\, montee en charge progres
+ sive\, repos 3 min\n- Souleve de terre roumain : 3 x 6\, descente contro
+ lee\, montee explosive\, repos 2 min\n- Fentes marchees avec halteres : 
+ 3 x 8 par jambe\, repos 2 min\n- Mollets debout : 4 x 10\, repos 2 min\n
+ \nEFFORT : garde 2 repetitions en reserve (RPE 8).\nPROGRESSION : quand 
+ toutes les repetitions passent proprement\, +2\,5 a 5 kg la semaine suiv
+ ante.\nSECURITE : arrete la seance au moindre tiraillement aux ischio-ja
+ mbiers ou aux mollets.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Maintien concours - oral du jour + revision espacee
@@ -6169,28 +6167,26 @@ DESCRIPTION:Preparer les TD a venir\, avancer le Projet Data\, refaire le
  nt la prep concours.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
-DTSTART;TZID=Europe/Paris:20261208T170000
-DTEND;TZID=Europe/Paris:20261208T191500
-DTSTAMP:20260809T120000Z
+SUMMARY:Muscu - Haut du corps (poussee et tirage)
+DTSTART;TZID=Europe/Paris:20261208T173000
+DTEND;TZID=Europe/Paris:20261208T184500
+DTSTAMP:20261125T210759Z
 UID:352ddfb7528ec1c9858df01f04ad24b3@fuf-romain
-SEQUENCE:20
-DESCRIPTION:SEANCE D'ENTRETIEN - bassin de 50 m (mardi)\n\n200 m crawl so
- uple\n100 m planche\n200 m palmes\n100 m educatifs (rattrape\, poings fe
- rmes)\n100 m tranquille\n\nTotal : 700 m. On entretient la sensation de 
- l'eau\, rien de plus.\n\nPiscine Judaique Jean Boiteux\, bassin de 50 m.
-  Ici\, un 50 m se nage D'UNE SEULE TRAITE : pas de virage\, pas de coule
- e de relance. C'est donc ta NAGE PURE que tu mesures\, normalement 3 a 5
-  secondes plus lente que le jour J. L'ecart est normal\, ne t'en inquiet
- e pas.\n\nHORAIRES : la piscine ferme a 19h le mardi\, bassins evacues 1
- 5 min avant. Verifie le jour meme sur mapiscine.bordeaux.fr : les horair
- es changent pendant les vacances scolaires et la piscine ferme les jours
-  feries.\n\nORGANISATION DU CRENEAU (2h15 en tout)\n30 min de trajet all
- er en trottinette\, 1h15 sur place (vestiaire\, seance\, douche)\, 30 mi
- n de retour. Le bloc est bloque en entier dans ton agenda : ne planifie 
- rien dedans.\n\nBASSIN 17h30-18h45. La piscine ferme a 19h le mardi et l
- es bassins sont evacues a 18h45 : tu es pile dans le creneau\, ne traine
-  pas au vestiaire.
+SEQUENCE:21
+DESCRIPTION:BLOC MUSCU du 27/11 au 9/01 : piste en pause\, une seule nata
+ tion par semaine (le jeudi\, bassin de 25 m comme a Palaiseau).\n\nPARTI
+ ELS : charges a RPE 7\, aucun record. Si un examen tombe le lendemain ma
+ tin\, coupe la seance a 45 min.\n\nCe creneau remplace la natation du ma
+ rdi (bassin de 50 m) pendant le bloc. Ajoute ton trajet si ta salle est 
+ loin.\n\nSEANCE 2/4 - HAUT DU CORPS\, POUSSEE ET TIRAGE\nEchauffement 10
+  min : rameur\, epaules a l'elastique\, 2 series legeres de tractions.\n
+ - Tractions pronation (lestees si c'est facile) : 4 x 6\n- Developpe cou
+ che barre : 4 x 6\n- Rowing barre buste penche : 3 x 8\n- Planche lestee
+  ou hollow hold : 3 x 45 s\nRepos : 2 min 30. Les tractions sont la cle 
+ pour le crawl.\n\nEFFORT : garde 2 repetitions en reserve (RPE 8).\nPROG
+ RESSION : quand toutes les repetitions passent proprement\, +2\,5 a 5 kg
+  la semaine suivante.\nSECURITE : arrete la seance au moindre tirailleme
+ nt aux ischio-jambiers ou aux mollets.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Maintien concours - oral du jour + revision espacee
@@ -6231,17 +6227,27 @@ DESCRIPTION:Preparer les TD a venir\, avancer le Projet Data\, refaire le
  nt la prep concours.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Course a pied
+SUMMARY:Muscu - Bas du corps (explosivite)
 DTSTART;TZID=Europe/Paris:20261209T203000
-DTEND;TZID=Europe/Paris:20261209T213000
-DTSTAMP:20260809T120000Z
+DTEND;TZID=Europe/Paris:20261209T214500
+DTSTAMP:20261125T210759Z
 UID:716b2349bbbe33ef168cbede6961d6d4@fuf-romain
-SEQUENCE:4
-DESCRIPTION:MAINTENU MEME EN PERIODE D'EXAMENS : c'est ce qui te garde lu
- cide.\n\nSEANCE D'ENTRETIEN. Footing tranquille de 30 min a 4'50 / km en
- viron\, allure ou tu peux parler.\n\nAucun objectif de performance : cet
- te seance sert a te garder lucide pendant les revisions\, pas a progress
- er.
+SEQUENCE:5
+DESCRIPTION:BLOC MUSCU du 27/11 au 9/01 : piste en pause\, une seule nata
+ tion par semaine (le jeudi\, bassin de 25 m comme a Palaiseau).\n\nPARTI
+ ELS : charges a RPE 7\, aucun record. Si un examen tombe le lendemain ma
+ tin\, coupe la seance a 45 min.\n\nSEANCE 3/4 - BAS DU CORPS\, EXPLOSIVI
+ TE (48 h apres la force du lundi)\nEchauffement 10 min\, puis 3 sauts le
+ gers.\n- Box jumps : 4 x 4\, reception souple\, redescente en marchant\n
+ - Trap bar deadlift ou squat saute leger : 4 x 4\, vitesse maximale a la
+  montee\n- Hip thrust barre : 3 x 8\n- Nordic hamstring curl : 3 x 4\, e
+ n excentrique (protege les ischio-jambiers)\nRepos : 2 a 3 min.\n\nLe pr
+ ogramme d'origine la placait le jeudi : elle passe le mercredi\, sur ton
+  creneau de course\, pour laisser le jeudi matin a la natation.\n\nEFFOR
+ T : garde 2 repetitions en reserve (RPE 8).\nPROGRESSION : quand toutes 
+ les repetitions passent proprement\, +2\,5 a 5 kg la semaine suivante.\n
+ SECURITE : arrete la seance au moindre tiraillement aux ischio-jambiers 
+ ou aux mollets.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Maintien concours - oral du jour + revision espacee
@@ -6320,17 +6326,24 @@ DESCRIPTION:Preparer les TD a venir\, avancer le Projet Data\, refaire le
  nt la prep concours.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Course a pied
+SUMMARY:Muscu - Haut du corps (puissance et gainage)
 DTSTART;TZID=Europe/Paris:20261211T203000
-DTEND;TZID=Europe/Paris:20261211T213000
-DTSTAMP:20260809T120000Z
+DTEND;TZID=Europe/Paris:20261211T214500
+DTSTAMP:20261125T210759Z
 UID:a6522520dc7f2a6be837df031062d4e0@fuf-romain
-SEQUENCE:4
-DESCRIPTION:MAINTENU MEME EN PERIODE D'EXAMENS : c'est ce qui te garde lu
- cide.\n\nSEANCE D'ENTRETIEN. Footing tranquille de 30 min a 4'50 / km en
- viron\, allure ou tu peux parler.\n\nAucun objectif de performance : cet
- te seance sert a te garder lucide pendant les revisions\, pas a progress
- er.
+SEQUENCE:5
+DESCRIPTION:BLOC MUSCU du 27/11 au 9/01 : piste en pause\, une seule nata
+ tion par semaine (le jeudi\, bassin de 25 m comme a Palaiseau).\n\nPARTI
+ ELS : charges a RPE 7\, aucun record. Si un examen tombe le lendemain ma
+ tin\, coupe la seance a 45 min.\n\nSEANCE 4/4 - HAUT DU CORPS\, PUISSANC
+ E ET GAINAGE\nEchauffement 10 min : rameur\, epaules a l'elastique.\n- D
+ eveloppe militaire debout (push press) : 4 x 5\n- Tirage vertical a la p
+ oulie haute\, prise large : 3 x 8\n- Dips (lestes si besoin) : 3 x 8\n- 
+ Pallof press\, puis releves de jambes suspendu : 3 x 10 chacun\nRepos : 
+ 2 min.\n\nEFFORT : garde 2 repetitions en reserve (RPE 8).\nPROGRESSION 
+ : quand toutes les repetitions passent proprement\, +2\,5 a 5 kg la sema
+ ine suivante.\nSECURITE : arrete la seance au moindre tiraillement aux i
+ schio-jambiers ou aux mollets.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Maintien concours - oral du jour + revision espacee
@@ -6409,17 +6422,25 @@ DESCRIPTION:Preparer les TD a venir\, avancer le Projet Data\, refaire le
  nt la prep concours.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Course a pied
+SUMMARY:Muscu - Bas du corps (force)
 DTSTART;TZID=Europe/Paris:20261214T203000
-DTEND;TZID=Europe/Paris:20261214T213000
-DTSTAMP:20260809T120000Z
+DTEND;TZID=Europe/Paris:20261214T214500
+DTSTAMP:20261125T210759Z
 UID:ca1b672fafdb1d7508ea6ba4fd61d396@fuf-romain
-SEQUENCE:4
-DESCRIPTION:MAINTENU MEME EN PERIODE D'EXAMENS : c'est ce qui te garde lu
- cide.\n\nSEANCE D'ENTRETIEN. Footing tranquille de 30 min a 4'50 / km en
- viron\, allure ou tu peux parler.\n\nAucun objectif de performance : cet
- te seance sert a te garder lucide pendant les revisions\, pas a progress
- er.
+SEQUENCE:5
+DESCRIPTION:BLOC MUSCU du 27/11 au 9/01 : piste en pause\, une seule nata
+ tion par semaine (le jeudi\, bassin de 25 m comme a Palaiseau).\n\nPARTI
+ ELS : charges a RPE 7\, aucun record. Si un examen tombe le lendemain ma
+ tin\, coupe la seance a 45 min.\n\nSEANCE 1/4 - BAS DU CORPS\, FORCE\nEc
+ hauffement 10 min : rameur ou velo\, mobilite hanches et chevilles\, 2 s
+ eries legeres de squat.\n- Back squat : 4 x 5\, montee en charge progres
+ sive\, repos 3 min\n- Souleve de terre roumain : 3 x 6\, descente contro
+ lee\, montee explosive\, repos 2 min\n- Fentes marchees avec halteres : 
+ 3 x 8 par jambe\, repos 2 min\n- Mollets debout : 4 x 10\, repos 2 min\n
+ \nEFFORT : garde 2 repetitions en reserve (RPE 8).\nPROGRESSION : quand 
+ toutes les repetitions passent proprement\, +2\,5 a 5 kg la semaine suiv
+ ante.\nSECURITE : arrete la seance au moindre tiraillement aux ischio-ja
+ mbiers ou aux mollets.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Maintien concours - oral du jour + revision espacee
@@ -6460,28 +6481,26 @@ DESCRIPTION:Preparer les TD a venir\, avancer le Projet Data\, refaire le
  nt la prep concours.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
-DTSTART;TZID=Europe/Paris:20261215T170000
-DTEND;TZID=Europe/Paris:20261215T191500
-DTSTAMP:20260809T120000Z
+SUMMARY:Muscu - Haut du corps (poussee et tirage)
+DTSTART;TZID=Europe/Paris:20261215T173000
+DTEND;TZID=Europe/Paris:20261215T184500
+DTSTAMP:20261125T210759Z
 UID:51e4500be4f1c4258730391c1cecd7c3@fuf-romain
-SEQUENCE:20
-DESCRIPTION:SEANCE D'ENTRETIEN - bassin de 50 m (mardi)\n\n200 m crawl so
- uple\n100 m planche\n200 m palmes\n100 m educatifs (rattrape\, poings fe
- rmes)\n100 m tranquille\n\nTotal : 700 m. On entretient la sensation de 
- l'eau\, rien de plus.\n\nPiscine Judaique Jean Boiteux\, bassin de 50 m.
-  Ici\, un 50 m se nage D'UNE SEULE TRAITE : pas de virage\, pas de coule
- e de relance. C'est donc ta NAGE PURE que tu mesures\, normalement 3 a 5
-  secondes plus lente que le jour J. L'ecart est normal\, ne t'en inquiet
- e pas.\n\nHORAIRES : la piscine ferme a 19h le mardi\, bassins evacues 1
- 5 min avant. Verifie le jour meme sur mapiscine.bordeaux.fr : les horair
- es changent pendant les vacances scolaires et la piscine ferme les jours
-  feries.\n\nORGANISATION DU CRENEAU (2h15 en tout)\n30 min de trajet all
- er en trottinette\, 1h15 sur place (vestiaire\, seance\, douche)\, 30 mi
- n de retour. Le bloc est bloque en entier dans ton agenda : ne planifie 
- rien dedans.\n\nBASSIN 17h30-18h45. La piscine ferme a 19h le mardi et l
- es bassins sont evacues a 18h45 : tu es pile dans le creneau\, ne traine
-  pas au vestiaire.
+SEQUENCE:21
+DESCRIPTION:BLOC MUSCU du 27/11 au 9/01 : piste en pause\, une seule nata
+ tion par semaine (le jeudi\, bassin de 25 m comme a Palaiseau).\n\nPARTI
+ ELS : charges a RPE 7\, aucun record. Si un examen tombe le lendemain ma
+ tin\, coupe la seance a 45 min.\n\nCe creneau remplace la natation du ma
+ rdi (bassin de 50 m) pendant le bloc. Ajoute ton trajet si ta salle est 
+ loin.\n\nSEANCE 2/4 - HAUT DU CORPS\, POUSSEE ET TIRAGE\nEchauffement 10
+  min : rameur\, epaules a l'elastique\, 2 series legeres de tractions.\n
+ - Tractions pronation (lestees si c'est facile) : 4 x 6\n- Developpe cou
+ che barre : 4 x 6\n- Rowing barre buste penche : 3 x 8\n- Planche lestee
+  ou hollow hold : 3 x 45 s\nRepos : 2 min 30. Les tractions sont la cle 
+ pour le crawl.\n\nEFFORT : garde 2 repetitions en reserve (RPE 8).\nPROG
+ RESSION : quand toutes les repetitions passent proprement\, +2\,5 a 5 kg
+  la semaine suivante.\nSECURITE : arrete la seance au moindre tirailleme
+ nt aux ischio-jambiers ou aux mollets.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Maintien concours - oral du jour + revision espacee
@@ -6522,17 +6541,27 @@ DESCRIPTION:Preparer les TD a venir\, avancer le Projet Data\, refaire le
  nt la prep concours.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Course a pied
+SUMMARY:Muscu - Bas du corps (explosivite)
 DTSTART;TZID=Europe/Paris:20261216T203000
-DTEND;TZID=Europe/Paris:20261216T213000
-DTSTAMP:20260809T120000Z
+DTEND;TZID=Europe/Paris:20261216T214500
+DTSTAMP:20261125T210759Z
 UID:90cb870f1f96eeb6da2c96aae63adcd3@fuf-romain
-SEQUENCE:4
-DESCRIPTION:MAINTENU MEME EN PERIODE D'EXAMENS : c'est ce qui te garde lu
- cide.\n\nSEANCE D'ENTRETIEN. Footing tranquille de 30 min a 4'50 / km en
- viron\, allure ou tu peux parler.\n\nAucun objectif de performance : cet
- te seance sert a te garder lucide pendant les revisions\, pas a progress
- er.
+SEQUENCE:5
+DESCRIPTION:BLOC MUSCU du 27/11 au 9/01 : piste en pause\, une seule nata
+ tion par semaine (le jeudi\, bassin de 25 m comme a Palaiseau).\n\nPARTI
+ ELS : charges a RPE 7\, aucun record. Si un examen tombe le lendemain ma
+ tin\, coupe la seance a 45 min.\n\nSEANCE 3/4 - BAS DU CORPS\, EXPLOSIVI
+ TE (48 h apres la force du lundi)\nEchauffement 10 min\, puis 3 sauts le
+ gers.\n- Box jumps : 4 x 4\, reception souple\, redescente en marchant\n
+ - Trap bar deadlift ou squat saute leger : 4 x 4\, vitesse maximale a la
+  montee\n- Hip thrust barre : 3 x 8\n- Nordic hamstring curl : 3 x 4\, e
+ n excentrique (protege les ischio-jambiers)\nRepos : 2 a 3 min.\n\nLe pr
+ ogramme d'origine la placait le jeudi : elle passe le mercredi\, sur ton
+  creneau de course\, pour laisser le jeudi matin a la natation.\n\nEFFOR
+ T : garde 2 repetitions en reserve (RPE 8).\nPROGRESSION : quand toutes 
+ les repetitions passent proprement\, +2\,5 a 5 kg la semaine suivante.\n
+ SECURITE : arrete la seance au moindre tiraillement aux ischio-jambiers 
+ ou aux mollets.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Maintien concours - oral du jour + revision espacee
@@ -6611,17 +6640,24 @@ DESCRIPTION:Preparer les TD a venir\, avancer le Projet Data\, refaire le
  nt la prep concours.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Course a pied
+SUMMARY:Muscu - Haut du corps (puissance et gainage)
 DTSTART;TZID=Europe/Paris:20261218T203000
-DTEND;TZID=Europe/Paris:20261218T213000
-DTSTAMP:20260809T120000Z
+DTEND;TZID=Europe/Paris:20261218T214500
+DTSTAMP:20261125T210759Z
 UID:c00ac6110a2d196098cdf21937ca42af@fuf-romain
-SEQUENCE:4
-DESCRIPTION:MAINTENU MEME EN PERIODE D'EXAMENS : c'est ce qui te garde lu
- cide.\n\nSEANCE D'ENTRETIEN. Footing tranquille de 30 min a 4'50 / km en
- viron\, allure ou tu peux parler.\n\nAucun objectif de performance : cet
- te seance sert a te garder lucide pendant les revisions\, pas a progress
- er.
+SEQUENCE:5
+DESCRIPTION:BLOC MUSCU du 27/11 au 9/01 : piste en pause\, une seule nata
+ tion par semaine (le jeudi\, bassin de 25 m comme a Palaiseau).\n\nPARTI
+ ELS : charges a RPE 7\, aucun record. Si un examen tombe le lendemain ma
+ tin\, coupe la seance a 45 min.\n\nSEANCE 4/4 - HAUT DU CORPS\, PUISSANC
+ E ET GAINAGE\nEchauffement 10 min : rameur\, epaules a l'elastique.\n- D
+ eveloppe militaire debout (push press) : 4 x 5\n- Tirage vertical a la p
+ oulie haute\, prise large : 3 x 8\n- Dips (lestes si besoin) : 3 x 8\n- 
+ Pallof press\, puis releves de jambes suspendu : 3 x 10 chacun\nRepos : 
+ 2 min.\n\nEFFORT : garde 2 repetitions en reserve (RPE 8).\nPROGRESSION 
+ : quand toutes les repetitions passent proprement\, +2\,5 a 5 kg la sema
+ ine suivante.\nSECURITE : arrete la seance au moindre tiraillement aux i
+ schio-jambiers ou aux mollets.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CHECKPOINT 4 - LE PLUS IMPORTANT
@@ -6688,14 +6724,17 @@ DESCRIPTION:Plan a 10 h : 2 h de maths le matin du lundi au mercredi\, et
  en avril.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:TESTS SPORT - controle 2
-DTSTART;VALUE=DATE:20261221
-DTEND;VALUE=DATE:20261222
-DTSTAMP:20260809T120000Z
+SUMMARY:TEST NATATION - 50 m avec virage (piste en pause)
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+DTSTAMP:20261125T210759Z
 UID:bbcd882e4af27b94aab961a6d4e90305@fuf-romain
-SEQUENCE:4
-DESCRIPTION:Les trois epreuves.\n\nReperes attendus : 1000 m vers 3'40\, 
- 50 m nage vers 42 s (depart plonge + virage)\, 100 m vers 13"10.
+SEQUENCE:5
+DESCRIPTION:Pendant la seance du matin\, bassin de 25 m : un 50 m nage li
+ bre chronometre\, depart plonge et virage\, comme a Palaiseau. Repere at
+ tendu : vers 42 s.\n\nLes tests du 100 m et du 1000 m sont reportes : pi
+ ste en pause jusqu'au 9 janvier\, puis une semaine de transition. A refa
+ ire fin janvier\, une fois la course reprise.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -6744,16 +6783,23 @@ DESCRIPTION:Seance courte des vacances (1 h) : la lecture et la fiche\, p
  tien le verifie.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Course a pied
+SUMMARY:Muscu - Bas du corps (force)
 DTSTART;TZID=Europe/Paris:20261221T203000
-DTEND;TZID=Europe/Paris:20261221T213000
-DTSTAMP:20260809T120000Z
+DTEND;TZID=Europe/Paris:20261221T214500
+DTSTAMP:20261125T210759Z
 UID:1c8eacfdc3123dfd69a96646e3fb29f3@fuf-romain
-SEQUENCE:4
-DESCRIPTION:SEANCE D'ENTRETIEN. Footing tranquille de 30 min a 4'50 / km 
- environ\, allure ou tu peux parler.\n\nAucun objectif de performance : c
- ette seance sert a te garder lucide pendant les revisions\, pas a progre
- sser.
+SEQUENCE:5
+DESCRIPTION:BLOC MUSCU du 27/11 au 9/01 : piste en pause\, une seule nata
+ tion par semaine (le jeudi\, bassin de 25 m comme a Palaiseau).\n\nSEANC
+ E 1/4 - BAS DU CORPS\, FORCE\nEchauffement 10 min : rameur ou velo\, mob
+ ilite hanches et chevilles\, 2 series legeres de squat.\n- Back squat : 
+ 4 x 5\, montee en charge progressive\, repos 3 min\n- Souleve de terre r
+ oumain : 3 x 6\, descente controlee\, montee explosive\, repos 2 min\n- 
+ Fentes marchees avec halteres : 3 x 8 par jambe\, repos 2 min\n- Mollets
+  debout : 4 x 10\, repos 2 min\n\nEFFORT : garde 2 repetitions en reserv
+ e (RPE 8).\nPROGRESSION : quand toutes les repetitions passent propremen
+ t\, +2\,5 a 5 kg la semaine suivante.\nSECURITE : arrete la seance au mo
+ indre tiraillement aux ischio-jambiers ou aux mollets.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DOSSIER - rediger le programme detaille a fournir au jury
@@ -6823,28 +6869,24 @@ DESCRIPTION:Seance courte des vacances (1 h) : la lecture et la fiche\, p
   chiffre que tu n'as pas verifie ne va pas sur la fiche.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
-DTSTART;TZID=Europe/Paris:20261222T170000
-DTEND;TZID=Europe/Paris:20261222T191500
-DTSTAMP:20260809T120000Z
+SUMMARY:Muscu - Haut du corps (poussee et tirage)
+DTSTART;TZID=Europe/Paris:20261222T173000
+DTEND;TZID=Europe/Paris:20261222T184500
+DTSTAMP:20261125T210759Z
 UID:a16349ebb5f7ef0b43e09c57526a8ce0@fuf-romain
-SEQUENCE:20
-DESCRIPTION:SEANCE D'ENTRETIEN - bassin de 50 m (mardi)\n\n200 m crawl so
- uple\n100 m planche\n200 m palmes\n100 m educatifs (rattrape\, poings fe
- rmes)\n100 m tranquille\n\nTotal : 700 m. On entretient la sensation de 
- l'eau\, rien de plus.\n\nPiscine Judaique Jean Boiteux\, bassin de 50 m.
-  Ici\, un 50 m se nage D'UNE SEULE TRAITE : pas de virage\, pas de coule
- e de relance. C'est donc ta NAGE PURE que tu mesures\, normalement 3 a 5
-  secondes plus lente que le jour J. L'ecart est normal\, ne t'en inquiet
- e pas.\n\nHORAIRES : la piscine ferme a 19h le mardi\, bassins evacues 1
- 5 min avant. Verifie le jour meme sur mapiscine.bordeaux.fr : les horair
- es changent pendant les vacances scolaires et la piscine ferme les jours
-  feries.\n\nORGANISATION DU CRENEAU (2h15 en tout)\n30 min de trajet all
- er en trottinette\, 1h15 sur place (vestiaire\, seance\, douche)\, 30 mi
- n de retour. Le bloc est bloque en entier dans ton agenda : ne planifie 
- rien dedans.\n\nBASSIN 17h30-18h45. La piscine ferme a 19h le mardi et l
- es bassins sont evacues a 18h45 : tu es pile dans le creneau\, ne traine
-  pas au vestiaire.
+SEQUENCE:21
+DESCRIPTION:BLOC MUSCU du 27/11 au 9/01 : piste en pause\, une seule nata
+ tion par semaine (le jeudi\, bassin de 25 m comme a Palaiseau).\n\nCe cr
+ eneau remplace la natation du mardi (bassin de 50 m) pendant le bloc. Aj
+ oute ton trajet si ta salle est loin.\n\nSEANCE 2/4 - HAUT DU CORPS\, PO
+ USSEE ET TIRAGE\nEchauffement 10 min : rameur\, epaules a l'elastique\, 
+ 2 series legeres de tractions.\n- Tractions pronation (lestees si c'est 
+ facile) : 4 x 6\n- Developpe couche barre : 4 x 6\n- Rowing barre buste 
+ penche : 3 x 8\n- Planche lestee ou hollow hold : 3 x 45 s\nRepos : 2 mi
+ n 30. Les tractions sont la cle pour le crawl.\n\nEFFORT : garde 2 repet
+ itions en reserve (RPE 8).\nPROGRESSION : quand toutes les repetitions p
+ assent proprement\, +2\,5 a 5 kg la semaine suivante.\nSECURITE : arrete
+  la seance au moindre tiraillement aux ischio-jambiers ou aux mollets.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Maths - vacances : sections de la semaine (2 h)
@@ -6861,28 +6903,45 @@ DESCRIPTION:SEMAINE : ch. 13 Integration (debut) | outil : ch. 15 Develop
   'OUTIL :' et le resultat que tu comptes utiliser.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Course a pied
+SUMMARY:Muscu - Bas du corps (explosivite)
 DTSTART;TZID=Europe/Paris:20261223T203000
-DTEND;TZID=Europe/Paris:20261223T213000
-DTSTAMP:20260809T120000Z
+DTEND;TZID=Europe/Paris:20261223T214500
+DTSTAMP:20261125T210759Z
 UID:f7a646bf19ca2f113d689b32c836ff3c@fuf-romain
-SEQUENCE:4
-DESCRIPTION:SEANCE D'ENTRETIEN. Footing tranquille de 30 min a 4'50 / km 
- environ\, allure ou tu peux parler.\n\nAucun objectif de performance : c
- ette seance sert a te garder lucide pendant les revisions\, pas a progre
- sser.
+SEQUENCE:5
+DESCRIPTION:BLOC MUSCU du 27/11 au 9/01 : piste en pause\, une seule nata
+ tion par semaine (le jeudi\, bassin de 25 m comme a Palaiseau).\n\nSEANC
+ E 3/4 - BAS DU CORPS\, EXPLOSIVITE (48 h apres la force du lundi)\nEchau
+ ffement 10 min\, puis 3 sauts legers.\n- Box jumps : 4 x 4\, reception s
+ ouple\, redescente en marchant\n- Trap bar deadlift ou squat saute leger
+  : 4 x 4\, vitesse maximale a la montee\n- Hip thrust barre : 3 x 8\n- N
+ ordic hamstring curl : 3 x 4\, en excentrique (protege les ischio-jambie
+ rs)\nRepos : 2 a 3 min.\n\nLe programme d'origine la placait le jeudi : 
+ elle passe le mercredi\, sur ton creneau de course\, pour laisser le jeu
+ di matin a la natation.\n\nEFFORT : garde 2 repetitions en reserve (RPE 
+ 8).\nPROGRESSION : quand toutes les repetitions passent proprement\, +2\
+ ,5 a 5 kg la semaine suivante.\nSECURITE : arrete la seance au moindre t
+ iraillement aux ischio-jambiers ou aux mollets.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Course a pied
-DTSTART;TZID=Europe/Paris:20261225T203000
-DTEND;TZID=Europe/Paris:20261225T213000
-DTSTAMP:20260809T120000Z
+SUMMARY:Muscu - Haut du corps (puissance et gainage)
+DTSTART;TZID=Europe/Paris:20261226T103000
+DTEND;TZID=Europe/Paris:20261226T114500
+DTSTAMP:20261125T210759Z
 UID:ecbce7873237f6af7da56a81155c3694@fuf-romain
-SEQUENCE:4
-DESCRIPTION:SEANCE D'ENTRETIEN. Footing tranquille de 30 min a 4'50 / km 
- environ\, allure ou tu peux parler.\n\nAucun objectif de performance : c
- ette seance sert a te garder lucide pendant les revisions\, pas a progre
- sser.
+SEQUENCE:5
+DESCRIPTION:BLOC MUSCU du 27/11 au 9/01 : piste en pause\, une seule nata
+ tion par semaine (le jeudi\, bassin de 25 m comme a Palaiseau).\n\nDecal
+ ee du vendredi : jour ferie\, ta salle risque d'etre fermee. Verifie ses
+  horaires.\n\nSEANCE 4/4 - HAUT DU CORPS\, PUISSANCE ET GAINAGE\nEchauff
+ ement 10 min : rameur\, epaules a l'elastique.\n- Developpe militaire de
+ bout (push press) : 4 x 5\n- Tirage vertical a la poulie haute\, prise l
+ arge : 3 x 8\n- Dips (lestes si besoin) : 3 x 8\n- Pallof press\, puis r
+ eleves de jambes suspendu : 3 x 10 chacun\nRepos : 2 min.\n\nEFFORT : ga
+ rde 2 repetitions en reserve (RPE 8).\nPROGRESSION : quand toutes les re
+ petitions passent proprement\, +2\,5 a 5 kg la semaine suivante.\nSECURI
+ TE : arrete la seance au moindre tiraillement aux ischio-jambiers ou aux
+  mollets.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:DOSSIER - rediger le memoire personnel
@@ -6945,16 +7004,23 @@ DESCRIPTION:Seance courte des vacances (1 h) : la lecture et la fiche\, p
   verifie.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Course a pied
+SUMMARY:Muscu - Bas du corps (force)
 DTSTART;TZID=Europe/Paris:20261228T203000
-DTEND;TZID=Europe/Paris:20261228T213000
-DTSTAMP:20260809T120000Z
+DTEND;TZID=Europe/Paris:20261228T214500
+DTSTAMP:20261125T210759Z
 UID:564b905303af2d7473831d67de4700d4@fuf-romain
-SEQUENCE:4
-DESCRIPTION:SEANCE D'ENTRETIEN. Footing tranquille de 30 min a 4'50 / km 
- environ\, allure ou tu peux parler.\n\nAucun objectif de performance : c
- ette seance sert a te garder lucide pendant les revisions\, pas a progre
- sser.
+SEQUENCE:5
+DESCRIPTION:BLOC MUSCU du 27/11 au 9/01 : piste en pause\, une seule nata
+ tion par semaine (le jeudi\, bassin de 25 m comme a Palaiseau).\n\nSEANC
+ E 1/4 - BAS DU CORPS\, FORCE\nEchauffement 10 min : rameur ou velo\, mob
+ ilite hanches et chevilles\, 2 series legeres de squat.\n- Back squat : 
+ 4 x 5\, montee en charge progressive\, repos 3 min\n- Souleve de terre r
+ oumain : 3 x 6\, descente controlee\, montee explosive\, repos 2 min\n- 
+ Fentes marchees avec halteres : 3 x 8 par jambe\, repos 2 min\n- Mollets
+  debout : 4 x 10\, repos 2 min\n\nEFFORT : garde 2 repetitions en reserv
+ e (RPE 8).\nPROGRESSION : quand toutes les repetitions passent propremen
+ t\, +2\,5 a 5 kg la semaine suivante.\nSECURITE : arrete la seance au mo
+ indre tiraillement aux ischio-jambiers ou aux mollets.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Maths - vacances : sections de la semaine (2 h)
@@ -7007,28 +7073,24 @@ DESCRIPTION:Seance courte des vacances (1 h) : la lecture et la fiche\, p
  ellement appris aujourd'hui.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Natation - vitesse et nage pure (bassin 50 m)
-DTSTART;TZID=Europe/Paris:20261229T170000
-DTEND;TZID=Europe/Paris:20261229T191500
-DTSTAMP:20260809T120000Z
+SUMMARY:Muscu - Haut du corps (poussee et tirage)
+DTSTART;TZID=Europe/Paris:20261229T173000
+DTEND;TZID=Europe/Paris:20261229T184500
+DTSTAMP:20261125T210759Z
 UID:ff8571dd6dbb57f98ecab076a19502f0@fuf-romain
-SEQUENCE:20
-DESCRIPTION:SEANCE D'ENTRETIEN - bassin de 50 m (mardi)\n\n200 m crawl so
- uple\n100 m planche\n200 m palmes\n100 m educatifs (rattrape\, poings fe
- rmes)\n100 m tranquille\n\nTotal : 700 m. On entretient la sensation de 
- l'eau\, rien de plus.\n\nPiscine Judaique Jean Boiteux\, bassin de 50 m.
-  Ici\, un 50 m se nage D'UNE SEULE TRAITE : pas de virage\, pas de coule
- e de relance. C'est donc ta NAGE PURE que tu mesures\, normalement 3 a 5
-  secondes plus lente que le jour J. L'ecart est normal\, ne t'en inquiet
- e pas.\n\nHORAIRES : la piscine ferme a 19h le mardi\, bassins evacues 1
- 5 min avant. Verifie le jour meme sur mapiscine.bordeaux.fr : les horair
- es changent pendant les vacances scolaires et la piscine ferme les jours
-  feries.\n\nORGANISATION DU CRENEAU (2h15 en tout)\n30 min de trajet all
- er en trottinette\, 1h15 sur place (vestiaire\, seance\, douche)\, 30 mi
- n de retour. Le bloc est bloque en entier dans ton agenda : ne planifie 
- rien dedans.\n\nBASSIN 17h30-18h45. La piscine ferme a 19h le mardi et l
- es bassins sont evacues a 18h45 : tu es pile dans le creneau\, ne traine
-  pas au vestiaire.
+SEQUENCE:21
+DESCRIPTION:BLOC MUSCU du 27/11 au 9/01 : piste en pause\, une seule nata
+ tion par semaine (le jeudi\, bassin de 25 m comme a Palaiseau).\n\nCe cr
+ eneau remplace la natation du mardi (bassin de 50 m) pendant le bloc. Aj
+ oute ton trajet si ta salle est loin.\n\nSEANCE 2/4 - HAUT DU CORPS\, PO
+ USSEE ET TIRAGE\nEchauffement 10 min : rameur\, epaules a l'elastique\, 
+ 2 series legeres de tractions.\n- Tractions pronation (lestees si c'est 
+ facile) : 4 x 6\n- Developpe couche barre : 4 x 6\n- Rowing barre buste 
+ penche : 3 x 8\n- Planche lestee ou hollow hold : 3 x 45 s\nRepos : 2 mi
+ n 30. Les tractions sont la cle pour le crawl.\n\nEFFORT : garde 2 repet
+ itions en reserve (RPE 8).\nPROGRESSION : quand toutes les repetitions p
+ assent proprement\, +2\,5 a 5 kg la semaine suivante.\nSECURITE : arrete
+  la seance au moindre tiraillement aux ischio-jambiers ou aux mollets.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Maths - vacances : sections de la semaine (2 h)
@@ -7046,28 +7108,45 @@ DESCRIPTION:SEMAINE : ch. 13 Integration (fin) + ch. 16 Series numeriques
   :' et le resultat que tu comptes utiliser.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Course a pied
+SUMMARY:Muscu - Bas du corps (explosivite)
 DTSTART;TZID=Europe/Paris:20261230T203000
-DTEND;TZID=Europe/Paris:20261230T213000
-DTSTAMP:20260809T120000Z
+DTEND;TZID=Europe/Paris:20261230T214500
+DTSTAMP:20261125T210759Z
 UID:e69f72bfae171ee5c4ea00e3435cb56b@fuf-romain
-SEQUENCE:4
-DESCRIPTION:SEANCE D'ENTRETIEN. Footing tranquille de 30 min a 4'50 / km 
- environ\, allure ou tu peux parler.\n\nAucun objectif de performance : c
- ette seance sert a te garder lucide pendant les revisions\, pas a progre
- sser.
+SEQUENCE:5
+DESCRIPTION:BLOC MUSCU du 27/11 au 9/01 : piste en pause\, une seule nata
+ tion par semaine (le jeudi\, bassin de 25 m comme a Palaiseau).\n\nSEANC
+ E 3/4 - BAS DU CORPS\, EXPLOSIVITE (48 h apres la force du lundi)\nEchau
+ ffement 10 min\, puis 3 sauts legers.\n- Box jumps : 4 x 4\, reception s
+ ouple\, redescente en marchant\n- Trap bar deadlift ou squat saute leger
+  : 4 x 4\, vitesse maximale a la montee\n- Hip thrust barre : 3 x 8\n- N
+ ordic hamstring curl : 3 x 4\, en excentrique (protege les ischio-jambie
+ rs)\nRepos : 2 a 3 min.\n\nLe programme d'origine la placait le jeudi : 
+ elle passe le mercredi\, sur ton creneau de course\, pour laisser le jeu
+ di matin a la natation.\n\nEFFORT : garde 2 repetitions en reserve (RPE 
+ 8).\nPROGRESSION : quand toutes les repetitions passent proprement\, +2\
+ ,5 a 5 kg la semaine suivante.\nSECURITE : arrete la seance au moindre t
+ iraillement aux ischio-jambiers ou aux mollets.
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Course a pied
-DTSTART;TZID=Europe/Paris:20270101T203000
-DTEND;TZID=Europe/Paris:20270101T213000
-DTSTAMP:20260809T120000Z
+SUMMARY:Muscu - Haut du corps (puissance et gainage)
+DTSTART;TZID=Europe/Paris:20270102T103000
+DTEND;TZID=Europe/Paris:20270102T114500
+DTSTAMP:20261125T210759Z
 UID:79711611dcf3e26f3a9f7ff4a077c394@fuf-romain
-SEQUENCE:4
-DESCRIPTION:SEANCE D'ENTRETIEN. Footing tranquille de 30 min a 4'50 / km 
- environ\, allure ou tu peux parler.\n\nAucun objectif de performance : c
- ette seance sert a te garder lucide pendant les revisions\, pas a progre
- sser.
+SEQUENCE:5
+DESCRIPTION:BLOC MUSCU du 27/11 au 9/01 : piste en pause\, une seule nata
+ tion par semaine (le jeudi\, bassin de 25 m comme a Palaiseau).\n\nDecal
+ ee du vendredi : jour ferie\, ta salle risque d'etre fermee. Verifie ses
+  horaires.\n\nSEANCE 4/4 - HAUT DU CORPS\, PUISSANCE ET GAINAGE\nEchauff
+ ement 10 min : rameur\, epaules a l'elastique.\n- Developpe militaire de
+ bout (push press) : 4 x 5\n- Tirage vertical a la poulie haute\, prise l
+ arge : 3 x 8\n- Dips (lestes si besoin) : 3 x 8\n- Pallof press\, puis r
+ eleves de jambes suspendu : 3 x 10 chacun\nRepos : 2 min.\n\nEFFORT : ga
+ rde 2 repetitions en reserve (RPE 8).\nPROGRESSION : quand toutes les re
+ petitions passent proprement\, +2\,5 a 5 kg la semaine suivante.\nSECURI
+ TE : arrete la seance au moindre tiraillement aux ischio-jambiers ou aux
+  mollets.
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:BRISTOL - semaine d'installation
@@ -12308,52 +12387,6 @@ DESCRIPTION:SEANCE NATATION - TECHNIQUE\, DEPARTS ET VIRAGES (jeudi 7h) -
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Natation - technique\, departs et virages (bassin 25 m)
-DTSTART;TZID=Europe/Paris:20261126T063000
-DTEND;TZID=Europe/Paris:20261126T084500
-DTSTAMP:20261126T110000Z
-UID:94c5b6f2a34c02fb7761da77dab787b8@fuf-romain
-SEQUENCE:20
-DESCRIPTION:SEANCE NATATION - TECHNIQUE\, DEPARTS ET VIRAGES (jeudi 7h) -
-  bassin de 25 m - phase 2\nTotal : environ 1\,4 km.\n\nECHAUFFEMENT\n200
-  m crawl souple\n100 m planche\n\nTECHNIQUE\n100 m le moins de mouvement
- s possible - cible 22 coups\n100 m educatifs : 2 x 25 m rattrape + 2 x 2
- 5 m poings fermes\n8 x 15 m coulees depuis le mur\, bras serres derriere
-  la tete\, corps gaine\n\nDEPARTS ET VIRAGES - 15 MIN : LE COEUR DE LA S
- EANCE\n- 6 a 8 departs plonges : entree propre\, coulee longue\, remonte
- e progressive\n- 8 a 10 virages : approche sans ralentir\, poussee forte
- \, coulee gainee\n- 4 x 25 m depart plonge\, chronometres\n\nCONDITIONS 
- REELLES\n3 x 50 m depart plonge AVEC VIRAGE - objectif 40 s\, recuperati
- on complete\n100 m battements planche\, soutenu\n\nRETOUR AU CALME\n100 
- m tranquille\n\nPOURQUOI ICI ET PAS LE MARDI : un virage ne s'entraine q
- ue dans un bassin de 25 m\, puisque c'est la seule configuration ou ton 
- 50 m comporte deux longueurs. En bassin de 50 m\, il n'y a rien a virer.
- \n\nCE QUI RAPPORTE LE PLUS\n- Le plongeon : 1 a 2 s de gain. Un plongeo
- n rate fait perdre du temps.\n- Le virage : plus d'une seconde. Verifie 
- le reglement exact avant mai\, il y a des consignes eliminatoires sur la
-  facon de toucher le bord.\n\nCOMPARE TES DEUX CHRONOS : l'ecart entre t
- on 50 m du mardi (nage pure) et celui du jeudi (conditions reelles) mesu
- re exactement ce que le format t'apporte. Vise 3 a 5 secondes. S'il est 
- plus faible\, c'est que tes departs et tes virages ont encore une grosse
-  marge.\n\nSEANCE DU MATIN : mange leger\, hydrate-toi\, et allonge l'ec
- hauffement si tu te sens raide. Le corps est moins souple a 7h qu'a 19h.
- \n\nPOINTS TECHNIQUES\n- Corps horizontal\, tete dans l'axe\, regard ver
- s le fond. Une tete relevee fait couler les jambes.\n- Coude haut\, avan
- t-bras vertical sous l'eau.\n- Le corps roule autour de son axe.\n- Sur 
- 50 m : aucune respiration sur les 15 premiers metres\, puis tous les 3 a
-  4 cycles.\n\nMATERIEL : palmes et plaquettes. Les plaquettes abiment le
- s epaules si tu forces avec une mauvaise technique : commence petit\, sa
- ns chercher la vitesse.\n\nPiscine Judaique\, bassin de 25 m\, ouvert au
-  public le jeudi matin des 7h00. C'EST LE BASSIN DE TON EPREUVE : 50 m =
-  deux longueurs avec un virage. Tout ce qui se travaille ici se retrouve
-  tel quel le jour J.\n\nORGANISATION DU CRENEAU (2h15 en tout)\n30 min d
- e trajet aller en trottinette\, 1h15 sur place (vestiaire\, seance\, dou
- che)\, 30 min de retour. Le bloc est bloque en entier dans ton agenda : 
- ne planifie rien dedans.\n\nBASSIN 7h00-8h15\, des l'ouverture. Depart d
- e chez toi a 6h30. C'est le creneau du bassin de 25 m\, celui de ton epr
- euve.
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Natation - technique\, departs et virages (bassin 25 m)
 DTSTART;TZID=Europe/Paris:20261203T063000
 DTEND;TZID=Europe/Paris:20261203T084500
 DTSTAMP:20261203T110000Z
@@ -13958,5 +13991,47 @@ TRIGGER:PT0S
 ACTION:DISPLAY
 DESCRIPTION:Rappel du soir - se retester sans notes (15 min)
 END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Muscu - Bas du corps (force)
+DTSTART;TZID=Europe/Paris:20270106T193000
+DTEND;TZID=Europe/Paris:20270106T204500
+DTSTAMP:20261125T210759Z
+UID:066bb0e0fd8713d0ef93df865d5f7c70@fuf-romain
+SEQUENCE:0
+DESCRIPTION:BLOC MUSCU du 27/11 au 9/01 : piste en pause\, une seule nata
+ tion par semaine (le jeudi\, bassin de 25 m comme a Palaiseau).\n\nBRIST
+ OL\, semaine d'installation : seulement si tu as deja acces a une salle.
+  Horaire en heure de Paris : 18h30 a Bristol.\n\nSEANCE 1/4 - BAS DU COR
+ PS\, FORCE\nEchauffement 10 min : rameur ou velo\, mobilite hanches et c
+ hevilles\, 2 series legeres de squat.\n- Back squat : 4 x 5\, montee en 
+ charge progressive\, repos 3 min\n- Souleve de terre roumain : 3 x 6\, d
+ escente controlee\, montee explosive\, repos 2 min\n- Fentes marchees av
+ ec halteres : 3 x 8 par jambe\, repos 2 min\n- Mollets debout : 4 x 10\,
+  repos 2 min\n\nEFFORT : garde 2 repetitions en reserve (RPE 8).\nPROGRE
+ SSION : quand toutes les repetitions passent proprement\, +2\,5 a 5 kg l
+ a semaine suivante.\nSECURITE : arrete la seance au moindre tiraillement
+  aux ischio-jambiers ou aux mollets.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Muscu - Haut du corps (poussee et tirage)
+DTSTART;TZID=Europe/Paris:20270108T193000
+DTEND;TZID=Europe/Paris:20270108T204500
+DTSTAMP:20261125T210759Z
+UID:123f3c8e2ee3fe67954f0c4c16b90fba@fuf-romain
+SEQUENCE:0
+DESCRIPTION:BLOC MUSCU du 27/11 au 9/01 : piste en pause\, une seule nata
+ tion par semaine (le jeudi\, bassin de 25 m comme a Palaiseau).\n\nBRIST
+ OL\, semaine d'installation : seulement si tu as deja acces a une salle.
+  Horaire en heure de Paris : 18h30 a Bristol.\n\nSEANCE 2/4 - HAUT DU CO
+ RPS\, POUSSEE ET TIRAGE\nEchauffement 10 min : rameur\, epaules a l'elas
+ tique\, 2 series legeres de tractions.\n- Tractions pronation (lestees s
+ i c'est facile) : 4 x 6\n- Developpe couche barre : 4 x 6\n- Rowing barr
+ e buste penche : 3 x 8\n- Planche lestee ou hollow hold : 3 x 45 s\nRepo
+ s : 2 min 30. Les tractions sont la cle pour le crawl.\n\nEFFORT : garde
+  2 repetitions en reserve (RPE 8).\nPROGRESSION : quand toutes les repet
+ itions passent proprement\, +2\,5 a 5 kg la semaine suivante.\nSECURITE 
+ : arrete la seance au moindre tiraillement aux ischio-jambiers ou aux mo
+ llets.
 END:VEVENT
 END:VCALENDAR
